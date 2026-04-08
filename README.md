@@ -1,4 +1,3 @@
-# <center>COURSE PROJECT</center>
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
@@ -7,31 +6,34 @@
     <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
     <br>INFORME TRABAJO FINAL
 </p>
-<center>
+
 #### Startup: **CcaritaTech**
 #### Product: **--**
-</center>
-### <center>Team  Members:</center>
-<center>
+
+### Team Members
+
 | Member                           | Code       |
 |----------------------------------|------------|
-||  |
-|        |  |
-|       |  |
-|  |  |
-|              |  |
-|          |  |
-<br> AGOSTO 2024
-</center>  
+| Apellidos y Nombres              | U20XXXXXX  |
+| Apellidos y Nombres              | U20XXXXXX  |
+| Apellidos y Nombres              | U20XXXXXX  |
+| Apellidos y Nombres              | U20XXXXXX  |
+| Apellidos y Nombres              | U20XXXXXX  |
+| Apellidos y Nombres              | U20XXXXXX  |
+
+AGOSTO 2024
+
 # Registro de Versiones del Informe
-<center>
+
 | Version | Fecha | Autor | Descripcion de Modificacion |
 | ----------- | ----------- | ----------- | ----------- |
 | 0.0 | 25/08/2025 |CcaritaTech |Se crea el documento |  
-</center>
+
 # Project Report Collaboration Insights
+
 [URL del repositorio](https://www.example.com)
 (Imagenes de los commits cada entrega)
+
 # Contenido
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
