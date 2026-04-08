@@ -33,101 +33,37 @@
 [URL del repositorio](https://www.example.com)
 (Imagenes de los commits cada entrega)
 # Contenido
-[Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-[Project Report Collaboration Insights](#project-report-collaboration-insights)
-[Student Outcome](#student-outcome)
-[Capítulo I: Introducción](#capítulo-i-introducción)
-[1.1 Startup Profile](#11-startup-profile)  
-[1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
-[1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
-[1.2. Solution Profile](#12-solution-profile)  
-[1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)  
-[1.2.2 Lean UX Process.](#122-lean-ux-process)  
-[1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)  
-[1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)  
-[1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)  
-[1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)  
-[1.3. Segmentos objetivo.](#13-segmentos-objetivo)  
-[Capítulo II: Requirements Elicitation & Analysi](#capítulo-ii-requirements-elicitation--analysis)  
-[2.1. Competidores](#21-competidores)  
-[2.1.1. Análisis competitivo](#211-análisis-competitivo)  
-[2.1.2. Estrategias y tácticas frente a competidores](#211-análisis-competitivo)  
-[2.2. Entrevistas](#22-entrevistas)  
-[2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)  
-[2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)  
-[2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)  
-[2.3. Needfinding](#23-needfinding)  
-[2.3.1. User Personas](#231-user-personas)  
-[2.3.2. User Task Matrix](#232-user-task-matrix)  
-[2.3.3. User Journey Mapping](#233-user-journey-mapping)  
-[2.3.4. Empathy Mapping](#234-empathy-mapping)  
-[2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping) 
-[2.4. Ubiquitous Language](#24-ubiquitous-language)  
-[Capítulo III: Requirements Specificatio](#capítulo-iii-requirements-specification)  
-[3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)    
-[3.2. User Stories](#32-user-stories)  
-[3.3. Impact Mapping](#33-impact-mapping)  
-[3.4. Product Backlog](#34-product-backlog)  
-[Capítulo IV: Product Desig](#capítulo-iv-product-design)  
-[4.1. Style Guidelines](#41-style-guidelines)  
-[4.1.1. General Style Guidelines](#411-general-style-guidelines)  
-[4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
-[4.2. Information Architecture](#42-information-architecture)  
-[4.2.1. Organization Systems](#421-organization-systems)  
-[4.2.2. Labeling Systems](#422-labeling-systems)  
-[4.2.3. SEO Tags and Meta Tag](#423-seo-tags-and-meta-tags)  
-[4.2.4. Searching Systems](#424-searching-systems)   
-[4.2.5. Navigation Systems](#425-navigation-systems)  
-[4.3. Landing Page UI Design](#43-landing-page-ui-design)   
-[4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
-[4.3.2. Landing Page Mock-up](#432-landing-page-mock-up) 
-[4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)  
-[4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)  
-[4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)  
-[4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)   
-[4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)  
-[4.5. Web Applications Prototyping](#45-web-applications-prototyping)  
-[4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)  
-[4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)  
-[4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)  
-[4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)  
-[4.7. Software Object-Oriented Design](#47-software-object-oriented-design)  
-[4.7.1. Class Diagrams](#471-class-diagrams)  
-[4.7.2. Class Dictionary](#472-class-dictionary)  
-[4.8. Database Design](#48-database-design)  
-[4.8.1. Database Diagram](#481-database-diagram)  
-[Capítulo V: Product Implementation, Validation & Deploymen](#capítulo-v-product-implementation-validation--deployment)  
-[5.1. Software Configuration Management](#51-software-configuration-management)  
-[5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)  
-[5.1.2. Source Code Management](#512-source-code-management)  
-[5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
-[5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)  
-[5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)  
-[5.2.X. Sprint ](#52x-sprint-n)  
-[5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)  
-[5.2.X.2. Sprint Backlog n](#52x2-sprint-backlog-n)  
-[5.2.X.3. Development Evidence for Sprint Review](#52x3-development-evidence-for-sprint-review)  
-[5.2.X.4. Testing Suite Evidence for Sprint Review](#52x4-testing-suite-evidence-for-sprint-review)  
-[5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)  
-[5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)  
-[5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)  
-[5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)  
-[5.3. Validation Interviews](#53-validation-interviews)  
-[5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)  
-[5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)  
-[5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)  
-[5.4. Video About-the-Product](#54-video-about-the-product)  
-[Conclusiones](#conclusiones)  
-[Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)  
-[Video About-the-Team](#video-about-the-team)  
-[Bibliografía](#bibliografía)  
-[Anexos](#anexos)  
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Student Outcome](#student-outcome)
+- [Objetivos SMART](#objetivos-smart)
+- [Capítulo I: Presentación](#capítulo-i-presentación)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+- [Conclusiones](#conclusiones)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
 |Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.|Compañero1:<br> *TB1:*  Su texto *TB2:* texto etc.. |Su texto de conclusion|
 |Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Compañero1:<br> *TB1:*  Su texto<br> *TB2:* texto etc.. |Su texto de conclusion|
-# Capítulo I: Introducción
+
+# Objetivos SMART
+## [Integrante 1]
+- Objetivo SMART 1: [Específico, medible, alcanzable, relevante y temporal]
+- Objetivo SMART 2: [Específico, medible, alcanzable, relevante y temporal]
+
+## [Integrante 2]
+- Objetivo SMART 1: [Específico, medible, alcanzable, relevante y temporal]
+- Objetivo SMART 2: [Específico, medible, alcanzable, relevante y temporal]
+
+# Capítulo I: Presentación
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 #### 1.1.2. Perfiles de integrantes del equipo
@@ -292,7 +228,30 @@ Segmento 2:
 | #Orden | User Story ID | Titulo| Descripción| Story Points (1/2/3/5/8) |
 | ------ | ------------- | ----- | ---------- | ------------------------ |
 | 1      | HU01          | titulo his | desc  | 5                        |
-# Capítulo IV: Product Design
+# Capítulo IV: Solution Software Design
+## 4.1. Strategic-Level Domain-Driven Design
+### 4.1.1. EventStorming
+#### 4.1.1.1. Candidate Context Discovery
+#### 4.1.1.2. Domain Message Flows Modeling
+#### 4.1.1.3. Bounded Context Canvases
+### 4.1.2. Context Mapping
+### 4.1.3. Software Architecture
+#### 4.1.3.1. Software Architecture Context Level Diagrams
+#### 4.1.3.2. Software Architecture Container Level Diagrams
+#### 4.1.3.3. Software Architecture Deployment Diagrams
+
+## 4.2. Tactical-Level Domain-Driven Design
+### 4.2.X. Bounded Context: <Bounded Context Name>
+#### 4.2.X.1. Domain Layer
+#### 4.2.X.2. Interface Layer
+#### 4.2.X.3. Application Layer
+#### 4.2.X.4. Infrastructure Layer
+#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.X.6.2. Bounded Context Database Design Diagram
+
+# Capítulo V: Solution UI/UX Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
 Descripcion del porque estos elementos seran importantes
@@ -383,33 +342,61 @@ Encapsulation (cuando tienes tus variables y metodos en la misma clase las estas
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
 Diagrama de base de datos (la relacion entre clases PK FK el Normalizar tmbn, isiyisi 🕸)
-# Capítulo V: Product Implementation, Validation & Deployment
-## 5.1. Software Configuration Management.
-### 5.1.1. Software Development Environment Configuration.
+# Capítulo VI: Product Implementation, Validation & Deployment
+## 6.1. Software Configuration Management.
+### 6.1.1. Software Development Environment Configuration.
 Especificaciones de donde vamos a hacer el proyecto (vscode supongo)
 extensiones tmbn? nose bn q quieren aca
-### 5.1.2. Source Code Management.
+### 6.1.2. Source Code Management.
 El gitjab donde tengamos el proyecto
-### 5.1.3. Source Code Style Guide & Conventions.
+### 6.1.3. Source Code Style Guide & Conventions.
 Que usamos con css (en caso usemos software para SASS)
 supongo q tmbn cositas de como hacemo el code capas algun tipo de codigo para comunicarse entre comments
-### 5.1.4. Software Deployment Configuration.
+### 6.1.4. Software Deployment Configuration.
 Configuraciones de donde y como deployeamos el proyecto
-## 5.2. Landing Page, Services & Applications Implementation.
-### 5.2.X. Sprint n
-#### 5.2.X.1. Sprint Planning n.
+## 6.2. Landing Page & Mobile Application Implementation.
+### 6.2.X. Sprint n
+#### 6.2.X.1. Sprint Planning n.
 Explicar como vamos a plannear el sprint?
-#### 5.2.X.2. Sprint Backlog n.
+#### 6.2.X.2. Sprint Backlog n.
 ![SprintBacklog n](image.jpg) Nica hago la tabla 
-#### 5.2.X.3. Development Evidence for Sprint Review.
+#### 6.2.X.3. Development Evidence for Sprint Review.
 ![Sprint review development Evidence](image.jpg)
-#### 5.2.X.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.X.4. Testing Suite Evidence for Sprint Review.
 ![Sprint review Testing suite Evidence](image.jpg)
-#### 5.2.X.5. Execution Evidence for Sprint Review.
+#### 6.2.X.5. Execution Evidence for Sprint Review.
 ![Sprint review Execution Evidence](image.jpg)
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.X.6. Services Documentation Evidence for Sprint Review.
 ![Sprint review Services Documentation Evidence](image.jpg)
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.X.7. Software Deployment Evidence for Sprint Review.
 ![Sprint review Software Deployment Evidence](image.jpg)
-#### 5.2.X.8. Team Collaboration Insights during Sprint.
+#### 6.2.X.8. Team Collaboration Insights during Sprint.
 ![Sprint review Team Collaboration Insights](image.jpg) imagenes de colaboraciones github
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+[Completar]
+
+### 6.3.2. Registro de Entrevistas
+[Completar]
+
+### 6.3.3. Evaluaciones según heurísticas
+[Completar]
+
+## 6.4. Video About-the-Product
+[Agregar enlace al video]
+
+# Conclusiones
+[Completar]
+
+# Conclusiones y recomendaciones
+[Completar]
+
+# Video About-the-Team
+[Agregar enlace al video]
+
+# Bibliografía
+[Completar]
+
+# Anexos
+[Completar]
