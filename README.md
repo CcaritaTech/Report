@@ -202,27 +202,34 @@ En esta sección se elaboraron perfiles representativos, denominados "User Perso
 A continuación se presenta el User Task Matrix, elaborado a partir del análisis de las entrevistas realizadas a los dos segmentos clave para el proyecto. Este artefacto permite visualizar las actividades principales que realiza cada tipo de usuario, así como entender la frecuencia con la que las llevan a cabo y el valor que les otorgan. La información obtenida en este análisis resulta fundamental para priorizar las funcionalidades en el desarrollo de la solución digital, garantizando que el diseño responda a las necesidades genuinas de quienes la utilizarán.
 
 | --- | ------ | Segmento 1  | ------/----- | Segmento 2  | ---------- |
-| --- | ------ | ----------- | ------------ | ----------- | ---------- |
+| --- | ------ | ----------- |--------------| ----------- | ---------- |
 | ID  | Titulo | Importancia | Frecuencia   | Importancia | Frecuencia |
 | U01X| {Texto}| Alta        | Alta         | Media       | Baja       |
+
 ### 2.3.3. User Journey Mapping.
-**Registration:**
-Why would they trust us?
-- s
-- s
-- s
-  
-**Onboarding and first use:**
-How can they feel successful?
-- s
-- s
-- s  
-  
-**Sharing:**
-Why would they invite others?
-- s
-- s
-- s
+Con el propósito de obtener una comprensión integral de las necesidades, comportamientos, emociones y principales dificultades de nuestros segmentos de usuario, elaboramos un User Journey Map empleando la herramienta especializada UXPressia. Este ejercicio facilitó la representación clara y empática del recorrido que cada perfil de usuario experimenta, desde la detección de una necesidad inicial hasta la interacción final con el producto o servicio, permitiéndonos identificar oportunidades de mejora y optimización en su experiencia.
+
+La actividad se centró en dos segmentos clave:
+
+1. **Miguel Veramendi:** Arquitecto e ingeniero civil que busca garantizar la viabilidad técnica de los proyectos mediante la integración de tecnologías para lograr diseños más innovadores.
+2. **Carla Flores:** Dueña de apartamento que busca soluciones que le permitan automatizar sus rutinas y tener un control sencillo y centralizado sobre sus dispositivos.
+
+Para ambos perfiles se diseñó un mapa que incluye:
+
+- Las fases del proceso.
+- Los objetivos del usuario en cada etapa.
+- El detalle de acciones realizadas, canales utilizados y emociones experimentadas.
+- Los problemas identificados y las oportunidades de mejora a lo largo del recorrido.
+
+Mediante el uso de UXPressia se obtuvo una representación visual clara y dinámica que favorece la toma de decisiones con un enfoque centrado en el usuario. Este proceso no solo profundiza en la comprensión de sus motivaciones y retos, sino que también orienta el diseño de soluciones más pertinentes, empáticas y funcionales para cada perfil identificado.
+
+**Enlace para ver los User Journey Map:** <https://shorturl.at/NSujl>
+
+**Segmento Objetivo #1: Arquitectos e Ingenieros Civiles**  
+![Imagen User Journey Mapping 1](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/UserJourneyMap_Segmento1.png)
+
+**Segmento Objetivo #2: Dueños de apartamentos**  
+![Imagen User Journey Mapping 2](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/UserJourneyMap_Segmento2.png)
 ### 2.3.4. Empathy Mapping.
 **Segmento 1:**
 ![Empathy Map Segmento1](image.jpg)
