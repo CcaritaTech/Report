@@ -198,6 +198,9 @@ En esta sección se elaboraron perfiles representativos, denominados "User Perso
 ![Imagen User Persona 1](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/UserPersona_Segmento2.png)
 
 ### 2.3.2. User Task Matrix.
+
+A continuación se presenta el User Task Matrix, elaborado a partir del análisis de las entrevistas realizadas a los dos segmentos clave para el proyecto. Este artefacto permite visualizar las actividades principales que realiza cada tipo de usuario, así como entender la frecuencia con la que las llevan a cabo y el valor que les otorgan. La información obtenida en este análisis resulta fundamental para priorizar las funcionalidades en el desarrollo de la solución digital, garantizando que el diseño responda a las necesidades genuinas de quienes la utilizarán.
+
 | --- | ------ | Segmento 1  | ------/----- | Segmento 2  | ---------- |
 | --- | ------ | ----------- | ------------ | ----------- | ---------- |
 | ID  | Titulo | Importancia | Frecuencia   | Importancia | Frecuencia |
