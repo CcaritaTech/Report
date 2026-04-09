@@ -166,22 +166,22 @@ En esta sección se define la información a recolectar de los segmentos objetiv
 13. Si los dispositivos inteligentes ya están instalados en su apartamento, ¿estaría dispuesto a pagar una suscripción mensual por funciones avanzadas en la app, como alertas personalizadas o reportes de energía?
 
 ### 2.2.2. Registro de entrevistas.
-**Segmento 1**  
+**Segmento 1: Arquitectos e Ingenieros Civiles**   
 Nombre: _____
 Edad: _ años 
 Ocupación: _____  
 ![Imagen de entrevista](image.jpg)  
 {texto mucho}
-**Segmento 2**  
+**Segmento 2: Dueños de apartamentos** 
 Nombre: _____
 Edad: _ años 
 Ocupación: _____  
 ![Imagen de entrevista](image.jpg)
 {texto}
 ### 2.2.3. Análisis de entrevistas.
-**Segmento 1:**
+**Segmento 1: Arquitectos e Ingenieros Civiles**  
 {texto}
-**Segmento 2:**
+**Segmento 2: Dueños de apartamentos**
 {texto}
 ## 2.3. Needfinding.
 
@@ -191,9 +191,9 @@ El Needfinding, como proceso de investigación, se enfocó en descubrir las nece
 
 En esta sección se elaboraron perfiles representativos, denominados "User Personas", que compilan los rasgos esenciales de los usuarios a partir del estudio cualitativo de entrevistas. Este recurso permite transformar los datos de los individuos en arquetipos comprensibles que guían la estrategia de diseño, facilitando decisiones clave sobre funcionalidades y experiencia de usuario. Se crearon dos perfiles principales para el proyecto: uno correspondiente a arquitectos e ingenieros civiles, y otro vinculado a los dueños de apartamentos.
 
-**Segmento 1:**  
+**Segmento 1: Arquitectos e Ingenieros Civiles**  
 ![Imagen User Persona 1](image.jpg)
-**Segmento 2:**
+**Segmento 2: Dueños de apartamentos**
 ![Imagen User Persona 1](image.jpg)
 ### 2.3.2. User Task Matrix.
 | --- | ------ | Segmento 1  | ------/----- | Segmento 2  | ---------- |
