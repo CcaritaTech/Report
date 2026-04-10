@@ -209,18 +209,23 @@ Texto ubiquo: Definicion de este
 ---
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
-Segmento 1:
-| Fases    |  fase 1 as is | fase 2| fase 3|
-| -------- | ------- | ---- | ---------------- |
-| Doing    | | texto| texto | texto| texto|
-| Thinking | | texto| texto | texto| texto|
-| Feeling  | | texto| texto | texto| texto|
-Segmento 2:
-| Fases    |  fase 1 as is | fase 2| fase 3|
-| -------- | ------- | ---- | ---------------- |
-| Doing    | | texto| texto | texto| texto|
-| Thinking | | texto| texto | texto| texto|
-| Feeling  | | texto| texto | texto| texto|
+**Segmento 1: Arquitectos e Ingenieros (Constructores)**  
+Escenario: Gestión y diseño de proyectos de construcción inteligente utilizando IoBuild para integrar funcionalidades IoT desde la planificación inicial.
+
+| Fases | Planificación del Proyecto | Diseño del Espacio Inteligente | Implementación | Monitoreo y Optimización |
+|-------|----------------------------|-------------------------------|----------------|--------------------------|
+| Doing | Acceder a la plataforma IoBuild y crear un nuevo proyecto, definiendo parámetros iniciales como ubicación y requisitos del cliente. Utilizar herramientas de IA para analizar datos históricos y sugerir configuraciones óptimas. | Diseñar el layout del edificio integrando dispositivos inteligentes mediante simulaciones 3D. Escanear y registrar dispositivos existentes con la función de escaneo por cámara. Personalizar configuraciones según necesidades específicas. | Coordinar la instalación de dispositivos durante la construcción, utilizando el dashboard para supervisar el progreso en tiempo real. Configurar automatizaciones y notificaciones para el cliente. | Monitorear el rendimiento del edificio post-construcción mediante analytics en tiempo real. Ajustar configuraciones automáticamente con IA para optimizar eficiencia energética y comodidad. |
+| Thinking | "Esta plataforma me permite integrar IoT desde el inicio, reduciendo riesgos y costos futuros. La IA me ayuda a tomar decisiones basadas en datos precisos." | "Puedo visualizar cómo funcionarán los dispositivos en el espacio real, asegurando una integración perfecta. El escaneo facilita la documentación de equipos existentes." | "La coordinación en tiempo real mejora la comunicación con el equipo y el cliente, evitando retrasos. Las automatizaciones simplifican la configuración inicial." | "Los datos en tiempo real me permiten identificar problemas antes de que escalen. La optimización automática asegura que el edificio mantenga su eficiencia a lo largo del tiempo." |
+| Feeling | Confiado y eficiente, sabiendo que tengo herramientas avanzadas para un diseño innovador. | Creativo y preciso, con la capacidad de experimentar virtualmente sin riesgos. | Organizado y en control, con visibilidad completa del proceso de construcción. | Satisfecho y proactivo, contribuyendo a edificios sostenibles y funcionales que generan valor a largo plazo. |
+
+**Segmento 2: Propietarios y Residentes**  
+Escenario: Gestión diaria y personalización de espacios inteligentes en un edificio o vivienda utilizando IoBuild para un control intuitivo y optimizado.
+
+| Fases | Configuración Inicial | Gestión Diaria | Resolución de Problemas | Optimización Continua |
+|-------|----------------------|---------------|-------------------------|-----------------------|
+| Doing | Registrarse en la plataforma IoBuild y configurar el perfil personal. Escanear dispositivos existentes con la cámara del teléfono para registrarlos automáticamente. Personalizar preferencias de iluminación, temperatura y seguridad. | Acceder al dashboard para supervisar dispositivos en tiempo real. Recibir notificaciones automáticas sobre eventos importantes. Ajustar configuraciones manualmente o dejar que la IA optimice automáticamente. | Consultar al chatbot IA para resolver dudas o problemas. Recibir alertas y guías paso a paso para solucionar issues. Contactar soporte si es necesario a través de la plataforma. | Revisar reportes de analytics para entender patrones de uso. Permitir que la IA realice ajustes automáticos para mejorar eficiencia energética y comodidad. Actualizar dispositivos y configuraciones según cambios en necesidades. |
+| Thinking | "Es fácil configurar mi espacio inteligente sin conocimientos técnicos. La IA y el escaneo hacen que sea rápido y preciso." | "Tengo control total desde mi teléfono, con información clara y actualizada. Las notificaciones me mantienen informado sin sobrecargarme." | "El chatbot me guía efectivamente, resolviendo la mayoría de problemas por mí. Me siento apoyado por un sistema inteligente." | "Los reportes me ayudan a entender cómo optimizar mi hogar. La automatización me ahorra tiempo y reduce costos." |
+| Feeling | Empoderado y cómodo, con un sistema que se adapta a mis necesidades desde el inicio. | Seguro y en control, disfrutando de la conveniencia de un hogar inteligente sin complicaciones. | Tranquilo y resuelto, con soporte inmediato que minimiza interrupciones. | Satisfecho y eficiente, viendo mejoras continuas en comodidad y sostenibilidad gracias a la tecnología. |
 ## 3.2. User Stories.
 
 
