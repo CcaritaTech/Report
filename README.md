@@ -286,9 +286,27 @@ Objetivo del Empathy Mapping
 El mapa de empatía tiene como finalidad ampliar la visión sobre el usuario más allá de sus conductas observables, explorando sus motivaciones, temores, frustraciones y aspiraciones implícitas. Se trata de una herramienta clave para identificar oportunidades de mejora desde un enfoque cualitativo, complementando los hallazgos obtenidos a través de entrevistas, observaciones y análisis de comportamientos.
 
 **Segmento 1:**
-![Empathy Map Segmento1](image.jpg)
+![Empathy Map Segmento1](assets/Empathy map1.png)
+Desglose del Empathy Map 1
+Piensa: “Quiero que mis proyectos sean innovadores, pero muchas tecnologías son demasiado costosas.”
+
+Siente: “Me frustra que las regulaciones retrasen la implementación de soluciones sostenibles.”
+
+Dice: “Quiero ofrecer espacios innovadores, sostenibles y seguros.”
+
+Hace: Investiga constantemente nuevas tecnologías y tendencias del mercado.
 **Segmento 2:**
-![Empathy Map Segmento1](image.jpg)
+![Empathy Map Segmento2](assets/Empathy map2.png)
+
+Desglose del Empathy Map 2
+
+Piensa: “Si esta solución es confiable, podría integrarla sin problema en mi rutina diaria.”
+
+Siente: “Me frustra cuando una aplicación promete mucho y no cumple con lo que necesito.”
+
+Dice: “Necesito algo fácil de usar, que no me complique más de lo que ya estoy.”
+
+Hace: Prueba aplicaciones o servicios digitales para evaluar su utilidad.
 ### 2.3.5. As-is Scenario Mapping.
 **Segmento 1**  
 Escenario: {escenario}
