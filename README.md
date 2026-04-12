@@ -272,11 +272,12 @@ Para ambos perfiles se diseñó un mapa que incluye:
 
 Mediante el uso de UXPressia se obtuvo una representación visual clara y dinámica que favorece la toma de decisiones con un enfoque centrado en el usuario. Este proceso no solo profundiza en la comprensión de sus motivaciones y retos, sino que también orienta el diseño de soluciones más pertinentes, empáticas y funcionales para cada perfil identificado.
 
+
 **Segmento Objetivo #1: Arquitectos e Ingenieros Civiles**  
-![Imagen User Journey Mapping 1](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/UserJourneyMap_Segmento1.png)
+![Imagen User Journey Mapping 1](assets/UserJourneyMap_Segmento1.png)
 
 **Segmento Objetivo #2: Dueños de apartamentos**  
-![Imagen User Journey Mapping 2](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/UserJourneyMap_Segmento2.png)
+![Imagen User Journey Mapping 2](assets/UserJourneyMap_Segmento2.png)
 ### 2.3.4. Empathy Mapping.
 
 Como parte del enfoque de diseño centrado en el usuario, se desarrollaron mapas de empatía (Empathy Maps) para los dos segmentos principales identificados: Propietarios y Constructoras. Esta técnica, introducida por Dave Gray, permite plasmar de manera visual lo que los usuarios piensan, sienten, expresan y hacen en relación con el producto o servicio, facilitando una comprensión más profunda de su experiencia tanto emocional como cognitiva.
