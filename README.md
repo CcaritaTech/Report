@@ -308,22 +308,30 @@ Dice: “Necesito algo fácil de usar, que no me complique más de lo que ya est
 
 Hace: Prueba aplicaciones o servicios digitales para evaluar su utilidad.
 ### 2.3.5. As-is Scenario Mapping.
-**Segmento 1**  
-Escenario: {escenario}
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
-**Segmento 2**  
-Escenario: Dificultad para entender Matemáticas
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
+**Segmento 1**
+
+| Fase | Doing (Acciones) | Thinking (Pensamientos) | Feeling (Emociones) | Pain Points (Puntos de Dolor) | Opportunities (Oportunidades) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Fase 1: Identificación** | Analiza requerimientos del cliente | Necesito innovar sin elevar costos | Motivación y presión | Expectativas altas | Asistencia temprana |
+| **Fase 2: Investigación** | Investiga tecnologías y proveedores | ¿Esta tecnología funcionará? | Duda | Información dispersa | Plataforma centralizada |
+| **Fase 3: Evaluación Técnica** | Evalúa compatibilidad e integración | Las regulaciones complican todo | Estrés | Normativas complejas | Validación automatizada |
+| **Fase 4: Costos** | Calcula inversión y retorno | Innovar es costoso | Frustración | Costos elevados | Simulador costo-beneficio |
+| **Fase 5: Presentación** | Presenta propuesta tecnológica | Debo justificar cada decisión | Inseguridad | Difícil comunicar valor | Visualización clara |
+| **Fase 6: Implementación** | Coordina con ingenieros y proveedores | Espero que todo sea compatible | Ansiedad | Integración complicada | Integraciones estandarizadas |
+| **Fase 7: Resultado** | Evalúa desempeño del proyecto | Funcionó pero fue complejo | Alivio | Procesos largos | Optimización del flujo |
+
+**Segmento 2**
+
+| Fase | Doing (Acciones) | Thinking (Pensamientos) | Feeling (Emociones) | Pain Points (Puntos de Dolor) | Opportunities (Oportunidades) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Fase 1: Necesidad** | Busca mayor control y seguridad | Quiero sentirme segura | Preocupación | Sensación de inseguridad | Automatización de seguridad |
+| **Fase 2: Búsqueda** | Explora apps recomendadas | Todas prometen mucho | Confusión | Exceso de opciones | Recomendaciones guiadas |
+| **Fase 3: Evaluación** | Consulta opiniones | ¿Será confiable? | Desconfianza | Falta de claridad | Información clara |
+| **Fase 4: Prueba** | Descarga y prueba aplicaciones | Esto es complicado | Frustración | Interfaces complejas | UX intuitiva |
+| **Fase 5: Uso** | Usa funciones básicas | Solo uso lo necesario | Neutralidad | Funciones innecesarias | Personalización |
+| **Fase 6: Decisión** | Abandona o adopta apps | No me ayuda realmente | Decepción | Baja utilidad percibida | Onboarding guiado |
+| **Fase 7: Rutina** | Combina soluciones manuales y digitales | Quiero algo automático | Cansancio | Falta de integración | Plataforma centralizada |
+
 ## 2.4. Ubiquitous Language.
 
 
