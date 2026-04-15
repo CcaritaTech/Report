@@ -436,9 +436,92 @@ La capa de infraestructura implementa persistencia de ejecuciones, metricas y al
 
 ### 4.2.3. Bounded Context: Smart Assistant
 #### 4.2.3.1. Domain Layer
+En **IoBuild**, este bounded context implementa la asistencia inteligente contextual para apoyar decisiones operativas. El dominio cubre conversaciones asistidas, generacion de recomendaciones tecnicas y construccion de planes de accion sobre eventos del proyecto.
+
+**Entities y Aggregates**
+- **AssistantConversation (Aggregate Root):** representa una sesion conversacional asociada a un proyecto (id, projectId, userId, canal, estado y timestamps).
+- **AssistantMessage:** representa cada mensaje de una conversacion (rol, contenido, metadatos y momento de emision).
+- **AssistantRecommendation:** representa una recomendacion accionable generada por el asistente para optimizar operacion, mantenimiento o rendimiento.
+- **AssistantActionPlan:** representa el plan de accion derivado de una recomendacion, con pasos, prioridad y estado de ejecucion sugerido.
+
+**Value Objects**
+- **ConversationId, MessageId, RecommendationId, ActionPlanId, ProjectId, UserId:** identificadores unicos del dominio.
+- **ConversationStatus:** estado de conversacion (OPEN, WAITING_CONTEXT, RESOLVED, CLOSED).
+- **MessageRole:** rol del mensaje (USER, ASSISTANT, SYSTEM).
+- **AssistantChannel:** canal de interaccion (WEB_CHAT, MOBILE_CHAT, API).
+- **RecommendationType:** tipo de recomendacion (ALERT_TRIAGE, SERVICE_TUNING, ENERGY_OPTIMIZATION, MAINTENANCE).
+- **RecommendationPriority:** prioridad (LOW, MEDIUM, HIGH, CRITICAL).
+
+**Commands**
+- StartAssistantConversationCommand
+- SendUserMessageCommand
+- GenerateAssistantResponseCommand
+- CloseAssistantConversationCommand
+- CreateAssistantRecommendationCommand
+- AcceptAssistantRecommendationCommand
+- DismissAssistantRecommendationCommand
+- GenerateAssistantActionPlanCommand
+
+**Queries**
+- GetConversationByIdQuery
+- GetConversationsByProjectIdQuery
+- GetConversationMessagesQuery
+- GetRecommendationsByProjectIdQuery
+- GetPendingRecommendationsQuery
+- GetActionPlanByRecommendationIdQuery
+
+**Domain Services (Contratos)**
+- AssistantConversationCommandService
+- AssistantConversationQueryService
+- AssistantRecommendationCommandService
+- AssistantRecommendationQueryService
+- AssistantActionPlanCommandService
+- AssistantActionPlanQueryService
+
 #### 4.2.3.2. Interface Layer
+La capa de interfaz expone endpoints REST para interactuar con el asistente, administrar recomendaciones y consultar planes de accion.
+
+**Controllers**
+- **AssistantConversationsController:** inicio de conversacion, envio de mensajes, cierre y consultas de historial.
+- **AssistantRecommendationsController:** creacion, aceptacion, descarte y consulta de recomendaciones.
+- **AssistantActionPlansController:** generacion y consulta de planes de accion asociados a recomendaciones.
+
+**Resources (Request/Query DTOs)**
+- **Conversations:** StartAssistantConversationResource, SendUserMessageResource, GenerateAssistantResponseResource, CloseAssistantConversationResource.
+- **Recommendations:** CreateAssistantRecommendationResource, AcceptAssistantRecommendationResource, DismissAssistantRecommendationResource.
+- **Action Plans:** GenerateAssistantActionPlanResource.
+- **Queries:** GetConversationByIdResource, GetConversationsByProjectIdResource, GetConversationMessagesResource, GetRecommendationsByProjectIdResource, GetPendingRecommendationsResource, GetActionPlanByRecommendationIdResource.
+
+**Smart Assistant Interface Diagram**
+![Smart Assistant Interface Diagram](https://instasize.com/api/image/f00d4edcae97cb8e384659f46342e12d43ad825eec9ea7cdeaf51d53e584f900.png)
+
 #### 4.2.3.3. Application Layer
+La capa de aplicacion orquesta la interaccion del asistente con el contexto del proyecto para responder consultas, generar recomendaciones y proponer planes accionables.
+
+**Command Handlers**
+- **AssistantConversationCommandServiceImpl:** StartAssistantConversationCommand, SendUserMessageCommand, GenerateAssistantResponseCommand, CloseAssistantConversationCommand.
+- **AssistantRecommendationCommandServiceImpl:** CreateAssistantRecommendationCommand, AcceptAssistantRecommendationCommand, DismissAssistantRecommendationCommand.
+- **AssistantActionPlanCommandServiceImpl:** GenerateAssistantActionPlanCommand.
+
+**Query Handlers**
+- **AssistantConversationQueryServiceImpl:** GetConversationByIdQuery, GetConversationsByProjectIdQuery, GetConversationMessagesQuery.
+- **AssistantRecommendationQueryServiceImpl:** GetRecommendationsByProjectIdQuery, GetPendingRecommendationsQuery.
+- **AssistantActionPlanQueryServiceImpl:** GetActionPlanByRecommendationIdQuery.
+
+**Smart Assistant Application Diagram**
+![Smart Assistant Application Diagram](https://instasize.com/api/image/c1e93fdfadf169bc27b0c35f392c880a7e7cf8277875b5ca32146081bf2f4cae.png)
+
 #### 4.2.3.4. Infrastructure Layer
+La capa de infraestructura implementa persistencia de conversaciones, mensajes, recomendaciones y planes de accion para asegurar trazabilidad de la asistencia inteligente.
+
+**Repositories**
+- **AssistantConversationRepository:** consultas por projectId, estado de conversacion y usuario.
+- **AssistantMessageRepository:** historial de mensajes por conversationId y orden cronologico.
+- **AssistantRecommendationRepository:** recomendaciones por proyecto, prioridad y estado de aceptacion.
+- **AssistantActionPlanRepository:** planes de accion por recommendationId.
+
+**Smart Assistant Infrastructure Diagram**
+![Smart Assistant Infrastructure Diagram](https://instasize.com/api/image/30c135e534c0d290f7f1eb2b52a4639e2d8ea4d833724136d9d91420f37e6c99.png)
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
