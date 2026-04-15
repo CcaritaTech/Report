@@ -427,7 +427,7 @@ La capa de infraestructura implementa persistencia de ejecuciones, metricas y al
 - **ServiceAlertRepository:** alertas por projectId, severidad y estado de resolucion.
 
 **Service Execution and Monitoring Infrastructure Diagram**
-![Service Execution and Monitoring Infrastructure Diagram](https://instasize.com/api/image/76da1f25480814d27c6edd3077e8f72f3348ccfcb57379430784c3b8196ca1ca.png)
+![Service Execution and Monitoring Infrastructure Diagram](https://instasize.com/api/image/6c9a8603ca4cac961870fdedc0c763647510ccd982a43e0e2128bb56cbe5cdd4.png)
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
