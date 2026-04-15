@@ -243,11 +243,98 @@ Segmento 2:
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
+
+### Introduccion al Diseno Tactico
+El Tactical-Level Domain-Driven Design de **IoBuild** representa la materializacion concreta del diseno estrategico definido previamente. En esta seccion se detalla como cada bounded context implementa sus capas Domain, Interface, Application e Infrastructure, asi como sus componentes internos, contratos y mecanismos de persistencia. Este enfoque tactico asegura que las decisiones de negocio se traduzcan en una arquitectura modular, desacoplada, mantenible y lista para evolucionar conforme crezca la plataforma.
+
+Para IoBuild se han identificado cuatro bounded contexts principales que cubren las capacidades nucleares de la solucion: **Smart Project Setup** para la configuracion inicial de proyectos, zonas y perfiles IoT; **Service Execution and Monitoring** para la orquestacion de servicios y el monitoreo operativo en tiempo real; **Smart Assistant** para la asistencia inteligente y contextual a los usuarios de la plataforma; y **Energy Management** para la medicion, analisis y optimizacion del consumo energetico en edificios inteligentes.
+
 ### 4.2.1. Bounded Context: Smart Project Setup
 #### 4.2.1.1. Domain Layer
+En **IoBuild**, este bounded context define como se prepara un proyecto inteligente antes de su ejecucion operativa. El dominio cubre modelado del sitio, seleccion de perfiles IoT y configuracion de conectividad para dejar el proyecto listo para despliegue.
+
+**Entities y Aggregates**
+- **SmartProjectSetup (Aggregate Root):** representa la configuracion principal del proyecto (id, ownerId, nombre del proyecto, tipo de edificio, estado del setup, zonas y perfiles asignados).
+- **SiteZone:** representa un espacio fisico del proyecto (piso, ambiente o sector) donde se desplegaran dispositivos.
+- **DeviceProfile:** representa la configuracion funcional de un tipo de dispositivo IoT (sensor, intervalo de lectura, umbrales y protocolo).
+- **ConnectivityProfile:** representa la configuracion de conectividad del proyecto (gateway, protocolo, credenciales y politicas de reconexion).
+
+**Value Objects**
+- **SetupId, OwnerId, ZoneId, DeviceProfileId, ConnectivityProfileId:** identificadores unicos del dominio.
+- **SetupStatus:** estado del setup (DRAFT, VALIDATED, PROVISIONED, ARCHIVED).
+- **BuildingType:** tipo de edificio (RESIDENTIAL, COMMERCIAL, INDUSTRIAL, EDUCATIONAL).
+- **SensorType:** tipo de sensor (TEMPERATURE, HUMIDITY, OCCUPANCY, ENERGY_METER, AIR_QUALITY).
+- **ProtocolType:** protocolo de comunicacion (MQTT, HTTP, MODBUS, BACNET).
+
+**Commands**
+- CreateSmartProjectSetupCommand
+- UpdateSmartProjectSetupCommand
+- DefineSiteZoneCommand
+- UpdateSiteZoneCommand
+- AssignDeviceProfileCommand
+- ConfigureConnectivityProfileCommand
+- ValidateSmartProjectSetupCommand
+- ProvisionSmartProjectSetupCommand
+
+**Queries**
+- GetSmartProjectSetupByIdQuery
+- GetSmartProjectSetupsByOwnerIdQuery
+- GetSetupChecklistByIdQuery
+- GetZonesBySetupIdQuery
+- GetAvailableDeviceProfilesQuery
+- GetConnectivityProfileBySetupIdQuery
+
+**Domain Services (Contratos)**
+- SmartProjectSetupCommandService
+- SmartProjectSetupQueryService
+- ZoneConfigurationCommandService
+- DeviceProfileConfigurationService
+- SetupValidationService
+
 #### 4.2.1.2. Interface Layer
+La capa de interfaz expone endpoints REST para crear y configurar proyectos IoBuild, registrar zonas del sitio y asignar perfiles tecnicos.
+
+**Controllers**
+- **SmartProjectSetupsController:** create, update, validate, provision y consultas principales del setup.
+- **SetupZonesController:** define y actualiza zonas fisicas del proyecto.
+- **SetupProfilesController:** asigna perfiles de dispositivo y configura conectividad.
+
+**Resources (Request/Query DTOs)**
+- **Setup:** CreateSmartProjectSetupResource, UpdateSmartProjectSetupResource, ValidateSmartProjectSetupResource, ProvisionSmartProjectSetupResource.
+- **Zones:** DefineSiteZoneResource, UpdateSiteZoneResource.
+- **Profiles:** AssignDeviceProfileResource, ConfigureConnectivityProfileResource.
+- **Queries:** GetSmartProjectSetupByIdResource, GetSmartProjectSetupsByOwnerIdResource, GetSetupChecklistByIdResource, GetZonesBySetupIdResource.
+
+**Smart Project Setup Interface Diagram**
+![Smart Project Setup Interface Diagram](https://instasize.com/api/image/ac46962e9edde3cbfc8e372f387b207c489713181446b1a16f8ce49facd5b3b2.png)
+
 #### 4.2.1.3. Application Layer
+La capa de aplicacion orquesta comandos y queries para preparar el proyecto IoBuild y validar que la configuracion cumpla requisitos minimos antes del aprovisionamiento.
+
+**Command Handlers**
+- **SmartProjectSetupCommandServiceImpl:** CreateSmartProjectSetupCommand, UpdateSmartProjectSetupCommand, ValidateSmartProjectSetupCommand, ProvisionSmartProjectSetupCommand.
+- **ZoneConfigurationCommandServiceImpl:** DefineSiteZoneCommand, UpdateSiteZoneCommand.
+- **DeviceProfileConfigurationServiceImpl:** AssignDeviceProfileCommand, ConfigureConnectivityProfileCommand.
+
+**Query Handlers**
+- **SmartProjectSetupQueryServiceImpl:** GetSmartProjectSetupByIdQuery, GetSmartProjectSetupsByOwnerIdQuery, GetSetupChecklistByIdQuery, GetZonesBySetupIdQuery.
+- **SetupCatalogQueryServiceImpl:** GetAvailableDeviceProfilesQuery, GetConnectivityProfileBySetupIdQuery.
+
+**Smart Project Setup Application Diagram**
+https://instasize.com/p/e9c9db4b1c8d1417d7243363b80201317c2b75e261099bf4500fee76ca9d9dea
+
 #### 4.2.1.4. Infrastructure Layer
+La capa de infraestructura implementa persistencia del setup de IoBuild, incluyendo zonas, perfiles de dispositivos y configuracion de conectividad.
+
+**Repositories**
+- **SmartProjectSetupRepository:** busquedas por ownerId, status y validaciones por nombre del proyecto.
+- **SiteZoneRepository:** consultas de zonas por setup y validacion de nombres repetidos por setup.
+- **DeviceProfileRepository:** catalogo de perfiles por sensor y tipo de edificio.
+- **ConnectivityProfileRepository:** obtencion y reemplazo de configuracion de conectividad por setup.
+
+**Smart Project Setup Infrastructure Diagram**
+https://instasize.com/p/7b5799c5a59f8baa058ce64b7ac8c866100f4a3f54a18da83b6da5bd5d9c55f4
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
