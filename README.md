@@ -321,7 +321,7 @@ La capa de aplicacion orquesta comandos y queries para preparar el proyecto IoBu
 - **SetupCatalogQueryServiceImpl:** GetAvailableDeviceProfilesQuery, GetConnectivityProfileBySetupIdQuery.
 
 **Smart Project Setup Application Diagram**
-https://instasize.com/p/e9c9db4b1c8d1417d7243363b80201317c2b75e261099bf4500fee76ca9d9dea
+![Smart Project Setup Application Diagram](https://instasize.com/api/image/e9c9db4b1c8d1417d7243363b80201317c2b75e261099bf4500fee76ca9d9dea.png)
 
 #### 4.2.1.4. Infrastructure Layer
 La capa de infraestructura implementa persistencia del setup de IoBuild, incluyendo zonas, perfiles de dispositivos y configuracion de conectividad.
@@ -333,7 +333,7 @@ La capa de infraestructura implementa persistencia del setup de IoBuild, incluye
 - **ConnectivityProfileRepository:** obtencion y reemplazo de configuracion de conectividad por setup.
 
 **Smart Project Setup Infrastructure Diagram**
-https://instasize.com/p/7b5799c5a59f8baa058ce64b7ac8c866100f4a3f54a18da83b6da5bd5d9c55f4
+![Smart Project Setup Infrastructure Diagram](https://instasize.com/api/image/7b5799c5a59f8baa058ce64b7ac8c866100f4a3f54a18da83b6da5bd5d9c55f4.png)
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
@@ -342,9 +342,93 @@ https://instasize.com/p/7b5799c5a59f8baa058ce64b7ac8c866100f4a3f54a18da83b6da5bd
 
 ### 4.2.2. Bounded Context: Service Execution and Monitoring
 #### 4.2.2.1. Domain Layer
+En **IoBuild**, este bounded context gestiona la ejecucion operativa de servicios y el monitoreo continuo de su comportamiento. El dominio cubre la orquestacion de ejecuciones, el registro de metricas de observabilidad y la gestion de alertas operativas.
+
+**Entities y Aggregates**
+- **ServiceExecution (Aggregate Root):** representa una ejecucion de servicio (id, projectId, serviceId, triggerType, estado, inicio, fin y resultado).
+- **ExecutionTask:** representa una tarea interna ejecutada dentro de un flujo de servicio (orden, comando, estado y duracion).
+- **MonitoringMetric:** representa una medicion tecnica asociada a una ejecucion o servicio (tipo, valor, unidad y timestamp).
+- **ServiceAlert:** representa una alerta operativa generada por fallos, degradacion o umbrales excedidos.
+
+**Value Objects**
+- **ExecutionId, TaskId, ProjectId, ServiceId, MetricId, AlertId:** identificadores unicos del dominio.
+- **ExecutionStatus:** estado de ejecucion (QUEUED, RUNNING, SUCCESS, FAILED, CANCELLED, TIMEOUT).
+- **TaskStatus:** estado de tarea (PENDING, RUNNING, COMPLETED, FAILED, SKIPPED).
+- **HealthStatus:** salud del servicio (HEALTHY, DEGRADED, OFFLINE).
+- **MetricType:** tipo de metrica (CPU_USAGE, MEMORY_USAGE, LATENCY, ERROR_RATE, THROUGHPUT).
+- **AlertSeverity:** severidad de alerta (INFO, WARNING, CRITICAL).
+
+**Commands**
+- StartServiceExecutionCommand
+- StopServiceExecutionCommand
+- RetryServiceExecutionCommand
+- CancelServiceExecutionCommand
+- RegisterMonitoringMetricCommand
+- UpdateServiceHealthStatusCommand
+- RaiseServiceAlertCommand
+- ResolveServiceAlertCommand
+
+**Queries**
+- GetExecutionByIdQuery
+- GetExecutionsByProjectIdQuery
+- GetActiveExecutionsQuery
+- GetMetricsByExecutionIdQuery
+- GetServiceHealthByProjectIdQuery
+- GetOpenAlertsByProjectIdQuery
+
+**Domain Services (Contratos)**
+- ServiceExecutionCommandService
+- ServiceExecutionQueryService
+- MonitoringCommandService
+- MonitoringQueryService
+- AlertManagementService
+- AlertQueryService
+
 #### 4.2.2.2. Interface Layer
+La capa de interfaz expone endpoints REST para ejecutar servicios, consultar estado operativo y administrar alertas del proyecto.
+
+**Controllers**
+- **ServiceExecutionsController:** start, stop, retry, cancel y consultas de ejecuciones.
+- **ServiceMonitoringController:** registro de metricas y consulta de salud operativa.
+- **ServiceAlertsController:** apertura, resolucion y consulta de alertas activas.
+
+**Resources (Request/Query DTOs)**
+- **Execution:** StartServiceExecutionResource, StopServiceExecutionResource, RetryServiceExecutionResource, CancelServiceExecutionResource.
+- **Monitoring:** RegisterMonitoringMetricResource, UpdateServiceHealthStatusResource.
+- **Alerts:** RaiseServiceAlertResource, ResolveServiceAlertResource.
+- **Queries:** GetExecutionByIdResource, GetExecutionsByProjectIdResource, GetMetricsByExecutionIdResource, GetServiceHealthByProjectIdResource, GetOpenAlertsByProjectIdResource.
+
+**Service Execution and Monitoring Interface Diagram**
+![Service Execution and Monitoring Interface Diagram](https://instasize.com/api/image/d237f139e3bd29eea6ef5698a4e4f57140679000ed1d00c23baaec4157afae78.png)
+
 #### 4.2.2.3. Application Layer
+La capa de aplicacion orquesta la ejecucion de servicios y los procesos de observabilidad para garantizar trazabilidad y control operativo del sistema.
+
+**Command Handlers**
+- **ServiceExecutionCommandServiceImpl:** StartServiceExecutionCommand, StopServiceExecutionCommand, RetryServiceExecutionCommand, CancelServiceExecutionCommand.
+- **MonitoringCommandServiceImpl:** RegisterMonitoringMetricCommand, UpdateServiceHealthStatusCommand.
+- **AlertManagementServiceImpl:** RaiseServiceAlertCommand, ResolveServiceAlertCommand.
+
+**Query Handlers**
+- **ServiceExecutionQueryServiceImpl:** GetExecutionByIdQuery, GetExecutionsByProjectIdQuery, GetActiveExecutionsQuery.
+- **MonitoringQueryServiceImpl:** GetMetricsByExecutionIdQuery, GetServiceHealthByProjectIdQuery.
+- **AlertQueryServiceImpl:** GetOpenAlertsByProjectIdQuery.
+
+**Service Execution and Monitoring Application Diagram**
+![Service Execution and Monitoring Application Diagram](https://instasize.com/api/image/20b81bd5a2eecdf45ebe39b3305e475644b4581e030069c24911def098e3a3c8.png)
+
 #### 4.2.2.4. Infrastructure Layer
+La capa de infraestructura implementa persistencia de ejecuciones, metricas y alertas para soportar monitoreo historico y operacion en tiempo real.
+
+**Repositories**
+- **ServiceExecutionRepository:** busquedas por projectId, estado de ejecucion y ejecuciones activas.
+- **ExecutionTaskRepository:** tareas por executionId y estado de tarea.
+- **MonitoringMetricRepository:** metricas por executionId y por tipo de metrica.
+- **ServiceAlertRepository:** alertas por projectId, severidad y estado de resolucion.
+
+**Service Execution and Monitoring Infrastructure Diagram**
+![Service Execution and Monitoring Infrastructure Diagram](https://instasize.com/api/image/76da1f25480814d27c6edd3077e8f72f3348ccfcb57379430784c3b8196ca1ca.png)
+
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
