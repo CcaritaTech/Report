@@ -529,9 +529,95 @@ La capa de infraestructura implementa persistencia de conversaciones, mensajes, 
 
 ### 4.2.4. Bounded Context: Energy Management
 #### 4.2.4.1. Domain Layer
+En **IoBuild**, este bounded context gestiona la medicion, analisis y optimizacion del consumo energetico de los edificios inteligentes. El dominio cubre planes de optimizacion, registro de consumo, deteccion de anomalias y eventos de respuesta a la demanda.
+
+**Entities y Aggregates**
+- **EnergyOptimizationPlan (Aggregate Root):** representa el plan de optimizacion energetica de un proyecto (id, projectId, baseline, objetivo de reduccion, ventana de aplicacion y estado).
+- **EnergyConsumptionRecord:** representa una lectura de consumo energetico por zona, medidor y periodo de tiempo.
+- **EnergyAnomaly:** representa una desviacion del patron esperado de consumo (pico, sobrecarga, consumo fuera de horario o caida abrupta).
+- **DemandResponseEvent:** representa un evento operativo para ajustar carga electrica en periodos criticos.
+
+**Value Objects**
+- **EnergyPlanId, ConsumptionRecordId, AnomalyId, ResponseEventId, ProjectId, ZoneId, MeterId:** identificadores unicos del dominio.
+- **OptimizationStatus:** estado del plan (DRAFT, ACTIVE, PAUSED, COMPLETED, CANCELLED).
+- **ConsumptionPeriod:** granularidad de lectura (HOURLY, DAILY, WEEKLY, MONTHLY).
+- **EnergyUnit:** unidad de energia (WH, KWH, MWH).
+- **AnomalySeverity:** severidad de anomalia (LOW, MEDIUM, HIGH, CRITICAL).
+- **DemandResponseStatus:** estado del evento de respuesta (CREATED, IN_PROGRESS, EXECUTED, FAILED, CLOSED).
+
+**Commands**
+- CreateEnergyOptimizationPlanCommand
+- ActivateEnergyOptimizationPlanCommand
+- PauseEnergyOptimizationPlanCommand
+- RegisterEnergyConsumptionCommand
+- DetectEnergyAnomalyCommand
+- AcknowledgeEnergyAnomalyCommand
+- CreateDemandResponseEventCommand
+- CompleteDemandResponseEventCommand
+
+**Queries**
+- GetOptimizationPlanByIdQuery
+- GetOptimizationPlansByProjectIdQuery
+- GetConsumptionByProjectIdQuery
+- GetConsumptionByZoneIdQuery
+- GetEnergyAnomaliesByProjectIdQuery
+- GetActiveDemandResponseEventsQuery
+- GetEnergySavingsSummaryByProjectIdQuery
+
+**Domain Services (Contratos)**
+- EnergyOptimizationCommandService
+- EnergyOptimizationQueryService
+- EnergyMonitoringCommandService
+- EnergyMonitoringQueryService
+- DemandResponseCommandService
+- DemandResponseQueryService
+- EnergySavingsAnalysisService
+
 #### 4.2.4.2. Interface Layer
+La capa de interfaz expone endpoints REST para crear planes de optimizacion, registrar consumo, gestionar anomalias y ejecutar eventos de respuesta a la demanda.
+
+**Controllers**
+- **EnergyOptimizationPlansController:** creacion, activacion, pausa y consultas de planes de optimizacion.
+- **EnergyMonitoringController:** registro de consumo, deteccion/revision de anomalias y consultas operativas.
+- **DemandResponseController:** apertura, cierre y consulta de eventos de respuesta a la demanda.
+
+**Resources (Request/Query DTOs)**
+- **Optimization:** CreateEnergyOptimizationPlanResource, ActivateEnergyOptimizationPlanResource, PauseEnergyOptimizationPlanResource.
+- **Monitoring:** RegisterEnergyConsumptionResource, DetectEnergyAnomalyResource, AcknowledgeEnergyAnomalyResource.
+- **Demand Response:** CreateDemandResponseEventResource, CompleteDemandResponseEventResource.
+- **Queries:** GetOptimizationPlanByIdResource, GetOptimizationPlansByProjectIdResource, GetConsumptionByProjectIdResource, GetConsumptionByZoneIdResource, GetEnergyAnomaliesByProjectIdResource, GetActiveDemandResponseEventsResource, GetEnergySavingsSummaryByProjectIdResource.
+
+**Energy Management Interface Diagram**
+![Energy Management Interface Diagram](https://instasize.com/api/image/3be25a2e254b035f27c7ecdb7b05bb59883da84db0dbb2b70a1b26ef89bff79b.png)
+
 #### 4.2.4.3. Application Layer
+La capa de aplicacion orquesta comandos y consultas para convertir datos de consumo en decisiones operativas de eficiencia energetica.
+
+**Command Handlers**
+- **EnergyOptimizationCommandServiceImpl:** CreateEnergyOptimizationPlanCommand, ActivateEnergyOptimizationPlanCommand, PauseEnergyOptimizationPlanCommand.
+- **EnergyMonitoringCommandServiceImpl:** RegisterEnergyConsumptionCommand, DetectEnergyAnomalyCommand, AcknowledgeEnergyAnomalyCommand.
+- **DemandResponseCommandServiceImpl:** CreateDemandResponseEventCommand, CompleteDemandResponseEventCommand.
+
+**Query Handlers**
+- **EnergyOptimizationQueryServiceImpl:** GetOptimizationPlanByIdQuery, GetOptimizationPlansByProjectIdQuery.
+- **EnergyMonitoringQueryServiceImpl:** GetConsumptionByProjectIdQuery, GetConsumptionByZoneIdQuery, GetEnergyAnomaliesByProjectIdQuery, GetEnergySavingsSummaryByProjectIdQuery.
+- **DemandResponseQueryServiceImpl:** GetActiveDemandResponseEventsQuery.
+
+**Energy Management Application Diagram**
+![Energy Management Application Diagram](https://instasize.com/api/image/5bb792141cfabc4249c13bd8e17c84a6a90107bd2fd33d9f018e89a5e9a35127.png)
+
 #### 4.2.4.4. Infrastructure Layer
+La capa de infraestructura implementa persistencia de planes de optimizacion, lecturas de consumo, anomalias y eventos de respuesta para soportar analitica historica y operacion en tiempo real.
+
+**Repositories**
+- **EnergyOptimizationPlanRepository:** planes por projectId, estado de optimizacion y planes activos.
+- **EnergyConsumptionRecordRepository:** lecturas por projectId, zoneId, meterId y rango temporal.
+- **EnergyAnomalyRepository:** anomalias por proyecto, severidad y estado abierto/cerrado.
+- **DemandResponseEventRepository:** eventos por proyecto, estado y eventos activos.
+
+**Energy Management Infrastructure Diagram**
+![Energy Management Infrastructure Diagram](https://instasize.com/api/image/ebde2d543f68889ecb0ca0460f113851d31f2dafc5549e80d83402882b863d54.png)
+
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
