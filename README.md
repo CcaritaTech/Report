@@ -579,6 +579,28 @@ En **IoBuild**, este bounded context gestiona la medicion, analisis y optimizaci
 - **AnomalySeverity:** severidad de anomalia (LOW, MEDIUM, HIGH, CRITICAL).
 - **DemandResponseStatus:** estado del evento de respuesta (CREATED, IN_PROGRESS, EXECUTED, FAILED, CLOSED).
 
+### Domain Behavior and Invariants
+
+**AssistantConversation Behavior**
+- startConversation()
+- receiveUserMessage()
+- generateAssistantResponse()
+- closeConversation()
+- createRecommendation()
+
+**Domain Invariants**
+- Una conversación en estado CLOSED no acepta nuevos mensajes.
+- Toda recomendación debe estar asociada a una conversación activa.
+- Los planes de acción solo pueden generarse desde recomendaciones existentes.
+
+### Domain Events
+
+- AssistantConversationStarted
+- AssistantMessageReceived
+- AssistantResponseGenerated
+- AssistantRecommendationGenerated
+- AssistantActionPlanCreated
+
 **Commands**
 - CreateEnergyOptimizationPlanCommand
 - ActivateEnergyOptimizationPlanCommand
@@ -651,6 +673,19 @@ La capa de infraestructura implementa persistencia de planes de optimizacion, le
 
 **Energy Management Infrastructure Diagram**
 ![Energy Management Infrastructure Diagram](https://instasize.com/api/image/ebde2d543f68889ecb0ca0460f113851d31f2dafc5549e80d83402882b863d54.png)
+
+### AI Integration Anti-Corruption Layer
+
+Para evitar acoplamiento directo con proveedores externos de inteligencia artificial, el sistema define:
+
+- AssistantAIService (Domain Interface)
+
+Implementaciones en infraestructura:
+
+- OpenAIAssistantAdapter
+- ExternalLLMAdapter
+
+Este patrón protege el dominio frente a cambios tecnológicos del proveedor IA.
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
