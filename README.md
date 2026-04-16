@@ -376,6 +376,18 @@ Los aggregates del dominio encapsulan reglas de negocio y comportamiento operati
 - Una ejecución finalizada no puede reiniciarse sin crear una nueva instancia.
 - Las métricas solo pueden registrarse para ejecuciones activas.
 
+### Domain Events
+
+El bounded context publica eventos del dominio para permitir integración desacoplada con otros contextos.
+
+- ServiceExecutionStarted
+- ServiceExecutionCompleted
+- ServiceExecutionFailed
+- MonitoringMetricRegistered
+- ServiceHealthDegraded
+- ServiceAlertRaised
+- ServiceAlertResolved
+
 **Commands**
 - StartServiceExecutionCommand
 - StopServiceExecutionCommand
