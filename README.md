@@ -550,6 +550,10 @@ La capa de infraestructura implementa persistencia de conversaciones, mensajes, 
 - **AssistantRecommendationRepository:** recomendaciones por proyecto, prioridad y estado de aceptacion.
 - **AssistantActionPlanRepository:** planes de accion por recommendationId.
 
+### Aggregate Persistence Rule
+
+ExecutionTask es una entidad interna del aggregate ServiceExecution y su persistencia se gestiona a través de ServiceExecutionRepository para mantener consistencia transaccional del aggregate.
+
 **Smart Assistant Infrastructure Diagram**
 ![Smart Assistant Infrastructure Diagram](https://instasize.com/api/image/30c135e534c0d290f7f1eb2b52a4639e2d8ea4d833724136d9d91420f37e6c99.png)
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
