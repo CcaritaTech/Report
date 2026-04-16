@@ -358,6 +358,24 @@ En **IoBuild**, este bounded context gestiona la ejecucion operativa de servicio
 - **MetricType:** tipo de metrica (CPU_USAGE, MEMORY_USAGE, LATENCY, ERROR_RATE, THROUGHPUT).
 - **AlertSeverity:** severidad de alerta (INFO, WARNING, CRITICAL).
 
+### Domain Behavior and Invariants
+
+Los aggregates del dominio encapsulan reglas de negocio y comportamiento operativo.
+
+**ServiceExecution Behavior**
+- startExecution()
+- stopExecution()
+- retryExecution()
+- completeExecution()
+- failExecution(reason)
+- registerMonitoringMetric(metric)
+- evaluateServiceHealth()
+
+**Domain Invariants**
+- Una ejecución solo puede estar RUNNING si posee startTime.
+- Una ejecución finalizada no puede reiniciarse sin crear una nueva instancia.
+- Las métricas solo pueden registrarse para ejecuciones activas.
+
 **Commands**
 - StartServiceExecutionCommand
 - StopServiceExecutionCommand
