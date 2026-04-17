@@ -238,9 +238,134 @@ Segmento 2:
 #### 4.1.1.3. Bounded Context Canvases
 ### 4.1.2. Context Mapping
 ### 4.1.3. Software Architecture
+La arquitectura de software de IoBuild se ha diseñado utilizando el modelo C4, ya que este permite representar el sistema en diferentes niveles de abstracción como Contexto, Contenedores y Despliegue. Gracias a este enfoque, es más fácil entender cómo funciona el sistema en general, cómo interactúan los usuarios con la plataforma y cómo se relaciona con otros sistemas externos.
+
+Para el diseño de la arquitectura, se han considerado algunos principios clave. En primer lugar, la separación de responsabilidades, donde cada parte del sistema tiene funciones específicas. También se busca un bajo acoplamiento, para evitar dependencias innecesarias entre los módulos, y una alta cohesión, agrupando elementos que tienen relación entre sí. Finalmente, se toma en cuenta la escalabilidad, permitiendo que el sistema pueda crecer sin problemas, y la mantenibilidad, facilitando realizar cambios o mejoras en el futuro.
+
 #### 4.1.3.1. Software Architecture Context Level Diagrams
+El diagrama de contexto presenta el sistema IoBuild como una plataforma central, mostrando cómo interactúa con los usuarios y con distintos sistemas externos. Este nivel permite entender de manera general el alcance del sistema y cómo se integra con otros servicios.
+
+"Context Level Diagram": <https://shorturl.at/EbWzU>
+![Context Level Diagrams](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/Software%20Architecture%20Context%20Diagram.png)
+
+**Explicación del Diagrama**
+
+Sistema Central (IoBuild):
+Es la plataforma principal encargada de gestionar proyectos de construcción inteligente. Permite a los usuarios configurar entornos, administrar dispositivos conectados y consultar información relevante como reportes y datos del sistema.
+
+**Usuarios:**
+
+- Builder: Es el usuario encargado de diseñar y configurar entornos inteligentes. Interactúa con IoBuild para registrar dispositivos mediante escaneo (QR) y gestionar proyectos a través de una interfaz web.
+- Landlord: Es el usuario que utiliza la plataforma para supervisar y administrar sus propiedades. Consulta reportes y realiza seguimiento mediante un dashboard.
+
+**Sistemas Externos:**
+
+- Cloudinary: Servicio utilizado para la gestión y almacenamiento de archivos multimedia relacionados con los proyectos.
+- AI Chatbot Service: Proporciona asistencia inteligente a los usuarios, resolviendo dudas y brindando soporte dentro de la plataforma.
+- Stripe: Sistema encargado de procesar pagos y gestionar suscripciones dentro de IoBuild.
+
+**Interacciones:**
+
+- El Builder interactúa con IoBuild para registrar dispositivos y gestionar configuraciones de proyectos.
+- El Landlord utiliza IoBuild para consultar reportes y monitorear el estado de sus propiedades.
+- IoBuild se integra con Cloudinary para almacenar y administrar contenido multimedia.
+- IoBuild se comunica con el AI Chatbot Service para brindar soporte y asistencia a los usuarios.
+- IoBuild utiliza Stripe para gestionar pagos y suscripciones dentro de la plataforma.
+
+En conjunto, este diagrama permite entender cómo IoBuild se posiciona como el núcleo del sistema, conectando a los usuarios con distintos servicios externos para ofrecer una solución completa.
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams
+El siguiente diagrama de contenedores muestra la arquitectura de alto nivel del sistema IoBuild, permitiendo entender cómo se organizan sus principales componentes, qué tecnologías se utilizan y cómo interactúan entre sí. Este nivel de detalle ayuda a visualizar la estructura interna del sistema y cómo se distribuyen las responsabilidades entre los distintos contenedores.
+
+"Container Level Diagram": <https://shorturl.at/FEOTa>
+![Container Level Diagrams](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/Software%20Architecture%20Container%20Diagram.png)
+
+**Descripción del Container Diagram**
+
+El sistema IoBuild está compuesto por varios contenedores que trabajan de manera conjunta para ofrecer sus funcionalidades:
+
+**Capa de Presentación:**
+
+- Landing Page: Es la página pública del sistema. Funciona como punto de entrada para los usuarios, brindando información general y redirigiendo hacia la aplicación web.
+- Web App: Es la aplicación web principal donde los usuarios (Builder y Landlord) interactúan con el sistema para gestionar dispositivos, proyectos y visualizar información relevante.
+- Mobile Application: Aplicación móvil que permite a los usuarios acceder a las funcionalidades principales de IoBuild desde sus smartphones, facilitando la gestión remota de sus propiedades y dispositivos.
+- Single Page Application: Representa la lógica del lado del cliente dentro de la web app, permitiendo una experiencia dinámica e interactiva en el navegador sin recargar la página.
+
+**Capa de Backend:**
+
+- Web Service: Es el backend del sistema. Se encarga de procesar la lógica de negocio, exponer endpoints mediante una API y gestionar la comunicación entre el frontend, la base de datos y los servicios externos.
+
+**Capa de Persistencia:**
+
+- Database: Almacena toda la información del sistema, como datos de usuarios, proyectos, dispositivos y configuraciones.
+
+**Sistemas Externos:**
+
+- Cloudinary: Servicio utilizado para el almacenamiento y gestión de archivos multimedia.
+- Stripe: Plataforma encargada de procesar pagos y manejar suscripciones dentro del sistema.
+
+**Interacciones y Comunicación**
+
+- Los usuarios acceden al sistema a través de la Landing Page, la cual los redirige hacia la Web App.
+- La Web App utiliza una arquitectura SPA para gestionar la interacción del usuario de manera dinámica.
+- Tanto la Web App como la Mobile Application consumen la API expuesta por el Web Service mediante solicitudes HTTP.
+- El Web Service se encarga de procesar la lógica del sistema, acceder a la Database para almacenar o recuperar información, y comunicarse con servicios externos.
+- IoBuild utiliza Cloudinary para gestionar archivos multimedia y Stripe para el manejo de pagos y suscripciones.
+
+**Decisiones Tecnológicas Principales:**
+
+- Uso de SPA para mejorar la experiencia de usuario en la web.
+- Separación entre frontend y backend para facilitar el desarrollo y mantenimiento.
+- Backend centralizado con ASP.NET Core, que actúa como punto de acceso a la lógica del sistema.
+- Uso de una base de datos relacional (MySQL) para garantizar consistencia de la información.
+- Integración con servicios externos especializados como Cloudinary y Stripe para funcionalidades específicas.
+
+En conjunto, esta arquitectura permite que IoBuild sea un sistema escalable, mantenible y flexible, donde cada componente cumple una función específica y puede evolucionar de manera independiente.
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams
+El siguiente diagrama de despliegue muestra cómo los diferentes componentes del sistema IoBuild se distribuyen en la infraestructura, tanto en el cliente como en la nube. Este tipo de diagrama permite entender dónde se ejecuta cada parte del sistema, cómo se comunican entre sí y qué tecnologías o servicios se utilizan en el entorno real de producción.
+
+"Deployment Level Diagram": <https://shorturl.at/2DSHw>
+![Deployment Level Diagrams](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/Software%20Architecture%20Deployment%20Diagram.png)
+
+**Descripción del Deployment Diagram**
+
+El sistema IoBuild está organizado en varias capas de despliegue que separan claramente el frontend, los clientes, el backend y la base de datos:
+
+**Client Tier (Clientes):**
+
+- Web Clients (Browser): Representa a los usuarios que acceden desde un navegador web. Aquí se carga la Landing Page y la Web Application (SPA), permitiendo la interacción con el sistema sin necesidad de instalar software adicional.
+- Mobile Clients (Mobile Device): Incluye dispositivos móviles donde se ejecuta la Mobile App, permitiendo a los usuarios gestionar sus propiedades y dispositivos desde cualquier lugar.
+
+**Cloud Tier (Infraestructura en la Nube):**
+
+- Frontend Hosting:
+    - GitHub Pages: Se utiliza para alojar la Landing Page, que es un sitio estático informativo accesible públicamente.
+    - Vercel: Plataforma donde se despliega la Web Application (SPA), optimizada para aplicaciones modernas y con buen rendimiento.
+- Backend Layer:
+    - Application Server: Servidor donde se ejecuta la lógica del sistema.
+    - Docker Container: Contenedor que encapsula el API Backend (API REST), permitiendo portabilidad, escalabilidad y facilidad de despliegue.
+- Data Layer:
+    - Database Server: Nodo donde se encuentra la base de datos.
+    - MySQL Database: Sistema de gestión de base de datos relacional que almacena toda la información del sistema.
+
+**Interacciones y Comunicación**
+
+- Los usuarios acceden a la Landing Page desde el navegador, la cual redirige hacia la Web Application (SPA).
+- Tanto la Web App como la Mobile App se comunican con el API Backend mediante solicitudes HTTPS, enviando y recibiendo datos en formato JSON.
+- El API Backend, desplegado en un contenedor Docker, procesa la lógica del sistema y se encarga de gestionar las peticiones de los clientes.
+- El backend se comunica con la MySQL Database mediante consultas SQL para almacenar y recuperar información.
+
+**Decisiones de Despliegue y Justificación**
+
+- Separación por capas: Se divide el sistema en cliente, frontend, backend y base de datos para facilitar el mantenimiento y escalabilidad.
+- Uso de servicios cloud: GitHub Pages y Vercel permiten un despliegue sencillo y eficiente del frontend sin necesidad de gestionar servidores.
+- Contenerización con Docker: Facilita la portabilidad del backend y permite desplegarlo en distintos entornos sin problemas de compatibilidad.
+- Comunicación segura: Se utiliza HTTPS para proteger la información que viaja entre clientes y servidor.
+- Base de datos centralizada: MySQL asegura la persistencia y consistencia de los datos del sistema.
+
+En conjunto, este diagrama muestra una arquitectura moderna basada en servicios en la nube y contenedores, que permite a IoBuild ser un sistema escalable, accesible desde múltiples dispositivos y fácil de mantener.
+
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
