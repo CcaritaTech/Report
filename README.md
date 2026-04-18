@@ -123,6 +123,21 @@ Esta sección presenta el plan de crecimiento profesional postgrado de cada inte
 - **Relevant:** Para trabajar eficientemente en equipos ágiles y aspirar a roles de liderazgo.
 - **Time-bound:** Obtener la certificación en los primeros 4 meses post-graduación.
 
+## 5. Loechle Arias, Mateo Italo (U202215004)
+
+### 5.1. Desarrollo Full Stack con Enfoque en Mobile Backend
+- **Specific:** Convertirme en un desarrollador full stack, con habilidades tanto en frontend móvil (Kotlin) como en backend (Spring Boot).
+- **Measurable:** Construir una aplicación completa (frontend y backend) con al menos 5 funcionalidades principales.
+- **Achievable:** Dedicar 12 horas semanales a aprender y practicar integración frontend-backend.
+- **Relevant:** Para tener una visión completa del ciclo de desarrollo y ser más versátil en el mercado laboral.
+- **Time-bound:** Completar la aplicación en 6 meses.
+
+### 5.2. Certificación en Kotlin Avanzado
+- **Specific:** Dominar aspectos avanzados de Kotlin para desarrollo móvil y backend.
+- **Measurable:** Obtener la certificación "Kotlin Certified Developer" de JetBrains.
+- **Achievable:** Realizar el curso oficial de Kotlin y practicar con ejercicios avanzados.
+- **Relevant:** Para demostrar expertise en el lenguaje principal utilizado en el proyecto Centralis.
+- **Time-bound:** Aprobar el examen de certificación en los primeros 5 meses tras graduarse.
 
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
