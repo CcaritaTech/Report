@@ -91,6 +91,22 @@ Esta sección presenta el plan de crecimiento profesional postgrado de cada inte
 - **Relevant:** Para ganar reputación en la comunidad técnica, aprender de los mejores y mejorar las habilidades de coding.
 - **Time-bound:** Lograr el primer PR aceptado en los primeros 3 meses y mantener contribuciones consistentes por 12 meses.
 
+## 3. Panta Castro, Fabrizio Martin (U20231A810)
+
+### 3.1. Dominio del Desarrollo Backend con Spring Boot
+- **Specific:** Especializarme en el desarrollo de APIs RESTful robustas y escalables utilizando Spring Boot y Java.
+- **Measurable:** Diseñar e implementar 3 APIs complejas con autenticación JWT, manejo de errores y documentación Swagger/OpenAPI.
+- **Achievable:** Dedicar 10 horas semanales a practicar con proyectos personales y seguir tutoriales avanzados de Spring.
+- **Relevant:** Para trabajar como Backend Developer en empresas que requieran servicios web para aplicaciones móviles.
+- **Time-bound:** Completar la primera API en 3 meses y las tres en 9 meses.
+
+### 3.2. Certificación en Cloud AWS para Developers
+- **Specific:** Adquirir conocimientos prácticos en servicios AWS esenciales para deployment y escalabilidad de aplicaciones.
+- **Measurable:** Obtener la certificación AWS Certified Developer - Associate.
+- **Achievable:** Completar el curso "AWS Essentials" y practicar con los servicios de free tier.
+- **Relevant:** Para mejorar la empleabilidad y capacidad de desplegar aplicaciones en la nube.
+- **Time-bound:** Aprobar el examen de certificación en los primeros 8 meses tras graduarse.
+
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
