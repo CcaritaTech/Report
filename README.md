@@ -53,17 +53,91 @@ ABRIL 2026
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.|Compañero1:<br> *TB1:*  Su texto *TB2:* texto etc.. |Su texto de conclusion|
-|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Compañero1:<br> *TB1:*  Su texto<br> *TB2:* texto etc.. |Su texto de conclusion|
+|Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software.|Axel Randall Ordoñez Ricaldi:<br>*AV1:* Colaboré con Fabrizio en EventStorming (Candidate Context Discovery, Domain Message Flows Modeling y Bounded Context Canvases), elaboré Context Mapping y Software Architecture Deployment Diagrams; este trabajo me permitió profundizar en DDD estratégico aplicado al proyecto.<br>*TB1:* Su texto<br>*AV2:* Su texto<br>*TB2:* Su texto<br><br>Ccarita Cruz, Brayan Roberto:<br>*AV1:* Colaboré con Mateo e Iker en Domain, Interface, Application e Infrastructure Layer, y elaboré los Bounded Context Software Architecture Code Level Diagrams; esto me permitió fortalecer el diseño táctico y su trazabilidad con el código.<br>*TB1:* Su texto<br>*AV2:* Su texto<br>*TB2:* Su texto<br><br>Panta Castro, Fabrizio Martin:<br>*AV1:* Colaboré con Axel en EventStorming (Candidate Context Discovery, Domain Message Flows Modeling y Bounded Context Canvases), elaboré Context Mapping y Software Architecture Deployment Diagrams; ello me permitió consolidar conocimientos de modelado de dominio estratégico.<br>*TB1:* Su texto<br>*AV2:* Su texto<br>*TB2:* Su texto<br><br>Barturen Panez, Iker Gabriel:<br>*AV1:* Colaboré con Mateo en el Tactical-Level DDD del Bounded Context (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer); este desarrollo me permitió profundizar en arquitectura por capas y responsabilidades del dominio.<br>*TB1:* Su texto<br>*AV2:* Su texto<br>*TB2:* Su texto<br><br>Loechle Arias, Mateo Italo:<br>*AV1:* Colaboré con Iker en el Tactical-Level DDD del Bounded Context (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer); este trabajo me permitió reforzar la definición de capas y reglas de negocio del contexto.<br>*TB1:* Su texto<br>*AV2:* Su texto<br>*TB2:* Su texto|En AV1, el equipo evidenció actualización de conocimientos al aplicar DDD estratégico y táctico, integrando modelado de dominio y arquitectura de software en entregables concretos del proyecto.|
+|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.|Axel Randall Ordoñez Ricaldi:<br>*AV1:* Investigué y apliqué nuevas técnicas de EventStorming, Context Mapping y Deployment Diagrams junto a Fabrizio, incorporando buenas prácticas de DDD para fortalecer la arquitectura del proyecto.<br>*TB1:* Su texto<br>*AV2:* Su texto<br>*TB2:* Su texto<br><br>Ccarita Cruz, Brayan Roberto:<br>*AV1:* Aprendí y apliqué criterios de arquitectura a nivel código mientras colaboraba con Mateo e Iker en las capas tácticas del Bounded Context, reforzando mi aprendizaje continuo.<br>*TB1:* Su texto<br>*AV2:* Su texto<br>*TB2:* Su texto<br><br>Panta Castro, Fabrizio Martin:<br>*AV1:* Investigué y apliqué nuevas técnicas de EventStorming, Context Mapping y Deployment Diagrams junto a Axel, validando decisiones de diseño con enfoque de mejora continua.<br>*TB1:* Su texto<br>*AV2:* Su texto<br>*TB2:* Su texto<br><br>Barturen Panez, Iker Gabriel:<br>*AV1:* Profundicé junto a Mateo en DDD táctico (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer), incorporando nuevos criterios técnicos para mejorar de forma continua el diseño del Bounded Context.<br>*TB1:* Su texto<br>*AV2:* Su texto<br>*TB2:* Su texto<br><br>Loechle Arias, Mateo Italo:<br>*AV1:* Profundicé junto a Iker en DDD táctico (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer), fortaleciendo mis competencias en separación de responsabilidades y evolución del diseño del dominio.<br>*TB1:* Su texto<br>*AV2:* Su texto<br>*TB2:* Su texto|En AV1, el grupo demostró aprendizaje permanente al investigar y adoptar nuevas técnicas de DDD y arquitectura, transfiriendo conocimiento entre integrantes y elevando la calidad técnica del trabajo colaborativo.|
 
 # Objetivos SMART
-## [Integrante 1]
-- Objetivo SMART 1: [Específico, medible, alcanzable, relevante y temporal]
-- Objetivo SMART 2: [Específico, medible, alcanzable, relevante y temporal]
+Esta sección presenta el plan de crecimiento profesional postgrado de cada integrante, con dos objetivos SMART por persona.
 
-## [Integrante 2]
-- Objetivo SMART 1: [Específico, medible, alcanzable, relevante y temporal]
-- Objetivo SMART 2: [Específico, medible, alcanzable, relevante y temporal]
+## 1. Axel Randall Ordoñez Ricaldi (U202216827)
+
+### 1.1. Especialización en Desarrollo Móvil Nativo Android
+- **Specific:** Dominar el desarrollo de aplicaciones nativas para Android utilizando Kotlin y Jetpack Compose.
+- **Measurable:** Obtener la certificación Associate Android Developer y publicar al menos 2 aplicaciones propias en Google Play Store.
+- **Achievable:** Dedicar 8 horas semanales al estudio y práctica, utilizando recursos como Android Developers y Kotlin Docs.
+- **Relevant:** Para acceder a posiciones como Android Developer en startups o empresas tech en Latinoamérica.
+- **Time-bound:** Lograr la certificación y publicar la primera app en los primeros 6 meses tras graduarse.
+
+### 1.2. Liderazgo Técnico en Proyectos Móviles
+- **Specific:** Adquirir las habilidades necesarias para liderar técnicamente equipos de desarrollo móvil.
+- **Measurable:** Aspirar a un puesto de Tech Lead o Mobile Development Manager en un plazo de 5 años.
+- **Achievable:** Buscar mentoría, tomar cursos de gestión ágil de proyectos y liderar iniciativas dentro de la empresa donde trabaje.
+- **Relevant:** Para dirigir la creación de productos móviles de alto impacto y guiar a desarrolladores junior.
+- **Time-bound:** Ocupar un puesto de liderazgo intermedio en 3 años y uno senior en 5 años.
+
+## 2. Ccarita Cruz, Brayan Roberto (U20221C218)
+
+### 2.1. Maestría en Ingeniería de Software con mención en Arquitectura
+- **Specific:** Realizar una maestría que profundice en arquitecturas de software escalables y cloud computing.
+- **Measurable:** Ser admitido y completar el programa de maestría con un promedio mayor a 16/20.
+- **Achievable:** Ahorrar un porcentaje del salario y postular a becas internacionales para financiar los estudios.
+- **Relevant:** Para diseñar sistemas backend robustos que soporten aplicaciones móviles a gran escala.
+- **Time-bound:** Iniciar la maestría en el segundo año post-graduación y finalizarla en 2 años.
+
+### 2.2. Contribuir a Proyectos Open Source de Impacto
+- **Specific:** Convertirse en un contribuidor activo de proyectos open source relacionados con el ecosistema Kotlin/Spring.
+- **Measurable:** Realizar al menos 50 contribuciones (commits, issues, PRs) a proyectos reconocidos en un año.
+- **Achievable:** Dedicar 5 horas semanales a explorar, documentar y contribuir código en GitHub.
+- **Relevant:** Para ganar reputación en la comunidad técnica, aprender de los mejores y mejorar las habilidades de coding.
+- **Time-bound:** Lograr el primer PR aceptado en los primeros 3 meses y mantener contribuciones consistentes por 12 meses.
+
+## 3. Panta Castro, Fabrizio Martin (U20231A810)
+
+### 3.1. Dominio del Desarrollo Backend con Spring Boot
+- **Specific:** Especializarme en el desarrollo de APIs RESTful robustas y escalables utilizando Spring Boot y Java.
+- **Measurable:** Diseñar e implementar 3 APIs complejas con autenticación JWT, manejo de errores y documentación Swagger/OpenAPI.
+- **Achievable:** Dedicar 10 horas semanales a practicar con proyectos personales y seguir tutoriales avanzados de Spring.
+- **Relevant:** Para trabajar como Backend Developer en empresas que requieran servicios web para aplicaciones móviles.
+- **Time-bound:** Completar la primera API en 3 meses y las tres en 9 meses.
+
+### 3.2. Certificación en Cloud AWS para Developers
+- **Specific:** Adquirir conocimientos prácticos en servicios AWS esenciales para deployment y escalabilidad de aplicaciones.
+- **Measurable:** Obtener la certificación AWS Certified Developer - Associate.
+- **Achievable:** Completar el curso "AWS Essentials" y practicar con los servicios de free tier.
+- **Relevant:** Para mejorar la empleabilidad y capacidad de desplegar aplicaciones en la nube.
+- **Time-bound:** Aprobar el examen de certificación en los primeros 8 meses tras graduarse.
+
+## 4. Barturen Panez, Iker Gabriel (U201919096)
+
+### 4.1. Especialización en Bases de Datos y Optimización
+- **Specific:** Profundizar en el diseño, implementación y optimización de bases de datos relacionales y no relacionales.
+- **Measurable:** Diseñar el esquema de base de datos para 2 aplicaciones reales y optimizar consultas complejas.
+- **Achievable:** Practicar con PostgreSQL y MongoDB, y realizar cursos avanzados de SQL y performance tuning.
+- **Relevant:** Para garantizar el rendimiento y la confiabilidad de las aplicaciones que desarrolle.
+- **Time-bound:** Dominar los conceptos avanzados en 6 meses y aplicar las optimizaciones en un proyecto real en 12 meses.
+
+### 4.2. Certificación en Metodologías Ágiles (Scrum)
+- **Specific:** Adquirir un conocimiento formal y práctico de las metodologías ágiles para mejorar la gestión de proyectos.
+- **Measurable:** Obtener la certificación Professional Scrum Master I (PSM I).
+- **Achievable:** Estudiar la guía de Scrum y realizar exámenes de práctica.
+- **Relevant:** Para trabajar eficientemente en equipos ágiles y aspirar a roles de liderazgo.
+- **Time-bound:** Obtener la certificación en los primeros 4 meses post-graduación.
+
+## 5. Loechle Arias, Mateo Italo (U202215004)
+
+### 5.1. Desarrollo Full Stack con Enfoque en Mobile Backend
+- **Specific:** Convertirme en un desarrollador full stack, con habilidades tanto en frontend móvil (Kotlin) como en backend (Spring Boot).
+- **Measurable:** Construir una aplicación completa (frontend y backend) con al menos 5 funcionalidades principales.
+- **Achievable:** Dedicar 12 horas semanales a aprender y practicar integración frontend-backend.
+- **Relevant:** Para tener una visión completa del ciclo de desarrollo y ser más versátil en el mercado laboral.
+- **Time-bound:** Completar la aplicación en 6 meses.
+
+### 5.2. Certificación en Kotlin Avanzado
+- **Specific:** Dominar aspectos avanzados de Kotlin para desarrollo móvil y backend.
+- **Measurable:** Obtener la certificación "Kotlin Certified Developer" de JetBrains.
+- **Achievable:** Realizar el curso oficial de Kotlin y practicar con ejercicios avanzados.
+- **Relevant:** Para demostrar expertise en el lenguaje principal utilizado en el proyecto Centralis.
+- **Time-bound:** Aprobar el examen de certificación en los primeros 5 meses tras graduarse.
 
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
