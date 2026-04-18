@@ -462,8 +462,174 @@ La capa de infraestructura implementa persistencia del setup de IoBuild, incluye
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+En esta seccion se presentan los diagramas de nivel codigo para **Smart Project Setup**, cubriendo el modelo del Domain Layer y su persistencia relacional.
+
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+El siguiente diagrama UML muestra clases, interfaces, enumeraciones, atributos, metodos, scopes y relaciones con multiplicidad del dominio.
+
+```mermaid
+classDiagram
+direction LR
+
+class SmartProjectSetup {
+    -SetupId id
+    -OwnerId ownerId
+    -string projectName
+    -BuildingType buildingType
+    -SetupStatus status
+    -DateTime createdAt
+    -DateTime updatedAt
+    +renameProject(name:string) void
+    +changeBuildingType(type:BuildingType) void
+    +addZone(zone:SiteZone) void
+    +assignDeviceProfile(profile:DeviceProfile) void
+    +configureConnectivity(profile:ConnectivityProfile) void
+    +validate() void
+    +provision() void
+}
+
+class SiteZone {
+    -ZoneId id
+    -string name
+    -int floor
+    -string areaType
+    -float areaM2
+    +rename(name:string) void
+    +updateArea(areaM2:float) void
+}
+
+class DeviceProfile {
+    -DeviceProfileId id
+    -SensorType sensorType
+    -int samplingIntervalSec
+    -float minThreshold
+    -float maxThreshold
+    -ProtocolType protocol
+    +changeSamplingInterval(seconds:int) void
+    +updateThresholds(min:float,max:float) void
+}
+
+class ConnectivityProfile {
+    -ConnectivityProfileId id
+    -ProtocolType protocol
+    -string gatewayHost
+    -int gatewayPort
+    -string credentialsRef
+    -int reconnectPolicySec
+    +updateGateway(host:string,port:int) void
+    +rotateCredentials(ref:string) void
+}
+
+class SetupStatus {
+    <<enumeration>>
+    DRAFT
+    VALIDATED
+    PROVISIONED
+    ARCHIVED
+}
+
+class BuildingType {
+    <<enumeration>>
+    RESIDENTIAL
+    COMMERCIAL
+    INDUSTRIAL
+    EDUCATIONAL
+}
+
+class SensorType {
+    <<enumeration>>
+    TEMPERATURE
+    HUMIDITY
+    OCCUPANCY
+    ENERGY_METER
+    AIR_QUALITY
+}
+
+class ProtocolType {
+    <<enumeration>>
+    MQTT
+    HTTP
+    MODBUS
+    BACNET
+}
+
+class SmartProjectSetupRepository {
+    <<interface>>
+    +save(setup:SmartProjectSetup) SmartProjectSetup
+    +findById(id:SetupId) SmartProjectSetup
+    +findByOwnerId(ownerId:OwnerId) List~SmartProjectSetup~
+    +existsByOwnerIdAndProjectName(ownerId:OwnerId,name:string) bool
+}
+
+class SetupValidationService {
+    <<interface>>
+    +validateCompleteness(setup:SmartProjectSetup) bool
+    +validateConnectivity(setup:SmartProjectSetup) bool
+}
+
+SmartProjectSetup "1" --> "0..*" SiteZone : contains
+SmartProjectSetup "1" --> "0..*" DeviceProfile : assigns
+SmartProjectSetup "1" --> "0..1" ConnectivityProfile : configures
+DeviceProfile "1" --> "1" SensorType : classifies
+DeviceProfile "1" --> "1" ProtocolType : uses
+ConnectivityProfile "1" --> "1" ProtocolType : uses
+SmartProjectSetup "1" --> "1" SetupStatus : has
+SmartProjectSetup "1" --> "1" BuildingType : has
+SetupValidationService ..> SmartProjectSetup : validates
+SmartProjectSetupRepository ..> SmartProjectSetup : persists
+```
+
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
+El siguiente diagrama relacional muestra tablas, columnas y constraints para la persistencia del bounded context.
+
+```mermaid
+erDiagram
+        SMART_PROJECT_SETUPS {
+        string setup_id PK
+        string owner_id
+        string project_name
+        string building_type
+        string setup_status
+                datetime created_at
+                datetime updated_at
+        }
+
+        SITE_ZONES {
+        string zone_id PK
+        string setup_id FK
+        string name
+                int floor
+        string area_type
+        float area_m2
+                datetime created_at
+        }
+
+        DEVICE_PROFILES {
+        string device_profile_id PK
+        string setup_id FK
+        string sensor_type
+                int sampling_interval_sec
+        float min_threshold
+        float max_threshold
+        string protocol
+                datetime created_at
+        }
+
+        CONNECTIVITY_PROFILES {
+        string connectivity_profile_id PK
+        string setup_id FK
+        string protocol
+        string gateway_host
+                int gateway_port
+        string credentials_ref
+                int reconnect_policy_sec
+                datetime updated_at
+        }
+
+        SMART_PROJECT_SETUPS ||--o{ SITE_ZONES : "has zones"
+        SMART_PROJECT_SETUPS ||--o{ DEVICE_PROFILES : "has profiles"
+        SMART_PROJECT_SETUPS ||--o| CONNECTIVITY_PROFILES : "has connectivity"
+```
 
 ### 4.2.2. Bounded Context: Service Execution and Monitoring
 #### 4.2.2.1. Domain Layer
@@ -483,7 +649,7 @@ En **IoBuild**, este bounded context gestiona la ejecucion operativa de servicio
 - **MetricType:** tipo de metrica (CPU_USAGE, MEMORY_USAGE, LATENCY, ERROR_RATE, THROUGHPUT).
 - **AlertSeverity:** severidad de alerta (INFO, WARNING, CRITICAL).
 
-### Domain Behavior and Invariants
+##### Domain Behavior and Invariants
 
 Los aggregates del dominio encapsulan reglas de negocio y comportamiento operativo.
 
@@ -501,7 +667,7 @@ Los aggregates del dominio encapsulan reglas de negocio y comportamiento operati
 - Una ejecución finalizada no puede reiniciarse sin crear una nueva instancia.
 - Las métricas solo pueden registrarse para ejecuciones activas.
 
-### Domain Events
+##### Domain Events
 
 El bounded context publica eventos del dominio para permitir integración desacoplada con otros contextos.
 
@@ -586,8 +752,164 @@ La capa de infraestructura implementa persistencia de ejecuciones, metricas y al
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+En esta seccion se presenta el detalle de implementacion para **Service Execution and Monitoring**, incluyendo estructura de dominio y modelo de persistencia.
+
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+```mermaid
+classDiagram
+direction LR
+
+class ServiceExecution {
+    -ExecutionId id
+    -ProjectId projectId
+    -ServiceId serviceId
+    -ExecutionStatus status
+    -DateTime startedAt
+    -DateTime finishedAt
+    -string resultSummary
+    +startExecution() void
+    +stopExecution() void
+    +retryExecution() void
+    +completeExecution() void
+    +failExecution(reason:string) void
+    +registerMonitoringMetric(metric:MonitoringMetric) void
+}
+
+class ExecutionTask {
+    -TaskId id
+    -ExecutionId executionId
+    -int taskOrder
+    -string command
+    -TaskStatus status
+    -int durationMs
+    +start() void
+    +complete() void
+    +fail(reason:string) void
+}
+
+class MonitoringMetric {
+    -MetricId id
+    -ExecutionId executionId
+    -MetricType type
+    -float value
+    -string unit
+    -DateTime timestamp
+}
+
+class ServiceAlert {
+    -AlertId id
+    -ProjectId projectId
+    -AlertSeverity severity
+    -string message
+    -bool resolved
+    -DateTime createdAt
+    +resolve() void
+}
+
+class ExecutionStatus {
+    <<enumeration>>
+    QUEUED
+    RUNNING
+    SUCCESS
+    FAILED
+    CANCELLED
+    TIMEOUT
+}
+
+class TaskStatus {
+    <<enumeration>>
+    PENDING
+    RUNNING
+    COMPLETED
+    FAILED
+    SKIPPED
+}
+
+class MetricType {
+    <<enumeration>>
+    CPU_USAGE
+    MEMORY_USAGE
+    LATENCY
+    ERROR_RATE
+    THROUGHPUT
+}
+
+class AlertSeverity {
+    <<enumeration>>
+    INFO
+    WARNING
+    CRITICAL
+}
+
+class ServiceExecutionRepository {
+    <<interface>>
+    +save(exec:ServiceExecution) ServiceExecution
+    +findById(id:ExecutionId) ServiceExecution
+    +findActiveByProjectId(projectId:ProjectId) List~ServiceExecution~
+}
+
+class AlertManagementService {
+    <<interface>>
+    +raiseAlert(alert:ServiceAlert) ServiceAlert
+    +resolveAlert(alertId:AlertId) void
+}
+
+ServiceExecution "1" --> "1..*" ExecutionTask : orchestrates
+ServiceExecution "1" --> "0..*" MonitoringMetric : emits
+ServiceExecution "1" --> "1" ExecutionStatus : has
+ExecutionTask "1" --> "1" TaskStatus : has
+MonitoringMetric "1" --> "1" MetricType : classifies
+ServiceAlert "1" --> "1" AlertSeverity : has
+AlertManagementService ..> ServiceAlert : manages
+ServiceExecutionRepository ..> ServiceExecution : persists
+```
+
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+```mermaid
+erDiagram
+        SERVICE_EXECUTIONS {
+        string execution_id PK
+        string project_id
+        string service_id
+        string status
+                datetime started_at
+                datetime finished_at
+        string result_summary
+        }
+
+        EXECUTION_TASKS {
+        string task_id PK
+        string execution_id FK
+                int task_order
+        string command
+        string status
+                int duration_ms
+        }
+
+        MONITORING_METRICS {
+        string metric_id PK
+        string execution_id FK
+        string metric_type
+        float metric_value
+        string unit
+                datetime measured_at
+        }
+
+        SERVICE_ALERTS {
+        string alert_id PK
+        string project_id
+        string severity
+        string message
+        boolean resolved
+                datetime created_at
+                datetime resolved_at
+        }
+
+        SERVICE_EXECUTIONS ||--|{ EXECUTION_TASKS : "contains tasks"
+        SERVICE_EXECUTIONS ||--o{ MONITORING_METRICS : "registers metrics"
+```
 
 ### 4.2.3. Bounded Context: Smart Assistant
 #### 4.2.3.1. Domain Layer
@@ -675,7 +997,7 @@ La capa de infraestructura implementa persistencia de conversaciones, mensajes, 
 - **AssistantRecommendationRepository:** recomendaciones por proyecto, prioridad y estado de aceptacion.
 - **AssistantActionPlanRepository:** planes de accion por recommendationId.
 
-### Aggregate Persistence Rule
+##### Aggregate Persistence Rule
 
 ExecutionTask es una entidad interna del aggregate ServiceExecution y su persistencia se gestiona a través de ServiceExecutionRepository para mantener consistencia transaccional del aggregate.
 
@@ -683,8 +1005,164 @@ ExecutionTask es una entidad interna del aggregate ServiceExecution y su persist
 ![Smart Assistant Infrastructure Diagram](https://instasize.com/api/image/30c135e534c0d290f7f1eb2b52a4639e2d8ea4d833724136d9d91420f37e6c99.png)
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+En esta seccion se presenta el nivel de codigo del bounded context **Smart Assistant**, incluyendo su modelo de dominio y esquema de base de datos.
+
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+```mermaid
+classDiagram
+direction LR
+
+class AssistantConversation {
+    -ConversationId id
+    -ProjectId projectId
+    -UserId userId
+    -AssistantChannel channel
+    -ConversationStatus status
+    -DateTime startedAt
+    -DateTime closedAt
+    +startConversation() void
+    +receiveUserMessage(content:string) void
+    +generateAssistantResponse() AssistantMessage
+    +closeConversation() void
+}
+
+class AssistantMessage {
+    -MessageId id
+    -ConversationId conversationId
+    -MessageRole role
+    -string content
+    -string metadataJson
+    -DateTime sentAt
+}
+
+class AssistantRecommendation {
+    -RecommendationId id
+    -ConversationId conversationId
+    -RecommendationType type
+    -RecommendationPriority priority
+    -string summary
+    -bool accepted
+    +accept() void
+    +dismiss() void
+}
+
+class AssistantActionPlan {
+    -ActionPlanId id
+    -RecommendationId recommendationId
+    -string stepsJson
+    -string executionStatus
+    +createFromRecommendation(rec:AssistantRecommendation) AssistantActionPlan
+}
+
+class ConversationStatus {
+    <<enumeration>>
+    OPEN
+    WAITING_CONTEXT
+    RESOLVED
+    CLOSED
+}
+
+class MessageRole {
+    <<enumeration>>
+    USER
+    ASSISTANT
+    SYSTEM
+}
+
+class AssistantChannel {
+    <<enumeration>>
+    WEB_CHAT
+    MOBILE_CHAT
+    API
+}
+
+class RecommendationType {
+    <<enumeration>>
+    ALERT_TRIAGE
+    SERVICE_TUNING
+    ENERGY_OPTIMIZATION
+    MAINTENANCE
+}
+
+class RecommendationPriority {
+    <<enumeration>>
+    LOW
+    MEDIUM
+    HIGH
+    CRITICAL
+}
+
+class AssistantConversationRepository {
+    <<interface>>
+    +save(conversation:AssistantConversation) AssistantConversation
+    +findById(id:ConversationId) AssistantConversation
+    +findByProjectId(projectId:ProjectId) List~AssistantConversation~
+}
+
+class AssistantAIService {
+    <<interface>>
+    +generateResponse(context:string) string
+    +generateRecommendations(context:string) List~AssistantRecommendation~
+}
+
+AssistantConversation "1" --> "1..*" AssistantMessage : contains
+AssistantConversation "1" --> "0..*" AssistantRecommendation : generates
+AssistantRecommendation "1" --> "0..1" AssistantActionPlan : derives
+AssistantConversation "1" --> "1" ConversationStatus : has
+AssistantMessage "1" --> "1" MessageRole : has
+AssistantConversation "1" --> "1" AssistantChannel : uses
+AssistantRecommendation "1" --> "1" RecommendationType : classifies
+AssistantRecommendation "1" --> "1" RecommendationPriority : has
+AssistantAIService ..> AssistantConversation : assists
+AssistantConversationRepository ..> AssistantConversation : persists
+```
+
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+```mermaid
+erDiagram
+        ASSISTANT_CONVERSATIONS {
+        string conversation_id PK
+        string project_id
+        string user_id
+        string channel
+        string status
+                datetime started_at
+                datetime closed_at
+        }
+
+        ASSISTANT_MESSAGES {
+        string message_id PK
+        string conversation_id FK
+        string role
+                text content
+        string metadata_json
+                datetime sent_at
+        }
+
+        ASSISTANT_RECOMMENDATIONS {
+        string recommendation_id PK
+        string conversation_id FK
+        string recommendation_type
+        string priority
+                text summary
+        boolean accepted
+                datetime created_at
+        }
+
+        ASSISTANT_ACTION_PLANS {
+        string action_plan_id PK
+        string recommendation_id FK
+        string steps_json
+        string execution_status
+                datetime created_at
+        }
+
+        ASSISTANT_CONVERSATIONS ||--|{ ASSISTANT_MESSAGES : "stores messages"
+        ASSISTANT_CONVERSATIONS ||--o{ ASSISTANT_RECOMMENDATIONS : "produces recommendations"
+        ASSISTANT_RECOMMENDATIONS ||--o| ASSISTANT_ACTION_PLANS : "derives plan"
+```
 
 ### 4.2.4. Bounded Context: Energy Management
 #### 4.2.4.1. Domain Layer
@@ -704,7 +1182,7 @@ En **IoBuild**, este bounded context gestiona la medicion, analisis y optimizaci
 - **AnomalySeverity:** severidad de anomalia (LOW, MEDIUM, HIGH, CRITICAL).
 - **DemandResponseStatus:** estado del evento de respuesta (CREATED, IN_PROGRESS, EXECUTED, FAILED, CLOSED).
 
-### Domain Behavior and Invariants
+##### Domain Behavior and Invariants
 
 **AssistantConversation Behavior**
 - startConversation()
@@ -718,7 +1196,7 @@ En **IoBuild**, este bounded context gestiona la medicion, analisis y optimizaci
 - Toda recomendación debe estar asociada a una conversación activa.
 - Los planes de acción solo pueden generarse desde recomendaciones existentes.
 
-### Domain Events
+##### Domain Events
 
 - AssistantConversationStarted
 - AssistantMessageReceived
@@ -799,7 +1277,7 @@ La capa de infraestructura implementa persistencia de planes de optimizacion, le
 **Energy Management Infrastructure Diagram**
 ![Energy Management Infrastructure Diagram](https://instasize.com/api/image/ebde2d543f68889ecb0ca0460f113851d31f2dafc5549e80d83402882b863d54.png)
 
-### AI Integration Anti-Corruption Layer
+##### AI Integration Anti-Corruption Layer
 
 Para evitar acoplamiento directo con proveedores externos de inteligencia artificial, el sistema define:
 
@@ -814,8 +1292,175 @@ Este patrón protege el dominio frente a cambios tecnológicos del proveedor IA.
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+En esta seccion se presenta el detalle de implementacion de **Energy Management** a nivel de clases de dominio y persistencia relacional.
+
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+```mermaid
+classDiagram
+direction LR
+
+class EnergyOptimizationPlan {
+    -EnergyPlanId id
+    -ProjectId projectId
+    -float baselineKwh
+    -float reductionTargetPercent
+    -DateRange applicationWindow
+    -OptimizationStatus status
+    +activate() void
+    +pause() void
+    +complete() void
+}
+
+class EnergyConsumptionRecord {
+    -ConsumptionRecordId id
+    -ProjectId projectId
+    -ZoneId zoneId
+    -MeterId meterId
+    -float value
+    -EnergyUnit unit
+    -ConsumptionPeriod period
+    -DateTime recordedAt
+}
+
+class EnergyAnomaly {
+    -AnomalyId id
+    -ProjectId projectId
+    -ZoneId zoneId
+    -AnomalySeverity severity
+    -string detectedPattern
+    -bool acknowledged
+    +acknowledge() void
+}
+
+class DemandResponseEvent {
+    -ResponseEventId id
+    -ProjectId projectId
+    -string eventName
+    -DemandResponseStatus status
+    -DateTime startsAt
+    -DateTime endsAt
+    +start() void
+    +complete() void
+}
+
+class OptimizationStatus {
+    <<enumeration>>
+    DRAFT
+    ACTIVE
+    PAUSED
+    COMPLETED
+    CANCELLED
+}
+
+class ConsumptionPeriod {
+    <<enumeration>>
+    HOURLY
+    DAILY
+    WEEKLY
+    MONTHLY
+}
+
+class EnergyUnit {
+    <<enumeration>>
+    WH
+    KWH
+    MWH
+}
+
+class AnomalySeverity {
+    <<enumeration>>
+    LOW
+    MEDIUM
+    HIGH
+    CRITICAL
+}
+
+class DemandResponseStatus {
+    <<enumeration>>
+    CREATED
+    IN_PROGRESS
+    EXECUTED
+    FAILED
+    CLOSED
+}
+
+class EnergyOptimizationPlanRepository {
+    <<interface>>
+    +save(plan:EnergyOptimizationPlan) EnergyOptimizationPlan
+    +findById(id:EnergyPlanId) EnergyOptimizationPlan
+    +findByProjectId(projectId:ProjectId) List~EnergyOptimizationPlan~
+}
+
+class EnergySavingsAnalysisService {
+    <<interface>>
+    +calculateSavings(projectId:ProjectId,period:ConsumptionPeriod) float
+}
+
+EnergyOptimizationPlan "1" --> "0..*" EnergyConsumptionRecord : analyzes
+EnergyOptimizationPlan "1" --> "0..*" EnergyAnomaly : reacts to
+EnergyOptimizationPlan "1" --> "0..*" DemandResponseEvent : triggers
+EnergyOptimizationPlan "1" --> "1" OptimizationStatus : has
+EnergyConsumptionRecord "1" --> "1" ConsumptionPeriod : has
+EnergyConsumptionRecord "1" --> "1" EnergyUnit : has
+EnergyAnomaly "1" --> "1" AnomalySeverity : has
+DemandResponseEvent "1" --> "1" DemandResponseStatus : has
+EnergySavingsAnalysisService ..> EnergyConsumptionRecord : analyzes
+EnergyOptimizationPlanRepository ..> EnergyOptimizationPlan : persists
+```
+
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+```mermaid
+erDiagram
+        ENERGY_OPTIMIZATION_PLANS {
+        string energy_plan_id PK
+        string project_id
+        float baseline_kwh
+        float reduction_target_percent
+                datetime window_start
+                datetime window_end
+        string status
+                datetime created_at
+        }
+
+        ENERGY_CONSUMPTION_RECORDS {
+        string consumption_record_id PK
+        string energy_plan_id FK
+        string project_id
+        string zone_id
+        string meter_id
+        float value
+        string unit
+        string period
+                datetime recorded_at
+        }
+
+        ENERGY_ANOMALIES {
+        string anomaly_id PK
+        string energy_plan_id FK
+        string project_id
+        string zone_id
+        string severity
+        string detected_pattern
+        boolean acknowledged
+                datetime detected_at
+        }
+
+        DEMAND_RESPONSE_EVENTS {
+        string response_event_id PK
+        string energy_plan_id FK
+        string project_id
+        string event_name
+        string status
+                datetime starts_at
+                datetime ends_at
+        }
+
+        ENERGY_OPTIMIZATION_PLANS ||--o{ ENERGY_CONSUMPTION_RECORDS : "contains records"
+        ENERGY_OPTIMIZATION_PLANS ||--o{ ENERGY_ANOMALIES : "detects anomalies"
+        ENERGY_OPTIMIZATION_PLANS ||--o{ DEMAND_RESPONSE_EVENTS : "schedules events"
+```
 
 # Capítulo V: Solution UI/UX Design
 ## 4.1. Style Guidelines.
