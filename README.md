@@ -1,27 +1,40 @@
 <p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>Desarrollo de Aplicaciones Open Source - 7461</strong><br>
-    <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
-    <br>INFORME TRABAJO FINAL
+    <strong>2026-10</strong><br>
+    <strong>Aplicaciones para Dispositivos Móviles</strong><br>
+    <strong>3687</strong><br>
+    <strong>Profesor: David Gerardo Quevedo Velasco</strong><br>
+    <br>Informe de Trabajo Final<br>
 </p>
 
+<center>
+
 #### Startup: **CcaritaTech**
-#### Product: **--**
+#### Product: **IoBuild**
 
-### Team Members
+</center>
 
-| Member                           | Code       |
-|----------------------------------|------------|
-| Apellidos y Nombres              | U20XXXXXX  |
-| Apellidos y Nombres              | U20XXXXXX  |
-| Apellidos y Nombres              | U20XXXXXX  |
-| Apellidos y Nombres              | U20XXXXXX  |
-| Apellidos y Nombres              | U20XXXXXX  |
-| Apellidos y Nombres              | U20XXXXXX  |
+### <center>Miembros del Equipo:</center>
 
-AGOSTO 2024
+<div style="display: flex; justify-content: center;">
+<div>
+
+| Code        | Member                        |
+|-------------|-------------------------------|
+| U202312629  | Barturen Panez, Iker Gabriel  |
+| U20221C218  | Ccarita Cruz, Brayan Roberto  |
+| U202215004  | Loechle Arias, Mateo Italo    |
+| U202216827  | Ordoñez Ricaldi, Axel Randall |
+| U20231A810  | Panta Castro, Fabrizio Martin |
+
+</div>
+</div>
+
+
+<br> <center>Abril 2026</center>
+<div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
 
