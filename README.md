@@ -68,6 +68,28 @@ Esta sección presenta el plan de crecimiento profesional postgrado de cada inte
 - **Relevant:** Para acceder a posiciones como Android Developer en startups o empresas tech en Latinoamérica.
 - **Time-bound:** Lograr la certificación y publicar la primera app en los primeros 6 meses tras graduarse.
 
+### 1.2. Liderazgo Técnico en Proyectos Móviles
+- **Specific:** Adquirir las habilidades necesarias para liderar técnicamente equipos de desarrollo móvil.
+- **Measurable:** Aspirar a un puesto de Tech Lead o Mobile Development Manager en un plazo de 5 años.
+- **Achievable:** Buscar mentoría, tomar cursos de gestión ágil de proyectos y liderar iniciativas dentro de la empresa donde trabaje.
+- **Relevant:** Para dirigir la creación de productos móviles de alto impacto y guiar a desarrolladores junior.
+- **Time-bound:** Ocupar un puesto de liderazgo intermedio en 3 años y uno senior en 5 años.
+
+## 2. Ccarita Cruz, Brayan Roberto (U20221C218)
+
+### 2.1. Maestría en Ingeniería de Software con mención en Arquitectura
+- **Specific:** Realizar una maestría que profundice en arquitecturas de software escalables y cloud computing.
+- **Measurable:** Ser admitido y completar el programa de maestría con un promedio mayor a 16/20.
+- **Achievable:** Ahorrar un porcentaje del salario y postular a becas internacionales para financiar los estudios.
+- **Relevant:** Para diseñar sistemas backend robustos que soporten aplicaciones móviles a gran escala.
+- **Time-bound:** Iniciar la maestría en el segundo año post-graduación y finalizarla en 2 años.
+
+### 2.2. Contribuir a Proyectos Open Source de Impacto
+- **Specific:** Convertirse en un contribuidor activo de proyectos open source relacionados con el ecosistema Kotlin/Spring.
+- **Measurable:** Realizar al menos 50 contribuciones (commits, issues, PRs) a proyectos reconocidos en un año.
+- **Achievable:** Dedicar 5 horas semanales a explorar, documentar y contribuir código en GitHub.
+- **Relevant:** Para ganar reputación en la comunidad técnica, aprender de los mejores y mejorar las habilidades de coding.
+- **Time-bound:** Lograr el primer PR aceptado en los primeros 3 meses y mantener contribuciones consistentes por 12 meses.
 
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
