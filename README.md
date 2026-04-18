@@ -107,6 +107,23 @@ Esta sección presenta el plan de crecimiento profesional postgrado de cada inte
 - **Relevant:** Para mejorar la empleabilidad y capacidad de desplegar aplicaciones en la nube.
 - **Time-bound:** Aprobar el examen de certificación en los primeros 8 meses tras graduarse.
 
+## 4. Barturen Panez, Iker Gabriel (U201919096)
+
+### 4.1. Especialización en Bases de Datos y Optimización
+- **Specific:** Profundizar en el diseño, implementación y optimización de bases de datos relacionales y no relacionales.
+- **Measurable:** Diseñar el esquema de base de datos para 2 aplicaciones reales y optimizar consultas complejas.
+- **Achievable:** Practicar con PostgreSQL y MongoDB, y realizar cursos avanzados de SQL y performance tuning.
+- **Relevant:** Para garantizar el rendimiento y la confiabilidad de las aplicaciones que desarrolle.
+- **Time-bound:** Dominar los conceptos avanzados en 6 meses y aplicar las optimizaciones en un proyecto real en 12 meses.
+
+### 4.2. Certificación en Metodologías Ágiles (Scrum)
+- **Specific:** Adquirir un conocimiento formal y práctico de las metodologías ágiles para mejorar la gestión de proyectos.
+- **Measurable:** Obtener la certificación Professional Scrum Master I (PSM I).
+- **Achievable:** Estudiar la guía de Scrum y realizar exámenes de práctica.
+- **Relevant:** Para trabajar eficientemente en equipos ágiles y aspirar a roles de liderazgo.
+- **Time-bound:** Obtener la certificación en los primeros 4 meses post-graduación.
+
+
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
