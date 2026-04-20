@@ -461,6 +461,95 @@ La capa de infraestructura implementa persistencia del setup de IoBuild, incluye
 ![Smart Project Setup Infrastructure Diagram](https://instasize.com/api/image/7b5799c5a59f8baa058ce64b7ac8c866100f4a3f54a18da83b6da5bd5d9c55f4.png)
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+<!--
+workspace "IoBuild - Smart Project Setup (Component Diagram)" "C4 Component Diagram del bounded context Smart Project Setup" {
+    model {
+        builder  = person "Builder"   "Configura proyectos y perfiles IoT."
+        landlord = person "Landlord"  "Supervisa el setup del proyecto."
+
+        iobuild = softwareSystem "IoBuild" {
+
+            spsApi = container "Smart Project Setup API" "Gestiona setup, zonas y perfiles." "ASP.NET Core Web API" {
+                spsController      = component "SmartProjectSetupsController"         "Endpoints de setup."                  "ASP.NET Core MVC Controller"
+                zonesController    = component "SetupZonesController"                  "Endpoints de zonas."                  "ASP.NET Core MVC Controller"
+                profilesController = component "SetupProfilesController"               "Endpoints de perfiles y conectividad." "ASP.NET Core MVC Controller"
+                cmdService         = component "SmartProjectSetupCommandServiceImpl"   "Casos de uso de comando."             "Application Service (C#)"
+                qryService         = component "SmartProjectSetupQueryServiceImpl"     "Casos de uso de consulta."            "Application Service (C#)"
+                zoneCmdService     = component "ZoneConfigurationCommandServiceImpl"   "Reglas de zonas."                     "Application Service (C#)"
+                profileCmdService  = component "DeviceProfileConfigurationServiceImpl" "Reglas de perfiles IoT."              "Application Service (C#)"
+                aggregate          = component "SmartProjectSetup Aggregate"           "Invariantes del dominio."             "Domain Model (DDD)"
+                validation         = component "SetupValidationService"                "Validaciones de negocio."             "Domain Service"
+                setupRepo          = component "SmartProjectSetupRepository"          "Persistencia de setup."               "Repository"
+                zoneRepo           = component "SiteZoneRepository"                    "Persistencia de zonas."               "Repository"
+                profileRepo        = component "DeviceProfileRepository"              "Persistencia de perfiles."            "Repository"
+                connectivityRepo   = component "ConnectivityProfileRepository"         "Persistencia de conectividad."        "Repository"
+            }
+
+            mysql    = container "MySQL Database" "Persistencia transaccional."       "MySQL 8"
+            eventBus = container "Event Bus"      "Publicación de eventos de dominio." "RabbitMQ / Kafka"
+        }
+
+        builder  -> spsApi "Usa"      "HTTPS/JSON"
+        landlord -> spsApi "Consulta" "HTTPS/JSON"
+
+        spsController      -> cmdService        "Envía comandos"
+        spsController      -> qryService        "Envía queries"
+        zonesController    -> zoneCmdService    "Envía comandos"
+        profilesController -> profileCmdService "Envía comandos"
+
+        cmdService        -> aggregate "Orquesta"
+        qryService        -> aggregate "Lee"
+        zoneCmdService    -> aggregate "Modifica"
+        profileCmdService -> aggregate "Modifica"
+
+        aggregate -> validation "Valida reglas"
+
+        cmdService        -> setupRepo        "Persiste"
+        qryService        -> setupRepo        "Consulta"
+        zoneCmdService    -> zoneRepo         "Persiste"
+        profileCmdService -> profileRepo      "Persiste"
+        profileCmdService -> connectivityRepo "Persiste"
+
+        setupRepo        -> mysql "CRUD" "SQL/TCP"
+        zoneRepo         -> mysql "CRUD" "SQL/TCP"
+        profileRepo      -> mysql "CRUD" "SQL/TCP"
+        connectivityRepo -> mysql "CRUD" "SQL/TCP"
+
+        aggregate -> eventBus "Publica eventos" "AMQP/Kafka"
+    }
+
+    views {
+        component spsApi "SPS-Component" {
+            include *
+            autolayout lr
+        }
+
+        styles {
+            element "Person" {
+                background #08427b
+                color #ffffff
+                shape person
+            }
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+            element "Container" {
+                background #438dd5
+                color #ffffff
+            }
+            element "Component" {
+                background #85bbf0
+                color #000000
+            }
+        }
+    }
+}
+
+-->
+
+![Diagram C4](https://i.imgur.com/EZ0QtVR.png)
+
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 En esta seccion se presentan los diagramas de nivel codigo para **Smart Project Setup**, cubriendo el modelo del Domain Layer y su persistencia relacional.
 
@@ -751,6 +840,106 @@ La capa de infraestructura implementa persistencia de ejecuciones, metricas y al
 ![Service Execution and Monitoring Infrastructure Diagram](https://instasize.com/api/image/6c9a8603ca4cac961870fdedc0c763647510ccd982a43e0e2128bb56cbe5cdd4.png)
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+<!--
+workspace "IoBuild - Service Execution & Monitoring (Component Diagram)" "C4 Component Diagram del bounded context Service Execution and Monitoring" {
+
+    model {
+        builder  = person "Builder"  "Opera servicios."
+        landlord = person "Landlord" "Monitorea estado operativo."
+
+        iobuild = softwareSystem "IoBuild" {
+
+            semApi = container "Service Execution & Monitoring API" "Ejecuta servicios, monitorea métricas y alertas." "ASP.NET Core Web API" {
+                execController    = component "ServiceExecutionsController"        "Endpoints de ejecución."     "ASP.NET Core MVC Controller"
+                monitorController = component "ServiceMonitoringController"        "Endpoints de métricas/salud." "ASP.NET Core MVC Controller"
+                alertsController  = component "ServiceAlertsController"            "Endpoints de alertas."       "ASP.NET Core MVC Controller"
+
+                execCmd    = component "ServiceExecutionCommandServiceImpl" "Comandos de ejecución."  "Application Service (C#)"
+                execQry    = component "ServiceExecutionQueryServiceImpl"   "Queries de ejecución."   "Application Service (C#)"
+                monitorCmd = component "MonitoringCommandServiceImpl"       "Comandos de monitoreo."  "Application Service (C#)"
+                monitorQry = component "MonitoringQueryServiceImpl"         "Queries de monitoreo."   "Application Service (C#)"
+                alertCmd   = component "AlertManagementServiceImpl"         "Comandos de alertas."    "Application Service (C#)"
+                alertQry   = component "AlertQueryServiceImpl"              "Queries de alertas."     "Application Service (C#)"
+
+                executionAgg = component "ServiceExecution Aggregate" "Ciclo de vida de ejecuciones y tareas." "Domain Model (DDD)"
+                alertEntity  = component "ServiceAlert Entity"        "Modelo de alertas."                     "Domain Entity"
+                healthSvc    = component "HealthEvaluationService"    "Evalúa estado de salud."                "Domain Service"
+
+                executionRepo = component "ServiceExecutionRepository" "Persistencia de ejecuciones." "Repository"
+                taskRepo      = component "ExecutionTaskRepository"    "Persistencia de tareas."      "Repository"
+                metricRepo    = component "MonitoringMetricRepository" "Persistencia de métricas."    "Repository"
+                alertRepo     = component "ServiceAlertRepository"     "Persistencia de alertas."     "Repository"
+            }
+
+            mysql         = container "MySQL Database"      "Persistencia operativa." "MySQL 8"
+            observability = container "Observability Stream" "Eventos/telemetría."     "Kafka / OpenTelemetry"
+        }
+
+        builder  -> semApi "Usa"      "HTTPS/JSON"
+        landlord -> semApi "Consulta" "HTTPS/JSON"
+
+        execController    -> execCmd    "Comandos"
+        execController    -> execQry    "Queries"
+        monitorController -> monitorCmd "Comandos"
+        monitorController -> monitorQry "Queries"
+        alertsController  -> alertCmd   "Comandos"
+        alertsController  -> alertQry   "Queries"
+
+        execCmd    -> executionAgg "Orquesta"
+        execQry    -> executionAgg "Consulta"
+        monitorCmd -> executionAgg "Registra métricas"
+        monitorQry -> executionAgg "Consulta métricas"
+        alertCmd   -> alertEntity  "Gestiona"
+        alertQry   -> alertEntity  "Consulta"
+        executionAgg -> healthSvc  "Evalúa salud"
+
+        execCmd    -> executionRepo "Persiste"
+        execQry    -> executionRepo "Consulta"
+        execCmd    -> taskRepo      "Persiste tareas"
+        monitorCmd -> metricRepo    "Persiste métricas"
+        monitorQry -> metricRepo    "Consulta métricas"
+        alertCmd   -> alertRepo     "Persiste alertas"
+        alertQry   -> alertRepo     "Consulta alertas"
+
+        executionRepo -> mysql "CRUD" "SQL/TCP"
+        taskRepo      -> mysql "CRUD" "SQL/TCP"
+        metricRepo    -> mysql "CRUD" "SQL/TCP"
+        alertRepo     -> mysql "CRUD" "SQL/TCP"
+
+        executionAgg -> observability "Publica eventos" "Kafka/OTel"
+    }
+
+    views {
+        component semApi "SEM-Component" {
+            include *
+            autolayout lr
+        }
+
+        styles {
+            element "Person" {
+                background #08427b
+                color #ffffff
+                shape person
+            }
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+            element "Container" {
+                background #438dd5
+                color #ffffff
+            }
+            element "Component" {
+                background #85bbf0
+                color #000000
+            }
+        }
+    }
+}
+-->
+![Diagrama C4](https://i.imgur.com/p8nHO38.png)
+
+
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 En esta seccion se presenta el detalle de implementacion para **Service Execution and Monitoring**, incluyendo estructura de dominio y modelo de persistencia.
 
@@ -1004,6 +1193,113 @@ ExecutionTask es una entidad interna del aggregate ServiceExecution y su persist
 **Smart Assistant Infrastructure Diagram**
 ![Smart Assistant Infrastructure Diagram](https://instasize.com/api/image/30c135e534c0d290f7f1eb2b52a4639e2d8ea4d833724136d9d91420f37e6c99.png)
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+<!--
+workspace "IoBuild - Smart Assistant (Component Diagram)" "C4 Component Diagram del bounded context Smart Assistant" {
+
+    model {
+        builder = person "Builder" "Usa asistencia contextual."
+        landlord = person "Landlord" "Solicita recomendaciones."
+
+        llm = softwareSystem "External LLM Provider" "Proveedor IA externo (OpenAI u otro)."
+
+        iobuild = softwareSystem "IoBuild" {
+
+            mysql = container "MySQL Database" "Persistencia conversacional." "MySQL 8"
+
+            saApi = container "Smart Assistant API" "Conversaciones, recomendaciones y planes de acción." "ASP.NET Core Web API" {
+                convController = component "AssistantConversationsController" "Endpoints de conversación." "ASP.NET Core MVC Controller"
+                recController = component "AssistantRecommendationsController" "Endpoints de recomendaciones." "ASP.NET Core MVC Controller"
+                planController = component "AssistantActionPlansController" "Endpoints de planes." "ASP.NET Core MVC Controller"
+
+                convCmd = component "AssistantConversationCommandServiceImpl" "Comandos de conversación." "Application Service (C#)"
+                convQry = component "AssistantConversationQueryServiceImpl" "Queries de conversación." "Application Service (C#)"
+                recCmd = component "AssistantRecommendationCommandServiceImpl" "Comandos de recomendación." "Application Service (C#)"
+                recQry = component "AssistantRecommendationQueryServiceImpl" "Queries de recomendación." "Application Service (C#)"
+                planCmd = component "AssistantActionPlanCommandServiceImpl" "Comandos de plan." "Application Service (C#)"
+                planQry = component "AssistantActionPlanQueryServiceImpl" "Queries de plan." "Application Service (C#)"
+
+                conversationAgg = component "AssistantConversation Aggregate" "Reglas de conversación y contexto." "Domain Model (DDD)"
+                recommendationEntity = component "AssistantRecommendation Entity" "Recomendaciones accionables." "Domain Entity"
+                actionPlanEntity = component "AssistantActionPlan Entity" "Planes accionables." "Domain Entity"
+
+                aiPort = component "AssistantAIService" "Puerto de dominio para IA (ACL)." "Domain Interface"
+                aiAdapter = component "OpenAIAssistantAdapter / ExternalLLMAdapter" "Adaptador infraestructura a proveedor externo." "Infrastructure Adapter"
+
+                convRepo = component "AssistantConversationRepository" "Persistencia de conversaciones." "Repository"
+                msgRepo = component "AssistantMessageRepository" "Persistencia de mensajes." "Repository"
+                recRepo = component "AssistantRecommendationRepository" "Persistencia de recomendaciones." "Repository"
+                planRepo = component "AssistantActionPlanRepository" "Persistencia de planes." "Repository"
+            }
+        }
+
+        builder -> saApi "Usa" "HTTPS/JSON"
+        landlord -> saApi "Usa" "HTTPS/JSON"
+
+        convController -> convCmd "Comandos"
+        convController -> convQry "Queries"
+        recController -> recCmd "Comandos"
+        recController -> recQry "Queries"
+        planController -> planCmd "Comandos"
+        planController -> planQry "Queries"
+
+        convCmd -> conversationAgg "Orquesta"
+        convQry -> conversationAgg "Consulta"
+        recCmd -> recommendationEntity "Gestiona"
+        recQry -> recommendationEntity "Consulta"
+        planCmd -> actionPlanEntity "Gestiona"
+        planQry -> actionPlanEntity "Consulta"
+
+        convCmd -> aiPort "Solicita generación"
+        recCmd -> aiPort "Solicita recomendaciones"
+        aiAdapter -> aiPort "Implementa"
+        aiAdapter -> llm "Invoca API" "HTTPS"
+
+        convCmd -> convRepo "Persiste"
+        convQry -> convRepo "Consulta"
+        convCmd -> msgRepo "Persiste"
+        recCmd -> recRepo "Persiste"
+        recQry -> recRepo "Consulta"
+        planCmd -> planRepo "Persiste"
+        planQry -> planRepo "Consulta"
+
+        convRepo -> mysql "CRUD" "SQL/TCP"
+        msgRepo -> mysql "CRUD" "SQL/TCP"
+        recRepo -> mysql "CRUD" "SQL/TCP"
+        planRepo -> mysql "CRUD" "SQL/TCP"
+    }
+
+    views {
+        component saApi "SA-Component" {
+            include *
+            autolayout lr
+        }
+
+        styles {
+            element "Person" {
+                background #08427b
+                color #ffffff
+                shape person
+            }
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+            element "Container" {
+                background #438dd5
+                color #ffffff
+            }
+            element "Component" {
+                background #85bbf0
+                color #000000
+            }
+        }
+    }
+}
+-->
+
+![Diagrama C4](https://i.imgur.com/AQmKgPv.png)
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 En esta seccion se presenta el nivel de codigo del bounded context **Smart Assistant**, incluyendo su modelo de dominio y esquema de base de datos.
 
@@ -1291,6 +1587,115 @@ Implementaciones en infraestructura:
 Este patrón protege el dominio frente a cambios tecnológicos del proveedor IA.
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+<!--
+
+workspace "IoBuild - Energy Management (Component Diagram)" "C4 Component Diagram del bounded context Energy Management" {
+
+    model {
+        builder = person "Builder" "Configura planes energéticos."
+        landlord = person "Landlord" "Monitorea consumo y ahorros."
+
+        iobuild = softwareSystem "IoBuild" {
+
+        emApi = container "Energy Management API" "Optimización energética, consumo, anomalías y demand response." "ASP.NET Core Web API" {
+            plansController = component "EnergyOptimizationPlansController" "Endpoints de planes energéticos." "ASP.NET Core MVC Controller"
+            monitoringController = component "EnergyMonitoringController" "Endpoints de consumo y anomalías." "ASP.NET Core MVC Controller"
+            drController = component "DemandResponseController" "Endpoints de eventos de demanda." "ASP.NET Core MVC Controller"
+
+            optCmd = component "EnergyOptimizationCommandServiceImpl" "Comandos de optimización." "Application Service (C#)"
+            optQry = component "EnergyOptimizationQueryServiceImpl" "Queries de optimización." "Application Service (C#)"
+            monCmd = component "EnergyMonitoringCommandServiceImpl" "Comandos de monitoreo energético." "Application Service (C#)"
+            monQry = component "EnergyMonitoringQueryServiceImpl" "Queries de monitoreo energético." "Application Service (C#)"
+            drCmd = component "DemandResponseCommandServiceImpl" "Comandos de demand response." "Application Service (C#)"
+            drQry = component "DemandResponseQueryServiceImpl" "Queries de demand response." "Application Service (C#)"
+
+            planAgg = component "EnergyOptimizationPlan Aggregate" "Reglas del plan de optimización." "Domain Model (DDD)"
+            consumptionEntity = component "EnergyConsumptionRecord Entity" "Lecturas de consumo." "Domain Entity"
+            anomalyEntity = component "EnergyAnomaly Entity" "Detección de anomalías." "Domain Entity"
+            demandEntity = component "DemandResponseEvent Entity" "Eventos de respuesta a demanda." "Domain Entity"
+            savingsSvc = component "EnergySavingsAnalysisService" "Cálculo de ahorro energético." "Domain Service"
+
+            planRepo = component "EnergyOptimizationPlanRepository" "Persistencia de planes." "Repository"
+            consumptionRepo = component "EnergyConsumptionRecordRepository" "Persistencia de consumo." "Repository"
+            anomalyRepo = component "EnergyAnomalyRepository" "Persistencia de anomalías." "Repository"
+            demandRepo = component "DemandResponseEventRepository" "Persistencia de eventos DR." "Repository"
+        }
+
+        mysql = container "MySQL Database" "Persistencia energética." "MySQL 8"
+        eventStream = container "Event Stream" "Eventos energéticos." "Kafka / RabbitMQ"
+    }
+
+        builder -> emApi "Usa" "HTTPS/JSON"
+        landlord -> emApi "Consulta" "HTTPS/JSON"
+
+        plansController -> optCmd "Comandos"
+        plansController -> optQry "Queries"
+        monitoringController -> monCmd "Comandos"
+        monitoringController -> monQry "Queries"
+        drController -> drCmd "Comandos"
+        drController -> drQry "Queries"
+
+        optCmd -> planAgg "Orquesta"
+        optQry -> planAgg "Consulta"
+        monCmd -> consumptionEntity "Registra"
+        monCmd -> anomalyEntity "Detecta"
+        monQry -> consumptionEntity "Consulta"
+        monQry -> anomalyEntity "Consulta"
+        drCmd -> demandEntity "Orquesta"
+        drQry -> demandEntity "Consulta"
+        monQry -> savingsSvc "Calcula ahorro"
+
+        optCmd -> planRepo "Persiste"
+        optQry -> planRepo "Consulta"
+        monCmd -> consumptionRepo "Persiste"
+        monQry -> consumptionRepo "Consulta"
+        monCmd -> anomalyRepo "Persiste"
+        monQry -> anomalyRepo "Consulta"
+        drCmd -> demandRepo "Persiste"
+        drQry -> demandRepo "Consulta"
+
+        planRepo -> mysql "CRUD" "SQL/TCP"
+        consumptionRepo -> mysql "CRUD" "SQL/TCP"
+        anomalyRepo -> mysql "CRUD" "SQL/TCP"
+        demandRepo -> mysql "CRUD" "SQL/TCP"
+
+        planAgg -> eventStream "Publica eventos" "AMQP/Kafka"
+        demandEntity -> eventStream "Publica eventos DR" "AMQP/Kafka"
+    }
+
+    views {
+        component emApi "EM-Component" {
+            include *
+            autolayout lr
+        }
+
+        styles {
+            element "Person" {
+                background #08427b
+                color #ffffff
+                shape person
+            }
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+            element "Container" {
+                background #438dd5
+                color #ffffff
+            }
+            element "Component" {
+                background #85bbf0
+                color #000000
+            }
+        }
+    }
+}
+
+-->
+
+![Diagrama C4](https://i.imgur.com/XKGyZ20.png)
+
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 En esta seccion se presenta el detalle de implementacion de **Energy Management** a nivel de clases de dominio y persistencia relacional.
 
