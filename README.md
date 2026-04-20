@@ -644,54 +644,59 @@ El siguiente diagrama UML muestra clases, interfaces, enumeraciones, atributos, 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 El siguiente diagrama relacional muestra tablas, columnas y constraints para la persistencia del bounded context.
 
-```mermaid
-erDiagram
-        SMART_PROJECT_SETUPS {
-        string setup_id PK
-        string owner_id
-        string project_name
-        string building_type
-        string setup_status
-                datetime created_at
-                datetime updated_at
-        }
+<div style="display:none">
 
-        SITE_ZONES {
-        string zone_id PK
-        string setup_id FK
-        string name
-                int floor
-        string area_type
-        float area_m2
-                datetime created_at
-        }
+    ```mermaid
+    erDiagram
+            SMART_PROJECT_SETUPS {
+            string setup_id PK
+            string owner_id
+            string project_name
+            string building_type
+            string setup_status
+                    datetime created_at
+                    datetime updated_at
+            }
 
-        DEVICE_PROFILES {
-        string device_profile_id PK
-        string setup_id FK
-        string sensor_type
-                int sampling_interval_sec
-        float min_threshold
-        float max_threshold
-        string protocol
-                datetime created_at
-        }
+            SITE_ZONES {
+            string zone_id PK
+            string setup_id FK
+            string name
+                    int floor
+            string area_type
+            float area_m2
+                    datetime created_at
+            }
 
-        CONNECTIVITY_PROFILES {
-        string connectivity_profile_id PK
-        string setup_id FK
-        string protocol
-        string gateway_host
-                int gateway_port
-        string credentials_ref
-                int reconnect_policy_sec
-                datetime updated_at
-        }
+            DEVICE_PROFILES {
+            string device_profile_id PK
+            string setup_id FK
+            string sensor_type
+                    int sampling_interval_sec
+            float min_threshold
+            float max_threshold
+            string protocol
+                    datetime created_at
+            }
 
-        SMART_PROJECT_SETUPS ||--o{ SITE_ZONES : "has zones"
-        SMART_PROJECT_SETUPS ||--o{ DEVICE_PROFILES : "has profiles"
-        SMART_PROJECT_SETUPS ||--o| CONNECTIVITY_PROFILES : "has connectivity"
-```
+            CONNECTIVITY_PROFILES {
+            string connectivity_profile_id PK
+            string setup_id FK
+            string protocol
+            string gateway_host
+                    int gateway_port
+            string credentials_ref
+                    int reconnect_policy_sec
+                    datetime updated_at
+            }
+
+            SMART_PROJECT_SETUPS ||--o{ SITE_ZONES : "has zones"
+            SMART_PROJECT_SETUPS ||--o{ DEVICE_PROFILES : "has profiles"
+            SMART_PROJECT_SETUPS ||--o| CONNECTIVITY_PROFILES : "has connectivity"
+    ```
+</div>
+
+![Diagrama lucidchart](https://i.imgur.com/szDoLl0.png)
 
 ### 4.2.2. Bounded Context: Service Execution and Monitoring
 #### 4.2.2.1. Domain Layer
@@ -1032,8 +1037,9 @@ En esta seccion se presenta el detalle de implementacion para **Service Executio
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
-```mermaid
-erDiagram
+<div style="display:none">
+    ```mermaid
+        erDiagram
         SERVICE_EXECUTIONS {
         string execution_id PK
         string project_id
@@ -1074,7 +1080,10 @@ erDiagram
 
         SERVICE_EXECUTIONS ||--|{ EXECUTION_TASKS : "contains tasks"
         SERVICE_EXECUTIONS ||--o{ MONITORING_METRICS : "registers metrics"
-```
+    ```
+</div>
+
+![Diagrama Lucidchart](https://i.imgur.com/xtReovF.png)
 
 ### 4.2.3. Bounded Context: Smart Assistant
 #### 4.2.3.1. Domain Layer
@@ -1395,50 +1404,54 @@ En esta seccion se presenta el nivel de codigo del bounded context **Smart Assis
 ![Diagrama plantUML](https://i.imgur.com/nHDNIB3.png)
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
+<div style="display:none">
 
-```mermaid
-erDiagram
-        ASSISTANT_CONVERSATIONS {
-        string conversation_id PK
-        string project_id
-        string user_id
-        string channel
-        string status
-                datetime started_at
-                datetime closed_at
-        }
+    ```mermaid
+    erDiagram
+            ASSISTANT_CONVERSATIONS {
+            string conversation_id PK
+            string project_id
+            string user_id
+            string channel
+            string status
+                    datetime started_at
+                    datetime closed_at
+            }
 
-        ASSISTANT_MESSAGES {
-        string message_id PK
-        string conversation_id FK
-        string role
-                text content
-        string metadata_json
-                datetime sent_at
-        }
+            ASSISTANT_MESSAGES {
+            string message_id PK
+            string conversation_id FK
+            string role
+                    text content
+            string metadata_json
+                    datetime sent_at
+            }
 
-        ASSISTANT_RECOMMENDATIONS {
-        string recommendation_id PK
-        string conversation_id FK
-        string recommendation_type
-        string priority
-                text summary
-        boolean accepted
-                datetime created_at
-        }
+            ASSISTANT_RECOMMENDATIONS {
+            string recommendation_id PK
+            string conversation_id FK
+            string recommendation_type
+            string priority
+                    text summary
+            boolean accepted
+                    datetime created_at
+            }
 
-        ASSISTANT_ACTION_PLANS {
-        string action_plan_id PK
-        string recommendation_id FK
-        string steps_json
-        string execution_status
-                datetime created_at
-        }
+            ASSISTANT_ACTION_PLANS {
+            string action_plan_id PK
+            string recommendation_id FK
+            string steps_json
+            string execution_status
+                    datetime created_at
+            }
 
-        ASSISTANT_CONVERSATIONS ||--|{ ASSISTANT_MESSAGES : "stores messages"
-        ASSISTANT_CONVERSATIONS ||--o{ ASSISTANT_RECOMMENDATIONS : "produces recommendations"
-        ASSISTANT_RECOMMENDATIONS ||--o| ASSISTANT_ACTION_PLANS : "derives plan"
-```
+            ASSISTANT_CONVERSATIONS ||--|{ ASSISTANT_MESSAGES : "stores messages"
+            ASSISTANT_CONVERSATIONS ||--o{ ASSISTANT_RECOMMENDATIONS : "produces recommendations"
+            ASSISTANT_RECOMMENDATIONS ||--o| ASSISTANT_ACTION_PLANS : "derives plan"
+    ```
+</div>
+
+![Diagrama lucidchart](https://i.imgur.com/2b7dggg.png)
 
 ### 4.2.4. Bounded Context: Energy Management
 #### 4.2.4.1. Domain Layer
@@ -1798,57 +1811,60 @@ En esta seccion se presenta el detalle de implementacion de **Energy Management*
 ![Diagrama plantUML](https://i.imgur.com/VxFxqqC.png)
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
+<div style="display:none">
+    ```mermaid
+        erDiagram
+            ENERGY_OPTIMIZATION_PLANS {
+            string energy_plan_id PK
+            string project_id
+            float baseline_kwh
+            float reduction_target_percent
+                    datetime window_start
+                    datetime window_end
+            string status
+                    datetime created_at
+            }
 
-```mermaid
-erDiagram
-        ENERGY_OPTIMIZATION_PLANS {
-        string energy_plan_id PK
-        string project_id
-        float baseline_kwh
-        float reduction_target_percent
-                datetime window_start
-                datetime window_end
-        string status
-                datetime created_at
-        }
+            ENERGY_CONSUMPTION_RECORDS {
+            string consumption_record_id PK
+            string energy_plan_id FK
+            string project_id
+            string zone_id
+            string meter_id
+            float value
+            string unit
+            string period
+                    datetime recorded_at
+            }
 
-        ENERGY_CONSUMPTION_RECORDS {
-        string consumption_record_id PK
-        string energy_plan_id FK
-        string project_id
-        string zone_id
-        string meter_id
-        float value
-        string unit
-        string period
-                datetime recorded_at
-        }
+            ENERGY_ANOMALIES {
+            string anomaly_id PK
+            string energy_plan_id FK
+            string project_id
+            string zone_id
+            string severity
+            string detected_pattern
+            boolean acknowledged
+                    datetime detected_at
+            }
 
-        ENERGY_ANOMALIES {
-        string anomaly_id PK
-        string energy_plan_id FK
-        string project_id
-        string zone_id
-        string severity
-        string detected_pattern
-        boolean acknowledged
-                datetime detected_at
-        }
+            DEMAND_RESPONSE_EVENTS {
+            string response_event_id PK
+            string energy_plan_id FK
+            string project_id
+            string event_name
+            string status
+                    datetime starts_at
+                    datetime ends_at
+            }
 
-        DEMAND_RESPONSE_EVENTS {
-        string response_event_id PK
-        string energy_plan_id FK
-        string project_id
-        string event_name
-        string status
-                datetime starts_at
-                datetime ends_at
-        }
+            ENERGY_OPTIMIZATION_PLANS ||--o{ ENERGY_CONSUMPTION_RECORDS : "contains records"
+            ENERGY_OPTIMIZATION_PLANS ||--o{ ENERGY_ANOMALIES : "detects anomalies"
+            ENERGY_OPTIMIZATION_PLANS ||--o{ DEMAND_RESPONSE_EVENTS : "schedules events"
+    ```
+</div>
 
-        ENERGY_OPTIMIZATION_PLANS ||--o{ ENERGY_CONSUMPTION_RECORDS : "contains records"
-        ENERGY_OPTIMIZATION_PLANS ||--o{ ENERGY_ANOMALIES : "detects anomalies"
-        ENERGY_OPTIMIZATION_PLANS ||--o{ DEMAND_RESPONSE_EVENTS : "schedules events"
-```
+![Diagrama LucidChart](https://i.imgur.com/bxwcuZp.png)
 
 # Capítulo V: Solution UI/UX Design
 ## 4.1. Style Guidelines.
