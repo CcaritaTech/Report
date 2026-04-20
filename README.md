@@ -556,117 +556,90 @@ En esta seccion se presentan los diagramas de nivel codigo para **Smart Project 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama UML muestra clases, interfaces, enumeraciones, atributos, metodos, scopes y relaciones con multiplicidad del dominio.
 
-```mermaid
-classDiagram
-direction LR
 
-class SmartProjectSetup {
-    -SetupId id
-    -OwnerId ownerId
-    -string projectName
-    -BuildingType buildingType
-    -SetupStatus status
-    -DateTime createdAt
-    -DateTime updatedAt
-    +renameProject(name:string) void
-    +changeBuildingType(type:BuildingType) void
-    +addZone(zone:SiteZone) void
-    +assignDeviceProfile(profile:DeviceProfile) void
-    +configureConnectivity(profile:ConnectivityProfile) void
-    +validate() void
-    +provision() void
-}
+<div style="display:none">
+    ```mermaid
+    classDiagram
+    direction LR
 
-class SiteZone {
-    -ZoneId id
-    -string name
-    -int floor
-    -string areaType
-    -float areaM2
-    +rename(name:string) void
-    +updateArea(areaM2:float) void
-}
+    class SmartProjectSetup {
+        -SetupId id
+        -OwnerId ownerId
+        -string projectName
+        -BuildingType buildingType
+        -SetupStatus status
+        -DateTime createdAt
+        -DateTime updatedAt
+        +renameProject(name:string) void
+        +changeBuildingType(type:BuildingType) void
+        +addZone(zone:SiteZone) void
+        +assignDeviceProfile(profile:DeviceProfile) void
+        +configureConnectivity(profile:ConnectivityProfile) void
+        +validate() void
+        +provision() void
+    }
 
-class DeviceProfile {
-    -DeviceProfileId id
-    -SensorType sensorType
-    -int samplingIntervalSec
-    -float minThreshold
-    -float maxThreshold
-    -ProtocolType protocol
-    +changeSamplingInterval(seconds:int) void
-    +updateThresholds(min:float,max:float) void
-}
+    class SiteZone {
+        -ZoneId id
+        -string name
+        -int floor
+        -string areaType
+        -float areaM2
+        +rename(name:string) void
+        +updateArea(areaM2:float) void
+    }
 
-class ConnectivityProfile {
-    -ConnectivityProfileId id
-    -ProtocolType protocol
-    -string gatewayHost
-    -int gatewayPort
-    -string credentialsRef
-    -int reconnectPolicySec
-    +updateGateway(host:string,port:int) void
-    +rotateCredentials(ref:string) void
-}
+    class DeviceProfile {
+        -DeviceProfileId id
+        -SensorType sensorType
+        -int samplingIntervalSec
+        -float minThreshold
+        -float maxThreshold
+        -ProtocolType protocol
+        +changeSamplingInterval(seconds:int) void
+        +updateThresholds(min:float,max:float) void
+    }
 
-class SetupStatus {
-    <<enumeration>>
-    DRAFT
-    VALIDATED
-    PROVISIONED
-    ARCHIVED
-}
+    class ConnectivityProfile {
+        -ConnectivityProfileId id
+        -ProtocolType protocol
+        -string gatewayHost
+        -int gatewayPort
+        -string credentialsRef
+        -int reconnectPolicySec
+        +updateGateway(host:string,port:int) void
+        +rotateCredentials(ref:string) void
+    }
 
-class BuildingType {
-    <<enumeration>>
-    RESIDENTIAL
-    COMMERCIAL
-    INDUSTRIAL
-    EDUCATIONAL
-}
+    class SetupStatus {
+        <<enumeration>>
+        DRAFT
+        VALIDATED
+        PROVISIONED
+        ARCHIVED
+    }
 
-class SensorType {
-    <<enumeration>>
-    TEMPERATURE
-    HUMIDITY
-    OCCUPANCY
-    ENERGY_METER
-    AIR_QUALITY
-}
+    class BuildingType {
+        <<enumeration>>
+        RESIDENTIAL
+        COMMERCIAL
+        INDUSTRIAL
+        EDUCATIONAL
+    }
 
-class ProtocolType {
-    <<enumeration>>
-    MQTT
-    HTTP
-    MODBUS
-    BACNET
-}
+    class SensorType {
+        <<enumeration>>
+        TEMPERATURE
+        HUMIDITY
+        OCCUPANCY
+        ENERGY_METER
+        AIR_QUALITY
+    }
+    ```
+</div>
 
-class SmartProjectSetupRepository {
-    <<interface>>
-    +save(setup:SmartProjectSetup) SmartProjectSetup
-    +findById(id:SetupId) SmartProjectSetup
-    +findByOwnerId(ownerId:OwnerId) List~SmartProjectSetup~
-    +existsByOwnerIdAndProjectName(ownerId:OwnerId,name:string) bool
-}
+![Diagrama plantUML](https://i.imgur.com/aqFCKUf.png)
 
-class SetupValidationService {
-    <<interface>>
-    +validateCompleteness(setup:SmartProjectSetup) bool
-    +validateConnectivity(setup:SmartProjectSetup) bool
-}
-
-SmartProjectSetup "1" --> "0..*" SiteZone : contains
-SmartProjectSetup "1" --> "0..*" DeviceProfile : assigns
-SmartProjectSetup "1" --> "0..1" ConnectivityProfile : configures
-DeviceProfile "1" --> "1" SensorType : classifies
-DeviceProfile "1" --> "1" ProtocolType : uses
-ConnectivityProfile "1" --> "1" ProtocolType : uses
-SmartProjectSetup "1" --> "1" SetupStatus : has
-SmartProjectSetup "1" --> "1" BuildingType : has
-SetupValidationService ..> SmartProjectSetup : validates
-SmartProjectSetupRepository ..> SmartProjectSetup : persists
-```
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 El siguiente diagrama relacional muestra tablas, columnas y constraints para la persistencia del bounded context.
@@ -944,115 +917,118 @@ workspace "IoBuild - Service Execution & Monitoring (Component Diagram)" "C4 Com
 En esta seccion se presenta el detalle de implementacion para **Service Execution and Monitoring**, incluyendo estructura de dominio y modelo de persistencia.
 
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+ <div style="display:none">
+    ```mermaid
+    classDiagram
+    direction LR
 
-```mermaid
-classDiagram
-direction LR
+    class ServiceExecution {
+        -ExecutionId id
+        -ProjectId projectId
+        -ServiceId serviceId
+        -ExecutionStatus status
+        -DateTime startedAt
+        -DateTime finishedAt
+        -string resultSummary
+        +startExecution() void
+        +stopExecution() void
+        +retryExecution() void
+        +completeExecution() void
+        +failExecution(reason:string) void
+        +registerMonitoringMetric(metric:MonitoringMetric) void
+    }
 
-class ServiceExecution {
-    -ExecutionId id
-    -ProjectId projectId
-    -ServiceId serviceId
-    -ExecutionStatus status
-    -DateTime startedAt
-    -DateTime finishedAt
-    -string resultSummary
-    +startExecution() void
-    +stopExecution() void
-    +retryExecution() void
-    +completeExecution() void
-    +failExecution(reason:string) void
-    +registerMonitoringMetric(metric:MonitoringMetric) void
-}
+    class ExecutionTask {
+        -TaskId id
+        -ExecutionId executionId
+        -int taskOrder
+        -string command
+        -TaskStatus status
+        -int durationMs
+        +start() void
+        +complete() void
+        +fail(reason:string) void
+    }
 
-class ExecutionTask {
-    -TaskId id
-    -ExecutionId executionId
-    -int taskOrder
-    -string command
-    -TaskStatus status
-    -int durationMs
-    +start() void
-    +complete() void
-    +fail(reason:string) void
-}
+    class MonitoringMetric {
+        -MetricId id
+        -ExecutionId executionId
+        -MetricType type
+        -float value
+        -string unit
+        -DateTime timestamp
+    }
 
-class MonitoringMetric {
-    -MetricId id
-    -ExecutionId executionId
-    -MetricType type
-    -float value
-    -string unit
-    -DateTime timestamp
-}
+    class ServiceAlert {
+        -AlertId id
+        -ProjectId projectId
+        -AlertSeverity severity
+        -string message
+        -bool resolved
+        -DateTime createdAt
+        +resolve() void
+    }
 
-class ServiceAlert {
-    -AlertId id
-    -ProjectId projectId
-    -AlertSeverity severity
-    -string message
-    -bool resolved
-    -DateTime createdAt
-    +resolve() void
-}
+    class ExecutionStatus {
+        <<enumeration>>
+        QUEUED
+        RUNNING
+        SUCCESS
+        FAILED
+        CANCELLED
+        TIMEOUT
+    }
 
-class ExecutionStatus {
-    <<enumeration>>
-    QUEUED
-    RUNNING
-    SUCCESS
-    FAILED
-    CANCELLED
-    TIMEOUT
-}
+    class TaskStatus {
+        <<enumeration>>
+        PENDING
+        RUNNING
+        COMPLETED
+        FAILED
+        SKIPPED
+    }
 
-class TaskStatus {
-    <<enumeration>>
-    PENDING
-    RUNNING
-    COMPLETED
-    FAILED
-    SKIPPED
-}
+    class MetricType {
+        <<enumeration>>
+        CPU_USAGE
+        MEMORY_USAGE
+        LATENCY
+        ERROR_RATE
+        THROUGHPUT
+    }
 
-class MetricType {
-    <<enumeration>>
-    CPU_USAGE
-    MEMORY_USAGE
-    LATENCY
-    ERROR_RATE
-    THROUGHPUT
-}
+    class AlertSeverity {
+        <<enumeration>>
+        INFO
+        WARNING
+        CRITICAL
+    }
 
-class AlertSeverity {
-    <<enumeration>>
-    INFO
-    WARNING
-    CRITICAL
-}
+    class ServiceExecutionRepository {
+        <<interface>>
+        +save(exec:ServiceExecution) ServiceExecution
+        +findById(id:ExecutionId) ServiceExecution
+        +findActiveByProjectId(projectId:ProjectId) List~ServiceExecution~
+    }
 
-class ServiceExecutionRepository {
-    <<interface>>
-    +save(exec:ServiceExecution) ServiceExecution
-    +findById(id:ExecutionId) ServiceExecution
-    +findActiveByProjectId(projectId:ProjectId) List~ServiceExecution~
-}
+    class AlertManagementService {
+        <<interface>>
+        +raiseAlert(alert:ServiceAlert) ServiceAlert
+        +resolveAlert(alertId:AlertId) void
+    }
 
-class AlertManagementService {
-    <<interface>>
-    +raiseAlert(alert:ServiceAlert) ServiceAlert
-    +resolveAlert(alertId:AlertId) void
-}
+    ServiceExecution "1" --> "1..*" ExecutionTask : orchestrates
+    ServiceExecution "1" --> "0..*" MonitoringMetric : emits
+    ServiceExecution "1" --> "1" ExecutionStatus : has
+    ExecutionTask "1" --> "1" TaskStatus : has
+    MonitoringMetric "1" --> "1" MetricType : classifies
+    ServiceAlert "1" --> "1" AlertSeverity : has
+    AlertManagementService ..> ServiceAlert : manages
+    ServiceExecutionRepository ..> ServiceExecution : persists
+    ```
+ </div>   
 
-ServiceExecution "1" --> "1..*" ExecutionTask : orchestrates
-ServiceExecution "1" --> "0..*" MonitoringMetric : emits
-ServiceExecution "1" --> "1" ExecutionStatus : has
-ExecutionTask "1" --> "1" TaskStatus : has
-MonitoringMetric "1" --> "1" MetricType : classifies
-ServiceAlert "1" --> "1" AlertSeverity : has
-AlertManagementService ..> ServiceAlert : manages
-ServiceExecutionRepository ..> ServiceExecution : persists
-```
+![Diagrama plantUML](https://i.imgur.com/Ngsgh4D.png)
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
@@ -1305,114 +1281,118 @@ En esta seccion se presenta el nivel de codigo del bounded context **Smart Assis
 
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-```mermaid
-classDiagram
-direction LR
+<div style="display:none">
+    ```mermaid
+    classDiagram
+    direction LR
 
-class AssistantConversation {
-    -ConversationId id
-    -ProjectId projectId
-    -UserId userId
-    -AssistantChannel channel
-    -ConversationStatus status
-    -DateTime startedAt
-    -DateTime closedAt
-    +startConversation() void
-    +receiveUserMessage(content:string) void
-    +generateAssistantResponse() AssistantMessage
-    +closeConversation() void
-}
+    class AssistantConversation {
+        -ConversationId id
+        -ProjectId projectId
+        -UserId userId
+        -AssistantChannel channel
+        -ConversationStatus status
+        -DateTime startedAt
+        -DateTime closedAt
+        +startConversation() void
+        +receiveUserMessage(content:string) void
+        +generateAssistantResponse() AssistantMessage
+        +closeConversation() void
+    }
 
-class AssistantMessage {
-    -MessageId id
-    -ConversationId conversationId
-    -MessageRole role
-    -string content
-    -string metadataJson
-    -DateTime sentAt
-}
+    class AssistantMessage {
+        -MessageId id
+        -ConversationId conversationId
+        -MessageRole role
+        -string content
+        -string metadataJson
+        -DateTime sentAt
+    }
 
-class AssistantRecommendation {
-    -RecommendationId id
-    -ConversationId conversationId
-    -RecommendationType type
-    -RecommendationPriority priority
-    -string summary
-    -bool accepted
-    +accept() void
-    +dismiss() void
-}
+    class AssistantRecommendation {
+        -RecommendationId id
+        -ConversationId conversationId
+        -RecommendationType type
+        -RecommendationPriority priority
+        -string summary
+        -bool accepted
+        +accept() void
+        +dismiss() void
+    }
 
-class AssistantActionPlan {
-    -ActionPlanId id
-    -RecommendationId recommendationId
-    -string stepsJson
-    -string executionStatus
-    +createFromRecommendation(rec:AssistantRecommendation) AssistantActionPlan
-}
+    class AssistantActionPlan {
+        -ActionPlanId id
+        -RecommendationId recommendationId
+        -string stepsJson
+        -string executionStatus
+        +createFromRecommendation(rec:AssistantRecommendation) AssistantActionPlan
+    }
 
-class ConversationStatus {
-    <<enumeration>>
-    OPEN
-    WAITING_CONTEXT
-    RESOLVED
-    CLOSED
-}
+    class ConversationStatus {
+        <<enumeration>>
+        OPEN
+        WAITING_CONTEXT
+        RESOLVED
+        CLOSED
+    }
 
-class MessageRole {
-    <<enumeration>>
-    USER
-    ASSISTANT
-    SYSTEM
-}
+    class MessageRole {
+        <<enumeration>>
+        USER
+        ASSISTANT
+        SYSTEM
+    }
 
-class AssistantChannel {
-    <<enumeration>>
-    WEB_CHAT
-    MOBILE_CHAT
-    API
-}
+    class AssistantChannel {
+        <<enumeration>>
+        WEB_CHAT
+        MOBILE_CHAT
+        API
+    }
 
-class RecommendationType {
-    <<enumeration>>
-    ALERT_TRIAGE
-    SERVICE_TUNING
-    ENERGY_OPTIMIZATION
-    MAINTENANCE
-}
+    class RecommendationType {
+        <<enumeration>>
+        ALERT_TRIAGE
+        SERVICE_TUNING
+        ENERGY_OPTIMIZATION
+        MAINTENANCE
+    }
 
-class RecommendationPriority {
-    <<enumeration>>
-    LOW
-    MEDIUM
-    HIGH
-    CRITICAL
-}
+    class RecommendationPriority {
+        <<enumeration>>
+        LOW
+        MEDIUM
+        HIGH
+        CRITICAL
+    }
 
-class AssistantConversationRepository {
-    <<interface>>
-    +save(conversation:AssistantConversation) AssistantConversation
-    +findById(id:ConversationId) AssistantConversation
-    +findByProjectId(projectId:ProjectId) List~AssistantConversation~
-}
+    class AssistantConversationRepository {
+        <<interface>>
+        +save(conversation:AssistantConversation) AssistantConversation
+        +findById(id:ConversationId) AssistantConversation
+        +findByProjectId(projectId:ProjectId) List~AssistantConversation~
+    }
 
-class AssistantAIService {
-    <<interface>>
-    +generateResponse(context:string) string
-    +generateRecommendations(context:string) List~AssistantRecommendation~
-}
+    class AssistantAIService {
+        <<interface>>
+        +generateResponse(context:string) string
+        +generateRecommendations(context:string) List~AssistantRecommendation~
+    }
 
-AssistantConversation "1" --> "1..*" AssistantMessage : contains
-AssistantConversation "1" --> "0..*" AssistantRecommendation : generates
-AssistantRecommendation "1" --> "0..1" AssistantActionPlan : derives
-AssistantConversation "1" --> "1" ConversationStatus : has
-AssistantMessage "1" --> "1" MessageRole : has
-AssistantConversation "1" --> "1" AssistantChannel : uses
-AssistantRecommendation "1" --> "1" RecommendationType : classifies
-AssistantRecommendation "1" --> "1" RecommendationPriority : has
-AssistantAIService ..> AssistantConversation : assists
-AssistantConversationRepository ..> AssistantConversation : persists
-```
+    AssistantConversation "1" --> "1..*" AssistantMessage : contains
+    AssistantConversation "1" --> "0..*" AssistantRecommendation : generates
+    AssistantRecommendation "1" --> "0..1" AssistantActionPlan : derives
+    AssistantConversation "1" --> "1" ConversationStatus : has
+    AssistantMessage "1" --> "1" MessageRole : has
+    AssistantConversation "1" --> "1" AssistantChannel : uses
+    AssistantRecommendation "1" --> "1" RecommendationType : classifies
+    AssistantRecommendation "1" --> "1" RecommendationPriority : has
+    AssistantAIService ..> AssistantConversation : assists
+    AssistantConversationRepository ..> AssistantConversation : persists
+    ```
+</div>
+
+![Diagrama plantUML](https://i.imgur.com/nHDNIB3.png)
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 
@@ -1700,119 +1680,122 @@ workspace "IoBuild - Energy Management (Component Diagram)" "C4 Component Diagra
 En esta seccion se presenta el detalle de implementacion de **Energy Management** a nivel de clases de dominio y persistencia relacional.
 
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+<div style="display:none">
+    ```mermaid
+    classDiagram
+    direction LR
 
-```mermaid
-classDiagram
-direction LR
+    class EnergyOptimizationPlan {
+        -EnergyPlanId id
+        -ProjectId projectId
+        -float baselineKwh
+        -float reductionTargetPercent
+        -DateRange applicationWindow
+        -OptimizationStatus status
+        +activate() void
+        +pause() void
+        +complete() void
+    }
 
-class EnergyOptimizationPlan {
-    -EnergyPlanId id
-    -ProjectId projectId
-    -float baselineKwh
-    -float reductionTargetPercent
-    -DateRange applicationWindow
-    -OptimizationStatus status
-    +activate() void
-    +pause() void
-    +complete() void
-}
+    class EnergyConsumptionRecord {
+        -ConsumptionRecordId id
+        -ProjectId projectId
+        -ZoneId zoneId
+        -MeterId meterId
+        -float value
+        -EnergyUnit unit
+        -ConsumptionPeriod period
+        -DateTime recordedAt
+    }
 
-class EnergyConsumptionRecord {
-    -ConsumptionRecordId id
-    -ProjectId projectId
-    -ZoneId zoneId
-    -MeterId meterId
-    -float value
-    -EnergyUnit unit
-    -ConsumptionPeriod period
-    -DateTime recordedAt
-}
+    class EnergyAnomaly {
+        -AnomalyId id
+        -ProjectId projectId
+        -ZoneId zoneId
+        -AnomalySeverity severity
+        -string detectedPattern
+        -bool acknowledged
+        +acknowledge() void
+    }
 
-class EnergyAnomaly {
-    -AnomalyId id
-    -ProjectId projectId
-    -ZoneId zoneId
-    -AnomalySeverity severity
-    -string detectedPattern
-    -bool acknowledged
-    +acknowledge() void
-}
+    class DemandResponseEvent {
+        -ResponseEventId id
+        -ProjectId projectId
+        -string eventName
+        -DemandResponseStatus status
+        -DateTime startsAt
+        -DateTime endsAt
+        +start() void
+        +complete() void
+    }
 
-class DemandResponseEvent {
-    -ResponseEventId id
-    -ProjectId projectId
-    -string eventName
-    -DemandResponseStatus status
-    -DateTime startsAt
-    -DateTime endsAt
-    +start() void
-    +complete() void
-}
+    class OptimizationStatus {
+        <<enumeration>>
+        DRAFT
+        ACTIVE
+        PAUSED
+        COMPLETED
+        CANCELLED
+    }
 
-class OptimizationStatus {
-    <<enumeration>>
-    DRAFT
-    ACTIVE
-    PAUSED
-    COMPLETED
-    CANCELLED
-}
+    class ConsumptionPeriod {
+        <<enumeration>>
+        HOURLY
+        DAILY
+        WEEKLY
+        MONTHLY
+    }
 
-class ConsumptionPeriod {
-    <<enumeration>>
-    HOURLY
-    DAILY
-    WEEKLY
-    MONTHLY
-}
+    class EnergyUnit {
+        <<enumeration>>
+        WH
+        KWH
+        MWH
+    }
 
-class EnergyUnit {
-    <<enumeration>>
-    WH
-    KWH
-    MWH
-}
+    class AnomalySeverity {
+        <<enumeration>>
+        LOW
+        MEDIUM
+        HIGH
+        CRITICAL
+    }
 
-class AnomalySeverity {
-    <<enumeration>>
-    LOW
-    MEDIUM
-    HIGH
-    CRITICAL
-}
+    class DemandResponseStatus {
+        <<enumeration>>
+        CREATED
+        IN_PROGRESS
+        EXECUTED
+        FAILED
+        CLOSED
+    }
 
-class DemandResponseStatus {
-    <<enumeration>>
-    CREATED
-    IN_PROGRESS
-    EXECUTED
-    FAILED
-    CLOSED
-}
+    class EnergyOptimizationPlanRepository {
+        <<interface>>
+        +save(plan:EnergyOptimizationPlan) EnergyOptimizationPlan
+        +findById(id:EnergyPlanId) EnergyOptimizationPlan
+        +findByProjectId(projectId:ProjectId) List~EnergyOptimizationPlan~
+    }
 
-class EnergyOptimizationPlanRepository {
-    <<interface>>
-    +save(plan:EnergyOptimizationPlan) EnergyOptimizationPlan
-    +findById(id:EnergyPlanId) EnergyOptimizationPlan
-    +findByProjectId(projectId:ProjectId) List~EnergyOptimizationPlan~
-}
+    class EnergySavingsAnalysisService {
+        <<interface>>
+        +calculateSavings(projectId:ProjectId,period:ConsumptionPeriod) float
+    }
 
-class EnergySavingsAnalysisService {
-    <<interface>>
-    +calculateSavings(projectId:ProjectId,period:ConsumptionPeriod) float
-}
+    EnergyOptimizationPlan "1" --> "0..*" EnergyConsumptionRecord : analyzes
+    EnergyOptimizationPlan "1" --> "0..*" EnergyAnomaly : reacts to
+    EnergyOptimizationPlan "1" --> "0..*" DemandResponseEvent : triggers
+    EnergyOptimizationPlan "1" --> "1" OptimizationStatus : has
+    EnergyConsumptionRecord "1" --> "1" ConsumptionPeriod : has
+    EnergyConsumptionRecord "1" --> "1" EnergyUnit : has
+    EnergyAnomaly "1" --> "1" AnomalySeverity : has
+    DemandResponseEvent "1" --> "1" DemandResponseStatus : has
+    EnergySavingsAnalysisService ..> EnergyConsumptionRecord : analyzes
+    EnergyOptimizationPlanRepository ..> EnergyOptimizationPlan : persists
+    ```
+</div>
 
-EnergyOptimizationPlan "1" --> "0..*" EnergyConsumptionRecord : analyzes
-EnergyOptimizationPlan "1" --> "0..*" EnergyAnomaly : reacts to
-EnergyOptimizationPlan "1" --> "0..*" DemandResponseEvent : triggers
-EnergyOptimizationPlan "1" --> "1" OptimizationStatus : has
-EnergyConsumptionRecord "1" --> "1" ConsumptionPeriod : has
-EnergyConsumptionRecord "1" --> "1" EnergyUnit : has
-EnergyAnomaly "1" --> "1" AnomalySeverity : has
-DemandResponseEvent "1" --> "1" DemandResponseStatus : has
-EnergySavingsAnalysisService ..> EnergyConsumptionRecord : analyzes
-EnergyOptimizationPlanRepository ..> EnergyOptimizationPlan : persists
-```
+![Diagrama plantUML](https://i.imgur.com/VxFxqqC.png)
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 
