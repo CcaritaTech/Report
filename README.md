@@ -257,7 +257,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero conocer la historia y valores de la aplicación, para tener mayor conexión y confianza con la empresa.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el visitante está explorando la landing page,<br> Cuando llega a la sección “Sobre Nosotros”, <br>Entonces debe visualizar una descripción breve de la historia de IoBuild, su equipo y valores, acompañada de imágenes.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante está explorando la landing page,<br> Cuando llega a la sección “Sobre Nosotros”, <br>Entonces debe visualizar una descripción breve de la historia de IoBuild, su equipo y valores, acompañada de imágenes.</td></tr>
 </table>
 
 ---
@@ -269,7 +269,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero consultar testimonios de otros clientes, para generar confianza en la propuesta de valor de la start up</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el visitante accede al sitio web<br>Cuando consulta la sección de testimonios<br>Entonces visualiza opiniones de clientes<br>Y percibe la experiencia de otros usuarios.<br><br>**Escenario 2:**<br>Dado que existen varios testimonios disponibles<br>Cuando el visitante desea revisar más testimonios<br>Entonces el sistema le muestra todos los testimonios</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede al sitio web<br>Cuando consulta la sección de testimonios<br>Entonces visualiza opiniones de clientes<br>Y percibe la experiencia de otros usuarios.<br><br><strong>Escenario 2:</strong><br>Dado que existen varios testimonios disponibles<br>Cuando el visitante desea revisar más testimonios<br>Entonces el sistema le muestra todos los testimonios</td></tr>
 </table>
 
 ---
@@ -281,7 +281,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero acceder fácilmente a la información de contacto de IoBuild, para comunicarme en caso de dudas</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el visitante accede a la landing page<br>Cuando consulta la sección de contacto<br>Entonces visualiza información clara como correo y teléfono <br>Y puede identificar rápidamente los medios de comunicación disponibles.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede a la landing page<br>Cuando consulta la sección de contacto<br>Entonces visualiza información clara como correo y teléfono <br>Y puede identificar rápidamente los medios de comunicación disponibles.</td></tr>
 </table>
 
 ---
@@ -293,7 +293,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero conocer los servicios que ofrece IoBuild, para entender su propuesta de valor.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el visitante accede a la landing page<br>Cuando navega a la sección de servicios<br>Entonces visualiza una lista de los servicios principales<br><br>**Escenario 2:**<br>Dado que el visitante accede a la landing page <br>Cuando quiere conocer más sobre un servicio de su interés<br>Entonces selecciona la opción de “ver más”<br>Y se muestra un texto más completo sobre el servicio seleccionado</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede a la landing page<br>Cuando navega a la sección de servicios<br>Entonces visualiza una lista de los servicios principales<br><br><strong>Escenario 2:</strong><br>Dado que el visitante accede a la landing page <br>Cuando quiere conocer más sobre un servicio de su interés<br>Entonces selecciona la opción de “ver más”<br>Y se muestra un texto más completo sobre el servicio seleccionado</td></tr>
 </table>
 
 ---
@@ -305,7 +305,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero registrarme en la aplicación, para tener acceso a las funcionalidades de la aplicación</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el visitante accede a la landing page<br>Cuando se dirige a la parte superior de la página<br>Y selecciona la opción registrarse<br>Entonces la aplicación lo redirige al formulario de registro</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede a la landing page<br>Cuando se dirige a la parte superior de la página<br>Y selecciona la opción registrarse<br>Entonces la aplicación lo redirige al formulario de registro</td></tr>
 </table>
 
 ---
@@ -317,7 +317,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero consultar una sección de preguntas frecuentes, para resolver dudas comunes sin necesidad de contactar a la start up</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el visitante accede a la landing page<br>Cuando entra a la sección de preguntas frecuentes<br>Entonces puede desplegar las respuestas a cada pregunta común<br>Y encuentra información organizada y clara.<br><br>**Escenario 2:**<br>Dado que el visitante accede a la sección de preguntas frecuentes<br>Cuando revisa la lista de preguntas disponibles<br>Entonces el sistema debe mostrar múltiples preguntas frecuentes <br>Y cada pregunta debe poder expandirse para visualizar su respuesta correspondiente.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede a la landing page<br>Cuando entra a la sección de preguntas frecuentes<br>Entonces puede desplegar las respuestas a cada pregunta común<br>Y encuentra información organizada y clara.<br><br><strong>Escenario 2:</strong><br>Dado que el visitante accede a la sección de preguntas frecuentes<br>Cuando revisa la lista de preguntas disponibles<br>Entonces el sistema debe mostrar múltiples preguntas frecuentes <br>Y cada pregunta debe poder expandirse para visualizar su respuesta correspondiente.</td></tr>
 </table>
 
 ---
@@ -329,7 +329,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero poder encontrar más de un idioma disponible, para poder elegir el idioma de mi preferencia.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el visitante accede a la landing page<br>Cuando selecciona un idioma distinto<br>Entonces todo el contenido de la landing page debe mostrarse automáticamente en el idioma seleccionado.<br><br>**Escenario 2:**<br>Dado que el visitante seleccionó un idioma previamente<br>Cuando vuelve a ingresar al sitio<br>Entonces la landing page debe mostrarse en el último idioma elegido, sin necesidad de volver a configurarlo.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede a la landing page<br>Cuando selecciona un idioma distinto<br>Entonces todo el contenido de la landing page debe mostrarse automáticamente en el idioma seleccionado.<br><br><strong>Escenario 2:</strong><br>Dado que el visitante seleccionó un idioma previamente<br>Cuando vuelve a ingresar al sitio<br>Entonces la landing page debe mostrarse en el último idioma elegido, sin necesidad de volver a configurarlo.</td></tr>
 </table>
 
 ---
@@ -341,7 +341,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero tener un dashboard personalizado, para visualizar la información relevante de manera rápida y eficiente.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el usuario accede al sistema,<br>Cuando el dashboard se carga,<br>Entonces verá una interfaz con widgets configurables (gráficos, estadísticas, alertas) según sus preferencias.<br><br>**Escenario 2:**<br>Dado que el usuario tiene acceso a múltiples secciones,<br>Cuando elige personalizar su dashboard,<br>Entonces podrá agregar, eliminar o reorganizar los widgets.<br><br>**Escenario 3:**<br>Dado que el usuario guarda los cambios en su dashboard,<br>Cuando vuelva a acceder,<br>Entonces verá el dashboard con las configuraciones guardadas.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede al sistema,<br>Cuando el dashboard se carga,<br>Entonces verá una interfaz con widgets configurables (gráficos, estadísticas, alertas) según sus preferencias.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario tiene acceso a múltiples secciones,<br>Cuando elige personalizar su dashboard,<br>Entonces podrá agregar, eliminar o reorganizar los widgets.<br><br><strong>Escenario 3:</strong><br>Dado que el usuario guarda los cambios en su dashboard,<br>Cuando vuelva a acceder,<br>Entonces verá el dashboard con las configuraciones guardadas.</td></tr>
 </table>
 
 ---
@@ -353,7 +353,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero tener acceso a los proyectos que se encuentran activos, para poder realizar un seguimiento de su progreso y gestionar los recursos necesarios.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el ingeniero accede al sistema,<br>Cuando consulta la lista de proyectos,<br>Entonces verá solo los proyectos con estado "activo".<br><br>**Escenario 2:**<br>Dado que el ingeniero tiene acceso a los proyectos activos,<br>Cuando selecciona un proyecto,<br>Entonces puede acceder a detalles como el progreso, recursos y métricas del proyecto.<br><br>**Escenario 3:**<br>Dado que el ingeniero está visualizando proyectos activos,<br>Cuando hay cambios en el estado de algún proyecto (e.g., transición a "completado"),<br>Entonces la lista se actualiza automáticamente.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede al sistema,<br>Cuando consulta la lista de proyectos,<br>Entonces verá solo los proyectos con estado "activo".<br><br><strong>Escenario 2:</strong><br>Dado que el ingeniero tiene acceso a los proyectos activos,<br>Cuando selecciona un proyecto,<br>Entonces puede acceder a detalles como el progreso, recursos y métricas del proyecto.<br><br><strong>Escenario 3:</strong><br>Dado que el ingeniero está visualizando proyectos activos,<br>Cuando hay cambios en el estado de algún proyecto (e.g., transición a "completado"),<br>Entonces la lista se actualiza automáticamente.</td></tr>
 </table>
 
 ---
@@ -365,7 +365,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero tener acceso a los dispositivos conectados, para poder monitorear su estado y uso.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el usuario accede a la aplicación,<br>Cuando consulta los dispositivos conectados,<br>Entonces verá una lista de dispositivos con su estado actual (activo, inactivo, etc.).<br><br>**Escenario 2:**<br>Dado que el usuario tiene acceso a los dispositivos,<br>Cuando selecciona un dispositivo,<br>Entonces puede ver información detallada sobre su configuración, tipo y uso.<br><br>**Escenario 3:**<br>Dado que hay dispositivos conectados,<br>Cuando un dispositivo cambia su estado,<br>Entonces la interfaz se actualiza automáticamente.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a la aplicación,<br>Cuando consulta los dispositivos conectados,<br>Entonces verá una lista de dispositivos con su estado actual (activo, inactivo, etc.).<br><br><strong>Escenario 2:</strong><br>Dado que el usuario tiene acceso a los dispositivos,<br>Cuando selecciona un dispositivo,<br>Entonces puede ver información detallada sobre su configuración, tipo y uso.<br><br><strong>Escenario 3:</strong><br>Dado que hay dispositivos conectados,<br>Cuando un dispositivo cambia su estado,<br>Entonces la interfaz se actualiza automáticamente.</td></tr>
 </table>
 
 ---
@@ -377,7 +377,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero tener acceso a la capacidad de ocupación de cada proyecto, para poder analizar el uso de los recursos y planificar de manera eficiente.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el ingeniero accede al sistema,<br>Cuando consulta la información de ocupación,<br>Entonces verá la capacidad de ocupación de cada proyecto, expresada como porcentaje o número de espacios ocupados.<br><br>**Escenario 2:**<br>Dado que el ingeniero tiene acceso a los proyectos,<br>Cuando selecciona un proyecto,<br>Entonces puede ver su capacidad de ocupación histórica y proyectada.<br><br>**Escenario 3:**<br>Dado que un proyecto tiene capacidad de ocupación variable,<br>Cuando cambia su ocupación,<br>Entonces la información se actualiza en tiempo real.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede al sistema,<br>Cuando consulta la información de ocupación,<br>Entonces verá la capacidad de ocupación de cada proyecto, expresada como porcentaje o número de espacios ocupados.<br><br><strong>Escenario 2:</strong><br>Dado que el ingeniero tiene acceso a los proyectos,<br>Cuando selecciona un proyecto,<br>Entonces puede ver su capacidad de ocupación histórica y proyectada.<br><br><strong>Escenario 3:</strong><br>Dado que un proyecto tiene capacidad de ocupación variable,<br>Cuando cambia su ocupación,<br>Entonces la información se actualiza en tiempo real.</td></tr>
 </table>
 
 ---
@@ -389,7 +389,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver un gráfico sobre la energía que se consume por hora, para poder evaluar el rendimiento energético de los proyectos en tiempo real.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el ingeniero accede a la sección de consumo energético,<br>Cuando visualiza los datos,<br>Entonces verá un gráfico que muestra el consumo de energía de cada proyecto por hora.<br><br>**Escenario 2:**<br>Dado que el gráfico muestra el consumo energético,<br>Cuando se actualizan los datos de consumo,<br>Entonces el gráfico se refresca en tiempo real.<br><br>**Escenario 3:**<br>Dado que el ingeniero necesita analizar tendencias,<br>Cuando selecciona un rango de tiempo específico,<br>Entonces el gráfico ajusta el intervalo de horas.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a la sección de consumo energético,<br>Cuando visualiza los datos,<br>Entonces verá un gráfico que muestra el consumo de energía de cada proyecto por hora.<br><br><strong>Escenario 2:</strong><br>Dado que el gráfico muestra el consumo energético,<br>Cuando se actualizan los datos de consumo,<br>Entonces el gráfico se refresca en tiempo real.<br><br><strong>Escenario 3:</strong><br>Dado que el ingeniero necesita analizar tendencias,<br>Cuando selecciona un rango de tiempo específico,<br>Entonces el gráfico ajusta el intervalo de horas.</td></tr>
 </table>
 
 ---
@@ -401,7 +401,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver un gráfico sobre el registro de ocupación, para poder analizar la evolución de la ocupación a lo largo del tiempo.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el ingeniero accede a la sección de ocupación,<br>Cuando consulta los datos históricos,<br>Entonces verá un gráfico que representa la evolución de la ocupación de los proyectos a lo largo del tiempo.<br><br>**Escenario 2:**<br>Dado que el gráfico de ocupación está disponible,<br>Cuando el ingeniero selecciona diferentes proyectos,<br>Entonces puede visualizar la ocupación de cada uno por separado.<br><br>**Escenario 3:**<br>Dado que los datos de ocupación se actualizan con frecuencia,<br>Cuando se produce un cambio en la ocupación,<br>Entonces el gráfico se actualiza automáticamente.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a la sección de ocupación,<br>Cuando consulta los datos históricos,<br>Entonces verá un gráfico que representa la evolución de la ocupación de los proyectos a lo largo del tiempo.<br><br><strong>Escenario 2:</strong><br>Dado que el gráfico de ocupación está disponible,<br>Cuando el ingeniero selecciona diferentes proyectos,<br>Entonces puede visualizar la ocupación de cada uno por separado.<br><br><strong>Escenario 3:</strong><br>Dado que los datos de ocupación se actualizan con frecuencia,<br>Cuando se produce un cambio en la ocupación,<br>Entonces el gráfico se actualiza automáticamente.</td></tr>
 </table>
 
 ---
@@ -413,7 +413,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver un resumen sobre cada proyecto, para saber si está activo, su ubicación y cuántos departamentos están ocupados.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el ingeniero accede a los proyectos,<br>Cuando selecciona un proyecto,<br>Entonces verá un resumen con la información clave: estado (activo/inactivo), ubicación y número de departamentos ocupados.<br><br>**Escenario 2:**<br>Dado que el ingeniero puede ver el resumen,<br>Cuando se actualiza algún dato clave del proyecto (e.g., cambio de ubicación o estado),<br>Entonces el resumen se actualiza automáticamente.<br><br>**Escenario 3:**<br>Dado que el ingeniero tiene acceso a múltiples proyectos,<br>Cuando consulta la lista,<br>Entonces puede ver una visión general de todos los proyectos activos con esta información resumida.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a los proyectos,<br>Cuando selecciona un proyecto,<br>Entonces verá un resumen con la información clave: estado (activo/inactivo), ubicación y número de departamentos ocupados.<br><br><strong>Escenario 2:</strong><br>Dado que el ingeniero puede ver el resumen,<br>Cuando se actualiza algún dato clave del proyecto (e.g., cambio de ubicación o estado),<br>Entonces el resumen se actualiza automáticamente.<br><br><strong>Escenario 3:</strong><br>Dado que el ingeniero tiene acceso a múltiples proyectos,<br>Cuando consulta la lista,<br>Entonces puede ver una visión general de todos los proyectos activos con esta información resumida.</td></tr>
 </table>
 
 ---
@@ -425,7 +425,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver cuáles son los dispositivos y cómo están distribuidos por tipo, para realizar un análisis más detallado de los recursos disponibles.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el ingeniero accede a la sección de dispositivos,<br>Cuando consulta los dispositivos,<br>Entonces verá una lista detallada de todos los dispositivos conectados, clasificados por tipo.<br><br>**Escenario 2:**<br>Dado que los dispositivos están clasificados por tipo,<br>Cuando selecciona un tipo específico,<br>Entonces verá solo los dispositivos de ese tipo.<br><br>**Escenario 3:**<br>Dado que el ingeniero puede ver la distribución de dispositivos,<br>Cuando se agrega o elimina un dispositivo,<br>Entonces la distribución se actualiza automáticamente.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a la sección de dispositivos,<br>Cuando consulta los dispositivos,<br>Entonces verá una lista detallada de todos los dispositivos conectados, clasificados por tipo.<br><br><strong>Escenario 2:</strong><br>Dado que los dispositivos están clasificados por tipo,<br>Cuando selecciona un tipo específico,<br>Entonces verá solo los dispositivos de ese tipo.<br><br><strong>Escenario 3:</strong><br>Dado que el ingeniero puede ver la distribución de dispositivos,<br>Cuando se agrega o elimina un dispositivo,<br>Entonces la distribución se actualiza automáticamente.</td></tr>
 </table>
 
 ---
@@ -437,7 +437,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero tener acceso a mi perfil, para ver datos como mi nombre, email, número de teléfono y mi dirección.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el usuario accede a la aplicación,<br>Cuando consulta su perfil,<br>Entonces verá una página o sección con la siguiente información: nombre, email, número de teléfono y dirección.<br><br>**Escenario 2:**<br>Dado que el usuario está visualizando su perfil,<br>Cuando la información de contacto está desactualizada,<br>Entonces puede identificar qué datos están desactualizados (si es el caso).<br><br>**Escenario 3:**<br>Dado que el usuario accede a su perfil,<br>Cuando realiza un cambio en la información personal,<br>Entonces la información se guarda correctamente y se actualiza en la base de datos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a la aplicación,<br>Cuando consulta su perfil,<br>Entonces verá una página o sección con la siguiente información: nombre, email, número de teléfono y dirección.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario está visualizando su perfil,<br>Cuando la información de contacto está desactualizada,<br>Entonces puede identificar qué datos están desactualizados (si es el caso).<br><br><strong>Escenario 3:</strong><br>Dado que el usuario accede a su perfil,<br>Cuando realiza un cambio en la información personal,<br>Entonces la información se guarda correctamente y se actualiza en la base de datos.</td></tr>
 </table>
 
 ---
@@ -449,7 +449,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero poder editar alguna parte de mi información, como mi email, número de teléfono o dirección, para mantener mis datos actualizados.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el usuario accede a su perfil,<br>Cuando selecciona la opción para editar su información,<br>Entonces podrá modificar los siguientes campos: email, número de teléfono y dirección.<br><br>**Escenario 2:**<br>Dado que el usuario está editando su información,<br>Cuando hace un cambio en uno de estos campos,<br>Entonces la aplicación valida que el formato del email y número de teléfono sea correcto antes de guardar los cambios.<br><br>**Escenario 3:**<br>Dado que el usuario ha editado la información,<br>Cuando guarda los cambios,<br>Entonces recibirá una confirmación de que los datos fueron actualizados exitosamente.<br><br>**Escenario 4:**<br>Dado que el usuario intenta editar un campo,<br>Cuando el campo es obligatorio (por ejemplo, dirección),<br>Entonces se mostrará un mensaje de error si el campo está vacío.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a su perfil,<br>Cuando selecciona la opción para editar su información,<br>Entonces podrá modificar los siguientes campos: email, número de teléfono y dirección.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario está editando su información,<br>Cuando hace un cambio en uno de estos campos,<br>Entonces la aplicación valida que el formato del email y número de teléfono sea correcto antes de guardar los cambios.<br><br><strong>Escenario 3:</strong><br>Dado que el usuario ha editado la información,<br>Cuando guarda los cambios,<br>Entonces recibirá una confirmación de que los datos fueron actualizados exitosamente.<br><br>**Escenario 4:**<br>Dado que el usuario intenta editar un campo,<br>Cuando el campo es obligatorio (por ejemplo, dirección),<br>Entonces se mostrará un mensaje de error si el campo está vacío.</td></tr>
 </table>
 
 ---
@@ -461,7 +461,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero poder ver una imagen que me represente, para tener una experiencia más personalizada.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el usuario accede a su perfil,<br>Cuando visualiza la información personal,<br>Entonces verá una imagen o avatar asociado a su cuenta (si está disponible).<br><br>**Escenario 2:**<br>Dado que el usuario desea cambiar su imagen,<br>Cuando selecciona la opción para editar la foto de perfil,<br>Entonces podrá cargar una nueva imagen desde su dispositivo.<br><br>**Escenario 3:**<br>Dado que el usuario cambia su imagen de perfil,<br>Cuando la nueva imagen se guarda,<br>Entonces se actualiza correctamente en el perfil y se refleja en todas las pantallas donde se visualiza el avatar del usuario.<br><br>**Escenario 4:**<br>Dado que el usuario no ha subido una imagen de perfil,<br>Cuando no se encuentra una imagen,<br>Entonces se muestra una imagen predeterminada (por ejemplo, un ícono de usuario genérico).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a su perfil,<br>Cuando visualiza la información personal,<br>Entonces verá una imagen o avatar asociado a su cuenta (si está disponible).<br><br><strong>Escenario 2:</strong><br>Dado que el usuario desea cambiar su imagen,<br>Cuando selecciona la opción para editar la foto de perfil,<br>Entonces podrá cargar una nueva imagen desde su dispositivo.<br><br><strong>Escenario 3:</strong><br>Dado que el usuario cambia su imagen de perfil,<br>Cuando la nueva imagen se guarda,<br>Entonces se actualiza correctamente en el perfil y se refleja en todas las pantallas donde se visualiza el avatar del usuario.<br><br>**Escenario 4:**<br>Dado que el usuario no ha subido una imagen de perfil,<br>Cuando no se encuentra una imagen,<br>Entonces se muestra una imagen predeterminada (por ejemplo, un ícono de usuario genérico).</td></tr>
 </table>
 
 ---
@@ -473,7 +473,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero poder ver el rol de mi cuenta, para entender qué permisos tengo dentro de la aplicación.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el usuario accede a su perfil,<br>Cuando consulta los detalles de su cuenta,<br>Entonces verá un campo que indica su rol (por ejemplo: "Administrador", "Usuario", "Invitado").<br><br>**Escenario 2:**<br>Dado que el usuario tiene un rol específico,<br>Cuando el sistema identifica un cambio en el rol,<br>Entonces actualizará la información visible en el perfil en tiempo real.<br><br>**Escenario 3:**<br>Dado que el usuario ve su rol,<br>Cuando accede a secciones de la aplicación,<br>Entonces verá solo las opciones que correspondan a su nivel de acceso (por ejemplo, un "Administrador" verá opciones de configuración, mientras que un "Usuario" verá solo las opciones básicas).<br><br>**Escenario 4:**<br>Dado que el rol puede cambiar,<br>Cuando un administrador o un usuario con permisos lo actualiza,<br>Entonces la modificación se refleja inmediatamente en el perfil del usuario.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a su perfil,<br>Cuando consulta los detalles de su cuenta,<br>Entonces verá un campo que indica su rol (por ejemplo: "Administrador", "Usuario", "Invitado").<br><br><strong>Escenario 2:</strong><br>Dado que el usuario tiene un rol específico,<br>Cuando el sistema identifica un cambio en el rol,<br>Entonces actualizará la información visible en el perfil en tiempo real.<br><br><strong>Escenario 3:</strong><br>Dado que el usuario ve su rol,<br>Cuando accede a secciones de la aplicación,<br>Entonces verá solo las opciones que correspondan a su nivel de acceso (por ejemplo, un "Administrador" verá opciones de configuración, mientras que un "Usuario" verá solo las opciones básicas).<br><br>**Escenario 4:**<br>Dado que el rol puede cambiar,<br>Cuando un administrador o un usuario con permisos lo actualiza,<br>Entonces la modificación se refleja inmediatamente en el perfil del usuario.</td></tr>
 </table>
 
 ---
@@ -485,7 +485,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver una lista de todos mis proyectos para poder conocer el estado y detalles de cada uno.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que existen proyectos registrados para el constructor,<br>Cuando el constructor accede a la vista de “Proyectos”,<br>Entonces el sistema muestra una lista con todos los proyectos incluyendo imagen, nombre, estado, tasa de ocupación y fecha de creación.<br><br>**Escenario 2:**<br>Dado que no existen proyectos registrados para el constructor,<br>Cuando el constructor accede a la vista de “Proyectos”,<br>Entonces el sistema muestra un mensaje indicando que no hay proyectos disponibles.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que existen proyectos registrados para el constructor,<br>Cuando el constructor accede a la vista de “Proyectos”,<br>Entonces el sistema muestra una lista con todos los proyectos incluyendo imagen, nombre, estado, tasa de ocupación y fecha de creación.<br><br><strong>Escenario 2:</strong><br>Dado que no existen proyectos registrados para el constructor,<br>Cuando el constructor accede a la vista de “Proyectos”,<br>Entonces el sistema muestra un mensaje indicando que no hay proyectos disponibles.</td></tr>
 </table>
 
 ---
@@ -497,7 +497,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como arquitecto, quiero agregar un nuevo proyecto para poder registrar nuevos desarrollos inmobiliarios.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el constructor proporciona datos válidos (nombre, imagen, estado, unidades totales, fecha de creación, etc.),<br>Cuando el constructor envía la solicitud para agregar el proyecto,<br>Entonces el sistema crea el proyecto y lo muestra en la lista de proyectos.<br><br>**Escenario 2:**<br>Dado que el constructor proporciona datos inválidos (por ejemplo, nombre vacío o formato incorrecto),<br>Cuando el constructor envía la solicitud para agregar el proyecto,<br>Entonces el sistema rechaza la creación y muestra un mensaje de error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el constructor proporciona datos válidos (nombre, imagen, estado, unidades totales, fecha de creación, etc.),<br>Cuando el constructor envía la solicitud para agregar el proyecto,<br>Entonces el sistema crea el proyecto y lo muestra en la lista de proyectos.<br><br><strong>Escenario 2:</strong><br>Dado que el constructor proporciona datos inválidos (por ejemplo, nombre vacío o formato incorrecto),<br>Cuando el constructor envía la solicitud para agregar el proyecto,<br>Entonces el sistema rechaza la creación y muestra un mensaje de error.</td></tr>
 </table>
 
 ---
@@ -509,7 +509,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como arquitecto, quiero ver los detalles de un proyecto específico para poder revisar su información completa.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el proyecto existe en el sistema,<br>Cuando el constructor selecciona la opción “Ver Detalles” de ese proyecto,<br>Entonces el sistema muestra la información completa del proyecto seleccionado.<br><br>**Escenario 2:**<br>Dado que el proyecto no existe en el sistema,<br>Cuando el constructor intenta acceder a los detalles del proyecto,<br>Entonces el sistema muestra un mensaje de error indicando que el proyecto no se encuentra disponible.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el proyecto existe en el sistema,<br>Cuando el constructor selecciona la opción “Ver Detalles” de ese proyecto,<br>Entonces el sistema muestra la información completa del proyecto seleccionado.<br><br><strong>Escenario 2:</strong><br>Dado que el proyecto no existe en el sistema,<br>Cuando el constructor intenta acceder a los detalles del proyecto,<br>Entonces el sistema muestra un mensaje de error indicando que el proyecto no se encuentra disponible.</td></tr>
 </table>
 
 ---
@@ -521,7 +521,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Arquitecto, quiero ver una lista de todos los clientes para poder gestionar sus proyectos asociados y el estado de su cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que hay clientes en el sistema,<br>Cuando el Arquitecto solicita la lista de clientes,<br>Entonces el sistema devuelve todos los clientes con su Nombre Completo, Proyecto Asociado y Estado de Cuenta,<br>Y el sistema muestra las Acciones disponibles (Ver Perfil e ícono de Configuración/Engranaje).<br><br>**Escenario 2:**<br>Dado que no hay clientes en el sistema,<br>Cuando el Arquitecto solicita la lista de clientes,<br>Entonces el sistema devuelve una lista vacía (o un mensaje indicando "No se encontraron clientes").<br><br>**Escenario 3:**<br>Dado que hay más clientes que el límite de visualización (ej., 10),<br>Cuando el Arquitecto ve la lista,<br>Entonces el sistema muestra los controles de paginación (número de página, botones siguiente/anterior).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que hay clientes en el sistema,<br>Cuando el Arquitecto solicita la lista de clientes,<br>Entonces el sistema devuelve todos los clientes con su Nombre Completo, Proyecto Asociado y Estado de Cuenta,<br>Y el sistema muestra las Acciones disponibles (Ver Perfil e ícono de Configuración/Engranaje).<br><br><strong>Escenario 2:</strong><br>Dado que no hay clientes en el sistema,<br>Cuando el Arquitecto solicita la lista de clientes,<br>Entonces el sistema devuelve una lista vacía (o un mensaje indicando "No se encontraron clientes").<br><br><strong>Escenario 3:</strong><br>Dado que hay más clientes que el límite de visualización (ej., 10),<br>Cuando el Arquitecto ve la lista,<br>Entonces el sistema muestra los controles de paginación (número de página, botones siguiente/anterior).</td></tr>
 </table>
 
 ---
@@ -533,7 +533,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Ingeniero, quiero poder ordenar la lista de clientes por columnas (Nombre Completo, Proyecto Asociado, Estado de Cuenta) para poder encontrar u organizar clientes rápidamente según criterios específicos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Nombre Completo,<br>Entonces el sistema ordena la lista alfabéticamente por nombre del cliente (ascendente o descendente).<br><br>**Escenario 2:**<br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Proyecto Asociado,<br>Entonces el sistema ordena la lista por el nombre del proyecto asociado (ascendente o descendente).<br><br>**Escenario 3:**<br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Estado de Cuenta,<br>Entonces el sistema ordena la lista por el estado de la cuenta (ej., Activo, Stand by, Suspendido).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Nombre Completo,<br>Entonces el sistema ordena la lista alfabéticamente por nombre del cliente (ascendente o descendente).<br><br><strong>Escenario 2:</strong><br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Proyecto Asociado,<br>Entonces el sistema ordena la lista por el nombre del proyecto asociado (ascendente o descendente).<br><br><strong>Escenario 3:</strong><br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Estado de Cuenta,<br>Entonces el sistema ordena la lista por el estado de la cuenta (ej., Activo, Stand by, Suspendido).</td></tr>
 </table>
 
 ---
@@ -545,7 +545,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Arquitecto, quiero poder agregar un nuevo cliente para poder registrarlo en el sistema.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el Arquitecto hace clic en el botón + Add Client (Agregar Cliente),<br>Cuando el Arquitecto proporciona los datos válidos requeridos (ej., Nombre Completo),<br>Entonces el sistema crea el nuevo cliente y lo muestra en la lista.<br><br>**Escenario 2:**<br>Dado que el Arquitecto hace clic en el botón + Add Client (Agregar Cliente),<br>Cuando el Arquitecto envía el formulario con datos obligatorios faltantes o inválidos,<br>Entonces el sistema rechaza la creación y proporciona un mensaje de error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Arquitecto hace clic en el botón + Add Client (Agregar Cliente),<br>Cuando el Arquitecto proporciona los datos válidos requeridos (ej., Nombre Completo),<br>Entonces el sistema crea el nuevo cliente y lo muestra en la lista.<br><br><strong>Escenario 2:</strong><br>Dado que el Arquitecto hace clic en el botón + Add Client (Agregar Cliente),<br>Cuando el Arquitecto envía el formulario con datos obligatorios faltantes o inválidos,<br>Entonces el sistema rechaza la creación y proporciona un mensaje de error.</td></tr>
 </table>
 
 ---
@@ -557,7 +557,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Ingeniero, quiero ver el perfil detallado de un cliente para poder acceder a toda su información y opciones de gestión.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que un cliente existente se muestra en la lista,<br>Cuando el Ingeniero hace clic en el botón de acción View Profile (Ver Perfil),<br>Entonces el sistema navega a la vista detallada del perfil para ese cliente específico.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que un cliente existente se muestra en la lista,<br>Cuando el Ingeniero hace clic en el botón de acción View Profile (Ver Perfil),<br>Entonces el sistema navega a la vista detallada del perfil para ese cliente específico.</td></tr>
 </table>
 
 ---
@@ -569,7 +569,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Arquitecto, quiero acceder a la configuración específica de un cliente para poder realizar acciones de gestión como editar o gestionar el estado de su cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que un cliente existente se muestra en la lista,<br>Cuando el Arquitecto hace clic en el botón de acción ícono de Configuración/Engranaje,<br>Entonces el sistema muestra un menú o navega a una pantalla con opciones de gestión para ese cliente (ej., Editar, Suspender, Activar, Eliminar).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que un cliente existente se muestra en la lista,<br>Cuando el Arquitecto hace clic en el botón de acción ícono de Configuración/Engranaje,<br>Entonces el sistema muestra un menú o navega a una pantalla con opciones de gestión para ese cliente (ej., Editar, Suspender, Activar, Eliminar).</td></tr>
 </table>
 
 ---
@@ -581,7 +581,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver mi plan de suscripción actual y su estado para confirmar los beneficios que tengo y el costo mensual.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el ingeniero accede a la sección de suscripción,<br>Cuando el sistema carga la vista,<br>Entonces el sistema muestra el nombre del plan actual (Enterprise), su costo total, el estado de la suscripción (Active) y una lista detallada de todos los beneficios incluidos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a la sección de suscripción,<br>Cuando el sistema carga la vista,<br>Entonces el sistema muestra el nombre del plan actual (Enterprise), su costo total, el estado de la suscripción (Active) y una lista detallada de todos los beneficios incluidos.</td></tr>
 </table>
 
 ---
@@ -593,7 +593,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver planes de suscripción alternativos (Professional y Starter) para poder comparar sus precios y beneficios con mi plan actual.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el ingeniero accede a la sección de suscripción,<br>Cuando el sistema carga la vista,<br>Entonces el sistema muestra, junto al plan actual, las tarjetas informativas de los planes Professional y Starter, incluyendo sus costos y sus listas de beneficios específicos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a la sección de suscripción,<br>Cuando el sistema carga la vista,<br>Entonces el sistema muestra, junto al plan actual, las tarjetas informativas de los planes Professional y Starter, incluyendo sus costos y sus listas de beneficios específicos.</td></tr>
 </table>
 
 ---
@@ -605,7 +605,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como arquitecto, quiero iniciar el proceso de cambio de plan para poder seleccionar un nivel de servicio diferente que se ajuste mejor a mis necesidades.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el arquitecto se encuentra en la sección de suscripción,<br>Cuando el arquitecto hace clic en el botón Change Plan (Cambiar Plan),<br>Entonces el sistema inicia el flujo para seleccionar un nuevo plan (ej., navegando a una nueva página o mostrando un modal de selección).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el arquitecto se encuentra en la sección de suscripción,<br>Cuando el arquitecto hace clic en el botón Change Plan (Cambiar Plan),<br>Entonces el sistema inicia el flujo para seleccionar un nuevo plan (ej., navegando a una nueva página o mostrando un modal de selección).</td></tr>
 </table>
 
 ---
@@ -617,7 +617,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como arquitecto, quiero renovar mi plan actual para asegurar la continuidad del servicio si estoy cerca de la fecha de expiración o si mi plan no está configurado para renovación automática.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el arquitecto tiene un plan activo,<br>Cuando el arquitecto hace clic en el botón Renew Plan (Renovar Plan),<br>Entonces el sistema inicia el proceso de renovación del plan actual (ej., mostrando un resumen de la transacción o confirmando la fecha de renovación).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el arquitecto tiene un plan activo,<br>Cuando el arquitecto hace clic en el botón Renew Plan (Renovar Plan),<br>Entonces el sistema inicia el proceso de renovación del plan actual (ej., mostrando un resumen de la transacción o confirmando la fecha de renovación).</td></tr>
 </table>
 
 ---
@@ -629,7 +629,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero cancelar mi plan actual para finalizar mi suscripción al término del ciclo de facturación.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el ingeniero tiene un plan activo,<br>Cuando el ingeniero hace clic en el botón Cancel Plan (Cancelar Plan),<br>Entonces el sistema muestra una ventana de confirmación o inicia el flujo de cancelación (ej., pidiendo un motivo de la cancelación antes de confirmarla).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero tiene un plan activo,<br>Cuando el ingeniero hace clic en el botón Cancel Plan (Cancelar Plan),<br>Entonces el sistema muestra una ventana de confirmación o inicia el flujo de cancelación (ej., pidiendo un motivo de la cancelación antes de confirmarla).</td></tr>
 </table>
 
 ---
@@ -641,7 +641,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como propietario, quiero ver una lista de todos los dispositivos registrados para poder monitorear su estado y ubicación.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que hay dispositivos registrados en el sistema,<br>Cuando el Ingeniero/Arquitecto accede a la vista de Gestión de Dispositivos,<br>Entonces el sistema muestra una lista con el Name (Nombre), Type (Tipo), Location (Ubicación) y Real-time Status (Estado en Tiempo Real) de cada dispositivo.<br>Y el sistema muestra las Actions (Acciones) disponibles (Configuración y Eliminar).<br><br>**Escenario 2:**<br>Dado que hay dispositivos con estado "Offline",<br>Cuando el Ingeniero/Arquitecto ve la lista,<br>Entonces el sistema resalta claramente el estado "Offline" (ej., en color rojo) para esos dispositivos.<br><br>**Escenario 3:**<br>Dado que se muestra la lista de dispositivos,<br>Cuando el Ingeniero/Arquitecto hace clic en los íconos de ordenar (flechas) junto a las columnas Name, Type o Location,<br>Entonces el sistema ordena la lista según el campo seleccionado (ascendente o descendente).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que hay dispositivos registrados en el sistema,<br>Cuando el Ingeniero/Arquitecto accede a la vista de Gestión de Dispositivos,<br>Entonces el sistema muestra una lista con el Name (Nombre), Type (Tipo), Location (Ubicación) y Real-time Status (Estado en Tiempo Real) de cada dispositivo.<br>Y el sistema muestra las Actions (Acciones) disponibles (Configuración y Eliminar).<br><br><strong>Escenario 2:</strong><br>Dado que hay dispositivos con estado "Offline",<br>Cuando el Ingeniero/Arquitecto ve la lista,<br>Entonces el sistema resalta claramente el estado "Offline" (ej., en color rojo) para esos dispositivos.<br><br><strong>Escenario 3:</strong><br>Dado que se muestra la lista de dispositivos,<br>Cuando el Ingeniero/Arquitecto hace clic en los íconos de ordenar (flechas) junto a las columnas Name, Type o Location,<br>Entonces el sistema ordena la lista según el campo seleccionado (ascendente o descendente).</td></tr>
 </table>
 
 ---
@@ -653,7 +653,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como propietario, quiero agregar un nuevo dispositivo al sistema para expandir la cobertura de monitoreo y control.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el Ingeniero/Arquitecto está en la vista de Gestión de Dispositivos,<br>Cuando el Ingeniero/Arquitecto hace clic en el botón + Add Device (Agregar Dispositivo),<br>Entonces el sistema presenta un formulario o flujo para ingresar los detalles del nuevo dispositivo (ej., Nombre, Tipo, Ubicación y credenciales de conexión).<br><br>**Escenario 2:**<br>Dado que el Ingeniero/Arquitecto proporciona todos los datos requeridos y válidos,<br>Cuando el formulario es enviado,<br>Entonces el sistema registra el dispositivo, y este aparece en la lista con su estado inicial.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Ingeniero/Arquitecto está en la vista de Gestión de Dispositivos,<br>Cuando el Ingeniero/Arquitecto hace clic en el botón + Add Device (Agregar Dispositivo),<br>Entonces el sistema presenta un formulario o flujo para ingresar los detalles del nuevo dispositivo (ej., Nombre, Tipo, Ubicación y credenciales de conexión).<br><br><strong>Escenario 2:</strong><br>Dado que el Ingeniero/Arquitecto proporciona todos los datos requeridos y válidos,<br>Cuando el formulario es enviado,<br>Entonces el sistema registra el dispositivo, y este aparece en la lista con su estado inicial.</td></tr>
 </table>
 
 ---
@@ -665,7 +665,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como propietario, quiero acceder a la configuración específica de un dispositivo para modificar sus parámetros o revisar su información detallada.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que un dispositivo está listado,<br>Cuando el Ingeniero hace clic en el ícono de Configuración en la columna de Acciones,<br>Entonces el sistema navega a una vista detallada o abre un modal con la información editable del dispositivo (ej., cambiar nombre, ubicación, parámetros técnicos).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que un dispositivo está listado,<br>Cuando el Ingeniero hace clic en el ícono de Configuración en la columna de Acciones,<br>Entonces el sistema navega a una vista detallada o abre un modal con la información editable del dispositivo (ej., cambiar nombre, ubicación, parámetros técnicos).</td></tr>
 </table>
 
 ---
@@ -677,7 +677,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como propietario, quiero poder eliminar un dispositivo que ya no está en uso o está defectuoso, para mantener la lista limpia y precisa.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que un dispositivo está listado,<br>Cuando el Arquitecto hace clic en el ícono de Eliminar,<br>Entonces el sistema solicita una confirmación de eliminación.<br><br>**Escenario 2:**<br>Dado que el Arquitecto ha solicitado la eliminación y confirma la acción,<br>Cuando el sistema procesa la solicitud,<br>Entonces el dispositivo es removido de la lista y se confirma la acción.<br><br>**Escenario 3:**<br>Dado que un dispositivo está asociado a una función crítica o un tutorial (si aplicara),<br>Cuando el Arquitecto solicita la eliminación,<br>Entonces el sistema rechaza la eliminación y proporciona un mensaje de error indicando la dependencia.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que un dispositivo está listado,<br>Cuando el Arquitecto hace clic en el ícono de Eliminar,<br>Entonces el sistema solicita una confirmación de eliminación.<br><br><strong>Escenario 2:</strong><br>Dado que el Arquitecto ha solicitado la eliminación y confirma la acción,<br>Cuando el sistema procesa la solicitud,<br>Entonces el dispositivo es removido de la lista y se confirma la acción.<br><br><strong>Escenario 3:</strong><br>Dado que un dispositivo está asociado a una función crítica o un tutorial (si aplicara),<br>Cuando el Arquitecto solicita la eliminación,<br>Entonces el sistema rechaza la eliminación y proporciona un mensaje de error indicando la dependencia.</td></tr>
 </table>
 
 ---
@@ -689,7 +689,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero poder activar o desactivar varios tipos de notificaciones para controlar qué alertas recibo del sistema.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que la Alerta de Expiración está en un estado (ej., activada),<br>Cuando el Usuario alterna el switch de *Expiration Alerts (Alertas de Expiración)*,<br>Entonces el sistema actualiza el estado de la alerta y guarda la preferencia del Usuario.<br><br>**Escenario 2:**<br>Dado que el Usuario está en la configuración de notificaciones,<br>Cuando el Usuario alterna el switch de *System Updates (Actualizaciones del Sistema)*,<br>Entonces el sistema activa o desactiva las notificaciones de actualizaciones del sistema.<br><br>**Escenario 3:**<br>Dado que el Usuario está en la configuración de notificaciones,<br>Cuando el Usuario alterna el switch de *Push Notifications (Notificaciones Push)*,<br>Entonces el sistema activa o desactiva las notificaciones que se envían directamente al dispositivo o navegador del Usuario.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que la Alerta de Expiración está en un estado (ej., activada),<br>Cuando el Usuario alterna el switch de *Expiration Alerts (Alertas de Expiración)*,<br>Entonces el sistema actualiza el estado de la alerta y guarda la preferencia del Usuario.<br><br><strong>Escenario 2:</strong><br>Dado que el Usuario está en la configuración de notificaciones,<br>Cuando el Usuario alterna el switch de *System Updates (Actualizaciones del Sistema)*,<br>Entonces el sistema activa o desactiva las notificaciones de actualizaciones del sistema.<br><br><strong>Escenario 3:</strong><br>Dado que el Usuario está en la configuración de notificaciones,<br>Cuando el Usuario alterna el switch de *Push Notifications (Notificaciones Push)*,<br>Entonces el sistema activa o desactiva las notificaciones que se envían directamente al dispositivo o navegador del Usuario.</td></tr>
 </table>
 
 ---
@@ -701,7 +701,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero poder cambiar mi contraseña periódicamente para mantener la seguridad de mi cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Change Password (Cambiar Contraseña)*,<br>Entonces el sistema presenta un formulario o flujo para ingresar la contraseña actual y la nueva contraseña (con confirmación).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Change Password (Cambiar Contraseña)*,<br>Entonces el sistema presenta un formulario o flujo para ingresar la contraseña actual y la nueva contraseña (con confirmación).</td></tr>
 </table>
 
 ---
@@ -713,7 +713,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero activar o gestionar la Autenticación de Dos Factores (2FA) para añadir una capa extra de seguridad a mi cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Two-Factor Authentication*,<br>Entonces el sistema navega a la pantalla de configuración de 2FA (para activarla, desactivarla o generar códigos de respaldo).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Two-Factor Authentication*,<br>Entonces el sistema navega a la pantalla de configuración de 2FA (para activarla, desactivarla o generar códigos de respaldo).</td></tr>
 </table>
 
 ---
@@ -725,7 +725,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero ver y gestionar mis sesiones activas para poder cerrar la sesión en dispositivos que ya no uso o que han sido comprometidos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Session Management (Gestión de Sesiones)*,<br>Entonces el sistema muestra una lista de los dispositivos o ubicaciones con sesiones activas y una opción para cerrarlas individualmente o todas.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Session Management (Gestión de Sesiones)*,<br>Entonces el sistema muestra una lista de los dispositivos o ubicaciones con sesiones activas y una opción para cerrarlas individualmente o todas.</td></tr>
 </table>
 
 ---
@@ -737,7 +737,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero añadir una dirección de correo electrónico alternativa para recuperación de cuenta o notificaciones secundarias.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Add Alternate Mail Address*,<br>Entonces el sistema presenta un formulario para ingresar la nueva dirección de correo y un proceso de verificación (ej., envío de un enlace de confirmación).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Add Alternate Mail Address*,<br>Entonces el sistema presenta un formulario para ingresar la nueva dirección de correo y un proceso de verificación (ej., envío de un enlace de confirmación).</td></tr>
 </table>
 
 ---
@@ -749,7 +749,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero acceder rápidamente a las secciones de Soporte para resolver mis dudas o contactar con el equipo de soporte.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el Usuario está en la sección de Soporte y Ayuda,<br>Cuando el Usuario hace clic en *FAQs*,<br>Entonces el sistema navega a la página de preguntas frecuentes.<br><br>**Escenario 2:**<br>Dado que el Usuario está en la sección de Soporte y Ayuda,<br>Cuando el Usuario hace clic en *Contact Support*,<br>Entonces el sistema navega a la página o abre un formulario para contactar directamente al equipo de soporte.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Usuario está en la sección de Soporte y Ayuda,<br>Cuando el Usuario hace clic en *FAQs*,<br>Entonces el sistema navega a la página de preguntas frecuentes.<br><br><strong>Escenario 2:</strong><br>Dado que el Usuario está en la sección de Soporte y Ayuda,<br>Cuando el Usuario hace clic en *Contact Support*,<br>Entonces el sistema navega a la página o abre un formulario para contactar directamente al equipo de soporte.</td></tr>
 </table>
 
 ---
@@ -761,7 +761,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero crear una cuenta nueva proporcionando mis datos básicos y seleccionando mi rol, para poder acceder a las funcionalidades de la plataforma.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el visitante se encuentra en el formulario de registro y proporciona un correo válido, una contraseña segura y selecciona su rol.<br>Cuando hace clic en el botón "Registrarse".<br>Entonces el sistema crea la cuenta, inicia la sesión automáticamente y redirige al usuario a la pantalla principal.<br><br>**Escenario 2:**<br>Dado que el visitante intenta registrarse con un correo electrónico que ya existe en el sistema.<br>Cuando envía el formulario.<br>Entonces el sistema muestra un mensaje de error indicando que el correo ya está en uso.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante se encuentra en el formulario de registro y proporciona un correo válido, una contraseña segura y selecciona su rol.<br>Cuando hace clic en el botón "Registrarse".<br>Entonces el sistema crea la cuenta, inicia la sesión automáticamente y redirige al usuario a la pantalla principal.<br><br><strong>Escenario 2:</strong><br>Dado que el visitante intenta registrarse con un correo electrónico que ya existe en el sistema.<br>Cuando envía el formulario.<br>Entonces el sistema muestra un mensaje de error indicando que el correo ya está en uso.</td></tr>
 </table>
 
 ---
@@ -773,7 +773,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero ingresar mis credenciales (correo y contraseña) para acceder a mi cuenta y utilizar las funciones protegidas.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el usuario ingresa un correo y contraseña correctos.<br>Cuando hace clic en el botón "Ingresar".<br>Entonces el sistema valida las credenciales, le otorga acceso y lo redirige al Dashboard correspondiente a su rol.<br><br>**Escenario 2:**<br>Dado que el usuario ingresa un correo no registrado o una contraseña errónea.<br>Cuando intenta iniciar sesión.<br>Entonces el sistema deniega el acceso y muestra un mensaje genérico de error ("Usuario o contraseña incorrectos").</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario ingresa un correo y contraseña correctos.<br>Cuando hace clic en el botón "Ingresar".<br>Entonces el sistema valida las credenciales, le otorga acceso y lo redirige al Dashboard correspondiente a su rol.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario ingresa un correo no registrado o una contraseña errónea.<br>Cuando intenta iniciar sesión.<br>Entonces el sistema deniega el acceso y muestra un mensaje genérico de error ("Usuario o contraseña incorrectos").</td></tr>
 </table>
 
 ---
@@ -785,7 +785,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero cerrar mi sesión actual para proteger mi cuenta, especialmente si estoy en un dispositivo compartido.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el usuario tiene una sesión activa.<br>Cuando selecciona la opción "Cerrar Sesión".<br>Entonces el sistema invalida su acceso actual y lo redirige a la página de inicio o login pública.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario tiene una sesión activa.<br>Cuando selecciona la opción "Cerrar Sesión".<br>Entonces el sistema invalida su acceso actual y lo redirige a la página de inicio o login pública.</td></tr>
 </table>
 
 ---
@@ -797,7 +797,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero acceder a un chatbot impulsado por IA para resolver dudas sobre la plataforma IoBuild de manera rápida y eficiente.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el usuario accede a la plataforma,<br>Cuando selecciona la opción de chatbot,<br>Entonces se abre una interfaz de chat donde puede escribir preguntas.<br><br>**Escenario 2:**<br>Dado que el usuario escribe una pregunta,<br>Cuando envía el mensaje,<br>Entonces la IA responde con información precisa basada en la documentación de IoBuild.<br><br>**Escenario 3:**<br>Dado que el chatbot no puede resolver una duda compleja,<br>Cuando la IA lo detecta,<br>Entonces sugiere contactar al soporte humano.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a la plataforma,<br>Cuando selecciona la opción de chatbot,<br>Entonces se abre una interfaz de chat donde puede escribir preguntas.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario escribe una pregunta,<br>Cuando envía el mensaje,<br>Entonces la IA responde con información precisa basada en la documentación de IoBuild.<br><br><strong>Escenario 3:</strong><br>Dado que el chatbot no puede resolver una duda compleja,<br>Cuando la IA lo detecta,<br>Entonces sugiere contactar al soporte humano.</td></tr>
 </table>
 
 ---
@@ -809,7 +809,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero usar la cámara de mi dispositivo para escanear un dispositivo físico y que la IA extraiga automáticamente los parámetros necesarios.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el usuario está agregando un dispositivo,<br>Cuando selecciona la opción de escanear con cámara,<br>Entonces se activa la cámara y permite tomar una foto.<br><br>**Escenario 2:**<br>Dado que el usuario toma una foto del dispositivo,<br>Cuando la IA procesa la imagen mediante OCR,<br>Entonces extrae parámetros como modelo, serie y configuración inicial.<br><br>**Escenario 3:**<br>Dado que la IA no puede extraer todos los parámetros,<br>Cuando ocurre,<br>Entonces solicita al usuario completar manualmente los campos faltantes.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario está agregando un dispositivo,<br>Cuando selecciona la opción de escanear con cámara,<br>Entonces se activa la cámara y permite tomar una foto.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario toma una foto del dispositivo,<br>Cuando la IA procesa la imagen mediante OCR,<br>Entonces extrae parámetros como modelo, serie y configuración inicial.<br><br><strong>Escenario 3:</strong><br>Dado que la IA no puede extraer todos los parámetros,<br>Cuando ocurre,<br>Entonces solicita al usuario completar manualmente los campos faltantes.</td></tr>
 </table>
 
 ---
@@ -821,7 +821,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero que el sistema optimice automáticamente los dispositivos conectados para mejorar su rendimiento y eficiencia energética.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que hay dispositivos conectados,<br>Cuando el usuario activa la optimización,<br>Entonces la IA analiza el uso y ajusta configuraciones automáticamente.<br><br>**Escenario 2:**<br>Dado que la optimización se aplica,<br>Cuando se completa,<br>Entonces el usuario recibe un reporte de los cambios realizados y beneficios obtenidos.<br><br>**Escenario 3:**<br>Dado que la optimización requiere confirmación,<br>Cuando el usuario aprueba,<br>Entonces se aplican los cambios definitivos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que hay dispositivos conectados,<br>Cuando el usuario activa la optimización,<br>Entonces la IA analiza el uso y ajusta configuraciones automáticamente.<br><br><strong>Escenario 2:</strong><br>Dado que la optimización se aplica,<br>Cuando se completa,<br>Entonces el usuario recibe un reporte de los cambios realizados y beneficios obtenidos.<br><br><strong>Escenario 3:</strong><br>Dado que la optimización requiere confirmación,<br>Cuando el usuario aprueba,<br>Entonces se aplican los cambios definitivos.</td></tr>
 </table>
 
 ### 3.2.3. Technical Stories
@@ -833,7 +833,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que liste todos los proyectos asociados a un constructor específico, para poder mostrar la vista principal de Proyectos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud para listar proyectos filtrados por el identificador del constructor (ej. *builderId*),<br>Cuando la API encuentra uno o más recursos de proyecto que coinciden,<br>Entonces la API responde con **200 OK** y devuelve un arreglo no vacío de recursos de proyecto, cada uno incluyendo los campos: *id, imagen, nombre, estado, tasaDeOcupacion y fechaDeCreacion.*<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud para listar proyectos de un constructor,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para listar proyectos filtrados por el identificador del constructor (ej. *builderId*),<br>Cuando la API encuentra uno o más recursos de proyecto que coinciden,<br>Entonces la API responde con **200 OK** y devuelve un arreglo no vacío de recursos de proyecto, cada uno incluyendo los campos: *id, imagen, nombre, estado, tasaDeOcupacion y fechaDeCreacion.*<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para listar proyectos de un constructor,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.</td></tr>
 </table>
 
 ---
@@ -845,7 +845,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero añadir un nuevo proyecto a través de la API para poder implementar la funcionalidad de registro de nuevos desarrollos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud de creación que incluye todos los campos obligatorios y válidos (ej. *nombre, unidadesTotales, fechaDeCreacion*),<br>Cuando la API valida y persiste el nuevo recurso de proyecto exitosamente,<br>Entonces la API responde con **201 Created**, y devuelve la representación del recurso creado (incluyendo *id* y los datos proporcionados).<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud de creación con campos obligatorios faltantes o con valores inválidos (ej. un campo numérico incorrecto),<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación específicos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud de creación que incluye todos los campos obligatorios y válidos (ej. *nombre, unidadesTotales, fechaDeCreacion*),<br>Cuando la API valida y persiste el nuevo recurso de proyecto exitosamente,<br>Entonces la API responde con **201 Created**, y devuelve la representación del recurso creado (incluyendo *id* y los datos proporcionados).<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud de creación con campos obligatorios faltantes o con valores inválidos (ej. un campo numérico incorrecto),<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación específicos.</td></tr>
 </table>
 
 ---
@@ -857,7 +857,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar un proyecto por su *{id}* para poder mostrar la vista de detalles del proyecto.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud para un proyecto identificado por *{id}*,<br>Cuando la API encuentra el recurso,<br>Entonces la API responde con **200 OK** y devuelve el recurso de proyecto completo (con todos sus atributos detallados).<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud para un proyecto identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error indicando que el proyecto no existe.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para un proyecto identificado por *{id}*,<br>Cuando la API encuentra el recurso,<br>Entonces la API responde con **200 OK** y devuelve el recurso de proyecto completo (con todos sus atributos detallados).<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para un proyecto identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error indicando que el proyecto no existe.</td></tr>
 </table>
 
 ---
@@ -869,7 +869,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero enviar a la API una solicitud para modificar los datos de un cliente existente, para poder implementar la edición de su perfil y la gestión de su estado de cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud **PUT** o **PATCH** para actualizar el cliente identificado por *{id}* con datos válidos (ej. un nuevo *accountStatement*),<br>Cuando la API valida y persiste los cambios exitosamente,<br>Entonces la API responde con **200 OK** y devuelve la representación del recurso de cliente actualizado.<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud de actualización con campos obligatorios faltantes o que contienen valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación.<br><br>**Escenario 3:**<br>Dado que se recibe una solicitud para actualizar un cliente con un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud **PUT** o **PATCH** para actualizar el cliente identificado por *{id}* con datos válidos (ej. un nuevo *accountStatement*),<br>Cuando la API valida y persiste los cambios exitosamente,<br>Entonces la API responde con **200 OK** y devuelve la representación del recurso de cliente actualizado.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud de actualización con campos obligatorios faltantes o que contienen valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para actualizar un cliente con un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.</td></tr>
 </table>
 
 ---
@@ -881,7 +881,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API la eliminación de un cliente por su *{id}*, para poder implementar la funcionalidad de dar de baja clientes que ya no se utilizarán.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud **DELETE** para eliminar un cliente identificado por *{id}*,<br>Cuando la API elimina el recurso exitosamente,<br>Entonces la API responde con **204 No Content** (estándar para eliminación exitosa).<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud para eliminar un cliente identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.<br><br>**Escenario 3:**<br>Dado que se recibe una solicitud para eliminar un cliente identificado por *{id}* que tiene proyectos activos o dependencias críticas,<br>Cuando la API detecta una restricción de dependencia,<br>Entonces la API responde con **409 Conflict** y un payload de error explicando que la acción fue rechazada debido a dependencias.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud **DELETE** para eliminar un cliente identificado por *{id}*,<br>Cuando la API elimina el recurso exitosamente,<br>Entonces la API responde con **204 No Content** (estándar para eliminación exitosa).<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para eliminar un cliente identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para eliminar un cliente identificado por *{id}* que tiene proyectos activos o dependencias críticas,<br>Cuando la API detecta una restricción de dependencia,<br>Entonces la API responde con **409 Conflict** y un payload de error explicando que la acción fue rechazada debido a dependencias.</td></tr>
 </table>
 
 ---
@@ -893,7 +893,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero poder enviar parámetros de ordenación a la API (nombre de columna y dirección), para poder implementar las funcionalidades de Buscar/Ordenar Clientes.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud para listar clientes incluyendo parámetros de ordenación válidos (ej. *sort=fullName,desc* o *sort=accountStatement,asc*),<br>Cuando la API procesa los datos y aplica la ordenación,<br>Entonces la API responde con **200 OK** y los clientes son devueltos en el orden especificado.<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud para listar clientes incluyendo un parámetro de ordenación inválido o una columna no soportada,<br>Cuando la API valida los parámetros de entrada,<br>Entonces la API responde con **400 Bad Request** y un payload de error indicando que el parámetro de ordenación es incorrecto o no está permitido.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para listar clientes incluyendo parámetros de ordenación válidos (ej. *sort=fullName,desc* o *sort=accountStatement,asc*),<br>Cuando la API procesa los datos y aplica la ordenación,<br>Entonces la API responde con **200 OK** y los clientes son devueltos en el orden especificado.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para listar clientes incluyendo un parámetro de ordenación inválido o una columna no soportada,<br>Cuando la API valida los parámetros de entrada,<br>Entonces la API responde con **400 Bad Request** y un payload de error indicando que el parámetro de ordenación es incorrecto o no está permitido.</td></tr>
 </table>
 
 ---
@@ -905,7 +905,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que liste los clientes, opcionalmente filtrados por estado o nombre, para poder mostrar la vista de la lista de clientes.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud para listar clientes, potencialmente incluyendo parámetros de paginación (*límite*, *offset*) y ordenamiento,<br>Cuando la API encuentra uno o más clientes,<br>Entonces la API responde con **200 OK** y devuelve un arreglo de recursos de cliente, incluyendo *id*, *fullName*, *associatedProject* y *accountStatement*, junto con metadatos de paginación.<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud para listar clientes,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para listar clientes, potencialmente incluyendo parámetros de paginación (*límite*, *offset*) y ordenamiento,<br>Cuando la API encuentra uno o más clientes,<br>Entonces la API responde con **200 OK** y devuelve un arreglo de recursos de cliente, incluyendo *id*, *fullName*, *associatedProject* y *accountStatement*, junto con metadatos de paginación.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para listar clientes,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.</td></tr>
 </table>
 
 ---
@@ -917,7 +917,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero añadir un nuevo cliente a través de la API para poder implementar la funcionalidad de creación de clientes.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud de creación que incluye campos obligatorios (ej. *fullName*),<br>Cuando la API valida y persiste el nuevo cliente exitosamente,<br>Entonces la API responde con **201 Created** y devuelve la representación del recurso de cliente creado (incluyendo *id*).<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud de creación con campos obligatorios faltantes o que contienen valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación.<br><br>**Escenario 3:**<br>Dado que se recibe una solicitud de creación para un *fullName* que ya existe,<br>Cuando la API detecta la violación de la restricción de duplicado,<br>Entonces la API responde con **409 Conflict** y un payload de error explicativo.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud de creación que incluye campos obligatorios (ej. *fullName*),<br>Cuando la API valida y persiste el nuevo cliente exitosamente,<br>Entonces la API responde con **201 Created** y devuelve la representación del recurso de cliente creado (incluyendo *id*).<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud de creación con campos obligatorios faltantes o que contienen valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud de creación para un *fullName* que ya existe,<br>Cuando la API detecta la violación de la restricción de duplicado,<br>Entonces la API responde con **409 Conflict** y un payload de error explicativo.</td></tr>
 </table>
 
 ---
@@ -929,7 +929,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar un recurso de cliente por su *{id}* para poder implementar la vista detallada del perfil.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud para un cliente identificado por *{id}*,<br>Cuando la API encuentra el recurso,<br>Entonces la API responde con **200 OK** y devuelve el recurso de cliente completo.<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud para un cliente identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para un cliente identificado por *{id}*,<br>Cuando la API encuentra el recurso,<br>Entonces la API responde con **200 OK** y devuelve el recurso de cliente completo.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para un cliente identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.</td></tr>
 </table>
 
 ---
@@ -941,7 +941,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que liste todos los dispositivos, filtrados por ubicación o estado, para poder mostrar la lista de Gestión de Dispositivos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud para listar dispositivos,<br>Cuando la API encuentra uno o más recursos de dispositivo,<br>Entonces la API responde con **200 OK** y devuelve un arreglo no vacío de recursos de dispositivo, cada uno incluyendo *id*, *name*, *type*, *location* y *realTimeStatus*.<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud para listar dispositivos,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.<br><br>**Escenario 3:**<br>Dado que se recibe una solicitud para listar dispositivos filtrados por un parámetro de *status* (ej. “Offline”),<br>Cuando la API filtra los recursos,<br>Entonces la API responde con **200 OK** y devuelve solo los dispositivos que coinciden con el estado solicitado.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para listar dispositivos,<br>Cuando la API encuentra uno o más recursos de dispositivo,<br>Entonces la API responde con **200 OK** y devuelve un arreglo no vacío de recursos de dispositivo, cada uno incluyendo *id*, *name*, *type*, *location* y *realTimeStatus*.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para listar dispositivos,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para listar dispositivos filtrados por un parámetro de *status* (ej. “Offline”),<br>Cuando la API filtra los recursos,<br>Entonces la API responde con **200 OK** y devuelve solo los dispositivos que coinciden con el estado solicitado.</td></tr>
 </table>
 
 ---
@@ -953,7 +953,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que elimine un dispositivo por su *{id}* para poder retirar hardware que ya no se utiliza del sistema.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por *{id}*,<br>Cuando la API elimina el recurso exitosamente,<br>Entonces la API responde con **204 No Content** (estándar para eliminación exitosa).<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.<br><br>**Escenario 3:**<br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por *{id}* que está actualmente en uso o vinculado a datos críticos,<br>Cuando la API detecta una restricción de dependencia,<br>Entonces la API responde con **409 Conflict** y un payload de error explicando la dependencia.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por *{id}*,<br>Cuando la API elimina el recurso exitosamente,<br>Entonces la API responde con **204 No Content** (estándar para eliminación exitosa).<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por *{id}* que está actualmente en uso o vinculado a datos críticos,<br>Cuando la API detecta una restricción de dependencia,<br>Entonces la API responde con **409 Conflict** y un payload de error explicando la dependencia.</td></tr>
 </table>
 
 ---
@@ -965,7 +965,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que actualice la información de un proyecto (nombre, ubicación y descripción) para mantener los datos actualizados en la vista de gestión de proyectos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud para actualizar un proyecto identificado por *{id}*, incluyendo campos válidos como *name*, *location* y *description*,<br>Cuando la API valida y persiste los cambios correctamente,<br>Entonces la API responde con **200 OK** y devuelve la representación actualizada del recurso de proyecto.<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud de actualización con campos faltantes o valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload que describe los errores de validación.<br><br>**Escenario 3:**<br>Dado que se recibe una solicitud para actualizar un proyecto identificado por un *{id}* inexistente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un mensaje de error apropiado.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para actualizar un proyecto identificado por *{id}*, incluyendo campos válidos como *name*, *location* y *description*,<br>Cuando la API valida y persiste los cambios correctamente,<br>Entonces la API responde con **200 OK** y devuelve la representación actualizada del recurso de proyecto.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud de actualización con campos faltantes o valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload que describe los errores de validación.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para actualizar un proyecto identificado por un *{id}* inexistente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un mensaje de error apropiado.</td></tr>
 </table>
 
 ---
@@ -977,7 +977,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que actualice la información de un dispositivo (nombre y ubicación) para reflejar los cambios en la gestión de dispositivos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud para actualizar un dispositivo identificado por *{id}*, incluyendo campos válidos como *name* y *location*,<br>Cuando la API valida y persiste los cambios exitosamente,<br>Entonces la API responde con **200 OK** y devuelve el recurso de dispositivo actualizado.<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud con campos inválidos o formatos incorrectos,<br>Cuando la API valida la información y detecta errores,<br>Entonces la API responde con **400 Bad Request** y un payload con los detalles del error.<br><br>**Escenario 3:**<br>Dado que se recibe una solicitud para actualizar un dispositivo con un *{id}* inexistente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un mensaje de error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para actualizar un dispositivo identificado por *{id}*, incluyendo campos válidos como *name* y *location*,<br>Cuando la API valida y persiste los cambios exitosamente,<br>Entonces la API responde con **200 OK** y devuelve el recurso de dispositivo actualizado.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud con campos inválidos o formatos incorrectos,<br>Cuando la API valida la información y detecta errores,<br>Entonces la API responde con **400 Bad Request** y un payload con los detalles del error.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para actualizar un dispositivo con un *{id}* inexistente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un mensaje de error.</td></tr>
 </table>
 
 ---
@@ -989,7 +989,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que cree un nuevo dispositivo especificando su nombre, tipo y ubicación, para registrar nuevos equipos en el sistema.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud de creación de un dispositivo con los campos obligatorios (*name*, *type*, *location*),<br>Cuando la API valida y persiste el nuevo recurso,<br>Entonces la API responde con **201 Created** y devuelve la representación del dispositivo creado, incluyendo su *id*.<br><br>**Escenario 2:**<br>Dado que se recibe una solicitud con campos faltantes o datos inválidos,<br>Cuando la API detecta errores de validación,<br>Entonces la API responde con **400 Bad Request** y un payload con los mensajes de error.<br><br>**Escenario 3:**<br>Dado que se recibe una solicitud para crear un dispositivo con un *name* duplicado,<br>Cuando la API detecta una violación de unicidad,<br>Entonces la API responde con **409 Conflict** y un mensaje explicativo.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud de creación de un dispositivo con los campos obligatorios (*name*, *type*, *location*),<br>Cuando la API valida y persiste el nuevo recurso,<br>Entonces la API responde con **201 Created** y devuelve la representación del dispositivo creado, incluyendo su *id*.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud con campos faltantes o datos inválidos,<br>Cuando la API detecta errores de validación,<br>Entonces la API responde con **400 Bad Request** y un payload con los mensajes de error.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para crear un dispositivo con un *name* duplicado,<br>Cuando la API detecta una violación de unicidad,<br>Entonces la API responde con **409 Conflict** y un mensaje explicativo.</td></tr>
 </table>
 
 ---
@@ -1001,7 +1001,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero proteger el dashboard de fabricantes para que solo los fabricantes puedan visualizarlo</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que el desarrollador configura una ruta protegida para el rol de fabricante<br>Cuando un usuario con rol válido accede al dashboard<br>Entonces el sistema permite la visualización del contenido del dashboard.<br><br>**Escenario 2:**<br>Dado que el desarrollador implementa validación de roles en la ruta protegida<br>Cuando un usuario sin el rol de fabricante intenta acceder al dashboard<br>Entonces el sistema redirige al usuario a una vista alternativa</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el desarrollador configura una ruta protegida para el rol de fabricante<br>Cuando un usuario con rol válido accede al dashboard<br>Entonces el sistema permite la visualización del contenido del dashboard.<br><br><strong>Escenario 2:</strong><br>Dado que el desarrollador implementa validación de roles en la ruta protegida<br>Cuando un usuario sin el rol de fabricante intenta acceder al dashboard<br>Entonces el sistema redirige al usuario a una vista alternativa</td></tr>
 </table>
 
 ---
@@ -1013,7 +1013,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar la información de la suscripción activa del usuario actual, para mostrar el plan, costo y beneficios en la vista principal de suscripciones.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud GET para recuperar la suscripción del usuario autenticado<br>Cuando la API encuentra una suscripción activa asociada al usuario.<br>Entonces la API responde con **200 OK** y devuelve un objeto con los detalles del plan.<br><br>**Escenario 2:**<br>Dado que el usuario no cuenta con una suscripción vigente.<br>Cuando la API procesa la solicitud.<br>Entonces la API responde con **404 Not Found** indicando que no hay plan contratado.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud GET para recuperar la suscripción del usuario autenticado<br>Cuando la API encuentra una suscripción activa asociada al usuario.<br>Entonces la API responde con **200 OK** y devuelve un objeto con los detalles del plan.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario no cuenta con una suscripción vigente.<br>Cuando la API procesa la solicitud.<br>Entonces la API responde con **404 Not Found** indicando que no hay plan contratado.</td></tr>
 </table>
 
 ---
@@ -1025,7 +1025,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar la lista de todos los planes de suscripción disponibles en el sistema, para mostrarlos como alternativas en la interfaz de comparación.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud GET al endpoint de catálogo de planes.<br>Cuando la API recupera la configuración de planes disponibles en la base de datos.<br>Entonces la API responde con **200 OK** y devuelve un arreglo de objetos, donde cada uno contiene el nombre del plan, precio mensual y la lista de beneficios específicos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud GET al endpoint de catálogo de planes.<br>Cuando la API recupera la configuración de planes disponibles en la base de datos.<br>Entonces la API responde con **200 OK** y devuelve un arreglo de objetos, donde cada uno contiene el nombre del plan, precio mensual y la lista de beneficios específicos.</td></tr>
 </table>
 
 ---
@@ -1037,7 +1037,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero enviar una solicitud para actualizar el plan de suscripción del usuario, para hacer efectivo el cambio de nivel de servicio seleccionado en la interfaz.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud PUT con el identificador del nuevo plan seleccionado.<br>Cuando la API valida que el plan existe y procesa la actualización de la suscripción.<br>Entonces la API responde con **200 OK** y devuelve los detalles de la suscripción actualizada con el nuevo plan.<br><br>**Escenario 2:**<br>Dado que se intenta cambiar a un plan inválido o no disponible.<br>Cuando la validación de la API falla.<br>Entonces la API responde con **400 Bad** Request indicando que el plan seleccionado no es válido para la transición.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud PUT con el identificador del nuevo plan seleccionado.<br>Cuando la API valida que el plan existe y procesa la actualización de la suscripción.<br>Entonces la API responde con **200 OK** y devuelve los detalles de la suscripción actualizada con el nuevo plan.<br><br><strong>Escenario 2:</strong><br>Dado que se intenta cambiar a un plan inválido o no disponible.<br>Cuando la validación de la API falla.<br>Entonces la API responde con **400 Bad** Request indicando que el plan seleccionado no es válido para la transición.</td></tr>
 </table>
 
 ---
@@ -1049,7 +1049,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar la renovación de la suscripción actual, para extender la vigencia del servicio cuando el usuario confirma la acción.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud POST al endpoint de renovación para la suscripción actual.<br>Cuando la API procesa el pago o extiende la fecha de expiración exitosamente.<br>Entonces la API responde con **200 OK** y devuelve la suscripción con la nueva fecha de vencimiento actualizada.<br><br>**Escenario 2:**<br>Dado que hay un problema con el método de pago o el estado de la cuenta.<br>Cuando el proceso de renovación falla en el backend.<br>Entonces la API responde con **402 Payment Required** o **400 Bad Request** con el detalle del error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud POST al endpoint de renovación para la suscripción actual.<br>Cuando la API procesa el pago o extiende la fecha de expiración exitosamente.<br>Entonces la API responde con **200 OK** y devuelve la suscripción con la nueva fecha de vencimiento actualizada.<br><br><strong>Escenario 2:</strong><br>Dado que hay un problema con el método de pago o el estado de la cuenta.<br>Cuando el proceso de renovación falla en el backend.<br>Entonces la API responde con **402 Payment Required** o **400 Bad Request** con el detalle del error.</td></tr>
 </table>
 
 ---
@@ -1061,7 +1061,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar la cancelación de la suscripción activa, para detener la renovación automática y finalizar el servicio al terminar el ciclo.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud DELETE sobre la suscripción activa.o<br>Cuando la API registra la solicitud de cancelación y actualiza el estado a "Cancelled" o "Pending Cancellation".<br>Entonces la API responde con **200 OK** confirmando que la suscripción no se renovará, pero manteniendo el acceso hasta el final del periodo actual si aplica.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud DELETE sobre la suscripción activa.o<br>Cuando la API registra la solicitud de cancelación y actualiza el estado a "Cancelled" o "Pending Cancellation".<br>Entonces la API responde con **200 OK** confirmando que la suscripción no se renovará, pero manteniendo el acceso hasta el final del periodo actual si aplica.</td></tr>
 </table>
 
 ---
@@ -1073,7 +1073,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero enviar la contraseña actual y la nueva contraseña del usuario a la API, para actualizar sus credenciales de acceso de forma segura.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud PUT al endpoint de cambio de contraseña que incluye currentPassword y newPassword.<br>Cuando la API verifica que la currentPassword coincide con la almacenada y la newPassword cumple con los requisitos de complejidad.<br>Entonces la API actualiza la contraseña (hashing), responde con **200 OK** y opcionalmente invalida otras sesiones activas o genera un nuevo token.<br><br>**Escenario 2:**<br>Dado que se intenta cambiar la contraseña proporcionando una currentPassword errónea.<br>Cuando la API detecta que la contraseña actual no coincide con la registrada.<br>Entonces la API responde con **400 Bad Request** con un mensaje indicando que la contraseña actual es inválida.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud PUT al endpoint de cambio de contraseña que incluye currentPassword y newPassword.<br>Cuando la API verifica que la currentPassword coincide con la almacenada y la newPassword cumple con los requisitos de complejidad.<br>Entonces la API actualiza la contraseña (hashing), responde con **200 OK** y opcionalmente invalida otras sesiones activas o genera un nuevo token.<br><br><strong>Escenario 2:</strong><br>Dado que se intenta cambiar la contraseña proporcionando una currentPassword errónea.<br>Cuando la API detecta que la contraseña actual no coincide con la registrada.<br>Entonces la API responde con **400 Bad Request** con un mensaje indicando que la contraseña actual es inválida.</td></tr>
 </table>
 
 ---
@@ -1085,7 +1085,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero enviar una solicitud para agregar un correo electrónico secundario, para que el backend inicie el proceso de validación y verificación de dicha cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud POST con un email válido que no está registrado previamente.<br>Cuando la API registra el correo en estado "Pendiente" y dispara el servicio de envío de emails con el código o enlace de verificación.<br>Entonces la API responde con **200 OK** indicando que se ha enviado el correo de confirmación al usuario.<br><br>**Escenario 2:**<br>Dado que se intenta agregar un correo con formato incorrecto o que ya está en uso por otro usuario.<br>Cuando la API valida la unicidad y el formato del correo.<br>Entonces la API responde con **400 Bad Request**.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud POST con un email válido que no está registrado previamente.<br>Cuando la API registra el correo en estado "Pendiente" y dispara el servicio de envío de emails con el código o enlace de verificación.<br>Entonces la API responde con **200 OK** indicando que se ha enviado el correo de confirmación al usuario.<br><br><strong>Escenario 2:</strong><br>Dado que se intenta agregar un correo con formato incorrecto o que ya está en uso por otro usuario.<br>Cuando la API valida la unicidad y el formato del correo.<br>Entonces la API responde con **400 Bad Request**.</td></tr>
 </table>
 
 ---
@@ -1097,7 +1097,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero enviar los datos de registro (nombre, email, password, rol) a la API, para crear una nueva identidad en el sistema y permitir el acceso futuro.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se recibe una solicitud POST con payload válido (email único, password cumple requisitos).<br>Cuando la API persiste el nuevo usuario y encripta la contraseña.<br>Entonces la API responde con **201 Created** y devuelve los datos del usuario creado o un token de acceso inicial.<br><br>**Escenario 2:**<br>Dado que se recibe un email que ya está registrado en la base de datos.<br>Cuando la API valida la unicidad del usuario.<br>Entonces la API responde con **409 Conflict** indicando que el recurso ya existe.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud POST con payload válido (email único, password cumple requisitos).<br>Cuando la API persiste el nuevo usuario y encripta la contraseña.<br>Entonces la API responde con **201 Created** y devuelve los datos del usuario creado o un token de acceso inicial.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe un email que ya está registrado en la base de datos.<br>Cuando la API valida la unicidad del usuario.<br>Entonces la API responde con **409 Conflict** indicando que el recurso ya existe.</td></tr>
 </table>
 
 ---
@@ -1109,7 +1109,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero que la API valide que el token enviado en los headers es legítimo y no ha expirado, para proteger las rutas privadas.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4">**Escenario 1:**<br>Dado que se realiza una petición a un recurso protegido con un header Authorization: Bearer {token}.<br>Cuando la API verifica la firma y fecha del token.<br>Entonces la API permite el acceso y devuelve el recurso solicitado.<br><br>**Escenario 2:**<br>Dado que el token está caducado o malformado.<br>Cuando la API intenta decodificarlo.<br>Entonces la API responde con **401 Unauthorized** o **403 Forbidden**.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se realiza una petición a un recurso protegido con un header Authorization: Bearer {token}.<br>Cuando la API verifica la firma y fecha del token.<br>Entonces la API permite el acceso y devuelve el recurso solicitado.<br><br><strong>Escenario 2:</strong><br>Dado que el token está caducado o malformado.<br>Cuando la API intenta decodificarlo.<br>Entonces la API responde con **401 Unauthorized** o **403 Forbidden**.</td></tr>
 </table>
 
 ---
