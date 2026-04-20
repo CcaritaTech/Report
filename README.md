@@ -1162,9 +1162,9 @@ A continuación, se presenta el Product Backlog, el cual reúne las historias de
 
 Para la gestión y organización del backlog se utilizó la herramienta Trello, la cual permitió estructurar y visualizar las tareas de forma clara, dinámica y colaborativa. Este backlog se organizó en columnas que representan las distintas etapas del proceso de desarrollo, lo que facilita el seguimiento del avance, la identificación de bloqueos y la adecuada priorización de actividades.
 
-Link de colaboración en trello:
+Link de colaboración en trello: https://shorturl.at/FrDjk
 
-![Product-Backlog]()
+![Product-Backlog](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/Product_Backlog.png)
 
 | #Orden | User Story ID | Titulo                                                | Descripción                                                                                                                                                                                                      | Story Points (1/2/3/5/8) |
 |--------|---------------|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
