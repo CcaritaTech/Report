@@ -2,7 +2,9 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>Aplicaciones para Dispositivos Móviles - 3687</strong><br>
+    <strong>Periodo: 202610</strong><br>
+    <strong>Aplicaciones para Dispositivos Móviles</strong><br>
+    <strong>NRC: 3687</strong><br>
     <strong>Profesor: David Gerardo Quevedo Velasco </strong><br>
     <br>INFORME TRABAJO FINAL
 </p>
@@ -14,17 +16,17 @@
 
 ### Team Members
 
-| Member                           | Code       |
-|----------------------------------|------------|
-| Apellidos y Nombres              | U20XXXXXX  |
-| Apellidos y Nombres              | U20XXXXXX  |
-| Apellidos y Nombres              | U20XXXXXX  |
-| Apellidos y Nombres              | U20XXXXXX  |
-| Apellidos y Nombres              | U20XXXXXX  |
-| Apellidos y Nombres              | U20XXXXXX  |
+| Member                        | Code       |
+|-------------------------------|------------|
+| Barturen Panez, Iker Gabriel  | U202312629 |
+| Ccarita Cruz, Brayan Roberto  | U2022ic218 |
+| Loechle Arias, Mateo Italo    | U202215004 |
+| Ordoñez Ricaldi, Axel Randall | U202216827 |
+| Panta Castro, Fabrizio Martin | U20231a810 |
+
 
 ABRIL 2026
-
+</center>
 # Registro de Versiones del Informe
 
 | Version | Fecha | Autor | Descripcion de Modificacion |
@@ -166,13 +168,13 @@ Más que facilitar la automatización, en IoBuild buscamos que cada espacio cobr
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-| Miembros del equipo                                                                                                                                                                                                                                                                                                                                                                                                                                | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|-|-|
-| Axel Randall Ordoñez Ricaldi <br> <img src="https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%201/Axel-photo.jpg" width=150>                                                                                                                                                                                                                                                 |U202216827|Ingenieria de software|C++, React, Vue, Angular, C#, SQL, MongoDB, Python. Paciencia y buen trabajo en equipo|
-| Ccarita Cruz, Brayan Roberto  <br> <img src="https://upc-pre-1asi0730-7461-ccaritatech.github.io/landing-page-CcaritaTech/assets/img/member-1.png" width=150>                                                                                                                                                                                                                                 |U20221C218|Ingeniería de Software|Astro.js, Svelte, Golang, Design Sprint. Perseverante y puntual|
-| Panta Castro, Fabrizio Martin  <br> <img src="https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%201/Fabrizio-photo.jpg" width=150>                                                                                                                                                                                                           |U20231A810|Ingeniería de Software|SQL, Python, Flutter, Vue, C++. Compañerismo y responsable con las entregas.|
-| Barturen Panez, Iker Gabriel <br> <img src="" width="150"/> | U201919096 | Ingeniería de software |  |
-| Loechle Arias, Mateo Italo <br> <img src="" width="150"/>    |U202215004|Ingenieria de software| |
+| Miembros del equipo                                                                                                                                                                    | Codigo Estudiante | Carrera                 | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Axel Randall Ordoñez Ricaldi <br> <img src="https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%201/Axel-photo.jpg" width=150>       | U202216827        | Ingenieria de software  | Mi nombre es Axel, tengo 21 años, estoy cursando el 7mo ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona con paciencia y buen trabajo en equipo, lo cual ayuda mucho cuando las tareas se acumulan. Tengo conocimientos bastante útiles para el desarrollo de este proyecto como tal, y espero llevarme bien con mi equipo y hacer un buen trabajo. Mis conocimientos y habilidades se centran en C# y Python principalmente, acompañado de diversos frameworks como React, Vue y Angular, de la misma forma me llevo de mejor forma con lo que son dbs, SQL y MongoDB, entre otros más. |
+| Ccarita Cruz, Brayan Roberto  <br> <img src="https://upc-pre-1asi0730-7461-ccaritatech.github.io/landing-page-CcaritaTech/assets/img/member-1.png" width=150>                          | U20221C218        | Ingeniería de Software  | Mi nombre es Brayan, estoy cursando el 7mo ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona perseverante y puntual, siempre tratando de cumplir con lo que me corresponde a tiempo. Tengo conocimientos bastante útiles para el desarrollo de este proyecto como tal, y espero llevarme bien con mi equipo y hacer un buen trabajo. Mis conocimientos y habilidades se centran en lenguajes como Golang y herramientas como Astro.js y Svelte, de la misma forma me llevo de mejor forma con metodologías de diseño como Design Sprint, entre otros más.                                 |
+| Panta Castro, Fabrizio Martin  <br> <img src="https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%201/Fabrizio-photo.jpg" width=150> | U20231A810        | Ingeniería de Software  | Mi nombre es Fabrizio, tengo 23 años, estoy cursando el 7mo ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona con compañerismo y responsable con las entregas, enfocándome en que el equipo avance unido. Tengo conocimientos bastante útiles para el desarrollo de este proyecto como tal, y espero llevarme bien con mi equipo y hacer un buen trabajo. Mis conocimientos y habilidades se centran en C++ y Python principalmente, acompañado de frameworks para móviles como Flutter y Vue, de la misma forma me llevo de mejor forma con lo que son dbs como SQL, entre otros más.    |
+| Barturen Panez, Iker Gabriel <br> <img src="https://github.com/F4brizio24/Imagenes-Proyecto/blob/main/Imagenes/Cap%C3%ADtulo%201/Iker-photo.jpeg?raw=true" width="150"/>               | U201919096        | Ingeniería de software  | Mi nombre es Iker, tengo 19 años y actualmente estoy cursando el 7to ciclo de la carrera Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Considero que soy alguien responsable, cumple con los trabajos que se me encargan a tiempo y se tengo la posibilidad apoyo a mis compañeros con sus trabajos, trabajó bien en equipo y puedo aportar mis conocimientos con el lenguaje de programación C++, C# y conocimientos basicos de python, también sobre los frameworks de Javascript react, astro y angular.                                                                                     |
+| Loechle Arias, Mateo Italo <br> <img src="https://github.com/F4brizio24/Imagenes-Proyecto/blob/main/Imagenes/Cap%C3%ADtulo%201/Mateo-photo.jpeg?raw=true" width="150"/>                | U202215004        | Ingenieria de software  | Mi nombre es Mateo , tengo 21 años , estoy cursando el 7to ciclo de la carrera de Ingenieria de Software en la UPC. Me considero una persona responsable ocasionalmente , dependiendo de cuantas cosas tenga por hacer . Tengo conocimientos bastante utiles para el desarrollo de este proyecto como tal , y espero llevarme bien con mi equipo y hacer un buen trabajo. Mis conocimientos y habilidades se centran en Java principalmente acompañado de diversos frameworks como angular y react , de la misma forma me llevo de mejor forma con lo que son dbs , mongodb, sql , sqlite, entre otros mas.               |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
@@ -229,18 +231,11 @@ El costo de implementar tecnologías inteligentes en espacios inmobiliarios trad
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
 
-IoBuild es una plataforma digital que permite a empresas constructoras, arquitectos, ingenieros y propietarios transformar edificios y espacios en entornos inteligentes, accesibles y personalizables, fomentando la innovación en el sector inmobiliario y mejorando la experiencia de habitar y gestionar espacios.
+Nuestro servicio, IoBuild, ofrece una plataforma digital que conecta a empresas constructoras, arquitectos e ingenieros con propietarios para transformar edificios en entornos inteligentes y personalizables. A través de nuestro ecosistema, los profesionales inmobiliarios pueden integrar fácilmente funcionalidades de domótica en sus proyectos, mientras que los usuarios finales obtienen la capacidad de gestionar su experiencia de habitabilidad sin necesidad de conocimientos técnicos avanzados.
 
-**Contexto:** IoBuild es una plataforma que busca transformar edificios y espacios inmobiliarios en entornos inteligentes, accesibles y altamente personalizables. Nuestro servicio permite a empresas constructoras, arquitectos e ingenieros integrar fácilmente funcionalidades inteligentes en sus proyectos, al mismo tiempo que ofrece a propietarios e inquilinos la posibilidad de gestionar y personalizar su experiencia dentro de los espacios que habitan, sin necesidad de conocimientos técnicos avanzados.
+Hemos observado que un factor crítico que afecta la adopción de estas tecnologías y la satisfacción de los usuarios es la alta fricción técnica y operativa. Actualmente, las constructoras enfrentan grandes barreras para implementar estas soluciones debido a la complejidad y la falta de integración, mientras que los propietarios experimentan frustración al carecer de una herramienta centralizada y sencilla para controlar sus espacios, lo que reduce drásticamente el valor agregado percibido en las viviendas.
 
-**Observación del problema:** Sin embargo, hemos identificado que muchas empresas constructoras aún enfrentan barreras para implementar soluciones de automatización y gestión inteligente debido a la complejidad tecnológica, los altos costos y la falta de integración de sistemas. Por otro lado, los propietarios suelen experimentar frustración al no encontrar una forma sencilla y centralizada para controlar sus espacios, lo que limita la adopción de estas tecnologías. Estas observaciones provienen de entrevistas con profesionales de la construcción, arquitectos y usuarios finales, quienes señalan dificultades para incorporar soluciones accesibles y confiables que se adapten a las necesidades reales de sus proyectos y hogares.
-
-**Impacto:** Esta situación genera una baja adopción de tecnologías inteligentes en nuevos proyectos inmobiliarios, lo que limita la capacidad de las constructoras para diferenciarse en el mercado y reduce el valor agregado que los propietarios perciben en sus viviendas o espacios de trabajo. Además, la falta de accesibilidad tecnológica contribuye a una brecha entre la innovación disponible y la experiencia práctica de los usuarios, afectando tanto la competitividad del sector como la satisfacción de los clientes finales.
-
-**Necesidad insatisfecha:** Actualmente, las empresas constructoras, arquitectos e ingenieros necesitan soluciones integradas y fáciles de implementar para modernizar sus proyectos con tecnologías inteligentes. Al mismo tiempo, los propietarios requieren herramientas intuitivas y accesibles que les permitan personalizar y gestionar sus espacios de manera práctica, confiable y sin barreras técnicas.
-
-**Pregunta de mejora:** ¿Cómo podríamos simplificar la integración y gestión de tecnologías inteligentes en proyectos inmobiliarios para que tanto constructoras como propietarios adopten estas soluciones con mayor facilidad, incrementando así el valor, la eficiencia y la satisfacción en los espacios construidos?
-
+¿Cómo podríamos simplificar la integración y gestión de tecnologías inteligentes en proyectos inmobiliarios, logrando que tanto constructoras como propietarios superen las barreras técnicas, adopten estas soluciones con facilidad y se encuentren satisfechos con espacios más valiosos y eficientes?
 
 #### 1.2.2.2. Lean UX Assumptions.
 
@@ -504,6 +499,12 @@ URL de las entrevistas:
 | **Instante en el que inicia:** 16 minutos y 5 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **Duración:** 6 minutos y 18 segundos |
 | **Imagen del entrevistado:**<br>![imagen de entrevistado](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/Entrevistdo4.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                       |
 | **Resumen de la entrevista:**<br>Miguel es ingeniero civil con aproximadamente 10 años de experiencia profesional, 3 de ellos en Venezuela y 7 en Perú. Actualmente se desempeña como ingeniero residente en Nexo Ingeniería, empresa enfocada en la construcción de edificios multifamiliares. A lo largo de su trayectoria ha participado en proyectos de remodelaciones residenciales, habilitaciones urbanas, viviendas unifamiliares y plantas industriales. Su labor está centrada en el control de obra, asegurando que los proyectos se ejecuten conforme a los planos aprobados y a los presupuestos establecidos.<br>Considera esencial regirse por el Reglamento Nacional de Edificaciones, que constituye la base normativa para cualquier proyecto, y trabajar en conjunto con arquitectos y desarrolladores inmobiliarios para alinear las tendencias del mercado con las necesidades de los usuarios. Está abierto a la integración de tecnologías inteligentes en departamentos, como sistemas de control de iluminación o seguridad, a los que asigna un alto valor en términos de atractivo comercial. Sin embargo, reconoce que su implementación incrementa inevitablemente los costos, por lo que estima su viabilidad en un nivel medio. Recomienda que los planos que integren estas tecnologías sigan la claridad de los planos eléctricos, de modo que sean comprensibles para diferentes especialistas en obra.<br>Entre las principales dificultades de su rol actual, destaca los procesos burocráticos que surgen cuando se presentan modificaciones en los proyectos, ya que implican nuevos trámites y aprobaciones municipales. A pesar de ello, sostiene que una buena planificación y programación de obra reduce los contratiempos y permite ejecutar proyectos con eficiencia.<br><br>**Datos adicionales:**<br>**Navegador preferido:** Google Chrome<br>**Sistema operativo de preferencia:** Windows <br>**Dispositivo usado con mas frecuencia:** Laptop<br>**Dispositivo movil prefereido:** Android<br>**Principal medio de contacto:** Email <br>**Herramientas utilizadas:** AutoCAD, Excel, Project, Mathcad.<br>**Ocupación actual:** Ingeniero residente en Nexo Ingeniería.<br>**Enfoque de diseño:** Cumplimiento del Reglamento Nacional de Edificaciones, alineación con tendencias del mercado y satisfacción del cliente final.<br>**Tecnologías inteligentes incorporadas:** Control de iluminación y seguridad.<br>**Motivaciones:** Garantizar calidad y rentabilidad en los proyectos, mantenerse abierto a la innovación tecnológica, mejorar procesos constructivos.<br>**Frustraciones:** Burocracia en modificaciones de obra y lentitud en aprobaciones municipales.                                                                                                                                |                                       |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                       |
+| **Entrevista 4:** Jorge Gomez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                       |
+| **Sexo:** Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **Error:** 31                         |
+| **Instante en el que inicia:** 16 minutos y 5 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **Duración:** 6 minutos y 18 segundos |
+| **Imagen del entrevistado:**<br>![imagen de entrevistado]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                       |
+| **Resumen de la entrevista:**<br>Jorge Gómez es arquitecto con 4 años de experiencia en proyectos residenciales. Actualmente apoya en el desarrollo, coordinación y revisión de diseños en una constructora. Su labor se centra en asegurar que los planos sean funcionales y ejecutables.<br>Considera vital el equilibrio entre estética, funcionalidad y presupuesto. Valora altamente la integración de domótica (iluminación, cerraduras, seguridad) por la modernidad que aportan, pero estima su viabilidad en un nivel medio (5/10) por altos costos y falta de especialistas. Recomienda dejar preparadas las bases de conectividad desde la fase inicial.<br>Entre sus principales frustraciones están los cambios de último momento y la información poco clara, además de la incompatibilidad entre sistemas domóticos. Afronta esto con orden y coordinación constante.<br><br>**Datos adicionales:**<br>**Navegador preferido:** No especificado<br>**Sistema operativo de preferencia:** No especificado<br>**Dispositivo usado con mas frecuencia:** No especificado<br>**Dispositivo movil prefereido:** No especificado<br>**Principal medio de contacto:** No especificado<br>**Herramientas utilizadas:** AutoCAD, Revit, SketchUp.<br>**Ocupación actual:** Arquitecto de apoyo en constructora.<br>**Enfoque de diseño:** Funcionalidad, estética moderna y viabilidad presupuestaria.<br>**Tecnologías inteligentes incorporadas:** Cerraduras, iluminación y seguridad básicas.<br>**Motivaciones:** Ganar experiencia para liderar proyectos multifamiliares a futuro.<br>**Frustraciones:** Cambios de diseño tardíos e incompatibilidad técnica entre sistemas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                       |
 
 **Segmento 2: Dueños de apartamentos**
 
@@ -513,7 +514,7 @@ URL de las entrevistas:
 | **Sexo:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Masculino                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Edad:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    19 años                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Ocupación:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Estudiante Universitario |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Imagen de entrevista:** <br> [imagen de entrevistado]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Imagen de entrevista:** <br> ![imagen de entrevistado](https://github.com/F4brizio24/Imagenes-Proyecto/blob/main/Imagenes/Cap%C3%ADtulo%202/Entrevistado9.jpeg?raw=true)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Resumen de la entrevista** <br> Andres es un estudiante de la UPC de la carrera de Ingenieria de Software, el nos comento que se hace poco a un departamento para poder tener un poco mas de independencia y por motivos de estudio, tambien le gustaria automatizar ciertos dispositivos que usa en su dia a dia para mayor facilidad, a el le gustaria controlar las luces de su casa, verificar si dejo algun dispositivo encendido y saber el consumo energetico que produce. Tambien le gustaria una app que facilite su dia a dia ya que facilitaria muchos aspectos de su rutina y la automatizacion de los dispositivos que usa le ayudaria a estar mas organizado.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | |
 | **Entrevista 2:** Angela Alvara1do Ordóñez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                        |
 | **Sexo:** Femenino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Edad:** 35                           |
@@ -620,32 +621,11 @@ Siente: “Me frustra cuando una aplicación promete mucho y no cumple con lo qu
 Dice: “Necesito algo fácil de usar, que no me complique más de lo que ya estoy.”
 
 Hace: Prueba aplicaciones o servicios digitales para evaluar su utilidad.
-### 2.3.5. As-is Scenario Mapping.
-**Segmento 1**
 
-| Fase | Doing (Acciones) | Thinking (Pensamientos) | Feeling (Emociones) | Pain Points (Puntos de Dolor) | Opportunities (Oportunidades) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Fase 1: Identificación** | Analiza requerimientos del cliente | Necesito innovar sin elevar costos | Motivación y presión | Expectativas altas | Asistencia temprana |
-| **Fase 2: Investigación** | Investiga tecnologías y proveedores | ¿Esta tecnología funcionará? | Duda | Información dispersa | Plataforma centralizada |
-| **Fase 3: Evaluación Técnica** | Evalúa compatibilidad e integración | Las regulaciones complican todo | Estrés | Normativas complejas | Validación automatizada |
-| **Fase 4: Costos** | Calcula inversión y retorno | Innovar es costoso | Frustración | Costos elevados | Simulador costo-beneficio |
-| **Fase 5: Presentación** | Presenta propuesta tecnológica | Debo justificar cada decisión | Inseguridad | Difícil comunicar valor | Visualización clara |
-| **Fase 6: Implementación** | Coordina con ingenieros y proveedores | Espero que todo sea compatible | Ansiedad | Integración complicada | Integraciones estandarizadas |
-| **Fase 7: Resultado** | Evalúa desempeño del proyecto | Funcionó pero fue complejo | Alivio | Procesos largos | Optimización del flujo |
+### 2.3.5. Big Picture Event Storming.
 
-**Segmento 2**
 
-| Fase | Doing (Acciones) | Thinking (Pensamientos) | Feeling (Emociones) | Pain Points (Puntos de Dolor) | Opportunities (Oportunidades) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Fase 1: Necesidad** | Busca mayor control y seguridad | Quiero sentirme segura | Preocupación | Sensación de inseguridad | Automatización de seguridad |
-| **Fase 2: Búsqueda** | Explora apps recomendadas | Todas prometen mucho | Confusión | Exceso de opciones | Recomendaciones guiadas |
-| **Fase 3: Evaluación** | Consulta opiniones | ¿Será confiable? | Desconfianza | Falta de claridad | Información clara |
-| **Fase 4: Prueba** | Descarga y prueba aplicaciones | Esto es complicado | Frustración | Interfaces complejas | UX intuitiva |
-| **Fase 5: Uso** | Usa funciones básicas | Solo uso lo necesario | Neutralidad | Funciones innecesarias | Personalización |
-| **Fase 6: Decisión** | Abandona o adopta apps | No me ayuda realmente | Decepción | Baja utilidad percibida | Onboarding guiado |
-| **Fase 7: Rutina** | Combina soluciones manuales y digitales | Quiero algo automático | Cansancio | Falta de integración | Plataforma centralizada |
-
-## 2.4. Ubiquitous Language.
+### 2.3.6. Ubiquitous Language.
 
 
 | Ubiquitous Term | Definición del Dominio Funcional |
@@ -669,28 +649,10 @@ Hace: Prueba aplicaciones o servicios digitales para evaluar su utilidad.
 | Billing Cycle | Periodo recurrente en el que se factura al Cliente por el servicio de la suscripción. |
 
 ---
-# Capítulo III: Requirements Specification
-## 3.1. To-Be Scenario Mapping.
-**Segmento 1: Arquitectos e Ingenieros (Constructores)**  
-Escenario: Gestión y diseño de proyectos de construcción inteligente utilizando IoBuild para integrar funcionalidades IoT desde la planificación inicial.
+## 2.4. Requirements Specification
+### 2.4.1. User Stories.
 
-| Fases | Planificación del Proyecto | Diseño del Espacio Inteligente | Implementación | Monitoreo y Optimización |
-|-------|----------------------------|-------------------------------|----------------|--------------------------|
-| Doing | Acceder a la plataforma IoBuild y crear un nuevo proyecto, definiendo parámetros iniciales como ubicación y requisitos del cliente. Utilizar herramientas de IA para analizar datos históricos y sugerir configuraciones óptimas. | Diseñar el layout del edificio integrando dispositivos inteligentes mediante simulaciones 3D. Escanear y registrar dispositivos existentes con la función de escaneo por cámara. Personalizar configuraciones según necesidades específicas. | Coordinar la instalación de dispositivos durante la construcción, utilizando el dashboard para supervisar el progreso en tiempo real. Configurar automatizaciones y notificaciones para el cliente. | Monitorear el rendimiento del edificio post-construcción mediante analytics en tiempo real. Ajustar configuraciones automáticamente con IA para optimizar eficiencia energética y comodidad. |
-| Thinking | "Esta plataforma me permite integrar IoT desde el inicio, reduciendo riesgos y costos futuros. La IA me ayuda a tomar decisiones basadas en datos precisos." | "Puedo visualizar cómo funcionarán los dispositivos en el espacio real, asegurando una integración perfecta. El escaneo facilita la documentación de equipos existentes." | "La coordinación en tiempo real mejora la comunicación con el equipo y el cliente, evitando retrasos. Las automatizaciones simplifican la configuración inicial." | "Los datos en tiempo real me permiten identificar problemas antes de que escalen. La optimización automática asegura que el edificio mantenga su eficiencia a lo largo del tiempo." |
-| Feeling | Confiado y eficiente, sabiendo que tengo herramientas avanzadas para un diseño innovador. | Creativo y preciso, con la capacidad de experimentar virtualmente sin riesgos. | Organizado y en control, con visibilidad completa del proceso de construcción. | Satisfecho y proactivo, contribuyendo a edificios sostenibles y funcionales que generan valor a largo plazo. |
-
-**Segmento 2: Propietarios y Residentes**  
-Escenario: Gestión diaria y personalización de espacios inteligentes en un edificio o vivienda utilizando IoBuild para un control intuitivo y optimizado.
-
-| Fases | Configuración Inicial | Gestión Diaria | Resolución de Problemas | Optimización Continua |
-|-------|----------------------|---------------|-------------------------|-----------------------|
-| Doing | Registrarse en la plataforma IoBuild y configurar el perfil personal. Escanear dispositivos existentes con la cámara del teléfono para registrarlos automáticamente. Personalizar preferencias de iluminación, temperatura y seguridad. | Acceder al dashboard para supervisar dispositivos en tiempo real. Recibir notificaciones automáticas sobre eventos importantes. Ajustar configuraciones manualmente o dejar que la IA optimice automáticamente. | Consultar al chatbot IA para resolver dudas o problemas. Recibir alertas y guías paso a paso para solucionar issues. Contactar soporte si es necesario a través de la plataforma. | Revisar reportes de analytics para entender patrones de uso. Permitir que la IA realice ajustes automáticos para mejorar eficiencia energética y comodidad. Actualizar dispositivos y configuraciones según cambios en necesidades. |
-| Thinking | "Es fácil configurar mi espacio inteligente sin conocimientos técnicos. La IA y el escaneo hacen que sea rápido y preciso." | "Tengo control total desde mi teléfono, con información clara y actualizada. Las notificaciones me mantienen informado sin sobrecargarme." | "El chatbot me guía efectivamente, resolviendo la mayoría de problemas por mí. Me siento apoyado por un sistema inteligente." | "Los reportes me ayudan a entender cómo optimizar mi hogar. La automatización me ahorra tiempo y reduce costos." |
-| Feeling | Empoderado y cómodo, con un sistema que se adapta a mis necesidades desde el inicio. | Seguro y en control, disfrutando de la conveniencia de un hogar inteligente sin complicaciones. | Tranquilo y resuelto, con soporte inmediato que minimiza interrupciones. | Satisfecho y eficiente, viendo mejoras continuas en comodidad y sostenibilidad gracias a la tecnología. |
-## 3.2. User Stories.
-
-### 3.2.1. Epics
+#### 2.4.1.1. Epics
 
 | Epic ID | Título | Descripción |
 |---|---|---|
@@ -710,7 +672,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
 | EP14 | Asistente Inteligente | Como usuario, quiero acceder a un chatbot impulsado por IA para resolver dudas y obtener asistencia sobre la plataforma IoBuild. |
 | EP15 | Integración con IA para Dispositivos | Como usuario, quiero utilizar herramientas de IA para facilitar la gestión y optimización de dispositivos conectados, incluyendo escaneo y automatización. |
 
-### 3.2.2. User Stories (Formato individual)
+#### 2.4.1.2. User Stories
 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
@@ -1286,7 +1248,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
     <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que hay dispositivos conectados,<br>Cuando el usuario activa la optimización,<br>Entonces la IA analiza el uso y ajusta configuraciones automáticamente.<br><br><strong>Escenario 2:</strong><br>Dado que la optimización se aplica,<br>Cuando se completa,<br>Entonces el usuario recibe un reporte de los cambios realizados y beneficios obtenidos.<br><br><strong>Escenario 3:</strong><br>Dado que la optimización requiere confirmación,<br>Cuando el usuario aprueba,<br>Entonces se aplican los cambios definitivos.</td></tr>
 </table>
 
-### 3.2.3. Technical Stories
+#### 2.4.1.3. Technical Stories
 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
@@ -1578,7 +1540,7 @@ Escenario: Gestión diaria y personalización de espacios inteligentes en un edi
 
 
 
-## 3.3. Impact Mapping.
+### 2.4.2. Impact Mapping.
 
 El Impact Mapping es una metodología visual que permite alinear los objetivos estratégicos de un negocio con las acciones concretas de los usuarios y las funcionalidades de un producto digital. A través de una estructura jerárquica en forma de árbol, esta técnica evidencia cómo las metas empresariales se traducen en cambios de comportamiento esperados en los actores clave, así como en los entregables que hacen posible dichos cambios.
 
@@ -1619,7 +1581,7 @@ En conjunto, este objetivo no solo impulsa la optimización de los procesos inte
 
 
 
-## 3.4. Product Backlog.
+### 2.4.3. Product Backlog.
 A continuación, se presenta el Product Backlog, el cual reúne las historias de usuario y las tareas técnicas priorizadas para el desarrollo del proyecto. Cada elemento incluye su identificador, título, descripción y la estimación correspondiente en puntos de historia.
 
 Para la gestión y organización del backlog se utilizó la herramienta Trello, la cual permitió estructurar y visualizar las tareas de forma clara, dinámica y colaborativa. Este backlog se organizó en columnas que representan las distintas etapas del proceso de desarrollo, lo que facilita el seguimiento del avance, la identificación de bloqueos y la adecuada priorización de actividades.
@@ -1704,10 +1666,9 @@ Link de colaboración en trello: https://shorturl.at/FrDjk
 | 72     | TS24          | Validar token de sesión                               | Como desarrollador, quiero que la API valide que el token enviado en los headers es legítimo y no ha expirado, para proteger las rutas privadas.                                                                   | 3                        |
 
 
-# Capítulo IV: Solution Software Design
-## 4.1. Strategic-Level Domain-Driven Design
+## 2.5. Strategic-Level Domain-Driven Design
 
-El enfoque de **Strategic-Level Domain-Driven Design** sirve como pilar esencial en el desarrollo de la aplicación LevelUpJourney. Gracias a esta metodología, es posible identificar y delimitar los distintos contextos del dominio, definir cómo se relacionan entre sí y construir una arquitectura de software robusta que responda a los objetivos del negocio.
+El enfoque de **Strategic-Level Domain-Driven Design** sirve como pilar esencial en el desarrollo de la aplicación **IoBuild**. Gracias a esta metodología, es posible identificar y delimitar los distintos contextos del dominio, definir cómo se relacionan entre sí y construir una arquitectura de software robusta que responda a los objetivos del negocio.
 
 En esta etapa estratégica, se prioriza:
 
@@ -1716,11 +1677,11 @@ En esta etapa estratégica, se prioriza:
 - El modelado de las relaciones, determinando cómo interactúan los diferentes contextos.
 - El diseño de una arquitectura de alto nivel, que estructura de forma integral el sistema.
 
-### 4.1.1. EventStorming
+### 2.5.1. EventStorming
 
 El EventStorming es una técnica de modelado colaborativo que permite analizar y entender en profundidad el dominio complejo de IoBuild. A través de sesiones de trabajo conjunto con expertos del dominio, esta metodología ayuda a identificar elementos clave como eventos de dominio, comandos, agregados y bounded contexts.
 
-#### 4.1.1.1. Candidate Context Discovery
+#### 2.5.1.1. Candidate Context Discovery
 La Candidate Context Discovery es el proceso mediante el cual identificamos los posibles bounded contexts dentro del dominio de LevelUpJourney. Este proceso se basa en el análisis de los eventos, comandos y agregados identificados durante las sesiones de EventStorming.<br><br>
 
 ![Candidate Context Discovery](https://github.com/F4brizio24/Imagenes-Proyecto/blob/main/Imagenes/Cap%C3%ADtulo%202/CcaritaTech%20-%20BIG%20Picture%20Eventstorming%20-%20Frame%209.jpg?raw=true)<br>
@@ -1749,7 +1710,7 @@ Enmarca el modelo de negocio financiero de la plataforma. La imagen ilustra a la
 
 <br>
 
-#### 4.1.1.2. Domain Message Flows Modeling
+#### 2.5.1.2. Domain Message Flows Modeling
 El Domain Message Flows Modeling mapea cómo los mensajes (eventos, comandos) fluyen entre los diferentes bounded contexts identificados. Este modelado es crucial para entender las dependencias y patrones de comunicación del sistema.<br><br>
 
 ![Domain Message Flows Modeling](https://github.com/F4brizio24/Imagenes-Proyecto/blob/main/Imagenes/Cap%C3%ADtulo%202/CcaritaTech%20-%20BIG%20Picture%20Eventstorming%20-%20Frame%2017.jpg?raw=true)<br>
@@ -1762,7 +1723,7 @@ Este diagrama representa el comportamiento reactivo y autónomo del sistema fren
 Esta imagen detalla cómo el usuario humano interactúa con el hardware utilizando la IA como intermediario. El flujo muestra al **Propietario** usando la Mobile App para enviar comandos de **Consultar Asistente** y posteriormente **Aceptar Sugerencia** hacia el **Smart Assistant**. Una vez autorizado, el asistente toma el control y manda el comando imperativo de **Modificar Parametros** hacia **Service Execution and Monitoring**. Finalmente, el hardware ejecuta el cambio y emite un evento de **Parametros Configurados Integration** hacia **Energy Management** para que ajuste sus cálculos de consumo eléctrico
 
 
-#### 4.1.1.3. Bounded Context Canvases
+#### 2.5.1.3. Bounded Context Canvases
 Los Bounded Context Canvases proporcionan una visión detallada de cada contexto delimitado, documentando sus responsabilidades, interfaces, eventos y relaciones con otros contextos.
 <br><br>
 
@@ -1779,7 +1740,7 @@ Este diagrama delimita el motor analítico y cuantitativo del sistema (también 
 Este lienzo detalla el módulo de Inteligencia Artificial que aporta el valor agregado a la plataforma (**Core Domain**). Establece sus roles como **Optimizador** y **Agente Autónomo**. El diagrama central mapea cómo la IA se alimenta de las alertas de **Energy Management** y de las consultas a demanda del usuario, para luego emitir el comando imperativo de **Aplicar Optimización** hacia Service Execution. En la base del lienzo, consolida decisiones críticas del negocio, como la capacidad del sistema para enviar órdenes de apagado directo en **Modo Autónomo** sin tener que esperar la aprobación manual del dueño del departamento.
 
 
-### 4.1.2. Context Mapping
+### 2.5.2. Context Mapping
 
 ##### Resumen del Proceso
 El Context Mapping es la fase donde definimos las relaciones estructurales y los contratos de comunicación entre nuestros Bounded Contexts. En IoBuild, este proceso se realizó mediante un análisis crítico de dependencias, buscando maximizar la autonomía de los microservicios y proteger el lenguaje ubicuo de cada uno.
@@ -1823,12 +1784,12 @@ La arquitectura de IoBuild se define bajo una arquitectura orientada a eventos (
 ##### Discusión de Alternativas y Conclusión
 Tras evaluar modelos de *Conformist* (donde todos se adaptan al modelo de la constructora), el equipo decidió rechazarlo por el alto riesgo de deuda técnica. La aproximación elegida de **Customer-Supplier con ACL** y **Published Language** garantiza que IoBuild sea escalable, permitiendo manejar miles de dispositivos simultáneamente sin que una falla en un módulo administrativo afecte la inteligencia operativa de la IA o el monitoreo de energía.
 
-### 4.1.3. Software Architecture
+### 2.5.3. Software Architecture
 La arquitectura de software de IoBuild se ha diseñado utilizando el modelo C4, ya que este permite representar el sistema en diferentes niveles de abstracción como Contexto, Contenedores y Despliegue. Gracias a este enfoque, es más fácil entender cómo funciona el sistema en general, cómo interactúan los usuarios con la plataforma y cómo se relaciona con otros sistemas externos.
 
 Para el diseño de la arquitectura, se han considerado algunos principios clave. En primer lugar, la separación de responsabilidades, donde cada parte del sistema tiene funciones específicas. También se busca un bajo acoplamiento, para evitar dependencias innecesarias entre los módulos, y una alta cohesión, agrupando elementos que tienen relación entre sí. Finalmente, se toma en cuenta la escalabilidad, permitiendo que el sistema pueda crecer sin problemas, y la mantenibilidad, facilitando realizar cambios o mejoras en el futuro.
 
-#### 4.1.3.1. Software Architecture Context Level Diagrams
+#### 2.5.3.1. Software Architecture Context Level Diagrams
 El diagrama de contexto presenta el sistema IoBuild como una plataforma central, mostrando cómo interactúa con los usuarios y con distintos sistemas externos. Este nivel permite entender de manera general el alcance del sistema y cómo se integra con otros servicios.
 
 "Context Level Diagram": <https://shorturl.at/EbWzU>
@@ -1860,7 +1821,7 @@ Es la plataforma principal encargada de gestionar proyectos de construcción int
 
 En conjunto, este diagrama permite entender cómo IoBuild se posiciona como el núcleo del sistema, conectando a los usuarios con distintos servicios externos para ofrecer una solución completa.
 
-#### 4.1.3.2. Software Architecture Container Level Diagrams
+#### 2.5.3.2. Software Architecture Container Level Diagrams
 El siguiente diagrama de contenedores muestra la arquitectura de alto nivel del sistema IoBuild, permitiendo entender cómo se organizan sus principales componentes, qué tecnologías se utilizan y cómo interactúan entre sí. Este nivel de detalle ayuda a visualizar la estructura interna del sistema y cómo se distribuyen las responsabilidades entre los distintos contenedores.
 
 "Container Level Diagram": <https://shorturl.at/FEOTa>
@@ -1908,7 +1869,7 @@ El sistema IoBuild está compuesto por varios contenedores que trabajan de maner
 
 En conjunto, esta arquitectura permite que IoBuild sea un sistema escalable, mantenible y flexible, donde cada componente cumple una función específica y puede evolucionar de manera independiente.
 
-#### 4.1.3.3. Software Architecture Deployment Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
 El siguiente diagrama de despliegue muestra cómo los diferentes componentes del sistema IoBuild se distribuyen en la infraestructura, tanto en el cliente como en la nube. Este tipo de diagrama permite entender dónde se ejecuta cada parte del sistema, cómo se comunican entre sí y qué tecnologías o servicios se utilizan en el entorno real de producción.
 
 "Deployment Level Diagram": <https://shorturl.at/2DSHw>
@@ -1953,15 +1914,15 @@ El sistema IoBuild está organizado en varias capas de despliegue que separan cl
 En conjunto, este diagrama muestra una arquitectura moderna basada en servicios en la nube y contenedores, que permite a IoBuild ser un sistema escalable, accesible desde múltiples dispositivos y fácil de mantener.
 
 
-## 4.2. Tactical-Level Domain-Driven Design
+## 2.6. Tactical-Level Domain-Driven Design
 
 ### Introduccion al Diseno Tactico
 El Tactical-Level Domain-Driven Design de **IoBuild** representa la materializacion concreta del diseno estrategico definido previamente. En esta seccion se detalla como cada bounded context implementa sus capas Domain, Interface, Application e Infrastructure, asi como sus componentes internos, contratos y mecanismos de persistencia. Este enfoque tactico asegura que las decisiones de negocio se traduzcan en una arquitectura modular, desacoplada, mantenible y lista para evolucionar conforme crezca la plataforma.
 
 Para IoBuild se han identificado cuatro bounded contexts principales que cubren las capacidades nucleares de la solucion: **Smart Project Setup** para la configuracion inicial de proyectos, zonas y perfiles IoT; **Service Execution and Monitoring** para la orquestacion de servicios y el monitoreo operativo en tiempo real; **Smart Assistant** para la asistencia inteligente y contextual a los usuarios de la plataforma; y **Energy Management** para la medicion, analisis y optimizacion del consumo energetico en edificios inteligentes.
 
-### 4.2.1. Bounded Context: Smart Project Setup
-#### 4.2.1.1. Domain Layer
+### 2.6.1. Bounded Context: Smart Project Setup
+#### 2.6.1.1. Domain Layer
 En **IoBuild**, este bounded context define como se prepara un proyecto inteligente antes de su ejecucion operativa. El dominio cubre modelado del sitio, seleccion de perfiles IoT y configuracion de conectividad para dejar el proyecto listo para despliegue.
 
 **Entities y Aggregates**
@@ -2002,7 +1963,7 @@ En **IoBuild**, este bounded context define como se prepara un proyecto intelige
 - DeviceProfileConfigurationService
 - SetupValidationService
 
-#### 4.2.1.2. Interface Layer
+#### 2.6.1.2. Interface Layer
 La capa de interfaz expone endpoints REST para crear y configurar proyectos IoBuild, registrar zonas del sitio y asignar perfiles tecnicos.
 
 **Controllers**
@@ -2019,7 +1980,7 @@ La capa de interfaz expone endpoints REST para crear y configurar proyectos IoBu
 **Smart Project Setup Interface Diagram**
 ![Smart Project Setup Interface Diagram](https://instasize.com/api/image/ac46962e9edde3cbfc8e372f387b207c489713181446b1a16f8ce49facd5b3b2.png)
 
-#### 4.2.1.3. Application Layer
+#### 2.6.1.3. Application Layer
 La capa de aplicacion orquesta comandos y queries para preparar el proyecto IoBuild y validar que la configuracion cumpla requisitos minimos antes del aprovisionamiento.
 
 **Command Handlers**
@@ -2034,7 +1995,7 @@ La capa de aplicacion orquesta comandos y queries para preparar el proyecto IoBu
 **Smart Project Setup Application Diagram**
 ![Smart Project Setup Application Diagram](https://instasize.com/api/image/e9c9db4b1c8d1417d7243363b80201317c2b75e261099bf4500fee76ca9d9dea.png)
 
-#### 4.2.1.4. Infrastructure Layer
+#### 2.6.1.4. Infrastructure Layer
 La capa de infraestructura implementa persistencia del setup de IoBuild, incluyendo zonas, perfiles de dispositivos y configuracion de conectividad.
 
 **Repositories**
@@ -2046,7 +2007,7 @@ La capa de infraestructura implementa persistencia del setup de IoBuild, incluye
 **Smart Project Setup Infrastructure Diagram**
 ![Smart Project Setup Infrastructure Diagram](https://instasize.com/api/image/7b5799c5a59f8baa058ce64b7ac8c866100f4a3f54a18da83b6da5bd5d9c55f4.png)
 
-#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 <!--
 workspace "IoBuild - Smart Project Setup (Component Diagram)" "C4 Component Diagram del bounded context Smart Project Setup" {
     model {
@@ -2136,10 +2097,10 @@ workspace "IoBuild - Smart Project Setup (Component Diagram)" "C4 Component Diag
 
 ![Diagram C4](https://i.imgur.com/EZ0QtVR.png)
 
-#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 En esta seccion se presentan los diagramas de nivel codigo para **Smart Project Setup**, cubriendo el modelo del Domain Layer y su persistencia relacional.
 
-##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama UML muestra clases, interfaces, enumeraciones, atributos, metodos, scopes y relaciones con multiplicidad del dominio.
 
 
@@ -2227,7 +2188,7 @@ El siguiente diagrama UML muestra clases, interfaces, enumeraciones, atributos, 
 ![Diagrama plantUML](https://i.imgur.com/aqFCKUf.png)
 
 
-##### 4.2.1.6.2. Bounded Context Database Design Diagram
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
 El siguiente diagrama relacional muestra tablas, columnas y constraints para la persistencia del bounded context.
 
 <div style="display:none">
@@ -2284,8 +2245,8 @@ El siguiente diagrama relacional muestra tablas, columnas y constraints para la 
 
 ![Diagrama lucidchart](https://i.imgur.com/szDoLl0.png)
 
-### 4.2.2. Bounded Context: Service Execution and Monitoring
-#### 4.2.2.1. Domain Layer
+### 2.6.2. Bounded Context: Service Execution and Monitoring
+#### 2.6.2.1. Domain Layer
 En **IoBuild**, este bounded context gestiona la ejecucion operativa de servicios y el monitoreo continuo de su comportamiento. El dominio cubre la orquestacion de ejecuciones, el registro de metricas de observabilidad y la gestion de alertas operativas.
 
 **Entities y Aggregates**
@@ -2358,7 +2319,7 @@ El bounded context publica eventos del dominio para permitir integración desaco
 - AlertManagementService
 - AlertQueryService
 
-#### 4.2.2.2. Interface Layer
+#### 2.6.2.2. Interface Layer
 La capa de interfaz expone endpoints REST para ejecutar servicios, consultar estado operativo y administrar alertas del proyecto.
 
 **Controllers**
@@ -2375,7 +2336,7 @@ La capa de interfaz expone endpoints REST para ejecutar servicios, consultar est
 **Service Execution and Monitoring Interface Diagram**
 ![Service Execution and Monitoring Interface Diagram](https://instasize.com/api/image/d237f139e3bd29eea6ef5698a4e4f57140679000ed1d00c23baaec4157afae78.png)
 
-#### 4.2.2.3. Application Layer
+#### 2.6.2.3. Application Layer
 La capa de aplicacion orquesta la ejecucion de servicios y los procesos de observabilidad para garantizar trazabilidad y control operativo del sistema.
 
 **Command Handlers**
@@ -2391,7 +2352,7 @@ La capa de aplicacion orquesta la ejecucion de servicios y los procesos de obser
 **Service Execution and Monitoring Application Diagram**
 ![Service Execution and Monitoring Application Diagram](https://instasize.com/api/image/20b81bd5a2eecdf45ebe39b3305e475644b4581e030069c24911def098e3a3c8.png)
 
-#### 4.2.2.4. Infrastructure Layer
+#### 2.6.2.4. Infrastructure Layer
 La capa de infraestructura implementa persistencia de ejecuciones, metricas y alertas para soportar monitoreo historico y operacion en tiempo real.
 
 **Repositories**
@@ -2403,7 +2364,7 @@ La capa de infraestructura implementa persistencia de ejecuciones, metricas y al
 **Service Execution and Monitoring Infrastructure Diagram**
 ![Service Execution and Monitoring Infrastructure Diagram](https://instasize.com/api/image/6c9a8603ca4cac961870fdedc0c763647510ccd982a43e0e2128bb56cbe5cdd4.png)
 
-#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 <!--
 workspace "IoBuild - Service Execution & Monitoring (Component Diagram)" "C4 Component Diagram del bounded context Service Execution and Monitoring" {
 
@@ -2504,10 +2465,10 @@ workspace "IoBuild - Service Execution & Monitoring (Component Diagram)" "C4 Com
 ![Diagrama C4](https://i.imgur.com/p8nHO38.png)
 
 
-#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 En esta seccion se presenta el detalle de implementacion para **Service Execution and Monitoring**, incluyendo estructura de dominio y modelo de persistencia.
 
-##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
  <div style="display:none">
     ```mermaid
     classDiagram
@@ -2621,7 +2582,7 @@ En esta seccion se presenta el detalle de implementacion para **Service Executio
 
 ![Diagrama plantUML](https://i.imgur.com/Ngsgh4D.png)
 
-##### 4.2.2.6.2. Bounded Context Database Design Diagram
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 <div style="display:none">
     ```mermaid
@@ -2671,8 +2632,8 @@ En esta seccion se presenta el detalle de implementacion para **Service Executio
 
 ![Diagrama Lucidchart](https://i.imgur.com/xtReovF.png)
 
-### 4.2.3. Bounded Context: Smart Assistant
-#### 4.2.3.1. Domain Layer
+### 2.6.3. Bounded Context: Smart Assistant
+#### 2.6.3.1. Domain Layer
 En **IoBuild**, este bounded context implementa la asistencia inteligente contextual para apoyar decisiones operativas. El dominio cubre conversaciones asistidas, generacion de recomendaciones tecnicas y construccion de planes de accion sobre eventos del proyecto.
 
 **Entities y Aggregates**
@@ -2715,7 +2676,7 @@ En **IoBuild**, este bounded context implementa la asistencia inteligente contex
 - AssistantActionPlanCommandService
 - AssistantActionPlanQueryService
 
-#### 4.2.3.2. Interface Layer
+#### 2.6.3.2. Interface Layer
 La capa de interfaz expone endpoints REST para interactuar con el asistente, administrar recomendaciones y consultar planes de accion.
 
 **Controllers**
@@ -2732,7 +2693,7 @@ La capa de interfaz expone endpoints REST para interactuar con el asistente, adm
 **Smart Assistant Interface Diagram**
 ![Smart Assistant Interface Diagram](https://instasize.com/api/image/f00d4edcae97cb8e384659f46342e12d43ad825eec9ea7cdeaf51d53e584f900.png)
 
-#### 4.2.3.3. Application Layer
+#### 2.6.3.3. Application Layer
 La capa de aplicacion orquesta la interaccion del asistente con el contexto del proyecto para responder consultas, generar recomendaciones y proponer planes accionables.
 
 **Command Handlers**
@@ -2748,7 +2709,7 @@ La capa de aplicacion orquesta la interaccion del asistente con el contexto del 
 **Smart Assistant Application Diagram**
 ![Smart Assistant Application Diagram](https://instasize.com/api/image/c1e93fdfadf169bc27b0c35f392c880a7e7cf8277875b5ca32146081bf2f4cae.png)
 
-#### 4.2.3.4. Infrastructure Layer
+#### 2.6.3.4. Infrastructure Layer
 La capa de infraestructura implementa persistencia de conversaciones, mensajes, recomendaciones y planes de accion para asegurar trazabilidad de la asistencia inteligente.
 
 **Repositories**
@@ -2763,7 +2724,7 @@ ExecutionTask es una entidad interna del aggregate ServiceExecution y su persist
 
 **Smart Assistant Infrastructure Diagram**
 ![Smart Assistant Infrastructure Diagram](https://instasize.com/api/image/30c135e534c0d290f7f1eb2b52a4639e2d8ea4d833724136d9d91420f37e6c99.png)
-#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 <!--
 workspace "IoBuild - Smart Assistant (Component Diagram)" "C4 Component Diagram del bounded context Smart Assistant" {
@@ -2871,10 +2832,10 @@ workspace "IoBuild - Smart Assistant (Component Diagram)" "C4 Component Diagram 
 
 ![Diagrama C4](https://i.imgur.com/AQmKgPv.png)
 
-#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 En esta seccion se presenta el nivel de codigo del bounded context **Smart Assistant**, incluyendo su modelo de dominio y esquema de base de datos.
 
-##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
 <div style="display:none">
     ```mermaid
@@ -2989,7 +2950,7 @@ En esta seccion se presenta el nivel de codigo del bounded context **Smart Assis
 
 ![Diagrama plantUML](https://i.imgur.com/nHDNIB3.png)
 
-##### 4.2.3.6.2. Bounded Context Database Design Diagram
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
 <div style="display:none">
 
     ```mermaid
@@ -3039,8 +3000,8 @@ En esta seccion se presenta el nivel de codigo del bounded context **Smart Assis
 
 ![Diagrama lucidchart](https://i.imgur.com/2b7dggg.png)
 
-### 4.2.4. Bounded Context: Energy Management
-#### 4.2.4.1. Domain Layer
+### 2.6.4. Bounded Context: Energy Management
+#### 2.6.4.1. Domain Layer
 En **IoBuild**, este bounded context gestiona la medicion, analisis y optimizacion del consumo energetico de los edificios inteligentes. El dominio cubre planes de optimizacion, registro de consumo, deteccion de anomalias y eventos de respuesta a la demanda.
 
 **Entities y Aggregates**
@@ -3107,7 +3068,7 @@ En **IoBuild**, este bounded context gestiona la medicion, analisis y optimizaci
 - DemandResponseQueryService
 - EnergySavingsAnalysisService
 
-#### 4.2.4.2. Interface Layer
+#### 2.6.4.2. Interface Layer
 La capa de interfaz expone endpoints REST para crear planes de optimizacion, registrar consumo, gestionar anomalias y ejecutar eventos de respuesta a la demanda.
 
 **Controllers**
@@ -3124,7 +3085,7 @@ La capa de interfaz expone endpoints REST para crear planes de optimizacion, reg
 **Energy Management Interface Diagram**
 ![Energy Management Interface Diagram](https://instasize.com/api/image/3be25a2e254b035f27c7ecdb7b05bb59883da84db0dbb2b70a1b26ef89bff79b.png)
 
-#### 4.2.4.3. Application Layer
+#### 2.6.4.3. Application Layer
 La capa de aplicacion orquesta comandos y consultas para convertir datos de consumo en decisiones operativas de eficiencia energetica.
 
 **Command Handlers**
@@ -3140,7 +3101,7 @@ La capa de aplicacion orquesta comandos y consultas para convertir datos de cons
 **Energy Management Application Diagram**
 ![Energy Management Application Diagram](https://instasize.com/api/image/5bb792141cfabc4249c13bd8e17c84a6a90107bd2fd33d9f018e89a5e9a35127.png)
 
-#### 4.2.4.4. Infrastructure Layer
+#### 2.6.4.4. Infrastructure Layer
 La capa de infraestructura implementa persistencia de planes de optimizacion, lecturas de consumo, anomalias y eventos de respuesta para soportar analitica historica y operacion en tiempo real.
 
 **Repositories**
@@ -3165,7 +3126,7 @@ Implementaciones en infraestructura:
 
 Este patrón protege el dominio frente a cambios tecnológicos del proveedor IA.
 
-#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 <!--
 
@@ -3275,10 +3236,10 @@ workspace "IoBuild - Energy Management (Component Diagram)" "C4 Component Diagra
 
 ![Diagrama C4](https://i.imgur.com/XKGyZ20.png)
 
-#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 En esta seccion se presenta el detalle de implementacion de **Energy Management** a nivel de clases de dominio y persistencia relacional.
 
-##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 <div style="display:none">
     ```mermaid
     classDiagram
@@ -3396,7 +3357,7 @@ En esta seccion se presenta el detalle de implementacion de **Energy Management*
 
 ![Diagrama plantUML](https://i.imgur.com/VxFxqqC.png)
 
-##### 4.2.4.6.2. Bounded Context Database Design Diagram
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
 <div style="display:none">
     ```mermaid
         erDiagram
@@ -3452,149 +3413,8 @@ En esta seccion se presenta el detalle de implementacion de **Energy Management*
 
 ![Diagrama LucidChart](https://i.imgur.com/bxwcuZp.png)
 
-# Capítulo V: Solution UI/UX Design
-## 4.1. Style Guidelines.
-### 4.1.1. General Style Guidelines.
-Descripcion del porque estos elementos seran importantes
-**Color:** (Descripcion de los colores escogidos y porque)  
-![Colores generales](image.jpg)
-**Tipografia:** (Descripcion de la tipografia escogida para el proyecto y porque)
-![Tipografias generales](image.jpg)
-**Branding** (Describir logotipo y porque)
-![Branding general](image.jpg)
-### 4.1.2. Web Style Guidelines.
-Descripcion de los elementos que se utilizaran en el web app
-**Background:** (primary, secondary, terniary)  
-![Background Preview web](image.jpg)
-**Text Styles:** (H1, H2, p, a,)  
-![Text Style Preview web](image.jpg)
-**Button Styles:** (Button, dropdowns, Switches)
-![Button Preview web](image.jpg)
-**Icons:** (Fondo blanco con los iconos que vamos a usar)
-![Icons Preview web](image.jpg)
-**Misc** (Cosas como nav var o slideshows que pensemos usar)
-![Miscellaneos preview web](image.jpg)
-## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
-Descripcion corta respecto a los sistemas de organizacion que usaremos  (Escoger)
-"Hierarchical. This structures advices to present the content in a way to distinguish the level of importance by making use of physical differences, such as size, colour, contrast, alignment etc.
-Sequential. Guide users to follow a specific path towards their goal and provide content step-by-step based on the current step. 
-Matrix. You can always give the users the option to choose the type of navigation they prefer, i.e. Alphabetical, Chronological, by topic."
-### 4.2.2. Labeling Systems.
-The labeling system aims at uniting the data effectively and represent them in simple way and avoid confusing great amount of information. A widely adopted way to achieve this is by creating the labels which represent loads of data in few words. 
-Como decir "home, about us, etc" basicamente lo que iria en un nav var y asi
-### 4.2.3. SEO Tags and Meta Tags
-**Meta & SEO (Search Engine Optimization) Tags:**  sirven para que la pagina web sea encontrada facilmente es lo que sale al encontrar la pagina en el buscador (se ponen en el <"head">)
-* Titulo: ```<title> ___ </title> ```
-* Descripcion: ```<meta name = "description" content = "texto descipcion"/> ```
-* Palabras Clave: ```<meta name = "keyword" content = "keyword1, 2 3"/> ```
-### 4.2.4. Searching Systems.
-**Que se busca?:** Que buscara el usuario  
-**Que resultados se mostraran?:** Que se mostrara  
-**Interface de busqueda:** Descripcion de como ayuda a encontrar lo deseado 
-![Search interface preview web](image.jpg)
-### 4.2.5. Navigation Systems.
-Basicamente aqui definimos como funciona la navegacion del web app
-**Hierarchical Navigation System:** Main page a destination pages.
-**Global Navigation Systems** (Complemento del Hierachical) Movimiento vertical (te mueves por la pagina)con nav(debe poder regresar a la principal)
-**Local Navigation Systems** (vas a otras paginas) (complemento del global nav sistem sub-site) Usas otras paginas
-## 4.3. Landing Page UI Design.
-### 4.3.1. Landing Page Wireframe.
-la pagina donde te registras y ves info del web app (te manda al web app)
-Wireframe es todo lo funcional de la pagina
-![Landing page Wireframe](image.jpg)
-### 4.3.2. Landing Page Mock-up.
-Mockup es todo lo relacionado al diseño de la pagina
-![Landing page mockup](image.jpg)
-## 4.4. Web Applications UX/UI Design.
-### 4.4.1. Web Applications Wireframes.
-lo funcional de cada aspecto del wireframe 
-![Web Aplication Wireframe](image.jpg)
-### 4.4.2. Web Applications Wireflow Diagrams.
-Wireflow es como se va a navegar por la pagina (boton me lleva a esta pagina y este me regresa)
-![Web Aplication Wireflow](image.jpg)
-### 4.4.2. Web Applications Mock-ups.
-Diseño en todo aspecto
-![Web Aplication Mockup](image.jpg)
-### 4.4.3. Web Applications User Flow Diagrams.
-un flow diagram de como el usuario utilizara la pagina **[PARA CADA USER GOAL]** 
-![Web Aplication User Flow Diagram](image.jpg)
-## 4.5. Web Applications Prototyping.
-[URL del Prototipo (Hecho en figma)](https://www.example.com)
-## 4.6. Domain-Driven Software Architecture.
-### 4.6.1. Software Architecture Context Diagram.
-1. System Context Diagram: Diagrama que muestra la relacion del aplicativo con los usuarios
-se incluyen servicios externos (si hay pocos bounded context se incluyen ahi)
-2. Bounded Context Map: Muestra la relacion entre bounded contexts (los bounded context son como una burbuja que encapsula palabras clave en los procesos para poder diferenciarlos [Ej. Bounded context enfocado en las ventas(ventas), otro en revisar el stock(gestion) y otro enfocado en los proveedores (suministros)]) Se hace como un brainstorm y se ve en que pueden conectarse o comunicarse [se usa un circulo entre conexiones lineales (upstream o downstream) para definir comunicacion, algunos context se pueden integrar para representar por ejemplo un share model por database, tambien se mencionan los (third party context para definir los restful apis)]
-   
-### 4.6.2. Software Architecture Container Diagrams.
-1. Bounded Context Deployable / Container Diagrams. Sirve para entender como funciona y el proceso, Se especifican DB's, indexers, Search engine, las Apis que usen los bounded context y se conectan por flechas, las cuales tienen como objetivo explicar la direcion y relacion junto a que se esta enviando/comunicando (TCP) 
-### 4.6.3. Software Architecture Components Diagrams.
-1. Component diagrams: Estos van a mostrar las ordenes, procesos, mensajes y componentes utilizados en el uso del aplicativo, claro se deben hacer diferentes de estos para cada bounded o USER GOALS
-## 4.7. Software Object-Oriented Design.
-### 4.7.1. Class Diagrams.
-Esta yaselasaben (diagrama de clases)
-Clases(name), objetos(nombre-objeto [como objeto]), metodos("Accion") y atributos(Correo, edad,nombre como valor, ID)
-### 4.7.2. Class Dictionary.
-Inherit (ave(superclase) -> (subclase)canario )
-Polymorphism (Ej. funcion de persona hablar() -> Peruano hablar() , Gringo hablar() todos tienen una funcion que contiene persona y van cambiando sus formas)
-Abstraction (Ej. Solo muestra el usuario, pero esta su edad, correo y veces usada que uso app en la base de datos (fuera de vista))
-Encapsulation (cuando tienes tus variables y metodos en la misma clase las estas encapsulando, aun mas se encapsulan en Private y Public )
-## 4.8. Database Design.
-### 4.8.1. Database Diagram.
-Diagrama de base de datos (la relacion entre clases PK FK el Normalizar tmbn, isiyisi 🕸)
-# Capítulo VI: Product Implementation, Validation & Deployment
-## 6.1. Software Configuration Management.
-### 6.1.1. Software Development Environment Configuration.
-Especificaciones de donde vamos a hacer el proyecto (vscode supongo)
-extensiones tmbn? nose bn q quieren aca
-### 6.1.2. Source Code Management.
-El gitjab donde tengamos el proyecto
-### 6.1.3. Source Code Style Guide & Conventions.
-Que usamos con css (en caso usemos software para SASS)
-supongo q tmbn cositas de como hacemo el code capas algun tipo de codigo para comunicarse entre comments
-### 6.1.4. Software Deployment Configuration.
-Configuraciones de donde y como deployeamos el proyecto
-## 6.2. Landing Page & Mobile Application Implementation.
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n.
-Explicar como vamos a plannear el sprint?
-#### 6.2.X.2. Sprint Backlog n.
-![SprintBacklog n](image.jpg) Nica hago la tabla 
-#### 6.2.X.3. Development Evidence for Sprint Review.
-![Sprint review development Evidence](image.jpg)
-#### 6.2.X.4. Testing Suite Evidence for Sprint Review.
-![Sprint review Testing suite Evidence](image.jpg)
-#### 6.2.X.5. Execution Evidence for Sprint Review.
-![Sprint review Execution Evidence](image.jpg)
-#### 6.2.X.6. Services Documentation Evidence for Sprint Review.
-![Sprint review Services Documentation Evidence](image.jpg)
-#### 6.2.X.7. Software Deployment Evidence for Sprint Review.
-![Sprint review Software Deployment Evidence](image.jpg)
-#### 6.2.X.8. Team Collaboration Insights during Sprint.
-![Sprint review Team Collaboration Insights](image.jpg) imagenes de colaboraciones github
-
-## 6.3. Validation Interviews
-### 6.3.1. Diseño de Entrevistas
-[Completar]
-
-### 6.3.2. Registro de Entrevistas
-[Completar]
-
-### 6.3.3. Evaluaciones según heurísticas
-[Completar]
-
-## 6.4. Video About-the-Product
-[Agregar enlace al video]
-
 # Conclusiones
 [Completar]
-
-# Conclusiones y recomendaciones
-[Completar]
-
-# Video About-the-Team
-[Agregar enlace al video]
 
 # Bibliografía
 [Completar]
