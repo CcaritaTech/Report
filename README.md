@@ -307,7 +307,7 @@ Este lienzo detalla el módulo de Inteligencia Artificial que aporta el valor ag
 
 ### 4.1.2. Context Mapping
 
-## Resumen del Proceso
+##### Resumen del Proceso
 El Context Mapping es la fase donde definimos las relaciones estructurales y los contratos de comunicación entre nuestros Bounded Contexts. En IoBuild, este proceso se realizó mediante un análisis crítico de dependencias, buscando maximizar la autonomía de los microservicios y proteger el lenguaje ubicuo de cada uno.
 
 ##### Análisis de Alternativas (Exploración de Diseño)
