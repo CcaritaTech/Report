@@ -3416,8 +3416,60 @@ En esta seccion se presenta el detalle de implementacion de **Energy Management*
 # Conclusiones
 [Completar]
 
-# Bibliografía
-[Completar]
+## Bibliografía
+- CEELA. (2024). Perú – Proyecto CEELA – Eficiencia energética en edificios. Rescato de https://proyectoceela.com/
+- Nexoinmobiliario. (2025). ¿Vale la pena comprar un departamento con certificación LEED Lima?. Rescato de https://shorturl.at/aRS1m
+- JLL. (2024). Evolución sostenible: Edificios verdes en América Latina. Rescato de https://shorturl.at/QNYAH
+- Digi. (2024). IoT Aplicaciones para edificios inteligentes: Casos de uso y principales ventajas. Rescato de https://shorturl.at/idxvo
+- Domotec. (n.d.). Inicio. Rescato de https://www.domotecperu.com/
+- MWF Solutions. (n.d.). Incio. Rescato de https://mwfsolutions.pe/
+- Orbivo Perú. (n.d.). Inicio. Rescato de https://orviboperu.com.pe/
+- Lucid Software Inc. (n.d.). Lucidchart. Rescatado de https://www.lucidchart.com/
+- Structurizr Ltd. (n.d.). Structurizr. Rescatado de https://structurizr.com/
+- Fowler, M. (2013). GivenWhenThen. Rescatado de https://shorturl.at/mqTb5
+- Git SCM. (n.d.). Git. Rescatado de https://git-scm.com/
 
-# Anexos
-[Completar]
+## Anexos
+
+#### ANEXO A: Investigación y Análisis de Usuarios
+
+Este anexo contiene la evidencia de la investigación que valida la necesidad de la plataforma IoBuild y sustenta las decisiones de diseño centradas en el usuario.
+
+**Repositorio de la organización**
+<https://github.com/CcaritaTech>
+
+**URL de las entrevistas: upc-pre-2025200-1asi0730-7461-CcaritaTech-needfinding**
+<>
+
+<div style="page-break-before: always;"></div>
+
+#### ANEXO B: Documentación del Diseño y la Experiencia de Usuario (UX/UI)
+
+Este anexo incluye los artefactos visuales y la documentación del proceso de diseño que demuestran la planificación de la experiencia de usuario y la interfaz de la plataforma IoBuild.
+
+**Lean UX Canvas**
+<https://url-shortener.me/16XS>
+
+**User Persona**
+- Arquitectos e Ingenieros Civiles
+<>
+
+- Propietaros de Apartamentos
+<>
+
+**Empathy Mapping**
+- Arquitectos e Ingenieros Civiles
+<https://shorturl.at/OweNc>
+
+- Propietaros de Apartamentos
+<https://url-shortener.me/16XB>
+
+**User Journey Map**
+- Arquitectos e Ingenieros Civiles
+<https://url-shortener.me/16XF>
+
+- Propietaros de Apartamentos
+<https://url-shortener.me/16XI>
+
+**Impact Mapping**
+<https://tinyurl.com/ytzz3rdn>
