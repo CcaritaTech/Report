@@ -16,22 +16,35 @@
 
 ### Team Members
 
-| Member                        | Code       |
-|-------------------------------|------------|
-| Barturen Panez, Iker Gabriel  | U202312629 |
-| Ccarita Cruz, Brayan Roberto  | U2022ic218 |
-| Loechle Arias, Mateo Italo    | U202215004 |
-| Ordoñez Ricaldi, Axel Randall | U202216827 |
-| Panta Castro, Fabrizio Martin | U20231a810 |
+| Code       | Member                        |
+|------------|-------------------------------|
+| U202312629 | Barturen Panez, Iker Gabriel  |
+| U20221C218 | Ccarita Cruz, Brayan Roberto  |
+| U202215004 | Loechle Arias, Mateo Italo    |
+| U202216827 | Ordoñez Ricaldi, Axel Randall |
+| U20231A810 | Panta Castro, Fabrizio Martin |
 
 
 Abril 2026
 </center>
+
+<div style="page-break-before: always;"></div>
+
 # Registro de Versiones del Informe
 
-| Version | Fecha | Autor | Descripcion de Modificacion |
-| ----------- | ----------- | ----------- | ----------- |
-| 0.0 | 25/08/2025 |CcaritaTech |Se crea el documento |  
+| Version | Fecha      | Autor                        | Descripcion de Modificacion                                                                                                                                                                                                                                                                                                                              |
+|---------|------------|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0.1     | 27/08/2025 | Axel Ordoñez Ricaldi         | Se han agregado las imágenes y se ha redactado la descripción de cada participante, así como la descripción general de la startup en el perfil.                                                                                                                                                                                                          |  
+| 0.2     | 29/08/2025 | Axel Ordoñez Ricaldi         | Primer avance del Capítulo 1, el cual incluye el desarrollo inicial de los antecedentes y la problemática, y se sube el Lean UX Problem Statement, y la elaboración del Problem Statement, el registro de Assumptions y la formulación de los Hypothesis Statements.                                                                                      |
+| 0.3     | 02/09/2025 | Brayan Ccarita Cruz          | Se revisó y editó el Capítulo 1, incluyendo la sección sobre el Lean UX Process, garantizando la coherencia y claridad del contenido. Además, se integraron los avances de los colaboradores en dicho capítulo. Finalmente, se procedió a subir el informe a la rama develop.                                                                             |
+| 0.4     | 05/09/2025 | Brayan Ccarita Cruz          | Se avanzó en el desarrollo del Capítulo 2, incorporando el análisis competitivo y registrando las entrevistas en el informe, junto al diseño de las entrevistas, registro de entrevistas y analisis de las entrevistas. Asimismo, se documentó un progreso del needfinding en el informe                                                                 |
+| 0.5     | 09/09/2025 | Iker Barturen Panez          | Se continuó el Capítulo 2, incluyendo la finalización del needfinding, Big Picture EventStorming y la creación del Ubiquitous Language. Además, se revisó y editó todo el capítulo para asegurar la coherencia y claridad del contenido.                                                    |
+| 0.6     | 12/09/2025 | Iker Barturen Panez          | Se continuó en el desarrollo del Capítulo 2, identificando las épicas que se trabajarán para las user stories. Asimismo, se registró el progreso de dichas user stories y se adjuntó el impact map correspondiente.                                                                                                                                         |
+| 0.7     | 14/09/2025 | Mateo Loechle Arias          | Se continuó el desarrollo del Capítulo 2, integrando el avance del product backlog y el trabajo realizado en Trello junto con los colaboradores.                                                                                                                                          |
+| 0.8     | 15/09/2025 | Fabrizio Panta Castro        | Se continuó en el desarrollo del Capítulo 2, el diseño del producto mediante lineamientos visuales, arquitectura de información y propuestas UI/UX, incluyendo guías de estilo, wireframes, mock-ups y flujos de interacción que aseguran consistencia, usabilidad y coherencia en la solución tecnológica.                                                |
+| 0.9     | 17/09/2025 | Fabrizio Panta Castro        | Se continuó el desarrollo del Capítulo 2, consolidando el diseño del producto mediante prototipos, arquitectura de software, diagramas orientados a objetos y diseño de base de datos, garantizando coherencia estructural y soporte técnico para la implementación de la solución.        |
+| 1.0     | 18/09/2025 | Mateo Loechle Arias          | Se culmino el desarrollo del Capítulo 2, incluyendo la configuración del entorno de desarrollo, gestión del código fuente y despliegue de la solución tecnológica. Además, se documentó el progreso de los sprints, evidencias de desarrollo, pruebas y despliegue del software. Asimismo, se fusionó la rama de capitulo 2 con la rama develop |
+
 
 # Project Report Collaboration Insights
 
