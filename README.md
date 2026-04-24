@@ -45,6 +45,7 @@ Abril 2026
 | 0.9     | 17/09/2025 | Fabrizio Panta Castro        | Se continuó el desarrollo del Capítulo 2, consolidando el diseño del producto mediante prototipos, arquitectura de software, diagramas orientados a objetos y diseño de base de datos, garantizando coherencia estructural y soporte técnico para la implementación de la solución.        |
 | 1.0     | 18/09/2025 | Mateo Loechle Arias          | Se culmino el desarrollo del Capítulo 2, incluyendo la configuración del entorno de desarrollo, gestión del código fuente y despliegue de la solución tecnológica. Además, se documentó el progreso de los sprints, evidencias de desarrollo, pruebas y despliegue del software. Asimismo, se fusionó la rama de capitulo 2 con la rama develop |
 
+<div style="page-break-before: always;"></div>
 
 # Project Report Collaboration Insights
 
@@ -68,6 +69,8 @@ Ordoñez Ricaldi, Axel Randall se encargó de la etapa de Needfinding, creando l
 
 Finalmente, Panta Castro, Fabrizio Martin colaboró en la elaboración de la especificación de requisitos, participando en la redacción de las User Stories, la organización del backlog inicial y la definición de criterios de aceptación. Asimismo, formó parte del proceso de revisión final del informe, asegurando la coherencia y calidad de los entregables.
 
+<div style="page-break-before: always;"></div>
+
 # Contenido
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
@@ -84,11 +87,16 @@ Finalmente, Panta Castro, Fabrizio Martin colaboró en la elaboración de la esp
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+
+<div style="page-break-before: always;"></div>
+
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
 |Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software.|Axel Randall Ordoñez Ricaldi:<br>*AV1:* Colaboré con Fabrizio en EventStorming (Candidate Context Discovery, Domain Message Flows Modeling y Bounded Context Canvases), elaboré Context Mapping y Software Architecture Deployment Diagrams; este trabajo me permitió profundizar en DDD estratégico aplicado al proyecto.<br><br>Ccarita Cruz, Brayan Roberto:<br>*AV1:* Colaboré con Mateo e Iker en Domain, Interface, Application e Infrastructure Layer, y elaboré los Bounded Context Software Architecture Code Level Diagrams; esto me permitió fortalecer el diseño táctico y su trazabilidad con el código.<br><br>Panta Castro, Fabrizio Martin:<br>*AV1:* Colaboré con Axel en EventStorming (Candidate Context Discovery, Domain Message Flows Modeling y Bounded Context Canvases), elaboré Context Mapping y Software Architecture Deployment Diagrams; ello me permitió consolidar conocimientos de modelado de dominio estratégico.<br><br>Barturen Panez, Iker Gabriel:<br>*AV1:* Colaboré con Mateo en el Tactical-Level DDD del Bounded Context (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer); este desarrollo me permitió profundizar en arquitectura por capas y responsabilidades del dominio.<br><br>Loechle Arias, Mateo Italo:<br>*AV1:* Colaboré con Iker en el Tactical-Level DDD del Bounded Context (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer); este trabajo me permitió reforzar la definición de capas y reglas de negocio del contexto.<br>|En AV1, el equipo evidenció actualización de conocimientos al aplicar DDD estratégico y táctico, integrando modelado de dominio y arquitectura de software en entregables concretos del proyecto.|
 |Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.|Axel Randall Ordoñez Ricaldi:<br>*AV1:* Investigué y apliqué nuevas técnicas de EventStorming, Context Mapping y Deployment Diagrams junto a Fabrizio, incorporando buenas prácticas de DDD para fortalecer la arquitectura del proyecto.<br><br>Ccarita Cruz, Brayan Roberto:<br>*AV1:* Aprendí y apliqué criterios de arquitectura a nivel código mientras colaboraba con Mateo e Iker en las capas tácticas del Bounded Context, reforzando mi aprendizaje continuo.<br><br>Panta Castro, Fabrizio Martin:<br>*AV1:* Investigué y apliqué nuevas técnicas de EventStorming, Context Mapping y Deployment Diagrams junto a Axel, validando decisiones de diseño con enfoque de mejora continua.<br><br>Barturen Panez, Iker Gabriel:<br>*AV1:* Profundicé junto a Mateo en DDD táctico (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer), incorporando nuevos criterios técnicos para mejorar de forma continua el diseño del Bounded Context.<br><br>Loechle Arias, Mateo Italo:<br>*AV1:* Profundicé junto a Iker en DDD táctico (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer), fortaleciendo mis competencias en separación de responsabilidades y evolución del diseño del dominio.<br>|En AV1, el grupo demostró aprendizaje permanente al investigar y adoptar nuevas técnicas de DDD y arquitectura, transfiriendo conocimiento entre integrantes y elevando la calidad técnica del trabajo colaborativo.|
+
+<div style="page-break-before: always;"></div>
 
 # Objetivos SMART
 Esta sección presenta el plan de crecimiento profesional postgrado de cada integrante, con dos objetivos SMART por persona.
@@ -172,6 +180,8 @@ Esta sección presenta el plan de crecimiento profesional postgrado de cada inte
 - **Achievable:** Realizar el curso oficial de Kotlin y practicar con ejercicios avanzados.
 - **Relevant:** Para demostrar expertise en el lenguaje principal utilizado en el proyecto Centralis.
 - **Time-bound:** Aprobar el examen de certificación en los primeros 5 meses tras graduarse.
+
+<div style="page-break-before: always;"></div>
 
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
