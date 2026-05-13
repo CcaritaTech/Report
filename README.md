@@ -3534,7 +3534,7 @@ En esta seccion se documentan los componentes del entorno de desarrollo, su prop
 
 ##### 4.1.1. Software Development Environment Configuration
 
-Para la implementacion de la solucion, se configuro un entorno de desarrollo orientado a aplicaciones moviles Android, integracion con servicios backend y soporte para diseno UX/UI, documentacion y despliegue.
+Para la implementacion de la solucion, se configuro un entorno de desarrollo orientado a aplicaciones moviles Android, integracion con servicios backend y soporte para diseno UX/UI, documentacion y colaboracion del equipo.
 
 | Producto/Herramienta | Categoria | Ruta de Descarga/Acceso | Proposito en el Proyecto |
 |---|---|---|---|
@@ -3555,8 +3555,186 @@ Para la implementacion de la solucion, se configuro un entorno de desarrollo ori
 | Firebase Cloud Messaging | Notificaciones Push | https://firebase.google.com/ | Servicio de notificaciones push para dispositivos moviles |
 
 ##### 4.1.2. Source Code Management
+
+La gestion del codigo fuente de **IoBuild** se realiza con Git y GitHub, siguiendo practicas estandar para asegurar trazabilidad, colaboracion efectiva y control de cambios durante todo el ciclo de desarrollo.
+
+**Gestion de Repositorios**
+
+El proyecto utiliza GitHub como plataforma centralizada de control de versiones. La organizacion del codigo se separa por componente para facilitar mantenimiento independiente y evolucion controlada del sistema.
+
+| Producto | URL del Repositorio | Descripcion |
+|---|---|---|
+| Landing Page | Pendiente de registrar URL oficial | Sitio web de presentacion del producto |
+| Mobile Application Kotlin | Pendiente de registrar URL oficial | Aplicacion movil nativa Android |
+| Project Report | https://github.com/CcaritaTech/Report | Reporte tecnico y documentacion del proyecto |
+
+**Implementacion de GitFlow**
+
+Se adopta GitFlow como estrategia de branching para estructurar el trabajo del equipo. Este modelo define ramas principales para produccion e integracion, junto con ramas de soporte para nuevas funcionalidades, releases y hotfixes. Con ello se mantiene la estabilidad del codigo y se ordena el flujo de trabajo entre desarrollo, validacion y entrega.
+
+**Convenciones de Nomenclatura**
+
+Para mantener consistencia en el repositorio, se establecen convenciones de nombres para ramas:
+
+- `feature/<modulo>-<descripcion-corta>`
+- `release/v<major>.<minor>.<patch>`
+- `hotfix/v<major>.<minor>.<patch>`
+- `bugfix/<modulo>-<descripcion-corta>`
+
+Estas convenciones permiten identificar rapidamente el proposito de cada rama y mejoran la coordinacion entre integrantes.
+
+**Versionado Semantico**
+
+El proyecto sigue Semantic Versioning (`MAJOR.MINOR.PATCH`):
+
+- `MAJOR`: cambios incompatibles con versiones anteriores.
+- `MINOR`: nuevas funcionalidades compatibles.
+- `PATCH`: correcciones de errores sin romper compatibilidad.
+
+Este esquema comunica claramente el impacto de cada version y facilita la planificacion de despliegues.
+
+**Conventional Commits**
+
+Se utiliza la especificacion Conventional Commits para estandarizar los mensajes de commit y mejorar la trazabilidad del historial. Formato base:
+
+`<type>(<scope>): <description>`
+
+Tipos de commit mas usados:
+
+- `feat`: nueva funcionalidad.
+- `fix`: correccion de error.
+- `docs`: cambios en documentacion.
+- `refactor`: mejora interna sin cambiar comportamiento funcional.
+- `test`: incorporacion o ajuste de pruebas.
+- `chore`: tareas de mantenimiento o configuracion.
+
+Esta convencion facilita auditoria de cambios y futura generacion automatica de changelogs.
+
 ##### 4.1.3. Source Code Style Guide & Conventions
+
+El proyecto **IoBuild** define una guia de estilo comun para mantener consistencia, legibilidad y mantenibilidad en sus componentes de backend, aplicacion movil, landing page y documentacion tecnica.
+
+**1. Estandares de Nomenclatura y Estilo**
+
+Se adopta nomenclatura en ingles para elementos de codigo (clases, metodos, variables, paquetes y ramas). Esta decision reduce ambiguedades, facilita la colaboracion y mantiene alineacion con la documentacion oficial de las tecnologias utilizadas.
+
+Reglas generales aplicadas:
+
+- Nombres descriptivos y orientados a responsabilidad.
+- Una sola convencion por tipo de elemento en todo el proyecto.
+- Evitar abreviaciones no estandar.
+- Mantener consistencia entre codigo, pruebas y documentacion.
+
+**2. Convenciones para Backend y APIs**
+
+Para backend con Java y Spring Boot se toma como base **Google Java Style Guide** y buenas practicas del ecosistema Spring:
+
+- Clases en `PascalCase` y metodos/atributos en `camelCase`.
+- Paquetes en minusculas, organizados por dominio o responsabilidad.
+- Controladores REST con rutas claras, recursos en plural y uso correcto de verbos HTTP.
+- Separacion por capas: `controller`, `application/service`, `domain`, `infrastructure`.
+- DTOs para requests/responses y validaciones en capa de entrada.
+
+Esto permite una API consistente, facil de mantener y alineada con arquitectura limpia y DDD definido en el proyecto.
+
+**3. Estandares para Desarrollo Movil**
+
+Para la aplicacion Android en Kotlin se siguen las convenciones oficiales de Kotlin y Android:
+
+- Clases y composables en `PascalCase`.
+- Funciones, propiedades y variables en `camelCase`.
+- Constantes en `UPPER_SNAKE_CASE`.
+- Estructura por features/pantallas para mejorar escalabilidad.
+- Uso consistente de componentes Material Design 3 para UI.
+
+Estas reglas aseguran codigo idiomatico, legible y coherente con las practicas actuales de desarrollo movil nativo.
+
+**4. Convenciones para Pruebas y Especificaciones**
+
+Las pruebas unitarias y de integracion usan nombres descriptivos que explican escenario y resultado esperado.
+
+Convenciones aplicadas:
+
+- Nombre de test orientado a comportamiento: `shouldExpectedResultWhenCondition`.
+- Estructura `Arrange - Act - Assert`.
+- Separacion de pruebas por capa o feature.
+- En pruebas de aceptacion con Gherkin, uso de escenarios claros bajo `Given - When - Then`.
+
+Con este enfoque, las pruebas funcionan como evidencia tecnica y documentacion viva de los requisitos.
+
+**5. Guias para Frontend y Documentacion**
+
+Para la landing page (HTML/CSS/JS) se aplican buenas practicas de estilo inspiradas en guias de Google y estandares web:
+
+- HTML semantico y jerarquia clara de encabezados.
+- Clases CSS con nombres descriptivos y consistentes.
+- Separacion de estructura, estilos y comportamiento.
+- Diseno responsive para desktop y mobile.
+
+Para la documentacion (`README`, diagramas y evidencias), se mantiene formato uniforme:
+
+- Titulos y secciones con numeracion consistente.
+- Tablas para configuraciones, herramientas y trazabilidad.
+- Lenguaje tecnico claro y directo.
+- Actualizacion continua de evidencias por sprint.
+
+Estas convenciones fortalecen la calidad del codigo y facilitan el trabajo colaborativo durante todo el ciclo de vida del producto.
+
 ##### 4.1.4. Software Deployment Configuration
+
+El proyecto IoBuild implementa una estrategia de despliegue diferenciada por componente, utilizando servicios en la nube y canales de distribucion acordes al tipo de aplicacion. Esta aproximacion permite optimizar recursos y mantener una entrega continua para landing page, backend y aplicacion movil.
+
+**1. Landing Page**
+
+- **Tipo de aplicacion:** Sitio estatico (HTML, CSS, JavaScript)
+- **Plataforma de despliegue:** GitHub Pages (o Netlify, segun definicion del equipo)
+- **Fuente de despliegue:** Rama `main` del repositorio de Landing Page
+- **Estrategia:** Despliegue automatico por cada push/merge a `main`
+- **Objetivo:** Publicar una pagina informativa del producto con acceso web para stakeholders y usuarios objetivo
+
+**2. Backend (Web Service)**
+
+- **Tipo de servicio:** Web Service
+- **Plataforma:** Render
+- **Runtime:** Java (Spring Boot)
+- **Fuente de despliegue:** Rama `main` del repositorio backend
+- **Base de datos:** Render PostgreSQL
+- **Variables de entorno referenciales:** `DATABASE_URL`, `JWT_SECRET`, `FCM_SERVICE_ACCOUNT`
+- **Health checks:** Endpoint de verificacion de estado habilitado para monitoreo
+- **Objetivo:** Exponer APIs para autenticacion, gestion de proyectos/dispositivos y soporte a la aplicacion movil
+
+**3. Base de Datos**
+
+- **Tipo de servicio:** Database as a Service
+- **Plataforma:** Render PostgreSQL
+- **Caracteristicas:** backup automatico, conexiones SSL y monitoreo basico
+- **Objetivo:** Persistencia centralizada y segura para los datos del sistema
+
+**4. Mobile Application Kotlin (Android)**
+
+- **Tipo de aplicacion:** Aplicacion movil nativa Android (Kotlin)
+- **Entorno de build:** Android Studio + Gradle
+- **Artefacto generado:** APK (debug/release) o AAB
+- **Estrategia de distribucion actual:** Instalacion manual en dispositivos de prueba y emuladores
+- **Canal de publicacion:** No productivo (fase academica/prototipo)
+- **Objetivo:** Validar funcionalidades, flujo de navegacion y experiencia de usuario en entorno real de uso
+
+**5. Consideraciones de Configuracion**
+
+- Control de versiones con GitHub
+- Convenciones de ramas y commits definidas en `4.1.2`
+- Versionado incremental del aplicativo movil para control de entregas de sprint
+- Evidencias de despliegue y ejecucion registradas por sprint en la seccion 4.2
+
+**Deploy Diagram**
+
+El diagrama de despliegue de esta etapa representa:
+- Repositorio GitHub (Landing Page) -> Plataforma de hosting estatico -> Navegador web del usuario
+- Repositorio Backend -> Render Web Service -> Render PostgreSQL
+- Codigo Kotlin en repositorio -> Android Studio/Gradle -> APK/AAB -> Dispositivo Android (emulador o fisico)
+
+![Deploy Diagram](https://i.ibb.co/WYbfcRR/Deploy-Diagram.png)
+
 #### 4.2. Landing Page & Mobile Application Implementation
 # 4.2.1. Sprint 1
 
@@ -3873,7 +4051,6 @@ URL de la documentación Swagger UI desplegada: `https://io-build-back.arroz.dev
 ![Swagger UI 4](https://i.ibb.co/5W3pdfn0/Whats-App-Image-2026-05-12-at-11-10-57-PM.jpg)
 
 ![Swagger UI 5](https://i.ibb.co/DH15p27L/Whats-App-Image-2026-05-12-at-11-11-12-PM.jpg)
-
 
 **Base URL:** `api/v1`
 
@@ -4939,3 +5116,4 @@ Este anexo incluye los artefactos visuales y la documentación del proceso de di
 
 **Impact Mapping**
 <https://tinyurl.com/ytzz3rdn>
+
