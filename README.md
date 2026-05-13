@@ -3534,15 +3534,207 @@ En esta seccion se presenta el detalle de implementacion de **Energy Management*
 ### 3.1. Product design
 #### 3.1.1. Style Guidelines
 ##### 3.1.1.1. General Style Guidelines
+#### **Tipografía**
+La tipografía seleccionada para los encabezados de nuestra marca es **Poppins**, debido a su estilo moderno. Su diseño elegante permite destacar títulos y secciones importantes, generando un impacto claro y atractivo para los usuarios. Esto la convierte en una elección ideal para comunicar innovación y profesionalismo dentro de la identidad visual.
+
+Para el cuerpo de texto, se eligió **Roboto**, una tipografía ampliamente reconocida por su legibilidad en entornos digitales. Su diseño asegura una experiencia de lectura cómoda incluso en párrafos extensos. Al combinarse con Poppins, se logra un contraste armónico que refuerza la jerarquía tipográfica y facilita la comprensión del contenido.
+
+Los tamaños tipográficos definidos, desde los **12px (0.75rem)** para detalles secundarios hasta los **36px (2.25rem)** para títulos principales, garantizan una estructura clara y ordenada. En conjunto, las elecciones tipográficas y de tamaños consolidan una comunicación visual coherente y funcional.
+
+#### **Colores**
+La elección de la paleta de colores en nuestro proyecto obedece a una estrategia visual cuidadosamente planificada, orientada a reflejar tecnología, confianza y sofisticación, valores fundamentales en la propuesta de CcaritaTech.
+
+- **Landing Page** <br>
+  ![Imagen de la paleta de colores del landing page](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Paleta_Colores.png)
+
+En la identidad visual, el color **verde menta primario (#10B981)** cumple el rol principal como color distintivo de la marca. Su tono fresco y vibrante transmite innovación y confianza, características que refuerzan la propuesta de valor de nuestro proyecto. Al mismo tiempo, este color genera una sensación positiva y cercana, lo que ayuda a establecer una conexión emocional con el usuario desde el primer contacto.
+
+Para lograr versatilidad y equilibrio, se incorporan dos variaciones del color primario. El color **menta claro (#ECFDF5)** se utiliza en fondos y áreas de descanso visual, ofreciendo luminosidad y amplitud sin perder coherencia cromática. Por su parte, el color **menta oscuro (#059669)** se reserva para realizar el contraste en los botones ya que para estos se usa el color menta claro. Este color aporta estructura y profesionalismo, asegurando que la información crítica sea fácilmente distinguible.
+
+En cuanto a la gama neutra, el **gris muy claro (#F9FAFB)** funciona como base para pantallas y secciones de contenido. Su neutralidad transmite orden y simplicidad, garantizando legibilidad y claridad al dar protagonismo a los elementos interactivos. En contraste, el **gris muy oscuro (#111827)** se emplea en títulos, encabezados y áreas que requieren solidez visual. Este color aporta estructura y profesionalismo, asegurando que la información crítica sea fácilmente distinguible.
+
+Para complementar la lectura, el sistema tipográfico integra dos niveles de color en los textos. El **texto primario (#111827)**, de alto contraste sobre fondos claros, asegura una comprensión inmediata y sin esfuerzo. En paralelo, el **texto secundario (#6B7280)** se aplica en descripciones, anotaciones o contenidos de menor jerarquía. Este gris intermedio suaviza la presentación de la información y evita la saturación visual, manteniendo un estilo moderno y equilibrado.
+
+En conjunto, esta paleta de verdes menta combinados con grises neutros y acentos bien definidos construye una interfaz clara, fresca y profesional. La coherencia cromática no solo mejora la experiencia de usuario, sino que también refuerza los valores de accesibilidad, confianza y modernidad que nuestra marca desea transmitir.
+
+#### **Lenguaje**
+En IoBuild, utilizaremos un lenguaje que refleje nuestra visión de transformar la construcción residencial mediante la integración inteligente de tecnología desde el diseño. Queremos conectar tanto con constructoras y desarrolladores como con los futuros propietarios, manteniendo siempre una comunicación clara, cercana y profesional. La combinación de tonos que emplearemos es la siguiente:
+
+1. **Profesional pero accesible:** Nuestro objetivo es transmitir seriedad y conocimiento en la aplicación de soluciones tecnológicas a la construcción, sin dejar de ser comprensibles para todos los actores involucrados. Nuestro lenguaje estará planteado de manera clara y cercana, de modo que tanto expertos como clientes puedan comprender el valor de nuestra propuesta sin barreras.
+
+2. **Formal pero cálido:** Si bien mantenemos un tono formal que exprese compromiso, seguridad y confiabilidad, también buscamos acercarnos a nuestros usuarios de una manera humana y auténtica. Queremos que desarrolladores y propietarios sientan que IoBuild no solo ofrece tecnología, sino también acompañamiento y confianza en cada etapa del proceso.
+
+3. **Respetuoso y empático:** Reconocemos la diversidad de necesidades en el sector, desde constructoras que buscan eficiencia hasta propietarios que desean hogares adaptables y modernos. Nuestro lenguaje transmitirá respeto, promoviendo una relación colaborativa y de apoyo mutuo.
+
+4. **Inspirador y optimista:** En IoBuild creemos que el futuro de la construcción es más sostenible, adaptable y tecnológico. Por ello, nos comunicaremos con entusiasmo y convicción, motivando a nuestros usuarios a visualizar y construir una nueva forma de habitar hogares inteligentes.
+
 #### 3.1.2. Information Architecture
+
+UX Heuristics & Principles Evaluation<br>
+Usability – Inclusive Design – Information Architecture<br>
+CARRERA: Ingeniería de Software<br>
+CURSO: Aplicaciones para Dispositivos Móviles<br>
+NRC: 3687<br>
+PROFESOR: David Gerardo Quevedo Velazco<br>
+CLIENTE(S): Javier Maximo Ordoñez Cordova, Christy Karen Callata Alvarez<br>
+SITE o APP A EVALUAR: CcaritaTech
+
+TAREAS A EVALUAR:<br>
+El alcance de esta evaluación contempla el análisis de la usabilidad en la ejecución de las siguientes tareas:<br>
+
+Segmento Objetivo #1: Arquitectos e Ingenieros Civiles
+- **Configurar funcionalidades inteligentes:** Claridad y facilidad para integrar automatización (iluminación, climatización, seguridad, riego, etc.) dentro de la plataforma.
+- **Gestionar proyectos y roles técnicos:** Facilidad para asignar permisos y colaborar con otros profesionales dentro del mismo entorno.
+- **Acceder a documentación y guías técnicas:** Disponibilidad, organización y comprensión de recursos de soporte (manuales, tutoriales, BIM).
+
+Segmento Objetivo #2: Dueños de Apartamentos (Usuarios Finales)
+- **Controlar dispositivos desde un único panel:** Usabilidad de la interfaz centralizada para manejar iluminación, clima, seguridad y energía.
+- **Recibir notificaciones y alertas personalizadas:** Facilidad para activar, modificar y entender las notificaciones sobre consumo energético o seguridad.
+- **Acceder a reportes de consumo y eficiencia:** Claridad de la información mostrada y utilidad para la toma de decisiones sobre ahorro energético.
+
+
 ##### 3.1.2.1. Organization Systems
+
+Dentro del diseño de interfaces digitales enfocadas en el usuario, el Organization System funciona como la base de la arquitectura de información, definiendo cómo se ordenan, agrupan y muestran los contenidos en la plataforma. Su propósito es facilitar la comprensión y la navegación, permitiendo que los usuarios encuentren de manera sencilla la propuesta de valor y los recursos más importantes. Este sistema ayuda a disminuir la carga mental, dirigir la atención hacia lo esencial y mejorar la experiencia general de interacción con el producto.
+
+En el caso de IoBuild, la Landing Page implementa un sistema de organización jerárquico y temático, pensado para comunicar de forma clara el propósito de la aplicación y dirigir la acción del visitante. La estructura se organiza en bloques que siguen una lógica de prioridad: en primer lugar, se despliega un hero section con un mensaje directo sobre la propuesta de valor y un llamado a la acción destacado (“Explora IoBuild”), seguido de secciones que detallan los beneficios de la plataforma para arquitectos, ingenieros y propietarios de viviendas. Posteriormente, se integran apartados complementarios como la presentación del equipo, los objetivos del proyecto y los canales de contacto.
+
+Tanto el header como el footer refuerzan esta organización al centralizar los accesos principales de navegación (inicio, características, contacto) y los secundarios (redes sociales y enlaces informativos). Esta disposición garantiza que los usuarios comprendan de manera inmediata qué es IoBuild, para quién está dirigido y cómo pueden empezar a interactuar con la solución. Además, la página aplica principios como la progressive disclosure y el diseño responsivo, asegurando una experiencia fluida y clara en dispositivos móviles y de escritorio.
+
 ##### 3.1.2.2. Labelling Systems
+
+En el marco del diseño de la arquitectura de información, los Labeling Systems cumplen la función de comunicar de forma clara, coherente y predecible los elementos de interacción presentes en la interfaz. En IoBuild, cada etiqueta textual utilizada en botones, menús, enlaces y secciones está orientada a guiar al usuario en su recorrido por la Landing Page, facilitando la comprensión del propósito del proyecto y motivando la interacción con los elementos principales.
+
+La siguiente tabla resume las etiquetas implementadas, su ubicación y su función en la experiencia de usuario:
+
+| Etiqueta | Ubicación/Componente | Función |
+|----------|----------------------|---------|
+| Inicio | Header | Enlace a la página principal. Término estándar y familiar para usuarios. |
+| Sobre Nosotros | Header | Presentación del propósito y misión del proyecto. Genera cercanía y confianza. |
+| Equipo | Header | Sección dedicada al grupo desarrollador, destacando transparencia y credibilidad. |
+| Contacto | Header | Canal directo para comunicación con el equipo. Claro y orientado a la acción. |
+| Explora IoBuild | Hero Section (CTA principal) | Llamada a la acción inmediata para iniciar interacción con la plataforma. Imperativo motiva al usuario. |
+| Objetivos | Sección informativa | Describe las metas del proyecto. Etiqueta concisa y orientada al valor. |
+| Proyecto | Sección informativa | Explica en detalle la propuesta tecnológica. Término claro y descriptivo. |
+| Contáctanos | Footer | Refuerzo del canal de comunicación, mantiene consistencia semántica. |
+| Síguenos | Footer / Redes sociales | Agrupa accesos a redes sociales. Etiqueta convencional y reconocida globalmente. |
+| IoBuild | Marca | Nombre distintivo en mayúsculas. Actúa como ancla visual e identitaria del sitio. |
+
+El sistema de etiquetado en la Landing Page de IoBuild refleja una aplicación consistente de principios de usabilidad y arquitectura de información. Las etiquetas emplean un lenguaje simple, reconocible y orientado a la acción, lo que facilita tanto la navegación como la comprensión inmediata de los contenidos. Asimismo, existe una coherencia semántica entre el header, el cuerpo de la página y el footer, acompañada de un uso de imperativos y sustantivos comunes que refuerzan la accesibilidad cognitiva. Este Labeling System contribuye a la claridad, consistencia y escalabilidad de la experiencia web, garantizando que tanto profesionales técnicos como usuarios finales puedan interactuar sin fricciones con la plataforma.
+
 ##### 3.1.2.3. SEO Tags and Meta Tags
+
+Los meta tags y etiquetas SEO son elementos esenciales dentro de la sección <head> de cualquier página web, ya que permiten definir cómo es interpretado, indexado y presentado el contenido de un sitio por parte de los motores de búsqueda (como Google) y las redes sociales (como Facebook, Twitter o LinkedIn). Aunque estos elementos no son visibles de forma directa para los usuarios, desempeñan un papel crucial en el posicionamiento orgánico, en la forma en que los enlaces se muestran al compartirse y en la claridad con la que se comunica la propuesta de valor del sitio.
+
+En el caso de la Landing Page de IoBuild, se han incorporado meta etiquetas específicas con el objetivo de optimizar la indexación y visibilidad de la plataforma. La meta descripción resume de manera breve y clara la propuesta de IoBuild como una solución tecnológica orientada a la gestión y personalización de espacios inteligentes. Asimismo, se han definido meta keywords que incluyen términos relevantes como IoT, domótica, arquitectura inteligente, automatización de espacios y gestión de hogares inteligentes, lo que refuerza la capacidad del sitio para aparecer en búsquedas relacionadas.
+
+#### 1. Index
+La página principal de IoBuild incorpora un conjunto de etiquetas SEO que fortalecen su posicionamiento y presencia digital. Se incluyen una meta descripción clara sobre la propuesta de valor, palabras clave relacionadas con IoT y automatización residencial, así como etiquetas Open Graph y Twitter Card que aseguran una visualización atractiva y coherente al compartir el sitio en redes sociales. Estas configuraciones, junto con el ajuste de vista responsiva y la codificación adecuada, contribuyen a una experiencia accesible, profesional y optimizada para buscadores y usuarios.
+![Imagen de Meta Tags Index](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Meta_Tags_Index.png)
+
+#### 2. About Us
+La página Sobre Nosotros de IoBuild incluye etiquetas SEO básicas que refuerzan su propósito informativo y de marca. Se define un título claro y directo, junto con una meta descripción que comunica la misión del proyecto y presenta al equipo como motor de la propuesta de innovación en la industria de la construcción mediante tecnología IoT. Además, se configuran los parámetros técnicos de codificación (UTF-8) y de vista responsiva, asegurando accesibilidad, correcta interpretación del contenido y una experiencia de navegación óptima en distintos dispositivos.
+![Imagen de Meta Tags About-Us](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Meta_Tags_AboutUs.png)
+
+#### 3. FAQ
+La página FAQ - Preguntas Frecuentes de IoBuild incorpora etiquetas SEO orientadas a brindar claridad y accesibilidad al usuario. Se define un título descriptivo y directo que comunica de inmediato el propósito de la sección, acompañado de una meta descripción que resume su función como espacio de resolución de dudas sobre la plataforma SaaS y sus aplicaciones en proyectos de construcción con IoT. Asimismo, se incluyen configuraciones técnicas esenciales como la codificación UTF-8 y la vista responsiva, garantizando una correcta interpretación del contenido y una experiencia de navegación fluida en diversos dispositivos.
+![Imagen de Meta Tags FAQ](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Meta_Tags_FAQ.png)
+
 ##### 3.1.2.4. Searching Systems
+
+Al ingresar a la landing page de IoBuild, el usuario será recibido con una sección principal que introduce la propuesta de valor de la plataforma, acompañada de un botón destacado que invita a conocer más sobre sus funcionalidades. En la parte superior, la navegación se organiza mediante un menú claro y accesible que permite desplazarse hacia las secciones clave, como Sobre Nosotros, Preguntas Frecuentes y Contacto. Esta estructura busca brindar una experiencia fluida y ordenada, evitando confusiones y facilitando el acceso a la información más relevante.
+
+La navegación está reforzada con etiquetas descriptivas, jerarquía visual y un diseño responsivo, de manera que el usuario siempre tenga claridad sobre en qué parte del sitio se encuentra y cómo puede avanzar o retroceder dentro del flujo. El enfoque de la interfaz prioriza la simplicidad y la claridad, asegurando que el visitante pueda comprender rápidamente la misión de IoBuild y decidir explorar más a fondo sus soluciones tecnológicas.
+
 ##### 3.1.2.5. Navigation Systems
+
+La navegación es un elemento central en la landing page de IoBuild, ya que estructura el recorrido del usuario y facilita el acceso a la información clave sobre la plataforma. Bajo principios de simplicidad, accesibilidad y jerarquía visual, el sistema de navegación ha sido diseñado para garantizar una experiencia clara e intuitiva, tanto en dispositivos de escritorio como en móviles.
+
+IoBuild implementa un sistema de navegación global, persistente y horizontal, ubicado en la parte superior de la página. Este está compuesto por siete elementos principales:
+- **Home:** vinculado al logotipo de IoBuild, que permite regresar a la página de inicio desde cualquier sección.
+- **Beneficios:** apartado que resalta las ventajas concretas para constructoras y propietarios.
+- **Características:** detalle funcional de la plataforma.
+- **Planes:** presenta las opciones comerciales y niveles de servicio adecuados para distintos tamaños de proyecto.
+- **Sobre Nosotros:** ofrece información acerca de la misión, visión y equipo detrás del proyecto.
+- **FAQ:** presenta un apartado de preguntas frecuentes que resuelve las dudas más comunes de los usuarios.
+- **Empezar ahora (CTA):** botón destacado que impulsa la conversión (registro o contacto para proyecto), visualmente diferenciado del resto de enlaces.
+
+El diseño del header utiliza un fondo uniforme y elementos textuales de alto contraste, siguiendo un estilo minimalista que evita distracciones y centra la atención en las decisiones de navegación. La organización de los enlaces sigue una estructura en tres zonas: el logotipo alineado a la izquierda, las secciones principales al centro y las acciones de contacto alineadas a la derecha.
+
+En cuanto a adaptabilidad, la barra de navegación está construida bajo un enfoque mobile-first, ajustándose dinámicamente a distintas resoluciones. En pantallas pequeñas, el menú horizontal se convierte en un menú tipo hamburguesa, asegurando que todas las secciones permanezcan accesibles sin comprometer la usabilidad.
+
+Finalmente, la navegación en IoBuild cumple con principios fundamentales de usabilidad:
+- **Claridad:** los enlaces son directos y fácilmente identificables.
+- **Consistencia:** la barra se mantiene visible y uniforme en todo momento.
+- **Jerarquía:** las secciones más consultadas están ubicadas estratégicamente en el centro de la navegación.
+- **Retroalimentación visual:** se incluyen estados hover y focus que refuerzan la interacción del usuario.
+
 #### 3.1.3. Landing Page UI Design
+
+La sección de Landing Page UI Design busca definir, estructurar y validar la interfaz visual de la página principal de IoBuild, garantizando una experiencia clara, accesible y centrada en los distintos perfiles de usuario interesados en soluciones IoT para la construcción. Para esta fase se diseñaron los primeros wireframes, los cuales permitieron organizar los contenidos clave como la propuesta de valor de la plataforma, los beneficios, características principales, planes de servicio, sección “Sobre Nosotros”, preguntas frecuentes y un footer con enlaces a contacto y redes sociales. Posteriormente, se elaboraron mockups de alta fidelidad aplicando un sistema de diseño minimalista y funcional, priorizando la jerarquía informativa, la coherencia visual y la consistencia entre dispositivos.
+
+
+El sitio web de "lobuild" está construido como un viaje lógico y persuasivo, diseñado para guiar a un potencial cliente desde la primera impresión hasta la conversión final, construyendo valor y confianza en cada paso.
+
+El recorrido comienza en la sección de inicio, que capta la atención de inmediato con un titular audaz: "Revoluciona Tus Proyectos Residenciales". Esta primera sección establece la propuesta de valor central, explicando que la plataforma beneficia tanto a los administradores (con gestión centralizada) como a los futuros propietarios (con control personalizado), posicionándose como una solución integral desde el principio.
+
+A continuación, la sección "¿Por qué elegir ioBuild?" profundiza en esta promesa inicial, desglosándola en seis beneficios claros y tangibles. Aborda directamente las motivaciones del cliente, hablando de valor agregado para el proyecto, ahorro de energía, y una integración desde la construcción que evita costos futuros. Esta parte responde a la pregunta fundamental del cliente: "¿Qué gano yo con esto?".
+
+Una vez que el cliente entiende los beneficios, el sitio pasa a demostrar su capacidad técnica en la sección de "Características Técnicas Avanzadas". Aquí se muestra cómo se cumplen las promesas, presentando el dashboard intuitivo, la compatibilidad con un amplio ecosistema de dispositivos y las herramientas especializadas para la gestión de áreas comunes. Esta sección es crucial para generar credibilidad y demostrar que la plataforma es robusta y bien diseñada.
+
+Con el valor y la tecnología ya establecidos, el enfoque se desplaza hacia la construcción de confianza a un nivel más humano. La sección de "Testimonios de clientes" utiliza la prueba social, mostrando a líderes de otras empresas constructoras que validan el éxito, la fiabilidad y el retorno de inversión de la plataforma. Poco después, la página "Sobre Nosotros" complementa esto humanizando la marca, presentando la misión, los valores y, más importante, al equipo de expertos detrás del proyecto. Juntas, estas secciones le dicen al cliente: "Somos expertos en lo que hacemos y otras empresas como la tuya ya confían en nosotros".
+
+Finalmente, el sitio se enfoca en eliminar las últimas barreras para la compra. La página de "Preguntas Frecuentes" se anticipa a cualquier duda restante sobre implementación, precios o soporte, ofreciendo respuestas claras y transparentes. Esto conduce de forma natural a la sección de "Planes de la aplicación", donde la decisión se vuelve tangible. Con una estructura de precios escalable y un plan "Más Popular" claramente destacado, se facilita al cliente la elección de la opción que mejor se adapte a su escala. Por último, el "Footer" o pie de página actúa como una red de seguridad: ofrece un último llamado a la acción y un mapa completo del sitio para quienes necesiten más información, asegurando que ninguna pregunta quede sin respuesta y que el camino para empezar sea siempre accesible.
+
+
 ##### 3.1.3.1. Landing Page Wireframe
+
+[Link ded Figma]<https://shorturl.at/ZkQuE>
+
+#### 1. Home
+- La interfaz sigue una estructura en Z con un header fijo con logo y menú principal, un hero section con título, subtítulo y un llamado a la acción destacado (“Empezar ahora”). En las secciones intermedias se presentan los beneficios en formato de tarjetas, seguidos de testimonios y planes de precios. El footer reúne enlaces organizados por categorías, accesos a redes sociales y aviso de copyright. El diseño es claro, escaneable y enfocado en la conversión, guiando al usuario de manera natural desde el primer contacto hasta la acción final.<br>
+
+![Landing page Home Wireframe](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Landingpage_Home_Wireframe.png)
+<br>
+
+#### 1. About Us
+- El wireframe de About se organiza en un esquema de columnas, a la izquierda se ubican el título y los párrafos descriptivos, mientras que a la derecha se reserva un espacio para la imagen. La página integra secciones jerarquizadas que construyen una narrativa clara sobre la identidad de la marca. En la parte inferior se disponen tarjetas con íconos y descripciones, seguidas de la presentación del equipo con un miembro destacado y cuatro integrantes adicionales. La composición se enmarca con una navegación principal en la parte superior y un footer completo al final, manteniendo coherencia visual y un flujo narrativo fluido.<br>
+
+![Landing page About-us Wireframe](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Landingpage_About-us_Wireframe.png)
+<br>
+
+#### 1. FAQ
+- La sección adopta un acordeón vertical, donde cada pregunta se despliega para mostrar respuestas detalladas. Los contenidos abarcan temas clave como precios, diseño, edición y alianzas. En la parte superior, filtros por categoría facilitan la exploración del material, mientras que en la parte inferior un CTA “Didn’t Find Your Answer?” dirige a la página de contacto. El diseño mantiene un estilo minimalista y ordenado, y una jerarquía visual clara, optimizada para la legibilidad y una experiencia sin distracciones.<br>
+
+![Landing page FAQ 1 Wireframe](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Landingpage_FAQ_Wireframe.png)
+
+![Landing page FAQ 2 Wireframe](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Landingpage_FAQ2_Wireframe.png)
+<br>
+
 ##### 3.1.3.2. Landing Page Mock-up
+
+[Link ded Figma]<https://shorturl.at/ZkQuE>
+
+#### 1. Home
+- El mockup de la página principal presenta una estética moderna y minimalista, enfocada en la claridad y la atracción visual. En la parte superior, el header integra el logo junto con enlaces a Benefits, Features, Plans, About Us y FAQ, además de un botón de llamado a la acción “Get Started”. El hero section concentra la atención con un título llamativo y un botón CTA (“I want it!”) sobre un fondo verde claro. Más abajo, el contenido se organiza en bloques visuales con imágenes y una tipografía legible, destacando secciones como “Advanced Technical Features” y “Plans Designed for Your Scale”. Finalmente, el footer reúne enlaces estructurados (Home Page, Community, Legal, Company), íconos de redes sociales y un mensaje de marca que refuerza la identidad visual del sitio.
+
+![Landing page Home Mock-up](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Landingpage_Home_Mock-up.png)
+<br>
+
+#### 2. About Us
+- Esta sección presenta una introducción sobre la misión de CcaritaTech, destacando su enfoque en la innovación y el impacto social. Le siguen las secciones “Our Values” y “Our Team”, que reflejan los principios de la organización y presentan a su equipo. Cada apartado combina textos con imágenes representativas, creando una composición equilibrada. Predomina un estilo limpio y luminoso, con fondos claros, amplio espaciado y jerarquía tipográfica definida, lo que refuerza la coherencia visual y facilita una experiencia clara y atractiva para el usuario.
+
+![Landing page About-us Mock-up](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Landingpage_About-us_Mock-up.png)
+<br>
+
+#### 3. FAQ
+- El mockup de la sección FAQ utiliza una estructura de acordeón que organiza las preguntas frecuentes de forma clara y accesible. Al desplegar cada entrada, se muestra una respuesta concisa y comprensible, manteniendo la coherencia con el branding visual de la plataforma. Además, se incorpora una sección complementaria con canales de contacto para ofrecer soporte adicional. La interfaz destaca por su simplicidad, legibilidad y enfoque en la eficiencia, facilitando que el usuario encuentre rápidamente la información que necesita.
+
+![Landing page FAQ 1 Mock-up](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Landingpage_FAQ%201_Mock-up.png)
+
+![Landing page FAQ 2 Mock-up](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%204/Landingpage_FAQ%202_Mock-up.png)
+<br>
+
 #### 3.1.4. Mobile Applications UX/UI Design
 ##### 3.1.4.1. Mobile Applications Wireframes
 ##### 3.1.4.2. Mobile Applications Wireflow Diagrams
