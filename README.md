@@ -4016,17 +4016,19 @@ A continuación se describen las principales vistas implementadas y verificadas 
 
 # FOTOS DE LA LANDING PAGE
 
-![img.png](assets/img.png)
+![Landing Page 1](https://i.ibb.co/BHfmnGmV/1.jpg)
 
-![img_1.png](assets/img_1.png)
+![Landing Page 2](https://i.ibb.co/wrpyLFyc/2.jpg)
 
-![img_2.png](assets/img_2.png)
+![Landing Page 3](https://i.ibb.co/yBncdVxV/3.jpg)
 
-![img_3.png](assets/img_3.png)
+![Landing Page 4](https://i.ibb.co/TxZzYQ27/4.jpg)
 
-![img_4.png](assets/img_4.png)
+![Landing Page 5](https://i.ibb.co/F4KcdMYm/5.jpg)
 
-![img_6.png](assets/img_6.png)
+![Landing Page 6](https://i.ibb.co/jvmZydVw/6.jpg)
+
+![Landing Page 7](https://i.ibb.co/XQxj3ZG/7.jpg)
 
 URL del repositorio landing page: *https://github.com/CcaritaTech/IoBuild-LandingPage*
 
@@ -4040,6 +4042,15 @@ URL del repositorio web service: `https://github.com/CcaritaTech/IoBuild-Backend
 
 URL de la documentación Swagger UI desplegada: `https://io-build-back.arroz.dev/swagger/index.html`
 
+![Swagger UI 1](https://i.ibb.co/wN38k55W/Whats-App-Image-2026-05-12-at-11-10-05-PM.jpg)
+
+![Swagger UI 2](https://i.ibb.co/60Sf8mDL/Whats-App-Image-2026-05-12-at-11-10-14-PM.jpg)
+
+![Swagger UI 3](https://i.ibb.co/WWnCvgz7/Whats-App-Image-2026-05-12-at-11-10-34-PM.jpg)
+
+![Swagger UI 4](https://i.ibb.co/5W3pdfn0/Whats-App-Image-2026-05-12-at-11-10-57-PM.jpg)
+
+![Swagger UI 5](https://i.ibb.co/DH15p27L/Whats-App-Image-2026-05-12-at-11-11-12-PM.jpg)
 
 **Base URL:** `api/v1`
 
@@ -5030,15 +5041,15 @@ Contribución Principal:
 
 *Colaboración en GitHub — IoBuild-LandingPage.*
 
-![commitslanding.png](assets/commitslanding.png)
+![Commits Landing Page](https://i.ibb.co/b5sHZjSQ/commitslanding.png)
 
-![contribuidoreslanding.png](assets/contribuidoreslanding.png)
+![Contribuidores Landing Page](https://i.ibb.co/nqyk8HXr/contribuidoreslanding.png)
 
 *Colaboración en GitHub — IoBuild-Backend.*
 
-![commitsbackend.png](assets/commitsbackend.png)
+![Commits Backend](https://i.ibb.co/SD1psTZN/commitsbackend.png)
 
-![contribuidoresbackend.png](assets/contribuidoresbackend.png)
+![Contribuidores Backend](https://i.ibb.co/1SPbRrD/contribuidoresbackend.png)
 
 #### 4.3. Validation Interviews
 ##### 4.3.1. Diseño de Entrevistas
