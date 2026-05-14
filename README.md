@@ -3750,21 +3750,25 @@ Asimismo, la aplicación móvil integrará servicios RESTful para la comunicaci�
 
 #### Vista del segmento #1: Arquitectos e Ingenieros Civiles
 #### 1. Login
+-Esta interfaz muestra un formulario de acceso para la plataforma "IoBuild", subtitulado como "Builder Panel Access". Presenta un campo para el correo electrónico con un ejemplo predeterminado y un campo para la contraseña que incluye un icono de candado, la opción de visualizar el texto y un enlace para recuperar la cuenta titulado "Forgot Password?". En la parte inferior, destaca un botón negro sólido con el texto "Sign In" para iniciar sesión. 
 
 ![Segmento #1 Wireframe Login](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Login_Wireframe.jpeg)
 <br>
 
 #### 2. Dashboard
+- La pantalla muestra el "Builder Dashboard" para el monitoreo de instalaciones. Incluye cuatro tarjetas con indicadores sobre proyectos activos, dispositivos, unidades ocupadas y eficiencia energética. También presenta un gráfico circular de "Device Distribution" por categorías y una tarjeta inferior del proyecto "Torres del Pacífico" que detalla alertas, personal y actualizaciones, junto con un botón para "View Project Details".
 
 ![Segmento #1 Wireframe Dashboard](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Dashboard_Wireframe.jpeg)
 <br>
 
 #### 3. Profile
+- La pantalla muestra el perfil de "Juan Pérez", incluyendo su foto y correo electrónico, con un botón destacado para "Edit Profile". Debajo, se presenta un menú de opciones que incluye Account, Notifications, Privacy y Help & Support, seguido de un botón de "Logout". En la parte inferior, se visualiza la versión de la aplicación y una barra de navegación con accesos a Home, Stats, Profile y Settings.
 
 ![Segmento #1 Wireframe Profile](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Profile_Wireframe.jpeg)
 <br>
 
 #### 4. Projects
+- La pantalla muestra los "Project Details" del edificio "Torres del Pacífico". En la parte superior se observa un resumen del estado de los dispositivos (Total, Online y Offline), seguido de una "Device List" que detalla el estado en tiempo real de sensores de temperatura, medidores de energía, bombas de agua y sistemas de seguridad. Además, incluye un botón de "Filter" para organizar la lista y un botón flotante con el símbolo "+" para agregar nuevos dispositivos.
 
 ![Segmento #1 Wireframe Projects](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Projects_Wireframe.jpeg)
 <br>
@@ -3773,6 +3777,34 @@ Asimismo, la aplicación móvil integrará servicios RESTful para la comunicaci�
 #### Segmento Objetivo #1: Arquitectos e Ingenieros Civiles
 Los arquitectos e ingenieros civiles utilizan la plataforma IoBuild para gestionar sus proyectos residenciales, centralizar la información de clientes, monitorear dispositivos IoT implementados en los edificios y configurar opciones de administración de manera eficiente.
 
+**Login / Create Account**
+
+**1. Login:**
+- El usuario de la constructora introduce su correo corporativo y contraseña.
+-  Selecciona la opción “Login” para acceder a su cuenta empresarial.
+
+**Create Account:**
+- Si es un nuevo usuario, completa un formulario con datos de la empresa, representante y correo corporativo.
+- Selecciona “Create” para registrar la cuenta en el sistema.
+
+**Acción esperada:** Autenticarse exitosamente en la plataforma y acceder al Dashboard principal.<br><br>
+
+**2. Dashboard**
+-	Una vez autenticado, el usuario accede al panel principal, donde se visualiza un menú lateral con accesos a secciones clave:
+    - Home
+    - Profile
+    - Projects
+    - Client Management
+    - Configuration
+-	El Dashboard sirve como centro de navegación para todas las funciones de la plataforma.
+
+**Acción esperada:** Orientarse rápidamente en la aplicación y seleccionar la sección que desea administrar.<br><br>
+
+**3. Profile**
+-	Visualiza y edita información del usuario administrador como el nombre, logo, contacto, etc.
+-	Opciones para gestionar miembros del equipo y asignar roles.
+
+**Acción esperada:** Actualizar datos corporativos, ver plan y administrar accesos del equipo.<br><br>
 
 ![Web Aplication Wireflow Guest](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Wireflow_Wireframe.jpeg)
 
@@ -3780,24 +3812,30 @@ Los arquitectos e ingenieros civiles utilizan la plataforma IoBuild para gestion
 
 #### Vista del segmento #1: Arquitectos e Ingenieros Civiles
 #### 1. Login
+- La pantalla presenta una interfaz de inicio de sesión minimalista. El diseño incluye dos campos de entrada de texto: uno para el correo electrónico (Email) y otro para la contraseña (Password). Debajo de estos campos, destaca un botón principal de color verde con el texto "Sign In" para acceder al sistema, seguido de una opción de registro en la parte inferior que dice "Don’t have an account? Register".
 
 ![Segmento #1 Mock-up Login](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Login_Mock-Up.jpeg)
 <br>
 
 #### 2. Dashboard
+- El "Builder Dashboard" muestra métricas clave como proyectos activos, dispositivos conectados y ocupación. Incluye un gráfico circular de "Device Distribution" (temperatura, agua, energía y control de acceso), un gráfico de líneas sobre la tasa de ocupación mensual y una sección de "Project Overview" con detalles específicos del proyecto "Torres del Pacífico".
 
 ![Segmento #1 Mock-up Dashboard](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Dashboard_Mock-Up.jpeg)
 <br>
 
 #### 3. Profile
+- La pantalla muestra el perfil de usuario de "Juan Pérez", identificado con el cargo de "Builder". Incluye una sección con datos personales como nombre completo, nombre de usuario, teléfono, dirección en San Isidro, Lima, y edad. En la parte inferior, destaca un botón verde con la opción "Edit Profile".
 
 ![Segmento #1 Mock-up-1 Profile](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Profile-1_Mock-Up.jpeg)
 <br>
+
+- Esta interfaz corresponde a la edición del perfil de "Juan Pérez", bajo el rol de "Builder". Presenta cinco campos de texto editables con la información del usuario: nombre completo, nombre de usuario, teléfono, dirección y edad. En la parte inferior, se incluyen dos opciones principales: un botón verde para "Save Changes" (Guardar cambios) y un enlace de texto para "Cancel" (Cancelar).
 
 ![Segmento #1 Mock-up-2 Profile](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Profile-2_Mock-Up.jpeg)
 <br>
 
 #### 4. Projects
+- La interfaz muestra una lista de proyectos de "IoBuild" organizados en tarjetas cuadrículas. Cada tarjeta presenta el nombre del edificio, como "Torres del Pacífico" o "Torre Ccarita", su ubicación o descripción breve, y una barra de progreso que indica el estado de las unidades ocupadas (por ejemplo, 68/80 o 90/90 unidades). Además, la pantalla incluye un botón flotante en la esquina inferior derecha con el símbolo "+" para añadir nuevos elementos.
 
 ![Segmento #1 Mock-up Projects](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Projects_Mock-Up.jpeg)
 <br>
