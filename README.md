@@ -376,75 +376,77 @@ Estos supuestos formarán la estructura de nuestra estrategia de diseño y propo
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-- **Creemos que lograremos** una tasa de retención de licencias B2C del 75% en el primer año<br>
-  **Si** propietarios y arrendatarios<br>
-  **Obtienen** una calificación de satisfacción un 25% superior en la experiencia de habitar<br>
-  **Con** el panel de control unificado de la plataforma.<br>
+- Creemos que centralizaremos el control en una única plataforma accesible
+para propietarios que sufren por el uso de múltiples aplicaciones de domótica,
+lograremos eliminar la fragmentación tecnológica y simplificar la gestión del hogar.
+Sabremos que tuvimos éxito cuando veamos una tasa de retención de licencias B2C del 75% en el primer año.
 
-- **Creemos** que lograremos reducir los costos de soporte y atención al cliente en un 30% en seis meses <br>
-  **Si** usuarios finales (propietarios) <br>
-  **Obtienen** una reducción significativa de la frustración al gestionar múltiples funciones <br>
-  **Con** la funcionalidad de gestión centralizada de seguridad, energía y confort.<br>
+- Creemos que implementaremos una interfaz de autogestión intuitiva y un centro de ayuda integrado
+para residentes que dependen constantemente del soporte técnico,
+lograremos reducir el volumen de consultas operativas y aumentar la autonomía del usuario.
+Sabremos que tuvimos éxito cuando veamos que las solicitudes de soporte técnico disminuyen en un 30%.
 
-- **Creemos** que lograremos reducir en un 40% los costos de implementación en sitio <br>
-  **Si** ingenieros y técnicos de la construcción <br>
-  **Obtienen** la posibilidad de configurar y desplegar sistemas de forma remota y sin interrupciones <br>
-  **Con** la funcionalidad de acceso remoto para proyectos inteligentes.<br>
+- Creemos que permitiremos la creación de "escenas" y rutinas personalizadas sin código
+para usuarios finales que desean un hogar inteligente adaptado a su estilo de vida,
+lograremos mejorar la percepción de valor y confort del sistema loBuild.
+Sabremos que tuvimos éxito cuando veamos que la satisfacción del usuario aumenta un 25% en las encuestas de NPS.
 
-- **Creemos** que lograremos una reducción del 15% en el CAC gracias a alianzas estratégicas <br>
-  **Si** constructoras y arquitectos <br>
-  **Obtienen** un 30% de aceleración en la fase de diseño conceptual <br>
-  **Con** el constructor de espacios inteligentes y la simulación en modelos BIM.<br>
+- Creemos que entregaremos reportes analíticos de consumo en tiempo real
+para usuarios preocupados por el gasto excesivo de recursos,
+lograremos una reducción tangible en el desperdicio de energía y agua en los hogares.
+Sabremos que tuvimos éxito cuando veamos una disminución promedio del 20% en el consumo energético reportado por los usuarios.
 
-- **Creemos** que lograremos incrementar la tasa de conversión de proyectos de prueba a clientes de pago en un 25% durante el primer semestre <br>
-  **Si** empresas constructoras <br>
-  **Obtienen** una reducción del 40% en el tiempo de implementación de tecnologías inteligentes <br>
-  **Con** el simulador en tiempo real de flujos de automatización.<br>
+- Creemos que ofreceremos configuraciones modulares y escalables de bajo costo
+para personas que consideran que la domótica es un lujo inalcanzable,
+lograremos democratizar el acceso a la tecnología Smart Home en sectores de ingresos medios.
+Sabremos que tuvimos éxito cuando veamos un incremento del 40% en nuevas suscripciones del segmento residencial.
 
-- **Creemos** que lograremos un flujo de ingresos recurrente gracias a una tasa de retención B2C del 75% <br>
-  **Si** propietarios <br>
-  **Obtienen** una gestión centralizada que reduce en un 60% la frustración de usar múltiples aplicaciones <br>
-  **Con** la integración con asistentes de voz y el panel unificado de IoBuild.<br>
-  
-- **Creemos** que lograremos reducir los costos de soporte en un 30% en los primeros seis meses <br>
-  **Si** propietarios de viviendas inteligentes <br>
-  **Obtienen** un aumento del 25% en su satisfacción con la experiencia de habitar <br>
-  **Con** la funcionalidad de personalización de escenas como “Modo cine”<br>
-  
-- **Creemos** que lograremos escalar nuestra operación a más proyectos simultáneamente reduciendo en un 40% los costos de implementación <br>
-  **Si** ingenieros y técnicos de construcción <br>
-  **Obtienen** mayor flexibilidad y control remoto de los sistemas inteligentes <br>
-  **Con** el sistema de gestión remota y reportes energéticos en la plataforma.<br>
-  
-- **Creemos** que lograremos incrementar los ingresos directos en un 25% al convertir proyectos de prueba en clientes de pago <br>
-  **Si** constructoras y promotores inmobiliarios <br>
-  **Obtienen** una reducción del 40% en el tiempo de integración de tecnologías inteligentes en sus proyectos <br>
-  **Con** la prueba de concepto gratuita y el simulador en tiempo real de automatización.<br>
-  
-- **Creemos** que lograremos reducir en un 40% los costos y tiempos de implementación en sitio <br>
-  **Si** ingenieros de proyectos <br>
-  **Obtienen** una aceleración del 30% en la fase de diseño conceptual <br>
-  **Con** el simulador en tiempo real y la integración con modelos BIM.<br>
-  
-- **Creemos** que lograremos una reducción del 15% en el CAC gracias a recomendaciones de socios estratégicos <br>
-  **Si** promotores inmobiliarios <br>
-  **Obtienen** una experiencia de integración simplificada y modular que disminuye el tiempo de implementación en un 40% <br>
-  **Con** la integración directa con marcas de hardware compatibles.<br>
-  
-- **Creemos** que lograremos incrementar los ingresos directos en un 25% durante el primer semestre <br>
-  **Si** constructoras <br>
-  **Obtienen** una disminución del 60% en la frustración por la fragmentación de aplicaciones <br>
-  **Con** la gestión centralizada de funciones en un solo panel de control.<br>
-  
-- **Creemos** que lograremos un flujo de ingresos recurrente mediante la retención del 75% de usuarios B2C <br>
-  **Si** propietarios y arrendatarios <br>
-  **Obtienen** un 20% de reducción en su consumo energético anual <br>
-  **Con** el sistema de reportes y análisis de consumo de energía.<br>
-  
-- **Creemos** que lograremos reducir los costos de soporte en un 30% en seis meses <br>
-  **Si** usuarios residenciales <br>
-  **Obtienen** una experiencia personalizada sin necesidad de conocimientos técnicos <br>
-  **Con** la funcionalidad de creación de escenas y automatizaciones adaptadas al usuario.<br>
+**Segmento: Ingenieros y Técnicos (Operaciones)<br>**
+- Creemos que habilitaremos herramientas de configuración y despliegue remoto
+para los ingenieros de preventa y técnicos de instalación,
+lograremos reducir drásticamente los tiempos de configuración y los traslados innecesarios a la obra.
+Sabremos que tuvimos éxito cuando veamos una reducción del 40% en los costos operativos de instalación.
+
+- Creemos que optimizaremos el sistema de monitoreo masivo de dispositivos
+para ingenieros responsables de la infraestructura de grandes edificios,
+lograremos una gestión eficiente de miles de nodos IoT desde una sola estación de trabajo.
+Sabremos que tuvimos éxito cuando veamos que un solo técnico puede gestionar un 50% más de proyectos simultáneamente.
+
+- Creemos que integraremos un simulador de flujos compatible con modelos BIM (Building Information Modeling)
+para diseñadores y arquitectos técnicos,
+lograremos eliminar errores de compatibilidad de hardware antes de la construcción física.
+Sabremos que tuvimos éxito cuando veamos una reducción del 30% en los cambios de diseño durante la fase de ejecución.
+
+**Segmento: Constructoras e Inmobiliarias (B2B)**<br>
+- Creemos que estableceremos alianzas de compatibilidad con los principales fabricantes de hardware IoT
+para constructoras que buscan evitar el "vendor lock-in",
+lograremos reducir el costo de adquisición de clientes mediante un ecosistema abierto.
+Sabremos que tuvimos éxito cuando veamos una disminución del 15% en el CAC (Costo de Adquisición de Clientes).
+
+- Creemos que ofreceremos una "Prueba de Concepto" (PoC) digital y simulada
+para tomadores de decisiones en empresas inmobiliarias,
+lograremos reducir el riesgo percibido y acelerar la aprobación de presupuestos.
+Sabremos que tuvimos éxito cuando veamos que el 25% de los proyectos piloto se convierten en contratos anuales.
+
+- Creemos que integraremos nuestra plataforma modular como un valor agregado desde los planos
+para constructoras que necesitan diferenciar su oferta inmobiliaria,
+lograremos aumentar el valor comercial de las propiedades vendidas.
+Sabremos que tuvimos éxito cuando veamos un incremento del 25% en los ingresos por licencias B2B semestrales.
+
+- Creemos que implementaremos un constructor visual de espacios inteligentes
+para inmobiliarias en fase de preventa,
+lograremos que los compradores finales visualicen y personalicen la tecnología de su futuro hogar.
+Sabremos que tuvimos éxito cuando veamos que el ciclo de venta de los departamentos se reduce en un 15%.
+
+- Creemos que simplificaremos el proceso de instalación modular de kits IoT
+para empresas constructoras con cronogramas ajustados,
+lograremos que la entrega de proyectos tecnológicos sea hasta un 40% más rápida.
+Sabremos que tuvimos éxito cuando veamos el cumplimiento del 100% de los hitos técnicos en los cronogramas de obra.
+
+- Creemos que proporcionaremos un sistema de post-venta digital y predictivo
+para constructoras que desean reducir sus costos de garantía,
+lograremos identificar fallos en dispositivos antes de que el residente reporte una queja.
+Sabremos que tuvimos éxito cuando veamos una reducción del 60% en los reclamos por garantías técnicas.
 
 #### 1.2.2.4. Lean UX Canvas.
 
@@ -793,11 +795,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US01</td><td>visitante del sitio</td><td>Alta</td><td>EP01</td></tr>
-    <tr><th>Title</th><td colspan="3">Sección "Sobre Nosotros"</td></tr>
+    <tr><th>Title</th><td colspan="3">Conocer la sección "Sobre Nosotros"</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero conocer la historia y valores de la aplicación, para tener mayor conexión y confianza con la empresa.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante está explorando la landing page,<br> Cuando llega a la sección “Sobre Nosotros”, <br>Entonces debe visualizar una descripción breve de la historia de IoBuild, su equipo y valores, acompañada de imágenes.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Llega a la sección “Sobre Nosotros”</strong><br>Dado que el visitante está explorando la landing page,<br> Cuando llega a la sección “Sobre Nosotros”, <br>Entonces debe visualizar una descripción breve de la historia de IoBuild, su equipo y valores, acompañada de imágenes.</td></tr>
 </table>
 
 ---
@@ -805,11 +807,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US02</td><td>visitante del sitio</td><td>Media</td><td>EP01</td></tr>
-    <tr><th>Title</th><td colspan="3">Sección testimonios del cliente</td></tr>
+    <tr><th>Title</th><td colspan="3">Consultar los testimonios de clientes</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero consultar testimonios de otros clientes, para generar confianza en la propuesta de valor de la start up</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede al sitio web<br>Cuando consulta la sección de testimonios<br>Entonces visualiza opiniones de clientes<br>Y percibe la experiencia de otros usuarios.<br><br><strong>Escenario 2:</strong><br>Dado que existen varios testimonios disponibles<br>Cuando el visitante desea revisar más testimonios<br>Entonces el sistema le muestra todos los testimonios</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Consulta la sección de testimonios</strong><br>Dado que el visitante accede al sitio web<br>Cuando consulta la sección de testimonios<br>Entonces visualiza opiniones de clientes<br>Y percibe la experiencia de otros usuarios.<br><br><strong>Escenario 2: El visitante desea revisar más testimonios</strong><br>Dado que existen varios testimonios disponibles<br>Cuando el visitante desea revisar más testimonios<br>Entonces el sistema le muestra todos los testimonios</td></tr>
 </table>
 
 ---
@@ -817,11 +819,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US03</td><td>visitante del sitio</td><td>Alta</td><td>EP01</td></tr>
-    <tr><th>Title</th><td colspan="3">Acceso a información de contacto</td></tr>
+    <tr><th>Title</th><td colspan="3">Acceder a la información de contacto</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero acceder fácilmente a la información de contacto de IoBuild, para comunicarme en caso de dudas</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede a la landing page<br>Cuando consulta la sección de contacto<br>Entonces visualiza información clara como correo y teléfono <br>Y puede identificar rápidamente los medios de comunicación disponibles.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Consulta la sección de contacto</strong><br>Dado que el visitante accede a la landing page<br>Cuando consulta la sección de contacto<br>Entonces visualiza información clara como correo y teléfono <br>Y puede identificar rápidamente los medios de comunicación disponibles.</td></tr>
 </table>
 
 ---
@@ -829,11 +831,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US04</td><td>visitante del sitio</td><td>Alta</td><td>EP01</td></tr>
-    <tr><th>Title</th><td colspan="3">Visualización de servicios principales</td></tr>
+    <tr><th>Title</th><td colspan="3">Visualizar los servicios principales</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero conocer los servicios que ofrece IoBuild, para entender su propuesta de valor.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede a la landing page<br>Cuando navega a la sección de servicios<br>Entonces visualiza una lista de los servicios principales<br><br><strong>Escenario 2:</strong><br>Dado que el visitante accede a la landing page <br>Cuando quiere conocer más sobre un servicio de su interés<br>Entonces selecciona la opción de “ver más”<br>Y se muestra un texto más completo sobre el servicio seleccionado</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Navega a la sección de servicios</strong><br>Dado que el visitante accede a la landing page<br>Cuando navega a la sección de servicios<br>Entonces visualiza una lista de los servicios principales<br><br><strong>Escenario 2: Quiere conocer más sobre un servicio de su interés</strong><br>Dado que el visitante accede a la landing page <br>Cuando quiere conocer más sobre un servicio de su interés<br>Entonces selecciona la opción de “ver más”<br>Y se muestra un texto más completo sobre el servicio seleccionado</td></tr>
 </table>
 
 ---
@@ -841,11 +843,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US05</td><td>visitante del sitio</td><td>Alta</td><td>EP02</td></tr>
-    <tr><th>Title</th><td colspan="3">Opción de registro</td></tr>
+    <tr><th>Title</th><td colspan="3">Registrarse en la aplicación</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero registrarme en la aplicación, para tener acceso a las funcionalidades de la aplicación</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede a la landing page<br>Cuando se dirige a la parte superior de la página<br>Y selecciona la opción registrarse<br>Entonces la aplicación lo redirige al formulario de registro</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Se dirige a la parte superior de la página</strong><br>Dado que el visitante accede a la landing page<br>Cuando se dirige a la parte superior de la página<br>Y selecciona la opción registrarse<br>Entonces la aplicación lo redirige al formulario de registro</td></tr>
 </table>
 
 ---
@@ -853,11 +855,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US06</td><td>visitante del sitio</td><td>Media</td><td>EP01</td></tr>
-    <tr><th>Title</th><td colspan="3">Preguntas frecuentes</td></tr>
+    <tr><th>Title</th><td colspan="3">Consultar las preguntas frecuentes</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero consultar una sección de preguntas frecuentes, para resolver dudas comunes sin necesidad de contactar a la start up</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede a la landing page<br>Cuando entra a la sección de preguntas frecuentes<br>Entonces puede desplegar las respuestas a cada pregunta común<br>Y encuentra información organizada y clara.<br><br><strong>Escenario 2:</strong><br>Dado que el visitante accede a la sección de preguntas frecuentes<br>Cuando revisa la lista de preguntas disponibles<br>Entonces el sistema debe mostrar múltiples preguntas frecuentes <br>Y cada pregunta debe poder expandirse para visualizar su respuesta correspondiente.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Entra a la sección de preguntas frecuentes</strong><br>Dado que el visitante accede a la landing page<br>Cuando entra a la sección de preguntas frecuentes<br>Entonces puede desplegar las respuestas a cada pregunta común<br>Y encuentra información organizada y clara.<br><br><strong>Escenario 2: Revisa la lista de preguntas disponibles</strong><br>Dado que el visitante accede a la sección de preguntas frecuentes<br>Cuando revisa la lista de preguntas disponibles<br>Entonces el sistema debe mostrar múltiples preguntas frecuentes <br>Y cada pregunta debe poder expandirse para visualizar su respuesta correspondiente.</td></tr>
 </table>
 
 ---
@@ -865,11 +867,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US07</td><td>visitante del sitio</td><td>Media</td><td>EP03</td></tr>
-    <tr><th>Title</th><td colspan="3">Internacionalización de la landing page</td></tr>
+    <tr><th>Title</th><td colspan="3">Seleccionar el idioma de la landing page</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como visitante del sitio, quiero poder encontrar más de un idioma disponible, para poder elegir el idioma de mi preferencia.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante accede a la landing page<br>Cuando selecciona un idioma distinto<br>Entonces todo el contenido de la landing page debe mostrarse automáticamente en el idioma seleccionado.<br><br><strong>Escenario 2:</strong><br>Dado que el visitante seleccionó un idioma previamente<br>Cuando vuelve a ingresar al sitio<br>Entonces la landing page debe mostrarse en el último idioma elegido, sin necesidad de volver a configurarlo.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Selecciona un idioma distinto</strong><br>Dado que el visitante accede a la landing page<br>Cuando selecciona un idioma distinto<br>Entonces todo el contenido de la landing page debe mostrarse automáticamente en el idioma seleccionado.<br><br><strong>Escenario 2: Vuelve a ingresar al sitio</strong><br>Dado que el visitante seleccionó un idioma previamente<br>Cuando vuelve a ingresar al sitio<br>Entonces la landing page debe mostrarse en el último idioma elegido, sin necesidad de volver a configurarlo.</td></tr>
 </table>
 
 ---
@@ -877,11 +879,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US08</td><td>usuario</td><td>Alta</td><td>EP07</td></tr>
-    <tr><th>Title</th><td colspan="3">Dashboard Personalizado</td></tr>
+    <tr><th>Title</th><td colspan="3">Visualizar el dashboard personalizado</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero tener un dashboard personalizado, para visualizar la información relevante de manera rápida y eficiente.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede al sistema,<br>Cuando el dashboard se carga,<br>Entonces verá una interfaz con widgets configurables (gráficos, estadísticas, alertas) según sus preferencias.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario tiene acceso a múltiples secciones,<br>Cuando elige personalizar su dashboard,<br>Entonces podrá agregar, eliminar o reorganizar los widgets.<br><br><strong>Escenario 3:</strong><br>Dado que el usuario guarda los cambios en su dashboard,<br>Cuando vuelva a acceder,<br>Entonces verá el dashboard con las configuraciones guardadas.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El dashboard se carga</strong><br>Dado que el usuario accede al sistema,<br>Cuando el dashboard se carga,<br>Entonces verá una interfaz con widgets configurables (gráficos, estadísticas, alertas) según sus preferencias.<br><br><strong>Escenario 2: Elige personalizar su dashboard</strong><br>Dado que el usuario tiene acceso a múltiples secciones,<br>Cuando elige personalizar su dashboard,<br>Entonces podrá agregar, eliminar o reorganizar los widgets.<br><br><strong>Escenario 3: Vuelva a acceder</strong><br>Dado que el usuario guarda los cambios en su dashboard,<br>Cuando vuelva a acceder,<br>Entonces verá el dashboard con las configuraciones guardadas.</td></tr>
 </table>
 
 ---
@@ -889,11 +891,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US09</td><td>ingeniero</td><td>Alta</td><td>EP09</td></tr>
-    <tr><th>Title</th><td colspan="3">Acceso a Proyectos Activos</td></tr>
+    <tr><th>Title</th><td colspan="3">Acceder a los proyectos activos</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero tener acceso a los proyectos que se encuentran activos, para poder realizar un seguimiento de su progreso y gestionar los recursos necesarios.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede al sistema,<br>Cuando consulta la lista de proyectos,<br>Entonces verá solo los proyectos con estado "activo".<br><br><strong>Escenario 2:</strong><br>Dado que el ingeniero tiene acceso a los proyectos activos,<br>Cuando selecciona un proyecto,<br>Entonces puede acceder a detalles como el progreso, recursos y métricas del proyecto.<br><br><strong>Escenario 3:</strong><br>Dado que el ingeniero está visualizando proyectos activos,<br>Cuando hay cambios en el estado de algún proyecto (e.g., transición a "completado"),<br>Entonces la lista se actualiza automáticamente.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Consulta la lista de proyectos</strong><br>Dado que el ingeniero accede al sistema,<br>Cuando consulta la lista de proyectos,<br>Entonces verá solo los proyectos con estado "activo".<br><br><strong>Escenario 2: Selecciona un proyecto</strong><br>Dado que el ingeniero tiene acceso a los proyectos activos,<br>Cuando selecciona un proyecto,<br>Entonces puede acceder a detalles como el progreso, recursos y métricas del proyecto.<br><br><strong>Escenario 3: Hay cambios en el estado de algún proyecto (e.g., transición a "completado")</strong><br>Dado que el ingeniero está visualizando proyectos activos,<br>Cuando hay cambios en el estado de algún proyecto (e.g., transición a "completado"),<br>Entonces la lista se actualiza automáticamente.</td></tr>
 </table>
 
 ---
@@ -901,11 +903,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US10</td><td>usuario</td><td>Alta</td><td>EP11</td></tr>
-    <tr><th>Title</th><td colspan="3">Acceso a Dispositivos Conectados</td></tr>
+    <tr><th>Title</th><td colspan="3">Acceder a los dispositivos conectados</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero tener acceso a los dispositivos conectados, para poder monitorear su estado y uso.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a la aplicación,<br>Cuando consulta los dispositivos conectados,<br>Entonces verá una lista de dispositivos con su estado actual (activo, inactivo, etc.).<br><br><strong>Escenario 2:</strong><br>Dado que el usuario tiene acceso a los dispositivos,<br>Cuando selecciona un dispositivo,<br>Entonces puede ver información detallada sobre su configuración, tipo y uso.<br><br><strong>Escenario 3:</strong><br>Dado que hay dispositivos conectados,<br>Cuando un dispositivo cambia su estado,<br>Entonces la interfaz se actualiza automáticamente.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Consulta los dispositivos conectados</strong><br>Dado que el usuario accede a la aplicación,<br>Cuando consulta los dispositivos conectados,<br>Entonces verá una lista de dispositivos con su estado actual (activo, inactivo, etc.).<br><br><strong>Escenario 2: Selecciona un dispositivo</strong><br>Dado que el usuario tiene acceso a los dispositivos,<br>Cuando selecciona un dispositivo,<br>Entonces puede ver información detallada sobre su configuración, tipo y uso.<br><br><strong>Escenario 3: Un dispositivo cambia su estado</strong><br>Dado que hay dispositivos conectados,<br>Cuando un dispositivo cambia su estado,<br>Entonces la interfaz se actualiza automáticamente.</td></tr>
 </table>
 
 ---
@@ -913,11 +915,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US11</td><td>ingeniero</td><td>Media</td><td>EP12</td></tr>
-    <tr><th>Title</th><td colspan="3">Acceso a la Capacidad de Ocupación de Cada Proyecto</td></tr>
+    <tr><th>Title</th><td colspan="3">Acceder a la capacidad de ocupación por proyecto</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero tener acceso a la capacidad de ocupación de cada proyecto, para poder analizar el uso de los recursos y planificar de manera eficiente.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede al sistema,<br>Cuando consulta la información de ocupación,<br>Entonces verá la capacidad de ocupación de cada proyecto, expresada como porcentaje o número de espacios ocupados.<br><br><strong>Escenario 2:</strong><br>Dado que el ingeniero tiene acceso a los proyectos,<br>Cuando selecciona un proyecto,<br>Entonces puede ver su capacidad de ocupación histórica y proyectada.<br><br><strong>Escenario 3:</strong><br>Dado que un proyecto tiene capacidad de ocupación variable,<br>Cuando cambia su ocupación,<br>Entonces la información se actualiza en tiempo real.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Consulta la información de ocupación</strong><br>Dado que el ingeniero accede al sistema,<br>Cuando consulta la información de ocupación,<br>Entonces verá la capacidad de ocupación de cada proyecto, expresada como porcentaje o número de espacios ocupados.<br><br><strong>Escenario 2: Selecciona un proyecto</strong><br>Dado que el ingeniero tiene acceso a los proyectos,<br>Cuando selecciona un proyecto,<br>Entonces puede ver su capacidad de ocupación histórica y proyectada.<br><br><strong>Escenario 3: Cambia su ocupación</strong><br>Dado que un proyecto tiene capacidad de ocupación variable,<br>Cuando cambia su ocupación,<br>Entonces la información se actualiza en tiempo real.</td></tr>
 </table>
 
 ---
@@ -925,11 +927,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US12</td><td>ingeniero</td><td>Media</td><td>EP12</td></tr>
-    <tr><th>Title</th><td colspan="3">Gráfico de Consumo de Energía por Hora</td></tr>
+    <tr><th>Title</th><td colspan="3">Visualizar el gráfico de consumo de energía por hora</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver un gráfico sobre la energía que se consume por hora, para poder evaluar el rendimiento energético de los proyectos en tiempo real.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a la sección de consumo energético,<br>Cuando visualiza los datos,<br>Entonces verá un gráfico que muestra el consumo de energía de cada proyecto por hora.<br><br><strong>Escenario 2:</strong><br>Dado que el gráfico muestra el consumo energético,<br>Cuando se actualizan los datos de consumo,<br>Entonces el gráfico se refresca en tiempo real.<br><br><strong>Escenario 3:</strong><br>Dado que el ingeniero necesita analizar tendencias,<br>Cuando selecciona un rango de tiempo específico,<br>Entonces el gráfico ajusta el intervalo de horas.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Visualiza los datos</strong><br>Dado que el ingeniero accede a la sección de consumo energético,<br>Cuando visualiza los datos,<br>Entonces verá un gráfico que muestra el consumo de energía de cada proyecto por hora.<br><br><strong>Escenario 2: Se actualizan los datos de consumo</strong><br>Dado que el gráfico muestra el consumo energético,<br>Cuando se actualizan los datos de consumo,<br>Entonces el gráfico se refresca en tiempo real.<br><br><strong>Escenario 3: Selecciona un rango de tiempo específico</strong><br>Dado que el ingeniero necesita analizar tendencias,<br>Cuando selecciona un rango de tiempo específico,<br>Entonces el gráfico ajusta el intervalo de horas.</td></tr>
 </table>
 
 ---
@@ -937,11 +939,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US13</td><td>ingeniero</td><td>Media</td><td>EP12</td></tr>
-    <tr><th>Title</th><td colspan="3">Gráfico de Registro de Ocupación</td></tr>
+    <tr><th>Title</th><td colspan="3">Visualizar el gráfico de registro de ocupación</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver un gráfico sobre el registro de ocupación, para poder analizar la evolución de la ocupación a lo largo del tiempo.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a la sección de ocupación,<br>Cuando consulta los datos históricos,<br>Entonces verá un gráfico que representa la evolución de la ocupación de los proyectos a lo largo del tiempo.<br><br><strong>Escenario 2:</strong><br>Dado que el gráfico de ocupación está disponible,<br>Cuando el ingeniero selecciona diferentes proyectos,<br>Entonces puede visualizar la ocupación de cada uno por separado.<br><br><strong>Escenario 3:</strong><br>Dado que los datos de ocupación se actualizan con frecuencia,<br>Cuando se produce un cambio en la ocupación,<br>Entonces el gráfico se actualiza automáticamente.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Consulta los datos históricos</strong><br>Dado que el ingeniero accede a la sección de ocupación,<br>Cuando consulta los datos históricos,<br>Entonces verá un gráfico que representa la evolución de la ocupación de los proyectos a lo largo del tiempo.<br><br><strong>Escenario 2: El ingeniero selecciona diferentes proyectos</strong><br>Dado que el gráfico de ocupación está disponible,<br>Cuando el ingeniero selecciona diferentes proyectos,<br>Entonces puede visualizar la ocupación de cada uno por separado.<br><br><strong>Escenario 3: Se produce un cambio en la ocupación</strong><br>Dado que los datos de ocupación se actualizan con frecuencia,<br>Cuando se produce un cambio en la ocupación,<br>Entonces el gráfico se actualiza automáticamente.</td></tr>
 </table>
 
 ---
@@ -949,11 +951,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US14</td><td>ingeniero</td><td>Media</td><td>EP09</td></tr>
-    <tr><th>Title</th><td colspan="3">Resumen de Proyecto</td></tr>
+    <tr><th>Title</th><td colspan="3">Ver el resumen del proyecto</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver un resumen sobre cada proyecto, para saber si está activo, su ubicación y cuántos departamentos están ocupados.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a los proyectos,<br>Cuando selecciona un proyecto,<br>Entonces verá un resumen con la información clave: estado (activo/inactivo), ubicación y número de departamentos ocupados.<br><br><strong>Escenario 2:</strong><br>Dado que el ingeniero puede ver el resumen,<br>Cuando se actualiza algún dato clave del proyecto (e.g., cambio de ubicación o estado),<br>Entonces el resumen se actualiza automáticamente.<br><br><strong>Escenario 3:</strong><br>Dado que el ingeniero tiene acceso a múltiples proyectos,<br>Cuando consulta la lista,<br>Entonces puede ver una visión general de todos los proyectos activos con esta información resumida.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Selecciona un proyecto</strong><br>Dado que el ingeniero accede a los proyectos,<br>Cuando selecciona un proyecto,<br>Entonces verá un resumen con la información clave: estado (activo/inactivo), ubicación y número de departamentos ocupados.<br><br><strong>Escenario 2: Se actualiza algún dato clave del proyecto (e.g., cambio de ubicación o estado)</strong><br>Dado que el ingeniero puede ver el resumen,<br>Cuando se actualiza algún dato clave del proyecto (e.g., cambio de ubicación o estado),<br>Entonces el resumen se actualiza automáticamente.<br><br><strong>Escenario 3: Consulta la lista</strong><br>Dado que el ingeniero tiene acceso a múltiples proyectos,<br>Cuando consulta la lista,<br>Entonces puede ver una visión general de todos los proyectos activos con esta información resumida.</td></tr>
 </table>
 
 ---
@@ -961,11 +963,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US15</td><td>ingeniero</td><td>Media</td><td>EP11</td></tr>
-    <tr><th>Title</th><td colspan="3">Visualización de Dispositivos y Distribución por Tipo</td></tr>
+    <tr><th>Title</th><td colspan="3">Visualizar los dispositivos y su distribución por tipo</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver cuáles son los dispositivos y cómo están distribuidos por tipo, para realizar un análisis más detallado de los recursos disponibles.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a la sección de dispositivos,<br>Cuando consulta los dispositivos,<br>Entonces verá una lista detallada de todos los dispositivos conectados, clasificados por tipo.<br><br><strong>Escenario 2:</strong><br>Dado que los dispositivos están clasificados por tipo,<br>Cuando selecciona un tipo específico,<br>Entonces verá solo los dispositivos de ese tipo.<br><br><strong>Escenario 3:</strong><br>Dado que el ingeniero puede ver la distribución de dispositivos,<br>Cuando se agrega o elimina un dispositivo,<br>Entonces la distribución se actualiza automáticamente.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Consulta los dispositivos</strong><br>Dado que el ingeniero accede a la sección de dispositivos,<br>Cuando consulta los dispositivos,<br>Entonces verá una lista detallada de todos los dispositivos conectados, clasificados por tipo.<br><br><strong>Escenario 2: Selecciona un tipo específico</strong><br>Dado que los dispositivos están clasificados por tipo,<br>Cuando selecciona un tipo específico,<br>Entonces verá solo los dispositivos de ese tipo.<br><br><strong>Escenario 3: Se agrega o elimina un dispositivo</strong><br>Dado que el ingeniero puede ver la distribución de dispositivos,<br>Cuando se agrega o elimina un dispositivo,<br>Entonces la distribución se actualiza automáticamente.</td></tr>
 </table>
 
 ---
@@ -973,11 +975,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US16</td><td>usuario</td><td>Media</td><td>EP06</td></tr>
-    <tr><th>Title</th><td colspan="3">Acceso a Perfil del Usuario</td></tr>
+    <tr><th>Title</th><td colspan="3">Acceder al perfil del usuario</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero tener acceso a mi perfil, para ver datos como mi nombre, email, número de teléfono y mi dirección.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a la aplicación,<br>Cuando consulta su perfil,<br>Entonces verá una página o sección con la siguiente información: nombre, email, número de teléfono y dirección.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario está visualizando su perfil,<br>Cuando la información de contacto está desactualizada,<br>Entonces puede identificar qué datos están desactualizados (si es el caso).<br><br><strong>Escenario 3:</strong><br>Dado que el usuario accede a su perfil,<br>Cuando realiza un cambio en la información personal,<br>Entonces la información se guarda correctamente y se actualiza en la base de datos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Consulta su perfil</strong><br>Dado que el usuario accede a la aplicación,<br>Cuando consulta su perfil,<br>Entonces verá una página o sección con la siguiente información: nombre, email, número de teléfono y dirección.<br><br><strong>Escenario 2: La información de contacto está desactualizada</strong><br>Dado que el usuario está visualizando su perfil,<br>Cuando la información de contacto está desactualizada,<br>Entonces puede identificar qué datos están desactualizados (si es el caso).<br><br><strong>Escenario 3: Realiza un cambio en la información personal</strong><br>Dado que el usuario accede a su perfil,<br>Cuando realiza un cambio en la información personal,<br>Entonces la información se guarda correctamente y se actualiza en la base de datos.</td></tr>
 </table>
 
 ---
@@ -989,7 +991,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero poder editar alguna parte de mi información, como mi email, número de teléfono o dirección, para mantener mis datos actualizados.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a su perfil,<br>Cuando selecciona la opción para editar su información,<br>Entonces podrá modificar los siguientes campos: email, número de teléfono y dirección.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario está editando su información,<br>Cuando hace un cambio en uno de estos campos,<br>Entonces la aplicación valida que el formato del email y número de teléfono sea correcto antes de guardar los cambios.<br><br><strong>Escenario 3:</strong><br>Dado que el usuario ha editado la información,<br>Cuando guarda los cambios,<br>Entonces recibirá una confirmación de que los datos fueron actualizados exitosamente.<br><br>**Escenario 4:**<br>Dado que el usuario intenta editar un campo,<br>Cuando el campo es obligatorio (por ejemplo, dirección),<br>Entonces se mostrará un mensaje de error si el campo está vacío.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Selecciona la opción para editar su información</strong><br>Dado que el usuario accede a su perfil,<br>Cuando selecciona la opción para editar su información,<br>Entonces podrá modificar los siguientes campos: email, número de teléfono y dirección.<br><br><strong>Escenario 2: Hace un cambio en uno de estos campos</strong><br>Dado que el usuario está editando su información,<br>Cuando hace un cambio en uno de estos campos,<br>Entonces la aplicación valida que el formato del email y número de teléfono sea correcto antes de guardar los cambios.<br><br><strong>Escenario 3: Guarda los cambios</strong><br>Dado que el usuario ha editado la información,<br>Cuando guarda los cambios,<br>Entonces recibirá una confirmación de que los datos fueron actualizados exitosamente.<br><br>**Escenario 4: Validación**<br>Dado que el usuario intenta editar un campo,<br>Cuando el campo es obligatorio (por ejemplo, dirección),<br>Entonces se mostrará un mensaje de error si el campo está vacío.</td></tr>
 </table>
 
 ---
@@ -1001,7 +1003,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero poder ver una imagen que me represente, para tener una experiencia más personalizada.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a su perfil,<br>Cuando visualiza la información personal,<br>Entonces verá una imagen o avatar asociado a su cuenta (si está disponible).<br><br><strong>Escenario 2:</strong><br>Dado que el usuario desea cambiar su imagen,<br>Cuando selecciona la opción para editar la foto de perfil,<br>Entonces podrá cargar una nueva imagen desde su dispositivo.<br><br><strong>Escenario 3:</strong><br>Dado que el usuario cambia su imagen de perfil,<br>Cuando la nueva imagen se guarda,<br>Entonces se actualiza correctamente en el perfil y se refleja en todas las pantallas donde se visualiza el avatar del usuario.<br><br>**Escenario 4:**<br>Dado que el usuario no ha subido una imagen de perfil,<br>Cuando no se encuentra una imagen,<br>Entonces se muestra una imagen predeterminada (por ejemplo, un ícono de usuario genérico).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Visualiza la información personal</strong><br>Dado que el usuario accede a su perfil,<br>Cuando visualiza la información personal,<br>Entonces verá una imagen o avatar asociado a su cuenta (si está disponible).<br><br><strong>Escenario 2: Selecciona la opción para editar la foto de perfil</strong><br>Dado que el usuario desea cambiar su imagen,<br>Cuando selecciona la opción para editar la foto de perfil,<br>Entonces podrá cargar una nueva imagen desde su dispositivo.<br><br><strong>Escenario 3: La nueva imagen se guarda</strong><br>Dado que el usuario cambia su imagen de perfil,<br>Cuando la nueva imagen se guarda,<br>Entonces se actualiza correctamente en el perfil y se refleja en todas las pantallas donde se visualiza el avatar del usuario.<br><br>**Escenario 4: Validación**<br>Dado que el usuario no ha subido una imagen de perfil,<br>Cuando no se encuentra una imagen,<br>Entonces se muestra una imagen predeterminada (por ejemplo, un ícono de usuario genérico).</td></tr>
 </table>
 
 ---
@@ -1013,7 +1015,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero poder ver el rol de mi cuenta, para entender qué permisos tengo dentro de la aplicación.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a su perfil,<br>Cuando consulta los detalles de su cuenta,<br>Entonces verá un campo que indica su rol (por ejemplo: "Administrador", "Usuario", "Invitado").<br><br><strong>Escenario 2:</strong><br>Dado que el usuario tiene un rol específico,<br>Cuando el sistema identifica un cambio en el rol,<br>Entonces actualizará la información visible en el perfil en tiempo real.<br><br><strong>Escenario 3:</strong><br>Dado que el usuario ve su rol,<br>Cuando accede a secciones de la aplicación,<br>Entonces verá solo las opciones que correspondan a su nivel de acceso (por ejemplo, un "Administrador" verá opciones de configuración, mientras que un "Usuario" verá solo las opciones básicas).<br><br>**Escenario 4:**<br>Dado que el rol puede cambiar,<br>Cuando un administrador o un usuario con permisos lo actualiza,<br>Entonces la modificación se refleja inmediatamente en el perfil del usuario.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Consulta los detalles de su cuenta</strong><br>Dado que el usuario accede a su perfil,<br>Cuando consulta los detalles de su cuenta,<br>Entonces verá un campo que indica su rol (por ejemplo: "Administrador", "Usuario", "Invitado").<br><br><strong>Escenario 2: El sistema identifica un cambio en el rol</strong><br>Dado que el usuario tiene un rol específico,<br>Cuando el sistema identifica un cambio en el rol,<br>Entonces actualizará la información visible en el perfil en tiempo real.<br><br><strong>Escenario 3: Accede a secciones de la aplicación</strong><br>Dado que el usuario ve su rol,<br>Cuando accede a secciones de la aplicación,<br>Entonces verá solo las opciones que correspondan a su nivel de acceso (por ejemplo, un "Administrador" verá opciones de configuración, mientras que un "Usuario" verá solo las opciones básicas).<br><br>**Escenario 4: Validación**<br>Dado que el rol puede cambiar,<br>Cuando un administrador o un usuario con permisos lo actualiza,<br>Entonces la modificación se refleja inmediatamente en el perfil del usuario.</td></tr>
 </table>
 
 ---
@@ -1025,7 +1027,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver una lista de todos mis proyectos para poder conocer el estado y detalles de cada uno.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que existen proyectos registrados para el constructor,<br>Cuando el constructor accede a la vista de “Proyectos”,<br>Entonces el sistema muestra una lista con todos los proyectos incluyendo imagen, nombre, estado, tasa de ocupación y fecha de creación.<br><br><strong>Escenario 2:</strong><br>Dado que no existen proyectos registrados para el constructor,<br>Cuando el constructor accede a la vista de “Proyectos”,<br>Entonces el sistema muestra un mensaje indicando que no hay proyectos disponibles.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El constructor accede a la vista de “Proyectos”</strong><br>Dado que existen proyectos registrados para el constructor,<br>Cuando el constructor accede a la vista de “Proyectos”,<br>Entonces el sistema muestra una lista con todos los proyectos incluyendo imagen, nombre, estado, tasa de ocupación y fecha de creación.<br><br><strong>Escenario 2: El constructor accede a la vista de “Proyectos”</strong><br>Dado que no existen proyectos registrados para el constructor,<br>Cuando el constructor accede a la vista de “Proyectos”,<br>Entonces el sistema muestra un mensaje indicando que no hay proyectos disponibles.</td></tr>
 </table>
 
 ---
@@ -1037,7 +1039,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como arquitecto, quiero agregar un nuevo proyecto para poder registrar nuevos desarrollos inmobiliarios.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el constructor proporciona datos válidos (nombre, imagen, estado, unidades totales, fecha de creación, etc.),<br>Cuando el constructor envía la solicitud para agregar el proyecto,<br>Entonces el sistema crea el proyecto y lo muestra en la lista de proyectos.<br><br><strong>Escenario 2:</strong><br>Dado que el constructor proporciona datos inválidos (por ejemplo, nombre vacío o formato incorrecto),<br>Cuando el constructor envía la solicitud para agregar el proyecto,<br>Entonces el sistema rechaza la creación y muestra un mensaje de error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El constructor envía la solicitud para agregar el proyecto</strong><br>Dado que el constructor proporciona datos válidos (nombre, imagen, estado, unidades totales, fecha de creación, etc.),<br>Cuando el constructor envía la solicitud para agregar el proyecto,<br>Entonces el sistema crea el proyecto y lo muestra en la lista de proyectos.<br><br><strong>Escenario 2: El constructor envía la solicitud para agregar el proyecto</strong><br>Dado que el constructor proporciona datos inválidos (por ejemplo, nombre vacío o formato incorrecto),<br>Cuando el constructor envía la solicitud para agregar el proyecto,<br>Entonces el sistema rechaza la creación y muestra un mensaje de error.</td></tr>
 </table>
 
 ---
@@ -1049,7 +1051,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como arquitecto, quiero ver los detalles de un proyecto específico para poder revisar su información completa.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el proyecto existe en el sistema,<br>Cuando el constructor selecciona la opción “Ver Detalles” de ese proyecto,<br>Entonces el sistema muestra la información completa del proyecto seleccionado.<br><br><strong>Escenario 2:</strong><br>Dado que el proyecto no existe en el sistema,<br>Cuando el constructor intenta acceder a los detalles del proyecto,<br>Entonces el sistema muestra un mensaje de error indicando que el proyecto no se encuentra disponible.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El constructor selecciona la opción “Ver Detalles” de ese proyecto</strong><br>Dado que el proyecto existe en el sistema,<br>Cuando el constructor selecciona la opción “Ver Detalles” de ese proyecto,<br>Entonces el sistema muestra la información completa del proyecto seleccionado.<br><br><strong>Escenario 2: El constructor intenta acceder a los detalles del proyecto</strong><br>Dado que el proyecto no existe en el sistema,<br>Cuando el constructor intenta acceder a los detalles del proyecto,<br>Entonces el sistema muestra un mensaje de error indicando que el proyecto no se encuentra disponible.</td></tr>
 </table>
 
 ---
@@ -1061,7 +1063,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Arquitecto, quiero ver una lista de todos los clientes para poder gestionar sus proyectos asociados y el estado de su cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que hay clientes en el sistema,<br>Cuando el Arquitecto solicita la lista de clientes,<br>Entonces el sistema devuelve todos los clientes con su Nombre Completo, Proyecto Asociado y Estado de Cuenta,<br>Y el sistema muestra las Acciones disponibles (Ver Perfil e ícono de Configuración/Engranaje).<br><br><strong>Escenario 2:</strong><br>Dado que no hay clientes en el sistema,<br>Cuando el Arquitecto solicita la lista de clientes,<br>Entonces el sistema devuelve una lista vacía (o un mensaje indicando "No se encontraron clientes").<br><br><strong>Escenario 3:</strong><br>Dado que hay más clientes que el límite de visualización (ej., 10),<br>Cuando el Arquitecto ve la lista,<br>Entonces el sistema muestra los controles de paginación (número de página, botones siguiente/anterior).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Arquitecto solicita la lista de clientes</strong><br>Dado que hay clientes en el sistema,<br>Cuando el Arquitecto solicita la lista de clientes,<br>Entonces el sistema devuelve todos los clientes con su Nombre Completo, Proyecto Asociado y Estado de Cuenta,<br>Y el sistema muestra las Acciones disponibles (Ver Perfil e ícono de Configuración/Engranaje).<br><br><strong>Escenario 2: El Arquitecto solicita la lista de clientes</strong><br>Dado que no hay clientes en el sistema,<br>Cuando el Arquitecto solicita la lista de clientes,<br>Entonces el sistema devuelve una lista vacía (o un mensaje indicando "No se encontraron clientes").<br><br><strong>Escenario 3: El Arquitecto ve la lista</strong><br>Dado que hay más clientes que el límite de visualización (ej., 10),<br>Cuando el Arquitecto ve la lista,<br>Entonces el sistema muestra los controles de paginación (número de página, botones siguiente/anterior).</td></tr>
 </table>
 
 ---
@@ -1073,7 +1075,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Ingeniero, quiero poder ordenar la lista de clientes por columnas (Nombre Completo, Proyecto Asociado, Estado de Cuenta) para poder encontrar u organizar clientes rápidamente según criterios específicos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Nombre Completo,<br>Entonces el sistema ordena la lista alfabéticamente por nombre del cliente (ascendente o descendente).<br><br><strong>Escenario 2:</strong><br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Proyecto Asociado,<br>Entonces el sistema ordena la lista por el nombre del proyecto asociado (ascendente o descendente).<br><br><strong>Escenario 3:</strong><br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Estado de Cuenta,<br>Entonces el sistema ordena la lista por el estado de la cuenta (ej., Activo, Stand by, Suspendido).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Ingeniero hace clic en el ícono de ordenar junto a Nombre Completo</strong><br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Nombre Completo,<br>Entonces el sistema ordena la lista alfabéticamente por nombre del cliente (ascendente o descendente).<br><br><strong>Escenario 2: El Ingeniero hace clic en el ícono de ordenar junto a Proyecto Asociado</strong><br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Proyecto Asociado,<br>Entonces el sistema ordena la lista por el nombre del proyecto asociado (ascendente o descendente).<br><br><strong>Escenario 3: El Ingeniero hace clic en el ícono de ordenar junto a Estado de Cuenta</strong><br>Dado que se muestra la lista de clientes,<br>Cuando el Ingeniero hace clic en el ícono de ordenar junto a Estado de Cuenta,<br>Entonces el sistema ordena la lista por el estado de la cuenta (ej., Activo, Stand by, Suspendido).</td></tr>
 </table>
 
 ---
@@ -1085,7 +1087,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Arquitecto, quiero poder agregar un nuevo cliente para poder registrarlo en el sistema.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Arquitecto hace clic en el botón + Add Client (Agregar Cliente),<br>Cuando el Arquitecto proporciona los datos válidos requeridos (ej., Nombre Completo),<br>Entonces el sistema crea el nuevo cliente y lo muestra en la lista.<br><br><strong>Escenario 2:</strong><br>Dado que el Arquitecto hace clic en el botón + Add Client (Agregar Cliente),<br>Cuando el Arquitecto envía el formulario con datos obligatorios faltantes o inválidos,<br>Entonces el sistema rechaza la creación y proporciona un mensaje de error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Arquitecto proporciona los datos válidos requeridos (ej., Nombre Completo)</strong><br>Dado que el Arquitecto hace clic en el botón + Add Client (Agregar Cliente),<br>Cuando el Arquitecto proporciona los datos válidos requeridos (ej., Nombre Completo),<br>Entonces el sistema crea el nuevo cliente y lo muestra en la lista.<br><br><strong>Escenario 2: El Arquitecto envía el formulario con datos obligatorios faltantes o inválidos</strong><br>Dado que el Arquitecto hace clic en el botón + Add Client (Agregar Cliente),<br>Cuando el Arquitecto envía el formulario con datos obligatorios faltantes o inválidos,<br>Entonces el sistema rechaza la creación y proporciona un mensaje de error.</td></tr>
 </table>
 
 ---
@@ -1097,7 +1099,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Ingeniero, quiero ver el perfil detallado de un cliente para poder acceder a toda su información y opciones de gestión.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que un cliente existente se muestra en la lista,<br>Cuando el Ingeniero hace clic en el botón de acción View Profile (Ver Perfil),<br>Entonces el sistema navega a la vista detallada del perfil para ese cliente específico.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Ingeniero hace clic en el botón de acción View Profile (Ver Perfil)</strong><br>Dado que un cliente existente se muestra en la lista,<br>Cuando el Ingeniero hace clic en el botón de acción View Profile (Ver Perfil),<br>Entonces el sistema navega a la vista detallada del perfil para ese cliente específico.</td></tr>
 </table>
 
 ---
@@ -1109,7 +1111,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Arquitecto, quiero acceder a la configuración específica de un cliente para poder realizar acciones de gestión como editar o gestionar el estado de su cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que un cliente existente se muestra en la lista,<br>Cuando el Arquitecto hace clic en el botón de acción ícono de Configuración/Engranaje,<br>Entonces el sistema muestra un menú o navega a una pantalla con opciones de gestión para ese cliente (ej., Editar, Suspender, Activar, Eliminar).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Arquitecto hace clic en el botón de acción ícono de Configuración/Engranaje</strong><br>Dado que un cliente existente se muestra en la lista,<br>Cuando el Arquitecto hace clic en el botón de acción ícono de Configuración/Engranaje,<br>Entonces el sistema muestra un menú o navega a una pantalla con opciones de gestión para ese cliente (ej., Editar, Suspender, Activar, Eliminar).</td></tr>
 </table>
 
 ---
@@ -1121,7 +1123,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver mi plan de suscripción actual y su estado para confirmar los beneficios que tengo y el costo mensual.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a la sección de suscripción,<br>Cuando el sistema carga la vista,<br>Entonces el sistema muestra el nombre del plan actual (Enterprise), su costo total, el estado de la suscripción (Active) y una lista detallada de todos los beneficios incluidos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El sistema carga la vista</strong><br>Dado que el ingeniero accede a la sección de suscripción,<br>Cuando el sistema carga la vista,<br>Entonces el sistema muestra el nombre del plan actual (Enterprise), su costo total, el estado de la suscripción (Active) y una lista detallada de todos los beneficios incluidos.</td></tr>
 </table>
 
 ---
@@ -1133,7 +1135,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero ver planes de suscripción alternativos (Professional y Starter) para poder comparar sus precios y beneficios con mi plan actual.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero accede a la sección de suscripción,<br>Cuando el sistema carga la vista,<br>Entonces el sistema muestra, junto al plan actual, las tarjetas informativas de los planes Professional y Starter, incluyendo sus costos y sus listas de beneficios específicos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El sistema carga la vista</strong><br>Dado que el ingeniero accede a la sección de suscripción,<br>Cuando el sistema carga la vista,<br>Entonces el sistema muestra, junto al plan actual, las tarjetas informativas de los planes Professional y Starter, incluyendo sus costos y sus listas de beneficios específicos.</td></tr>
 </table>
 
 ---
@@ -1145,7 +1147,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como arquitecto, quiero iniciar el proceso de cambio de plan para poder seleccionar un nivel de servicio diferente que se ajuste mejor a mis necesidades.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el arquitecto se encuentra en la sección de suscripción,<br>Cuando el arquitecto hace clic en el botón Change Plan (Cambiar Plan),<br>Entonces el sistema inicia el flujo para seleccionar un nuevo plan (ej., navegando a una nueva página o mostrando un modal de selección).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El arquitecto hace clic en el botón Change Plan (Cambiar Plan)</strong><br>Dado que el arquitecto se encuentra en la sección de suscripción,<br>Cuando el arquitecto hace clic en el botón Change Plan (Cambiar Plan),<br>Entonces el sistema inicia el flujo para seleccionar un nuevo plan (ej., navegando a una nueva página o mostrando un modal de selección).</td></tr>
 </table>
 
 ---
@@ -1157,7 +1159,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como arquitecto, quiero renovar mi plan actual para asegurar la continuidad del servicio si estoy cerca de la fecha de expiración o si mi plan no está configurado para renovación automática.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el arquitecto tiene un plan activo,<br>Cuando el arquitecto hace clic en el botón Renew Plan (Renovar Plan),<br>Entonces el sistema inicia el proceso de renovación del plan actual (ej., mostrando un resumen de la transacción o confirmando la fecha de renovación).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El arquitecto hace clic en el botón Renew Plan (Renovar Plan)</strong><br>Dado que el arquitecto tiene un plan activo,<br>Cuando el arquitecto hace clic en el botón Renew Plan (Renovar Plan),<br>Entonces el sistema inicia el proceso de renovación del plan actual (ej., mostrando un resumen de la transacción o confirmando la fecha de renovación).</td></tr>
 </table>
 
 ---
@@ -1169,7 +1171,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como ingeniero, quiero cancelar mi plan actual para finalizar mi suscripción al término del ciclo de facturación.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el ingeniero tiene un plan activo,<br>Cuando el ingeniero hace clic en el botón Cancel Plan (Cancelar Plan),<br>Entonces el sistema muestra una ventana de confirmación o inicia el flujo de cancelación (ej., pidiendo un motivo de la cancelación antes de confirmarla).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El ingeniero hace clic en el botón Cancel Plan (Cancelar Plan)</strong><br>Dado que el ingeniero tiene un plan activo,<br>Cuando el ingeniero hace clic en el botón Cancel Plan (Cancelar Plan),<br>Entonces el sistema muestra una ventana de confirmación o inicia el flujo de cancelación (ej., pidiendo un motivo de la cancelación antes de confirmarla).</td></tr>
 </table>
 
 ---
@@ -1181,7 +1183,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como propietario, quiero ver una lista de todos los dispositivos registrados para poder monitorear su estado y ubicación.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que hay dispositivos registrados en el sistema,<br>Cuando el Ingeniero/Arquitecto accede a la vista de Gestión de Dispositivos,<br>Entonces el sistema muestra una lista con el Name (Nombre), Type (Tipo), Location (Ubicación) y Real-time Status (Estado en Tiempo Real) de cada dispositivo.<br>Y el sistema muestra las Actions (Acciones) disponibles (Configuración y Eliminar).<br><br><strong>Escenario 2:</strong><br>Dado que hay dispositivos con estado "Offline",<br>Cuando el Ingeniero/Arquitecto ve la lista,<br>Entonces el sistema resalta claramente el estado "Offline" (ej., en color rojo) para esos dispositivos.<br><br><strong>Escenario 3:</strong><br>Dado que se muestra la lista de dispositivos,<br>Cuando el Ingeniero/Arquitecto hace clic en los íconos de ordenar (flechas) junto a las columnas Name, Type o Location,<br>Entonces el sistema ordena la lista según el campo seleccionado (ascendente o descendente).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Ingeniero/Arquitecto accede a la vista de Gestión de Dispositivos</strong><br>Dado que hay dispositivos registrados en el sistema,<br>Cuando el Ingeniero/Arquitecto accede a la vista de Gestión de Dispositivos,<br>Entonces el sistema muestra una lista con el Name (Nombre), Type (Tipo), Location (Ubicación) y Real-time Status (Estado en Tiempo Real) de cada dispositivo.<br>Y el sistema muestra las Actions (Acciones) disponibles (Configuración y Eliminar).<br><br><strong>Escenario 2: El Ingeniero/Arquitecto ve la lista</strong><br>Dado que hay dispositivos con estado "Offline",<br>Cuando el Ingeniero/Arquitecto ve la lista,<br>Entonces el sistema resalta claramente el estado "Offline" (ej., en color rojo) para esos dispositivos.<br><br><strong>Escenario 3: El Ingeniero/Arquitecto hace clic en los íconos de ordenar (flechas) junto a las columnas Name, Type o Location</strong><br>Dado que se muestra la lista de dispositivos,<br>Cuando el Ingeniero/Arquitecto hace clic en los íconos de ordenar (flechas) junto a las columnas Name, Type o Location,<br>Entonces el sistema ordena la lista según el campo seleccionado (ascendente o descendente).</td></tr>
 </table>
 
 ---
@@ -1193,7 +1195,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como propietario, quiero agregar un nuevo dispositivo al sistema para expandir la cobertura de monitoreo y control.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Ingeniero/Arquitecto está en la vista de Gestión de Dispositivos,<br>Cuando el Ingeniero/Arquitecto hace clic en el botón + Add Device (Agregar Dispositivo),<br>Entonces el sistema presenta un formulario o flujo para ingresar los detalles del nuevo dispositivo (ej., Nombre, Tipo, Ubicación y credenciales de conexión).<br><br><strong>Escenario 2:</strong><br>Dado que el Ingeniero/Arquitecto proporciona todos los datos requeridos y válidos,<br>Cuando el formulario es enviado,<br>Entonces el sistema registra el dispositivo, y este aparece en la lista con su estado inicial.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Ingeniero/Arquitecto hace clic en el botón + Add Device (Agregar Dispositivo)</strong><br>Dado que el Ingeniero/Arquitecto está en la vista de Gestión de Dispositivos,<br>Cuando el Ingeniero/Arquitecto hace clic en el botón + Add Device (Agregar Dispositivo),<br>Entonces el sistema presenta un formulario o flujo para ingresar los detalles del nuevo dispositivo (ej., Nombre, Tipo, Ubicación y credenciales de conexión).<br><br><strong>Escenario 2: El formulario es enviado</strong><br>Dado que el Ingeniero/Arquitecto proporciona todos los datos requeridos y válidos,<br>Cuando el formulario es enviado,<br>Entonces el sistema registra el dispositivo, y este aparece en la lista con su estado inicial.</td></tr>
 </table>
 
 ---
@@ -1205,7 +1207,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como propietario, quiero acceder a la configuración específica de un dispositivo para modificar sus parámetros o revisar su información detallada.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que un dispositivo está listado,<br>Cuando el Ingeniero hace clic en el ícono de Configuración en la columna de Acciones,<br>Entonces el sistema navega a una vista detallada o abre un modal con la información editable del dispositivo (ej., cambiar nombre, ubicación, parámetros técnicos).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Ingeniero hace clic en el ícono de Configuración en la columna de Acciones</strong><br>Dado que un dispositivo está listado,<br>Cuando el Ingeniero hace clic en el ícono de Configuración en la columna de Acciones,<br>Entonces el sistema navega a una vista detallada o abre un modal con la información editable del dispositivo (ej., cambiar nombre, ubicación, parámetros técnicos).</td></tr>
 </table>
 
 ---
@@ -1217,7 +1219,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como propietario, quiero poder eliminar un dispositivo que ya no está en uso o está defectuoso, para mantener la lista limpia y precisa.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que un dispositivo está listado,<br>Cuando el Arquitecto hace clic en el ícono de Eliminar,<br>Entonces el sistema solicita una confirmación de eliminación.<br><br><strong>Escenario 2:</strong><br>Dado que el Arquitecto ha solicitado la eliminación y confirma la acción,<br>Cuando el sistema procesa la solicitud,<br>Entonces el dispositivo es removido de la lista y se confirma la acción.<br><br><strong>Escenario 3:</strong><br>Dado que un dispositivo está asociado a una función crítica o un tutorial (si aplicara),<br>Cuando el Arquitecto solicita la eliminación,<br>Entonces el sistema rechaza la eliminación y proporciona un mensaje de error indicando la dependencia.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Arquitecto hace clic en el ícono de Eliminar</strong><br>Dado que un dispositivo está listado,<br>Cuando el Arquitecto hace clic en el ícono de Eliminar,<br>Entonces el sistema solicita una confirmación de eliminación.<br><br><strong>Escenario 2: El sistema procesa la solicitud</strong><br>Dado que el Arquitecto ha solicitado la eliminación y confirma la acción,<br>Cuando el sistema procesa la solicitud,<br>Entonces el dispositivo es removido de la lista y se confirma la acción.<br><br><strong>Escenario 3: El Arquitecto solicita la eliminación</strong><br>Dado que un dispositivo está asociado a una función crítica o un tutorial (si aplicara),<br>Cuando el Arquitecto solicita la eliminación,<br>Entonces el sistema rechaza la eliminación y proporciona un mensaje de error indicando la dependencia.</td></tr>
 </table>
 
 ---
@@ -1229,7 +1231,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero poder activar o desactivar varios tipos de notificaciones para controlar qué alertas recibo del sistema.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que la Alerta de Expiración está en un estado (ej., activada),<br>Cuando el Usuario alterna el switch de *Expiration Alerts (Alertas de Expiración)*,<br>Entonces el sistema actualiza el estado de la alerta y guarda la preferencia del Usuario.<br><br><strong>Escenario 2:</strong><br>Dado que el Usuario está en la configuración de notificaciones,<br>Cuando el Usuario alterna el switch de *System Updates (Actualizaciones del Sistema)*,<br>Entonces el sistema activa o desactiva las notificaciones de actualizaciones del sistema.<br><br><strong>Escenario 3:</strong><br>Dado que el Usuario está en la configuración de notificaciones,<br>Cuando el Usuario alterna el switch de *Push Notifications (Notificaciones Push)*,<br>Entonces el sistema activa o desactiva las notificaciones que se envían directamente al dispositivo o navegador del Usuario.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Usuario alterna el switch de *Expiration Alerts (Alertas de Expiración)*</strong><br>Dado que la Alerta de Expiración está en un estado (ej., activada),<br>Cuando el Usuario alterna el switch de *Expiration Alerts (Alertas de Expiración)*,<br>Entonces el sistema actualiza el estado de la alerta y guarda la preferencia del Usuario.<br><br><strong>Escenario 2: El Usuario alterna el switch de *System Updates (Actualizaciones del Sistema)*</strong><br>Dado que el Usuario está en la configuración de notificaciones,<br>Cuando el Usuario alterna el switch de *System Updates (Actualizaciones del Sistema)*,<br>Entonces el sistema activa o desactiva las notificaciones de actualizaciones del sistema.<br><br><strong>Escenario 3: El Usuario alterna el switch de *Push Notifications (Notificaciones Push)*</strong><br>Dado que el Usuario está en la configuración de notificaciones,<br>Cuando el Usuario alterna el switch de *Push Notifications (Notificaciones Push)*,<br>Entonces el sistema activa o desactiva las notificaciones que se envían directamente al dispositivo o navegador del Usuario.</td></tr>
 </table>
 
 ---
@@ -1241,7 +1243,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero poder cambiar mi contraseña periódicamente para mantener la seguridad de mi cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Change Password (Cambiar Contraseña)*,<br>Entonces el sistema presenta un formulario o flujo para ingresar la contraseña actual y la nueva contraseña (con confirmación).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Usuario hace clic en el ícono de configuración junto a *Change Password (Cambiar Contraseña)*</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Change Password (Cambiar Contraseña)*,<br>Entonces el sistema presenta un formulario o flujo para ingresar la contraseña actual y la nueva contraseña (con confirmación).</td></tr>
 </table>
 
 ---
@@ -1253,7 +1255,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero activar o gestionar la Autenticación de Dos Factores (2FA) para añadir una capa extra de seguridad a mi cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Two-Factor Authentication*,<br>Entonces el sistema navega a la pantalla de configuración de 2FA (para activarla, desactivarla o generar códigos de respaldo).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Usuario hace clic en el ícono de configuración junto a *Two-Factor Authentication*</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Two-Factor Authentication*,<br>Entonces el sistema navega a la pantalla de configuración de 2FA (para activarla, desactivarla o generar códigos de respaldo).</td></tr>
 </table>
 
 ---
@@ -1265,7 +1267,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero ver y gestionar mis sesiones activas para poder cerrar la sesión en dispositivos que ya no uso o que han sido comprometidos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Session Management (Gestión de Sesiones)*,<br>Entonces el sistema muestra una lista de los dispositivos o ubicaciones con sesiones activas y una opción para cerrarlas individualmente o todas.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Usuario hace clic en el ícono de configuración junto a *Session Management (Gestión de Sesiones)*</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Session Management (Gestión de Sesiones)*,<br>Entonces el sistema muestra una lista de los dispositivos o ubicaciones con sesiones activas y una opción para cerrarlas individualmente o todas.</td></tr>
 </table>
 
 ---
@@ -1277,7 +1279,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero añadir una dirección de correo electrónico alternativa para recuperación de cuenta o notificaciones secundarias.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Add Alternate Mail Address*,<br>Entonces el sistema presenta un formulario para ingresar la nueva dirección de correo y un proceso de verificación (ej., envío de un enlace de confirmación).</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Usuario hace clic en el ícono de configuración junto a *Add Alternate Mail Address*</strong><br>Dado que el Usuario está en la sección de Seguridad y Privacidad,<br>Cuando el Usuario hace clic en el ícono de configuración junto a *Add Alternate Mail Address*,<br>Entonces el sistema presenta un formulario para ingresar la nueva dirección de correo y un proceso de verificación (ej., envío de un enlace de confirmación).</td></tr>
 </table>
 
 ---
@@ -1289,7 +1291,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero acceder rápidamente a las secciones de Soporte para resolver mis dudas o contactar con el equipo de soporte.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el Usuario está en la sección de Soporte y Ayuda,<br>Cuando el Usuario hace clic en *FAQs*,<br>Entonces el sistema navega a la página de preguntas frecuentes.<br><br><strong>Escenario 2:</strong><br>Dado que el Usuario está en la sección de Soporte y Ayuda,<br>Cuando el Usuario hace clic en *Contact Support*,<br>Entonces el sistema navega a la página o abre un formulario para contactar directamente al equipo de soporte.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El Usuario hace clic en *FAQs*</strong><br>Dado que el Usuario está en la sección de Soporte y Ayuda,<br>Cuando el Usuario hace clic en *FAQs*,<br>Entonces el sistema navega a la página de preguntas frecuentes.<br><br><strong>Escenario 2: El Usuario hace clic en *Contact Support*</strong><br>Dado que el Usuario está en la sección de Soporte y Ayuda,<br>Cuando el Usuario hace clic en *Contact Support*,<br>Entonces el sistema navega a la página o abre un formulario para contactar directamente al equipo de soporte.</td></tr>
 </table>
 
 ---
@@ -1301,7 +1303,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero crear una cuenta nueva proporcionando mis datos básicos y seleccionando mi rol, para poder acceder a las funcionalidades de la plataforma.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el visitante se encuentra en el formulario de registro y proporciona un correo válido, una contraseña segura y selecciona su rol.<br>Cuando hace clic en el botón "Registrarse".<br>Entonces el sistema crea la cuenta, inicia la sesión automáticamente y redirige al usuario a la pantalla principal.<br><br><strong>Escenario 2:</strong><br>Dado que el visitante intenta registrarse con un correo electrónico que ya existe en el sistema.<br>Cuando envía el formulario.<br>Entonces el sistema muestra un mensaje de error indicando que el correo ya está en uso.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Hace clic en el botón "Registrarse"</strong><br>Dado que el visitante se encuentra en el formulario de registro y proporciona un correo válido, una contraseña segura y selecciona su rol.<br>Cuando hace clic en el botón "Registrarse".<br>Entonces el sistema crea la cuenta, inicia la sesión automáticamente y redirige al usuario a la pantalla principal.<br><br><strong>Escenario 2: Envía el formulario</strong><br>Dado que el visitante intenta registrarse con un correo electrónico que ya existe en el sistema.<br>Cuando envía el formulario.<br>Entonces el sistema muestra un mensaje de error indicando que el correo ya está en uso.</td></tr>
 </table>
 
 ---
@@ -1313,7 +1315,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero ingresar mis credenciales (correo y contraseña) para acceder a mi cuenta y utilizar las funciones protegidas.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario ingresa un correo y contraseña correctos.<br>Cuando hace clic en el botón "Ingresar".<br>Entonces el sistema valida las credenciales, le otorga acceso y lo redirige al Dashboard correspondiente a su rol.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario ingresa un correo no registrado o una contraseña errónea.<br>Cuando intenta iniciar sesión.<br>Entonces el sistema deniega el acceso y muestra un mensaje genérico de error ("Usuario o contraseña incorrectos").</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Hace clic en el botón "Ingresar"</strong><br>Dado que el usuario ingresa un correo y contraseña correctos.<br>Cuando hace clic en el botón "Ingresar".<br>Entonces el sistema valida las credenciales, le otorga acceso y lo redirige al Dashboard correspondiente a su rol.<br><br><strong>Escenario 2: Intenta iniciar sesión</strong><br>Dado que el usuario ingresa un correo no registrado o una contraseña errónea.<br>Cuando intenta iniciar sesión.<br>Entonces el sistema deniega el acceso y muestra un mensaje genérico de error ("Usuario o contraseña incorrectos").</td></tr>
 </table>
 
 ---
@@ -1325,7 +1327,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como Usuario, quiero cerrar mi sesión actual para proteger mi cuenta, especialmente si estoy en un dispositivo compartido.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario tiene una sesión activa.<br>Cuando selecciona la opción "Cerrar Sesión".<br>Entonces el sistema invalida su acceso actual y lo redirige a la página de inicio o login pública.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Selecciona la opción "Cerrar Sesión"</strong><br>Dado que el usuario tiene una sesión activa.<br>Cuando selecciona la opción "Cerrar Sesión".<br>Entonces el sistema invalida su acceso actual y lo redirige a la página de inicio o login pública.</td></tr>
 </table>
 
 ---
@@ -1337,7 +1339,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero acceder a un chatbot impulsado por IA para resolver dudas sobre la plataforma IoBuild de manera rápida y eficiente.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario accede a la plataforma,<br>Cuando selecciona la opción de chatbot,<br>Entonces se abre una interfaz de chat donde puede escribir preguntas.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario escribe una pregunta,<br>Cuando envía el mensaje,<br>Entonces la IA responde con información precisa basada en la documentación de IoBuild.<br><br><strong>Escenario 3:</strong><br>Dado que el chatbot no puede resolver una duda compleja,<br>Cuando la IA lo detecta,<br>Entonces sugiere contactar al soporte humano.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Selecciona la opción de chatbot</strong><br>Dado que el usuario accede a la plataforma,<br>Cuando selecciona la opción de chatbot,<br>Entonces se abre una interfaz de chat donde puede escribir preguntas.<br><br><strong>Escenario 2: Envía el mensaje</strong><br>Dado que el usuario escribe una pregunta,<br>Cuando envía el mensaje,<br>Entonces la IA responde con información precisa basada en la documentación de IoBuild.<br><br><strong>Escenario 3: La IA lo detecta</strong><br>Dado que el chatbot no puede resolver una duda compleja,<br>Cuando la IA lo detecta,<br>Entonces sugiere contactar al soporte humano.</td></tr>
 </table>
 
 ---
@@ -1349,7 +1351,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero usar la cámara de mi dispositivo para escanear un dispositivo físico y que la IA extraiga automáticamente los parámetros necesarios.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el usuario está agregando un dispositivo,<br>Cuando selecciona la opción de escanear con cámara,<br>Entonces se activa la cámara y permite tomar una foto.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario toma una foto del dispositivo,<br>Cuando la IA procesa la imagen mediante OCR,<br>Entonces extrae parámetros como modelo, serie y configuración inicial.<br><br><strong>Escenario 3:</strong><br>Dado que la IA no puede extraer todos los parámetros,<br>Cuando ocurre,<br>Entonces solicita al usuario completar manualmente los campos faltantes.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Selecciona la opción de escanear con cámara</strong><br>Dado que el usuario está agregando un dispositivo,<br>Cuando selecciona la opción de escanear con cámara,<br>Entonces se activa la cámara y permite tomar una foto.<br><br><strong>Escenario 2: La IA procesa la imagen mediante OCR</strong><br>Dado que el usuario toma una foto del dispositivo,<br>Cuando la IA procesa la imagen mediante OCR,<br>Entonces extrae parámetros como modelo, serie y configuración inicial.<br><br><strong>Escenario 3: Ocurre</strong><br>Dado que la IA no puede extraer todos los parámetros,<br>Cuando ocurre,<br>Entonces solicita al usuario completar manualmente los campos faltantes.</td></tr>
 </table>
 
 ---
@@ -1357,11 +1359,11 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
     <tr><td>US48</td><td>usuario</td><td>Alta</td><td>EP15</td></tr>
-    <tr><th>Title</th><td colspan="3">Optimización Automática de Dispositivos</td></tr>
+    <tr><th>Title</th><td colspan="3">Optimizar automáticamente los dispositivos</td></tr>
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como usuario, quiero que el sistema optimice automáticamente los dispositivos conectados para mejorar su rendimiento y eficiencia energética.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que hay dispositivos conectados,<br>Cuando el usuario activa la optimización,<br>Entonces la IA analiza el uso y ajusta configuraciones automáticamente.<br><br><strong>Escenario 2:</strong><br>Dado que la optimización se aplica,<br>Cuando se completa,<br>Entonces el usuario recibe un reporte de los cambios realizados y beneficios obtenidos.<br><br><strong>Escenario 3:</strong><br>Dado que la optimización requiere confirmación,<br>Cuando el usuario aprueba,<br>Entonces se aplican los cambios definitivos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: El usuario activa la optimización</strong><br>Dado que hay dispositivos conectados,<br>Cuando el usuario activa la optimización,<br>Entonces la IA analiza el uso y ajusta configuraciones automáticamente.<br><br><strong>Escenario 2: Se completa</strong><br>Dado que la optimización se aplica,<br>Cuando se completa,<br>Entonces el usuario recibe un reporte de los cambios realizados y beneficios obtenidos.<br><br><strong>Escenario 3: El usuario aprueba</strong><br>Dado que la optimización requiere confirmación,<br>Cuando el usuario aprueba,<br>Entonces se aplican los cambios definitivos.</td></tr>
 </table>
 
 #### 2.4.1.3. Technical Stories
@@ -1373,7 +1375,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que liste todos los proyectos asociados a un constructor específico, para poder mostrar la vista principal de Proyectos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para listar proyectos filtrados por el identificador del constructor (ej. *builderId*),<br>Cuando la API encuentra uno o más recursos de proyecto que coinciden,<br>Entonces la API responde con **200 OK** y devuelve un arreglo no vacío de recursos de proyecto, cada uno incluyendo los campos: *id, imagen, nombre, estado, tasaDeOcupacion y fechaDeCreacion.*<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para listar proyectos de un constructor,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud para listar proyectos filtrados por el identificador del constructor (ej. *builderId*),<br>Cuando la API encuentra uno o más recursos de proyecto que coinciden,<br>Entonces la API responde con **200 OK** y devuelve un arreglo no vacío de recursos de proyecto, cada uno incluyendo los campos: *id, imagen, nombre, estado, tasaDeOcupacion y fechaDeCreacion.*<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud para listar proyectos de un constructor,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.</td></tr>
 </table>
 
 ---
@@ -1385,7 +1387,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero añadir un nuevo proyecto a través de la API para poder implementar la funcionalidad de registro de nuevos desarrollos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud de creación que incluye todos los campos obligatorios y válidos (ej. *nombre, unidadesTotales, fechaDeCreacion*),<br>Cuando la API valida y persiste el nuevo recurso de proyecto exitosamente,<br>Entonces la API responde con **201 Created**, y devuelve la representación del recurso creado (incluyendo *id* y los datos proporcionados).<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud de creación con campos obligatorios faltantes o con valores inválidos (ej. un campo numérico incorrecto),<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación específicos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud de creación que incluye todos los campos obligatorios y válidos (ej. *nombre, unidadesTotales, fechaDeCreacion*),<br>Cuando la API valida y persiste el nuevo recurso de proyecto exitosamente,<br>Entonces la API responde con **201 Created**, y devuelve la representación del recurso creado (incluyendo *id* y los datos proporcionados).<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud de creación con campos obligatorios faltantes o con valores inválidos (ej. un campo numérico incorrecto),<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación específicos.</td></tr>
 </table>
 
 ---
@@ -1397,7 +1399,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar un proyecto por su *{id}* para poder mostrar la vista de detalles del proyecto.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para un proyecto identificado por *{id}*,<br>Cuando la API encuentra el recurso,<br>Entonces la API responde con **200 OK** y devuelve el recurso de proyecto completo (con todos sus atributos detallados).<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para un proyecto identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error indicando que el proyecto no existe.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud para un proyecto identificado por *{id}*,<br>Cuando la API encuentra el recurso,<br>Entonces la API responde con **200 OK** y devuelve el recurso de proyecto completo (con todos sus atributos detallados).<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud para un proyecto identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error indicando que el proyecto no existe.</td></tr>
 </table>
 
 ---
@@ -1409,7 +1411,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero enviar a la API una solicitud para modificar los datos de un cliente existente, para poder implementar la edición de su perfil y la gestión de su estado de cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud **PUT** o **PATCH** para actualizar el cliente identificado por *{id}* con datos válidos (ej. un nuevo *accountStatement*),<br>Cuando la API valida y persiste los cambios exitosamente,<br>Entonces la API responde con **200 OK** y devuelve la representación del recurso de cliente actualizado.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud de actualización con campos obligatorios faltantes o que contienen valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para actualizar un cliente con un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud **PUT** o **PATCH** para actualizar el cliente identificado por *{id}* con datos válidos (ej. un nuevo *accountStatement*),<br>Cuando la API valida y persiste los cambios exitosamente,<br>Entonces la API responde con **200 OK** y devuelve la representación del recurso de cliente actualizado.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud de actualización con campos obligatorios faltantes o que contienen valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación.<br><br><strong>Escenario 3: Variación</strong><br>Dado que se recibe una solicitud para actualizar un cliente con un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.</td></tr>
 </table>
 
 ---
@@ -1421,7 +1423,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API la eliminación de un cliente por su *{id}*, para poder implementar la funcionalidad de dar de baja clientes que ya no se utilizarán.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud **DELETE** para eliminar un cliente identificado por *{id}*,<br>Cuando la API elimina el recurso exitosamente,<br>Entonces la API responde con **204 No Content** (estándar para eliminación exitosa).<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para eliminar un cliente identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para eliminar un cliente identificado por *{id}* que tiene proyectos activos o dependencias críticas,<br>Cuando la API detecta una restricción de dependencia,<br>Entonces la API responde con **409 Conflict** y un payload de error explicando que la acción fue rechazada debido a dependencias.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud **DELETE** para eliminar un cliente identificado por *{id}*,<br>Cuando la API elimina el recurso exitosamente,<br>Entonces la API responde con **204 No Content** (estándar para eliminación exitosa).<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud para eliminar un cliente identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.<br><br><strong>Escenario 3: Variación</strong><br>Dado que se recibe una solicitud para eliminar un cliente identificado por *{id}* que tiene proyectos activos o dependencias críticas,<br>Cuando la API detecta una restricción de dependencia,<br>Entonces la API responde con **409 Conflict** y un payload de error explicando que la acción fue rechazada debido a dependencias.</td></tr>
 </table>
 
 ---
@@ -1433,7 +1435,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero poder enviar parámetros de ordenación a la API (nombre de columna y dirección), para poder implementar las funcionalidades de Buscar/Ordenar Clientes.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para listar clientes incluyendo parámetros de ordenación válidos (ej. *sort=fullName,desc* o *sort=accountStatement,asc*),<br>Cuando la API procesa los datos y aplica la ordenación,<br>Entonces la API responde con **200 OK** y los clientes son devueltos en el orden especificado.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para listar clientes incluyendo un parámetro de ordenación inválido o una columna no soportada,<br>Cuando la API valida los parámetros de entrada,<br>Entonces la API responde con **400 Bad Request** y un payload de error indicando que el parámetro de ordenación es incorrecto o no está permitido.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud para listar clientes incluyendo parámetros de ordenación válidos (ej. *sort=fullName,desc* o *sort=accountStatement,asc*),<br>Cuando la API procesa los datos y aplica la ordenación,<br>Entonces la API responde con **200 OK** y los clientes son devueltos en el orden especificado.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud para listar clientes incluyendo un parámetro de ordenación inválido o una columna no soportada,<br>Cuando la API valida los parámetros de entrada,<br>Entonces la API responde con **400 Bad Request** y un payload de error indicando que el parámetro de ordenación es incorrecto o no está permitido.</td></tr>
 </table>
 
 ---
@@ -1445,7 +1447,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que liste los clientes, opcionalmente filtrados por estado o nombre, para poder mostrar la vista de la lista de clientes.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para listar clientes, potencialmente incluyendo parámetros de paginación (*límite*, *offset*) y ordenamiento,<br>Cuando la API encuentra uno o más clientes,<br>Entonces la API responde con **200 OK** y devuelve un arreglo de recursos de cliente, incluyendo *id*, *fullName*, *associatedProject* y *accountStatement*, junto con metadatos de paginación.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para listar clientes,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud para listar clientes, potencialmente incluyendo parámetros de paginación (*límite*, *offset*) y ordenamiento,<br>Cuando la API encuentra uno o más clientes,<br>Entonces la API responde con **200 OK** y devuelve un arreglo de recursos de cliente, incluyendo *id*, *fullName*, *associatedProject* y *accountStatement*, junto con metadatos de paginación.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud para listar clientes,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.</td></tr>
 </table>
 
 ---
@@ -1457,7 +1459,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero añadir un nuevo cliente a través de la API para poder implementar la funcionalidad de creación de clientes.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud de creación que incluye campos obligatorios (ej. *fullName*),<br>Cuando la API valida y persiste el nuevo cliente exitosamente,<br>Entonces la API responde con **201 Created** y devuelve la representación del recurso de cliente creado (incluyendo *id*).<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud de creación con campos obligatorios faltantes o que contienen valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud de creación para un *fullName* que ya existe,<br>Cuando la API detecta la violación de la restricción de duplicado,<br>Entonces la API responde con **409 Conflict** y un payload de error explicativo.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud de creación que incluye campos obligatorios (ej. *fullName*),<br>Cuando la API valida y persiste el nuevo cliente exitosamente,<br>Entonces la API responde con **201 Created** y devuelve la representación del recurso de cliente creado (incluyendo *id*).<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud de creación con campos obligatorios faltantes o que contienen valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload de error que describe los errores de validación.<br><br><strong>Escenario 3: Variación</strong><br>Dado que se recibe una solicitud de creación para un *fullName* que ya existe,<br>Cuando la API detecta la violación de la restricción de duplicado,<br>Entonces la API responde con **409 Conflict** y un payload de error explicativo.</td></tr>
 </table>
 
 ---
@@ -1469,7 +1471,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar un recurso de cliente por su *{id}* para poder implementar la vista detallada del perfil.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para un cliente identificado por *{id}*,<br>Cuando la API encuentra el recurso,<br>Entonces la API responde con **200 OK** y devuelve el recurso de cliente completo.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para un cliente identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud para un cliente identificado por *{id}*,<br>Cuando la API encuentra el recurso,<br>Entonces la API responde con **200 OK** y devuelve el recurso de cliente completo.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud para un cliente identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.</td></tr>
 </table>
 
 ---
@@ -1481,7 +1483,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que liste todos los dispositivos, filtrados por ubicación o estado, para poder mostrar la lista de Gestión de Dispositivos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para listar dispositivos,<br>Cuando la API encuentra uno o más recursos de dispositivo,<br>Entonces la API responde con **200 OK** y devuelve un arreglo no vacío de recursos de dispositivo, cada uno incluyendo *id*, *name*, *type*, *location* y *realTimeStatus*.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para listar dispositivos,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para listar dispositivos filtrados por un parámetro de *status* (ej. “Offline”),<br>Cuando la API filtra los recursos,<br>Entonces la API responde con **200 OK** y devuelve solo los dispositivos que coinciden con el estado solicitado.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud para listar dispositivos,<br>Cuando la API encuentra uno o más recursos de dispositivo,<br>Entonces la API responde con **200 OK** y devuelve un arreglo no vacío de recursos de dispositivo, cada uno incluyendo *id*, *name*, *type*, *location* y *realTimeStatus*.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud para listar dispositivos,<br>Cuando la API no encuentra recursos que coincidan,<br>Entonces la API responde con **200 OK** y devuelve un arreglo vacío.<br><br><strong>Escenario 3: Variación</strong><br>Dado que se recibe una solicitud para listar dispositivos filtrados por un parámetro de *status* (ej. “Offline”),<br>Cuando la API filtra los recursos,<br>Entonces la API responde con **200 OK** y devuelve solo los dispositivos que coinciden con el estado solicitado.</td></tr>
 </table>
 
 ---
@@ -1493,7 +1495,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que elimine un dispositivo por su *{id}* para poder retirar hardware que ya no se utiliza del sistema.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por *{id}*,<br>Cuando la API elimina el recurso exitosamente,<br>Entonces la API responde con **204 No Content** (estándar para eliminación exitosa).<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por *{id}* que está actualmente en uso o vinculado a datos críticos,<br>Cuando la API detecta una restricción de dependencia,<br>Entonces la API responde con **409 Conflict** y un payload de error explicando la dependencia.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por *{id}*,<br>Cuando la API elimina el recurso exitosamente,<br>Entonces la API responde con **204 No Content** (estándar para eliminación exitosa).<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por un *{id}* no existente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un payload de error.<br><br><strong>Escenario 3: Variación</strong><br>Dado que se recibe una solicitud para eliminar un dispositivo identificado por *{id}* que está actualmente en uso o vinculado a datos críticos,<br>Cuando la API detecta una restricción de dependencia,<br>Entonces la API responde con **409 Conflict** y un payload de error explicando la dependencia.</td></tr>
 </table>
 
 ---
@@ -1505,7 +1507,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que actualice la información de un proyecto (nombre, ubicación y descripción) para mantener los datos actualizados en la vista de gestión de proyectos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para actualizar un proyecto identificado por *{id}*, incluyendo campos válidos como *name*, *location* y *description*,<br>Cuando la API valida y persiste los cambios correctamente,<br>Entonces la API responde con **200 OK** y devuelve la representación actualizada del recurso de proyecto.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud de actualización con campos faltantes o valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload que describe los errores de validación.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para actualizar un proyecto identificado por un *{id}* inexistente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un mensaje de error apropiado.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud para actualizar un proyecto identificado por *{id}*, incluyendo campos válidos como *name*, *location* y *description*,<br>Cuando la API valida y persiste los cambios correctamente,<br>Entonces la API responde con **200 OK** y devuelve la representación actualizada del recurso de proyecto.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud de actualización con campos faltantes o valores inválidos,<br>Cuando la validación de la API falla,<br>Entonces la API responde con **400 Bad Request** y un payload que describe los errores de validación.<br><br><strong>Escenario 3: Variación</strong><br>Dado que se recibe una solicitud para actualizar un proyecto identificado por un *{id}* inexistente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un mensaje de error apropiado.</td></tr>
 </table>
 
 ---
@@ -1517,7 +1519,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que actualice la información de un dispositivo (nombre y ubicación) para reflejar los cambios en la gestión de dispositivos.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud para actualizar un dispositivo identificado por *{id}*, incluyendo campos válidos como *name* y *location*,<br>Cuando la API valida y persiste los cambios exitosamente,<br>Entonces la API responde con **200 OK** y devuelve el recurso de dispositivo actualizado.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud con campos inválidos o formatos incorrectos,<br>Cuando la API valida la información y detecta errores,<br>Entonces la API responde con **400 Bad Request** y un payload con los detalles del error.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para actualizar un dispositivo con un *{id}* inexistente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un mensaje de error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud para actualizar un dispositivo identificado por *{id}*, incluyendo campos válidos como *name* y *location*,<br>Cuando la API valida y persiste los cambios exitosamente,<br>Entonces la API responde con **200 OK** y devuelve el recurso de dispositivo actualizado.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud con campos inválidos o formatos incorrectos,<br>Cuando la API valida la información y detecta errores,<br>Entonces la API responde con **400 Bad Request** y un payload con los detalles del error.<br><br><strong>Escenario 3: Variación</strong><br>Dado que se recibe una solicitud para actualizar un dispositivo con un *{id}* inexistente,<br>Cuando la API no encuentra el recurso,<br>Entonces la API responde con **404 Not Found** y un mensaje de error.</td></tr>
 </table>
 
 ---
@@ -1529,7 +1531,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar a la API que cree un nuevo dispositivo especificando su nombre, tipo y ubicación, para registrar nuevos equipos en el sistema.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud de creación de un dispositivo con los campos obligatorios (*name*, *type*, *location*),<br>Cuando la API valida y persiste el nuevo recurso,<br>Entonces la API responde con **201 Created** y devuelve la representación del dispositivo creado, incluyendo su *id*.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe una solicitud con campos faltantes o datos inválidos,<br>Cuando la API detecta errores de validación,<br>Entonces la API responde con **400 Bad Request** y un payload con los mensajes de error.<br><br><strong>Escenario 3:</strong><br>Dado que se recibe una solicitud para crear un dispositivo con un *name* duplicado,<br>Cuando la API detecta una violación de unicidad,<br>Entonces la API responde con **409 Conflict** y un mensaje explicativo.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud de creación de un dispositivo con los campos obligatorios (*name*, *type*, *location*),<br>Cuando la API valida y persiste el nuevo recurso,<br>Entonces la API responde con **201 Created** y devuelve la representación del dispositivo creado, incluyendo su *id*.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe una solicitud con campos faltantes o datos inválidos,<br>Cuando la API detecta errores de validación,<br>Entonces la API responde con **400 Bad Request** y un payload con los mensajes de error.<br><br><strong>Escenario 3: Variación</strong><br>Dado que se recibe una solicitud para crear un dispositivo con un *name* duplicado,<br>Cuando la API detecta una violación de unicidad,<br>Entonces la API responde con **409 Conflict** y un mensaje explicativo.</td></tr>
 </table>
 
 ---
@@ -1541,7 +1543,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero proteger el dashboard de fabricantes para que solo los fabricantes puedan visualizarlo</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que el desarrollador configura una ruta protegida para el rol de fabricante<br>Cuando un usuario con rol válido accede al dashboard<br>Entonces el sistema permite la visualización del contenido del dashboard.<br><br><strong>Escenario 2:</strong><br>Dado que el desarrollador implementa validación de roles en la ruta protegida<br>Cuando un usuario sin el rol de fabricante intenta acceder al dashboard<br>Entonces el sistema redirige al usuario a una vista alternativa</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que el desarrollador configura una ruta protegida para el rol de fabricante<br>Cuando un usuario con rol válido accede al dashboard<br>Entonces el sistema permite la visualización del contenido del dashboard.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que el desarrollador implementa validación de roles en la ruta protegida<br>Cuando un usuario sin el rol de fabricante intenta acceder al dashboard<br>Entonces el sistema redirige al usuario a una vista alternativa</td></tr>
 </table>
 
 ---
@@ -1553,7 +1555,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar la información de la suscripción activa del usuario actual, para mostrar el plan, costo y beneficios en la vista principal de suscripciones.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud GET para recuperar la suscripción del usuario autenticado<br>Cuando la API encuentra una suscripción activa asociada al usuario.<br>Entonces la API responde con **200 OK** y devuelve un objeto con los detalles del plan.<br><br><strong>Escenario 2:</strong><br>Dado que el usuario no cuenta con una suscripción vigente.<br>Cuando la API procesa la solicitud.<br>Entonces la API responde con **404 Not Found** indicando que no hay plan contratado.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud GET para recuperar la suscripción del usuario autenticado<br>Cuando la API encuentra una suscripción activa asociada al usuario.<br>Entonces la API responde con **200 OK** y devuelve un objeto con los detalles del plan.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que el usuario no cuenta con una suscripción vigente.<br>Cuando la API procesa la solicitud.<br>Entonces la API responde con **404 Not Found** indicando que no hay plan contratado.</td></tr>
 </table>
 
 ---
@@ -1565,7 +1567,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar la lista de todos los planes de suscripción disponibles en el sistema, para mostrarlos como alternativas en la interfaz de comparación.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud GET al endpoint de catálogo de planes.<br>Cuando la API recupera la configuración de planes disponibles en la base de datos.<br>Entonces la API responde con **200 OK** y devuelve un arreglo de objetos, donde cada uno contiene el nombre del plan, precio mensual y la lista de beneficios específicos.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud GET al endpoint de catálogo de planes.<br>Cuando la API recupera la configuración de planes disponibles en la base de datos.<br>Entonces la API responde con **200 OK** y devuelve un arreglo de objetos, donde cada uno contiene el nombre del plan, precio mensual y la lista de beneficios específicos.</td></tr>
 </table>
 
 ---
@@ -1577,7 +1579,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero enviar una solicitud para actualizar el plan de suscripción del usuario, para hacer efectivo el cambio de nivel de servicio seleccionado en la interfaz.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud PUT con el identificador del nuevo plan seleccionado.<br>Cuando la API valida que el plan existe y procesa la actualización de la suscripción.<br>Entonces la API responde con **200 OK** y devuelve los detalles de la suscripción actualizada con el nuevo plan.<br><br><strong>Escenario 2:</strong><br>Dado que se intenta cambiar a un plan inválido o no disponible.<br>Cuando la validación de la API falla.<br>Entonces la API responde con **400 Bad** Request indicando que el plan seleccionado no es válido para la transición.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud PUT con el identificador del nuevo plan seleccionado.<br>Cuando la API valida que el plan existe y procesa la actualización de la suscripción.<br>Entonces la API responde con **200 OK** y devuelve los detalles de la suscripción actualizada con el nuevo plan.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se intenta cambiar a un plan inválido o no disponible.<br>Cuando la validación de la API falla.<br>Entonces la API responde con **400 Bad** Request indicando que el plan seleccionado no es válido para la transición.</td></tr>
 </table>
 
 ---
@@ -1589,7 +1591,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar la renovación de la suscripción actual, para extender la vigencia del servicio cuando el usuario confirma la acción.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud POST al endpoint de renovación para la suscripción actual.<br>Cuando la API procesa el pago o extiende la fecha de expiración exitosamente.<br>Entonces la API responde con **200 OK** y devuelve la suscripción con la nueva fecha de vencimiento actualizada.<br><br><strong>Escenario 2:</strong><br>Dado que hay un problema con el método de pago o el estado de la cuenta.<br>Cuando el proceso de renovación falla en el backend.<br>Entonces la API responde con **402 Payment Required** o **400 Bad Request** con el detalle del error.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud POST al endpoint de renovación para la suscripción actual.<br>Cuando la API procesa el pago o extiende la fecha de expiración exitosamente.<br>Entonces la API responde con **200 OK** y devuelve la suscripción con la nueva fecha de vencimiento actualizada.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que hay un problema con el método de pago o el estado de la cuenta.<br>Cuando el proceso de renovación falla en el backend.<br>Entonces la API responde con **402 Payment Required** o **400 Bad Request** con el detalle del error.</td></tr>
 </table>
 
 ---
@@ -1601,7 +1603,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero solicitar la cancelación de la suscripción activa, para detener la renovación automática y finalizar el servicio al terminar el ciclo.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud DELETE sobre la suscripción activa.o<br>Cuando la API registra la solicitud de cancelación y actualiza el estado a "Cancelled" o "Pending Cancellation".<br>Entonces la API responde con **200 OK** confirmando que la suscripción no se renovará, pero manteniendo el acceso hasta el final del periodo actual si aplica.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud DELETE sobre la suscripción activa.o<br>Cuando la API registra la solicitud de cancelación y actualiza el estado a "Cancelled" o "Pending Cancellation".<br>Entonces la API responde con **200 OK** confirmando que la suscripción no se renovará, pero manteniendo el acceso hasta el final del periodo actual si aplica.</td></tr>
 </table>
 
 ---
@@ -1613,7 +1615,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero enviar la contraseña actual y la nueva contraseña del usuario a la API, para actualizar sus credenciales de acceso de forma segura.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud PUT al endpoint de cambio de contraseña que incluye currentPassword y newPassword.<br>Cuando la API verifica que la currentPassword coincide con la almacenada y la newPassword cumple con los requisitos de complejidad.<br>Entonces la API actualiza la contraseña (hashing), responde con **200 OK** y opcionalmente invalida otras sesiones activas o genera un nuevo token.<br><br><strong>Escenario 2:</strong><br>Dado que se intenta cambiar la contraseña proporcionando una currentPassword errónea.<br>Cuando la API detecta que la contraseña actual no coincide con la registrada.<br>Entonces la API responde con **400 Bad Request** con un mensaje indicando que la contraseña actual es inválida.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud PUT al endpoint de cambio de contraseña que incluye currentPassword y newPassword.<br>Cuando la API verifica que la currentPassword coincide con la almacenada y la newPassword cumple con los requisitos de complejidad.<br>Entonces la API actualiza la contraseña (hashing), responde con **200 OK** y opcionalmente invalida otras sesiones activas o genera un nuevo token.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se intenta cambiar la contraseña proporcionando una currentPassword errónea.<br>Cuando la API detecta que la contraseña actual no coincide con la registrada.<br>Entonces la API responde con **400 Bad Request** con un mensaje indicando que la contraseña actual es inválida.</td></tr>
 </table>
 
 ---
@@ -1625,7 +1627,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero enviar una solicitud para agregar un correo electrónico secundario, para que el backend inicie el proceso de validación y verificación de dicha cuenta.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud POST con un email válido que no está registrado previamente.<br>Cuando la API registra el correo en estado "Pendiente" y dispara el servicio de envío de emails con el código o enlace de verificación.<br>Entonces la API responde con **200 OK** indicando que se ha enviado el correo de confirmación al usuario.<br><br><strong>Escenario 2:</strong><br>Dado que se intenta agregar un correo con formato incorrecto o que ya está en uso por otro usuario.<br>Cuando la API valida la unicidad y el formato del correo.<br>Entonces la API responde con **400 Bad Request**.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud POST con un email válido que no está registrado previamente.<br>Cuando la API registra el correo en estado "Pendiente" y dispara el servicio de envío de emails con el código o enlace de verificación.<br>Entonces la API responde con **200 OK** indicando que se ha enviado el correo de confirmación al usuario.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se intenta agregar un correo con formato incorrecto o que ya está en uso por otro usuario.<br>Cuando la API valida la unicidad y el formato del correo.<br>Entonces la API responde con **400 Bad Request**.</td></tr>
 </table>
 
 ---
@@ -1637,7 +1639,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero enviar los datos de registro (nombre, email, password, rol) a la API, para crear una nueva identidad en el sistema y permitir el acceso futuro.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se recibe una solicitud POST con payload válido (email único, password cumple requisitos).<br>Cuando la API persiste el nuevo usuario y encripta la contraseña.<br>Entonces la API responde con **201 Created** y devuelve los datos del usuario creado o un token de acceso inicial.<br><br><strong>Escenario 2:</strong><br>Dado que se recibe un email que ya está registrado en la base de datos.<br>Cuando la API valida la unicidad del usuario.<br>Entonces la API responde con **409 Conflict** indicando que el recurso ya existe.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se recibe una solicitud POST con payload válido (email único, password cumple requisitos).<br>Cuando la API persiste el nuevo usuario y encripta la contraseña.<br>Entonces la API responde con **201 Created** y devuelve los datos del usuario creado o un token de acceso inicial.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que se recibe un email que ya está registrado en la base de datos.<br>Cuando la API valida la unicidad del usuario.<br>Entonces la API responde con **409 Conflict** indicando que el recurso ya existe.</td></tr>
 </table>
 
 ---
@@ -1649,7 +1651,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
     <tr><th colspan="4">Description</th></tr>
     <tr><td colspan="4">Como desarrollador, quiero que la API valide que el token enviado en los headers es legítimo y no ha expirado, para proteger las rutas privadas.</td></tr>
     <tr><th colspan="4">Acceptance Criteria</th></tr>
-    <tr><td colspan="4"><strong>Escenario 1:</strong><br>Dado que se realiza una petición a un recurso protegido con un header Authorization: Bearer {token}.<br>Cuando la API verifica la firma y fecha del token.<br>Entonces la API permite el acceso y devuelve el recurso solicitado.<br><br><strong>Escenario 2:</strong><br>Dado que el token está caducado o malformado.<br>Cuando la API intenta decodificarlo.<br>Entonces la API responde con **401 Unauthorized** o **403 Forbidden**.</td></tr>
+    <tr><td colspan="4"><strong>Escenario 1: Flujo principal</strong><br>Dado que se realiza una petición a un recurso protegido con un header Authorization: Bearer {token}.<br>Cuando la API verifica la firma y fecha del token.<br>Entonces la API permite el acceso y devuelve el recurso solicitado.<br><br><strong>Escenario 2: Flujo alterno</strong><br>Dado que el token está caducado o malformado.<br>Cuando la API intenta decodificarlo.<br>Entonces la API responde con **401 Unauthorized** o **403 Forbidden**.</td></tr>
 </table>
 
 ---
@@ -1702,85 +1704,347 @@ A continuación, se presenta el Product Backlog, el cual reúne las historias de
 
 Para la gestión y organización del backlog se utilizó la herramienta Trello, la cual permitió estructurar y visualizar las tareas de forma clara, dinámica y colaborativa. Este backlog se organizó en columnas que representan las distintas etapas del proceso de desarrollo, lo que facilita el seguimiento del avance, la identificación de bloqueos y la adecuada priorización de actividades.
 
+
+**Spikes Stories:**
+
+<table>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+    <tr><td>SP01</td><td>Arquitecto de Software</td><td>Alta</td><td>EP12</td></tr>
+    <tr><th>Title</th><td colspan="3">Investigar el uso de MQTT vs WebSockets para la telemetría en tiempo real</td></tr>
+    <tr><th colspan="4">Objetivo</th></tr>
+    <tr><td colspan="4"><strong>¿Qué queremos aprender?</strong> Determinar cuál protocolo (MQTT o WebSockets) es más eficiente y escalable en nuestra arquitectura actual para mostrar el consumo de energía en el Dashboard en tiempo real.</td></tr>
+    <tr><th colspan="4">Alcance</th></tr>
+    <tr><td colspan="4"><strong>Incluye:</strong> Comparativa de latencia, consumo de recursos del servidor y facilidad de integración con el backend actual en ASP.NET Core.<br><strong>Excluye:</strong> Implementación final en producción o el diseño de la interfaz visual del gráfico.</td></tr>
+    <tr><th colspan="4">Timebox</th></tr>
+    <tr><td colspan="4">16 horas / 2 días</td></tr>
+    <tr><th colspan="4">Entregables</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>Documento de hallazgos (cuadro comparativo de latencia y recursos).</li>
+            <li>PoC / prototipo (un script sencillo enviando y recibiendo datos con ambos protocolos).</li>
+            <li>Recomendación / decisión técnica.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Criterios de aceptación</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>[ ] Se responde la pregunta principal sobre cuál protocolo usar.</li>
+            <li>[ ] Se entrega evidencia (link al repositorio del PoC / archivo comparativo).</li>
+            <li>[ ] Se define la decisión o siguiente paso para la arquitectura.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Resultado (al cerrar)</th></tr>
+    <tr><td colspan="4"><strong>Hallazgos:</strong><br><strong>Decisión:</strong><br><strong>Próximas US impactadas:</strong> US08 (Dashboard Personalizado), US12 (Gráfico de Consumo de Energía por Hora).</td></tr>
+</table>
+
+<br>
+
+<table>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+    <tr><td>SP02</td><td>Desarrollador Backend</td><td>Alta</td><td>EP14</td></tr>
+    <tr><th>Title</th><td colspan="3">Evaluar proveedores de LLM para el Asistente Inteligente (Smart Assistant)</td></tr>
+    <tr><th colspan="4">Objetivo</th></tr>
+    <tr><td colspan="4"><strong>¿Qué queremos aprender?</strong> Definir qué proveedor (la API de OpenAI u otros modelos externos) ofrece la mejor relación costo/beneficio y tiempos de respuesta para integrarlo al AssistantAIService.</td></tr>
+    <tr><th colspan="4">Alcance</th></tr>
+    <tr><td colspan="4"><strong>Incluye:</strong> Evaluación de la API de OpenAI y al menos una alternativa, análisis de costos por token y latencia en respuestas.<br><strong>Excluye:</strong> Entrenamiento de modelos de IA propios o diseño de la interfaz del chat en la aplicación móvil.</td></tr>
+    <tr><th colspan="4">Timebox</th></tr>
+    <tr><td colspan="4">24 horas / 3 días</td></tr>
+    <tr><th colspan="4">Entregables</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>Documento de hallazgos (cuadro comparativo de tiempos, costos y calidad de respuesta).</li>
+            <li>Recomendación / decisión del proveedor a contratar.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Criterios de aceptación</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>[ ] Se responde la pregunta principal sobre la viabilidad y costos de los proveedores.</li>
+            <li>[ ] Se entrega evidencia (link al documento comparativo).</li>
+            <li>[ ] Se define la decisión o siguiente paso para integrar la API.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Resultado (al cerrar)</th></tr>
+    <tr><td colspan="4"><strong>Hallazgos:</strong><br><strong>Decisión:</strong><br><strong>Próximas US impactadas:</strong> US46 (Acceder al Chatbot de Asistencia), US48 (Optimización Automática de Dispositivos).</td></tr>
+</table>
+
+<br>
+
+<table>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+    <tr><td>SP03</td><td>Desarrollador Móvil</td><td>Media</td><td>EP15</td></tr>
+    <tr><th>Title</th><td colspan="3">Analizar librerías de OCR para el escaneo de dispositivos en Android</td></tr>
+    <tr><th colspan="4">Objetivo</th></tr>
+    <tr><td colspan="4"><strong>¿Qué queremos aprender?</strong> Asegurar que la funcionalidad de extraer parámetros del hardware (MAC address, número de serie) mediante la cámara sea viable usando librerías OCR gratuitas o accesibles en Kotlin.</td></tr>
+    <tr><th colspan="4">Alcance</th></tr>
+    <tr><td colspan="4"><strong>Incluye:</strong> Búsqueda, prueba y análisis de rendimiento de al menos 2 librerías de OCR compatibles con Android.<br><strong>Excluye:</strong> Integración directa con el backend o diseño final de la pantalla de la cámara en la app.</td></tr>
+    <tr><th colspan="4">Timebox</th></tr>
+    <tr><td colspan="4">16 horas / 2 días</td></tr>
+    <tr><th colspan="4">Entregables</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>Documento de hallazgos sobre la precisión de las librerías probadas.</li>
+            <li>PoC / prototipo (aplicación móvil básica que abra la cámara, lea un texto y lo imprima en pantalla).</li>
+            <li>Recomendación / decisión de la librería a usar.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Criterios de aceptación</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>[ ] Se responde la pregunta principal sobre la viabilidad técnica en Android.</li>
+            <li>[ ] Se entrega evidencia (link al repositorio del prototipo móvil).</li>
+            <li>[ ] Se define la decisión o siguiente paso para la app de Kotlin.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Resultado (al cerrar)</th></tr>
+    <tr><td colspan="4"><strong>Hallazgos:</strong><br><strong>Decisión:</strong><br><strong>Próximas US impactadas:</strong> US47 (Escanear Dispositivo con Cámara).</td></tr>
+</table>
+
+<br>
+
+<table>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+    <tr><td>SP04</td><td>Desarrollador Backend</td><td>Media</td><td>EP13</td></tr>
+    <tr><th>Title</th><td colspan="3">Explorar la integración de Webhooks de Stripe para la gestión de suscripciones</td></tr>
+    <tr><th colspan="4">Objetivo</th></tr>
+    <tr><td colspan="4"><strong>¿Qué queremos aprender?</strong> Entender cómo Stripe maneja los eventos asíncronos mediante Webhooks para actualizar automáticamente en el sistema el estado de los planes (ej. cancelado por falta de pago).</td></tr>
+    <tr><th colspan="4">Alcance</th></tr>
+    <tr><td colspan="4"><strong>Incluye:</strong> Revisión de la documentación de Stripe y prueba de recepción de un evento de pago (exitoso/fallido) en un endpoint local usando herramientas como ngrok o Stripe CLI.<br><strong>Excluye:</strong> Creación del frontend de pagos o implementación del entorno de producción definitivo de facturación.</td></tr>
+    <tr><th colspan="4">Timebox</th></tr>
+    <tr><td colspan="4">16 horas / 2 días</td></tr>
+    <tr><th colspan="4">Entregables</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>Documento de hallazgos (flujo documentado y diagrama de secuencia simple).</li>
+            <li>PoC / prototipo (Endpoint en ASP.NET Core que reciba e imprima el payload de Stripe).</li>
+            <li>Recomendación / decisión sobre la estructura final del controlador.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Criterios de aceptación</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>[ ] Se responde la pregunta principal sobre el formato y seguridad del Webhook.</li>
+            <li>[ ] Se entrega evidencia (link al código del endpoint de prueba).</li>
+            <li>[ ] Se define la decisión o siguiente paso para la gestión de base de datos.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Resultado (al cerrar)</th></tr>
+    <tr><td colspan="4"><strong>Hallazgos:</strong><br><strong>Decisión:</strong><br><strong>Próximas US impactadas:</strong> US31 (Renovar Plan Activo), US32 (Cancelar Plan Actual).</td></tr>
+</table>
+
+<table>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+    <tr><td>SP05</td><td>Arquitecto de Software</td><td>Alta</td><td>EP12</td></tr>
+    <tr><th>Title</th><td colspan="3">Analizar la viabilidad de RabbitMQ vs Apache Kafka para el manejo masivo de telemetría IoT</td></tr>
+    <tr><th colspan="4">Objetivo</th></tr>
+    <tr><td colspan="4"><strong>¿Qué queremos aprender?</strong> Determinar qué message broker (RabbitMQ o Kafka) es más adecuado para procesar ráfagas de millones de lecturas de sensores por minuto de manera asíncrona, sin bloquear la operación de los dispositivos en el sistema de Energy Management.</td></tr>
+    <tr><th colspan="4">Alcance</th></tr>
+    <tr><td colspan="4"><strong>Incluye:</strong> Pruebas de rendimiento (throughput) simulando lecturas de sensores, evaluación de la latencia y consumo desde el backend en ASP.NET Core.<br><strong>Excluye:</strong> La configuración de clústeres de alta disponibilidad para el entorno de producción final.</td></tr>
+    <tr><th colspan="4">Timebox</th></tr>
+    <tr><td colspan="4">24 horas / 3 días</td></tr>
+    <tr><th colspan="4">Entregables</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>Documento de hallazgos (cuadro comparativo de rendimiento y escalabilidad).</li>
+            <li>PoC / prototipo (un productor simulando sensores y un consumidor procesando mensajes).</li>
+            <li>Recomendación / decisión arquitectónica.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Criterios de aceptación</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>[ ] Se responde la pregunta principal sobre qué broker utilizar para la arquitectura orientada a eventos.</li>
+            <li>[ ] Se entrega evidencia (link al repositorio del PoC).</li>
+            <li>[ ] Se define la decisión o siguiente paso para integrar el bus de eventos en el backend.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Resultado (al cerrar)</th></tr>
+    <tr><td colspan="4"><strong>Hallazgos:</strong><br><strong>Decisión:</strong><br><strong>Próximas US impactadas:</strong> US12 (Gráfico de Consumo de Energía por Hora).</td></tr>
+</table>
+
+<br>
+
+<table>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+    <tr><td>SP06</td><td>Desarrollador Móvil</td><td>Media</td><td>EP05</td></tr>
+    <tr><th>Title</th><td colspan="3">Investigar la implementación de Firebase Cloud Messaging (FCM) para notificaciones push en Android</td></tr>
+    <tr><th colspan="4">Objetivo</th></tr>
+    <tr><td colspan="4"><strong>¿Qué queremos aprender?</strong> Entender cómo integrar FCM nativamente en la aplicación de Kotlin para garantizar la recepción de alertas críticas operativas (ej. umbral de energía superado) incluso con la app en segundo plano.</td></tr>
+    <tr><th colspan="4">Alcance</th></tr>
+    <tr><td colspan="4"><strong>Incluye:</strong> Configuración básica de un proyecto en Firebase, integración del SDK en Android Studio y recepción de una notificación de prueba.<br><strong>Excluye:</strong> El diseño visual personalizado de las notificaciones o la lógica completa del sistema de alertas en el backend.</td></tr>
+    <tr><th colspan="4">Timebox</th></tr>
+    <tr><td colspan="4">16 horas / 2 días</td></tr>
+    <tr><th colspan="4">Entregables</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>Documento de hallazgos sobre la configuración necesaria y manejo del ciclo de vida de la app.</li>
+            <li>PoC / prototipo (app móvil básica que reciba y muestre una notificación enviada desde la consola de Firebase).</li>
+            <li>Recomendación / decisión técnica sobre el manejo de tokens de dispositivos.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Criterios de aceptación</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>[ ] Se responde la pregunta principal sobre cómo manejar las notificaciones push en Kotlin.</li>
+            <li>[ ] Se entrega evidencia (link al repositorio móvil).</li>
+            <li>[ ] Se define la decisión o siguiente paso para la conexión con el `Sistema de Alertas` del backend.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Resultado (al cerrar)</th></tr>
+    <tr><td colspan="4"><strong>Hallazgos:</strong><br><strong>Decisión:</strong><br><strong>Próximas US impactadas:</strong> US37 (Gestionar Notificaciones).</td></tr>
+</table>
+
+<br>
+
+<table>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+    <tr><td>SP07</td><td>Desarrollador Backend</td><td>Media</td><td>EP10</td></tr>
+    <tr><th>Title</th><td colspan="3">Evaluar alternativas para la implementación de Autenticación de Dos Factores (2FA)</td></tr>
+    <tr><th colspan="4">Objetivo</th></tr>
+    <tr><td colspan="4"><strong>¿Qué queremos aprender?</strong> Definir la mejor estrategia y librería (TOTP estándar como Google Authenticator o servicios de API externos) para añadir la capa extra de seguridad 2FA solicitada en las cuentas de usuario.</td></tr>
+    <tr><th colspan="4">Alcance</th></tr>
+    <tr><td colspan="4"><strong>Incluye:</strong> Evaluación técnica de generación de claves secretas (Secret Keys), códigos QR y validación de códigos temporales de 6 dígitos en ASP.NET Core.<br><strong>Excluye:</strong> La integración de las pantallas de configuración 2FA en el frontend (web/móvil) o el envío de códigos por SMS/Email.</td></tr>
+    <tr><th colspan="4">Timebox</th></tr>
+    <tr><td colspan="4">16 horas / 2 días</td></tr>
+    <tr><th colspan="4">Entregables</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>Documento de hallazgos (comparativa de librerías .NET para TOTP).</li>
+            <li>PoC / prototipo (Endpoint que genere una semilla secreta y valide un código ingresado).</li>
+            <li>Recomendación / decisión sobre el flujo de seguridad final.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Criterios de aceptación</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>[ ] Se responde la pregunta principal sobre qué estándar y librería usar.</li>
+            <li>[ ] Se entrega evidencia (link al código del endpoint de prueba).</li>
+            <li>[ ] Se define la decisión o siguiente paso para actualizar la entidad User.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Resultado (al cerrar)</th></tr>
+    <tr><td colspan="4"><strong>Hallazgos:</strong><br><strong>Decisión:</strong><br><strong>Próximas US impactadas:</strong> US39 (Gestionar Autenticación de Dos Factores).</td></tr>
+</table>
+
+<br>
+
+<table>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+    <tr><td>SP08</td><td>Desarrollador Frontend</td><td>Baja</td><td>EP06</td></tr>
+    <tr><th>Title</th><td colspan="3">Explorar la integración del SDK de Cloudinary para optimización de imágenes</td></tr>
+    <tr><th colspan="4">Objetivo</th></tr>
+    <tr><td colspan="4"><strong>¿Qué queremos aprender?</strong> Validar cómo integrar directamente el servicio de Cloudinary para cargar fotos (ej. de perfil o proyectos) optimizadas al vuelo, de manera eficiente en la plataforma.</td></tr>
+    <tr><th colspan="4">Alcance</th></tr>
+    <tr><td colspan="4"><strong>Incluye:</strong> Pruebas del widget/SDK de subida directa de archivos a Cloudinary y recuperación de la URL optimizada para ser guardada en la base de datos MySQL.<br><strong>Excluye:</strong> La configuración de cuotas, roles de seguridad complejos o facturación de la cuenta en producción de Cloudinary.</td></tr>
+    <tr><th colspan="4">Timebox</th></tr>
+    <tr><td colspan="4">8 horas / 1 día</td></tr>
+    <tr><th colspan="4">Entregables</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>Documento de hallazgos sobre la facilidad de uso del SDK y el formato de respuesta.</li>
+            <li>PoC / prototipo (Aplicación web/móvil simple con un botón para cargar una imagen local y mostrarla renderizada desde Cloudinary).</li>
+            <li>Recomendación / decisión sobre flujos de subida.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Criterios de aceptación</th></tr>
+    <tr><td colspan="4">
+        <ul>
+            <li>[ ] Se responde la pregunta principal sobre el flujo óptimo para carga de archivos.</li>
+            <li>[ ] Se entrega evidencia (link al prototipo frontend).</li>
+            <li>[ ] Se define la decisión o siguiente paso para los formularios de registro de proyectos y perfiles.</li>
+        </ul>
+    </td></tr>
+    <tr><th colspan="4">Resultado (al cerrar)</th></tr>
+    <tr><td colspan="4"><strong>Hallazgos:</strong><br><strong>Decisión:</strong><br><strong>Próximas US impactadas:</strong> US18 (Ver Imagen que Representa al Usuario), US21 (Agregar un nuevo proyecto).</td></tr>
+</table>
+
 Link de colaboración en trello: https://shorturl.at/FrDjk
 
 ![Product-Backlog](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Imagenes/Cap%C3%ADtulo%202/Product_Backlog.png)
 
-| #Orden | User Story ID | Titulo                                                | Descripción                                                                                                                                                                                                      | Story Points (1/2/3/5/8) |
-|--------|---------------|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
-| 1      | US01          | Sección "Sobre Nosotros"                              | Como visitante del sitio, quiero conocer la historia y valores de la aplicación, para tener mayor conexión y confianza con la empresa.                                                                           | 2                        |
-| 2      | US02          | Sección testimonios del cliente                       | Como visitante del sitio, quiero consultar testimonios de otros clientes, para generar confianza en la propuesta de valor de la start up                                                                         | 5                        |
-| 3      | US03          | Acceso a información de contacto                      | Como visitante del sitio, quiero acceder fácilmente a la información de contacto de IoBuild, para comunicarme en caso de dudas                                                                                   | 5                        |
-| 4      | US04          | Visualización de servicios principales                | Como visitante del sitio, quiero conocer los servicios que ofrece IoBuild, para entender su propuesta de valor.                                                                                                  | 3                        |
-| 5      | US05          | Opción de registro                                    | Como visitante del sitio, quiero registrarme en la aplicación, para tener acceso a las funcionalidades de la aplicación                                                                                          | 3                        |
-| 6      | US06          | Preguntas frecuentes                                  | Como visitante del sitio, quiero consultar una sección de preguntas frecuentes, para resolver dudas comunes sin necesidad de contactar a la start up                                                             | 5                        |
-| 7      | US07          | Internacionalización de la landing page               | Como visitante del sitio, quiero poder encontrar más de un idioma disponible, para poder elegir el idioma de mi preferencia.                                                                                     | 3                        |
-| 8      | US08          | Dashboard Personalizado                               | Como usuario, quiero tener un dashboard personalizado, para visualizar la información relevante de manera rápida y eficiente.                                                                                    | 5                        |
-| 9      | US09          | Acceso a Proyectos Activos                            | Como ingeniero, quiero tener acceso a los proyectos que se encuentran activos, para poder realizar un seguimiento de su progreso y gestionar los recursos necesarios.                                            | 5                        |
-| 10     | US10          | Acceso a Dispositivos Conectados                      | Como usuario, quiero tener acceso a los dispositivos conectados, para poder monitorear su estado y uso.                                                                                                          | 5                        |
-| 11     | US11          | Acceso a la Capacidad de Ocupación de Cada Proyecto   | Como ingeniero, quiero tener acceso a la capacidad de ocupación de cada proyecto, para poder analizar el uso de los recursos y planificar de manera eficiente.                                                   | 5                        |
-| 12     | US12          | Gráfico de Consumo de Energía por Hora                | Como ingeniero, quiero ver un gráfico sobre la energía que se consume por hora, para poder evaluar el rendimiento energético de los proyectos en tiempo real.                                                    | 8                        |
-| 13     | US13          | Gráfico de Registro de Ocupación                      | Como ingeniero, quiero ver un gráfico sobre el registro de ocupación, para poder analizar la evolución de la ocupación a lo largo del tiempo.                                                                    | 5                        |
-| 14     | US14          | Resumen de Proyecto                                   | Como ingeniero, quiero ver un resumen sobre cada proyecto, para saber si está activo, su ubicación y cuántos departamentos están ocupados.                                                                       | 5                        |
-| 15     | US15          | Visualización de Dispositivos y Distribución por Tipo | Como ingeniero, quiero ver cuáles son los dispositivos y cómo están distribuidos por tipo, para realizar un análisis más detallado de los recursos disponibles.                                                  | 8                        |
-| 16     | US16          | Acceso a Perfil del Usuario                           | Como usuario, quiero tener acceso a mi perfil, para ver datos como mi nombre, email, número de teléfono y mi dirección.                                                                                          | 3                        |
-| 17     | US17          | Edición de Información del Perfil                     | Como usuario, quiero poder editar alguna parte de mi información, como mi email, número de teléfono o dirección, para mantener mis datos actualizados.                                                           | 3                        |
-| 18     | US18          | Ver Imagen que Representa al Usuario                  | Como usuario, quiero poder ver una imagen que me represente, para tener una experiencia más personalizada.                                                                                                       | 3                        |
-| 19     | US19          | Ver el Rol de la Cuenta                               | Como usuario, quiero poder ver el rol de mi cuenta, para entender qué permisos tengo dentro de la aplicación.                                                                                                    | 5                        |
-| 20     | US20          | Ver lista de proyectos                                | Como ingeniero, quiero ver una lista de todos mis proyectos para poder conocer el estado y detalles de cada uno.                                                                                                 | 5                        |
-| 21     | US21          | Agregar un nuevo proyecto                             | Como arquitecto, quiero agregar un nuevo proyecto para poder registrar nuevos desarrollos inmobiliarios.                                                                                                         | 8                        |
-| 22     | US22          | Ver detalles de un proyecto                           | Como arquitecto, quiero ver los detalles de un proyecto específico para poder revisar su información completa.                                                                                                   | 5                        |
-| 23     | US23          | Ver Lista de Clientes                                 | Como Arquitecto, quiero ver una lista de todos los clientes para poder gestionar sus proyectos asociados y el estado de su cuenta.                                                                               | 5                        |
-| 24     | US24          | Buscar/Ordenar Clientes                               | Como Ingeniero, quiero poder ordenar la lista de clientes por columnas (Nombre Completo, Proyecto Asociado, Estado de Cuenta) para poder encontrar u organizar clientes rápidamente según criterios específicos. | 5                        |
-| 25     | US25          | Agregar un Nuevo Cliente                              | Como Arquitecto, quiero poder agregar un nuevo cliente para poder registrarlo en el sistema.                                                                                                                     | 3                        |
-| 26     | US26          | Ver Perfil del Cliente                                | Como Ingeniero, quiero ver el perfil detallado de un cliente para poder acceder a toda su información y opciones de gestión.                                                                                     | 8                        |
-| 27     | US27          | Acceder a la Configuración del Cliente                | Como Arquitecto, quiero acceder a la configuración específica de un cliente para poder realizar acciones de gestión como editar o gestionar el estado de su cuenta.                                              | 5                        |
-| 28     | US28          | Ver Plan de Suscripción Actual                        | Como ingeniero, quiero ver mi plan de suscripción actual y su estado para confirmar los beneficios que tengo y el costo mensual.                                                                                 | 8                        |
-| 29     | US29          | Ver Planes de Suscripción Alternativos                | Como ingeniero, quiero ver planes de suscripción alternativos (Professional y Starter) para poder comparar sus precios y beneficios con mi plan actual.                                                          | 5                        |
-| 30     | US30          | Iniciar Cambio de Plan                                | Como arquitecto, quiero iniciar el proceso de cambio de plan para poder seleccionar un nivel de servicio diferente que se ajuste mejor a mis necesidades.                                                        | 2                        |
-| 31     | US31          | Renovar Plan Activo                                   | Como arquitecto, quiero renovar mi plan actual para asegurar la continuidad del servicio si estoy cerca de la fecha de expiración o si mi plan no está configurado para renovación automática.                   | 5                        |
-| 32     | US32          | Cancelar Plan Actual                                  | Como ingeniero, quiero cancelar mi plan actual para finalizar mi suscripción al término del ciclo de facturación.                                                                                                | 8                        |
-| 33     | US33          | Ver Lista de Dispositivos                             | Como propietario, quiero ver una lista de todos los dispositivos registrados para poder monitorear su estado y ubicación.                                                                                        | 5                        |
-| 34     | US34          | Agregar un Nuevo Dispositivo                          | Como propietario, quiero agregar un nuevo dispositivo al sistema para expandir la cobertura de monitoreo y control.                                                                                              | 8                        |
-| 35     | US35          | Editar/Configurar Ajustes de Dispositivo              | Como propietario, quiero acceder a la configuración específica de un dispositivo para modificar sus parámetros o revisar su información detallada.                                                               | 5                        |
-| 36     | US36          | Eliminar un Dispositivo                               | Como propietario, quiero poder eliminar un dispositivo que ya no está en uso o está defectuoso, para mantener la lista limpia y precisa.                                                                         | 8                        |
-| 37     | US37          | Gestionar Notificaciones                              | Como Usuario, quiero poder activar o desactivar varios tipos de notificaciones para controlar qué alertas recibo del sistema.                                                                                    | 5                        |
-| 38     | US38          | Cambiar Contraseña de la Cuenta                       | Como Usuario, quiero poder cambiar mi contraseña periódicamente para mantener la seguridad de mi cuenta.                                                                                                         | 5                        |
-| 39     | US39          | Gestionar Autenticación de Dos Factores               | Como Usuario, quiero activar o gestionar la Autenticación de Dos Factores (2FA) para añadir una capa extra de seguridad a mi cuenta.                                                                             | 3                        |
-| 40     | US40          | Gestionar Sesiones Activas                            | Como Usuario, quiero ver y gestionar mis sesiones activas para poder cerrar la sesión en dispositivos que ya no uso o que han sido comprometidos.                                                                | 8                        |
-| 41     | US41          | Añadir Correo Electrónico Alternativo                 | Como Usuario, quiero añadir una dirección de correo electrónico alternativa para recuperación de cuenta o notificaciones secundarias.                                                                            | 5                        |
-| 42     | US42          | Acceder a Ayuda y Soporte                             | Como Usuario, quiero acceder rápidamente a las secciones de Soporte para resolver mis dudas o contactar con el equipo de soporte.                                                                                | 8                        |
-| 43     | US43          | Registrarse en la plataforma                          | Como Usuario, quiero crear una cuenta nueva proporcionando mis datos básicos y seleccionando mi rol, para poder acceder a las funcionalidades de la plataforma.                                               | 5                        |
-| 44     | US44          | Iniciar Sesión (Login)                                | Como Usuario, quiero ingresar mis credenciales (correo y contraseña) para acceder a mi cuenta y utilizar las funciones protegidas.                                                                                 | 3                        |
-| 45     | US45          | Cerrar Sesión (Logout)                                | Como Usuario, quiero cerrar mi sesión actual para proteger mi cuenta, especialmente si estoy en un dispositivo compartido.                                                                                         | 2                        |
-| 46     | US46          | Acceder al Chatbot de Asistencia                      | Como usuario, quiero acceder a un chatbot impulsado por IA para resolver dudas sobre la plataforma IoBuild de manera rápida y eficiente.                                                                            | 8                        |
-| 47     | US47          | Escanear Dispositivo con Cámara                       | Como usuario, quiero usar la cámara de mi dispositivo para escanear un dispositivo físico y que la IA extraiga automáticamente los parámetros necesarios.                                                         | 8                        |
-| 48     | US48          |Optimización Automática de Dispositivos                | Como usuario, quiero que el sistema optimice automáticamente los dispositivos conectados para mejorar su rendimiento y eficiencia energética.                                                                | 8                        |
-| 49     | TS01          | Listar proyectos por Constructor                      | Como desarrollador, quiero solicitar a la API que liste todos los proyectos asociados a un constructor específico, para poder mostrar la vista principal de Proyectos.                                           | 5                        |
-| 50     | TS02          | Crear un Proyecto                                     | Como desarrollador, quiero añadir un nuevo proyecto a través de la API para poder implementar la funcionalidad de registro de nuevos desarrollos.                                                                | 2                        |
-| 51     | TS03          | Recuperar un Proyecto por ID                          | Como desarrollador, quiero solicitar un proyecto por su {id} para poder mostrar la vista de detalles del proyecto.                                                                                               | 5                        |
-| 52     | TS04          | Actualizar la información de un cliente               | Como desarrollador, quiero enviar a la API una solicitud para modificar los datos de un cliente existente, para poder implementar la edición de su perfil y la gestión de su estado de cuenta.                   | 8                        |
-| 53     | TS05          | Eliminar un cliente                                   | Como desarrollador, quiero solicitar a la API la eliminación de un cliente por su {id}, para poder implementar la funcionalidad de dar de baja clientes que ya no se utilizarán.                                 | 5                        |
-| 54     | TS06          | Soportar ordenación en la lista de clientes           | Como desarrollador, quiero poder enviar parámetros de ordenación a la API (nombre de columna y dirección), para poder implementar las funcionalidades de Buscar/Ordenar Clientes.                                | 8                        |
-| 55     | TS07          | Listar clientes                                       | Como desarrollador, quiero solicitar a la API que liste los clientes, opcionalmente filtrados por estado o nombre, para poder mostrar la vista de la lista de clientes.                                          | 5                        |
-| 56     | TS08          | Crear un cliente                                      | Como desarrollador, quiero añadir un nuevo cliente a través de la API para poder implementar la funcionalidad de creación de clientes.                                                                           | 8                        |
-| 57     | TS09          | Recuperar un cliente por id                           | Como desarrollador, quiero solicitar un recurso de cliente por su {id} para poder implementar la vista detallada del perfil.                                                                                     | 5                        |
-| 58     | TS10          | Listar dispositivos                                   | Como desarrollador, quiero solicitar a la API que liste todos los dispositivos, filtrados por ubicación o estado, para poder mostrar la lista de Gestión de Dispositivos.                                        | 5                        |
-| 59     | TS11          | Eliminar un dispositivo por id                        | Como desarrollador, quiero solicitar a la API que elimine un dispositivo por su {id} para poder retirar hardware que ya no se utiliza del sistema.                                                               | 3                        |
-| 60     | TS12          | Actualizar información de un proyecto                 | Como desarrollador, quiero solicitar a la API que actualice la información de un proyecto (nombre, ubicación y descripción) para mantener los datos actualizados en la vista de gestión de proyectos.            | 8                        |
-| 61     | TS13          | Actualizar información de un dispositivo              | Como desarrollador, quiero solicitar a la API que actualice la información de un dispositivo (nombre y ubicación) para reflejar los cambios en la gestión de dispositivos.                                       | 5                        |
-| 62     | TS14          | Crear un nuevo dispositivo                            | Como desarrollador, quiero solicitar a la API que cree un nuevo dispositivo especificando su nombre, tipo y ubicación, para registrar nuevos equipos en el sistema.                                              | 8                        |
-| 63     | TS15          | Crear ruta segura y mostrar datos específicos         | Como desarrollador, quiero proteger el dashboard de fabricantes para que solo los fabricantes puedan visualizarlo                                                                                                | 8                        |
-| 64     | TS16          | Obtener suscripción actual                            | Como desarrollador, quiero solicitar la información de la suscripción activa del usuario actual, para mostrar el plan, costo y beneficios en la vista principal de suscripciones.                               | 3                        |
-| 65     | TS17          | Listar catálogo de planes                             | Como desarrollador, quiero solicitar la lista de todos los planes de suscripción disponibles en el sistema, para mostrarlos como alternativas en la interfaz de comparación.                                    | 3                        |
-| 66     | TS18          | Cambiar plan de suscripción                           | Como desarrollador, quiero enviar una solicitud para actualizar el plan de suscripción del usuario, para hacer efectivo el cambio de nivel de servicio seleccionado en la interfaz.                       | 5                        |
-| 67     | TS19          | Renovar suscripción                                   | Como desarrollador, quiero solicitar la renovación de la suscripción actual, para extender la vigencia del servicio cuando el usuario confirma la acción.                                                        | 3                        |
-| 68     | TS20          | Cancelar suscripción                                  | Como desarrollador, quiero solicitar la cancelación de la suscripción activa, para detener la renovación automática y finalizar el servicio al terminar el ciclo.                                                 | 3                        |
-| 69     | TS21          | Cambiar contraseña del usuario                        | Como desarrollador, quiero enviar la contraseña actual y la nueva contraseña del usuario a la API, para actualizar sus credenciales de acceso de forma segura.                                                  | 5                        |
-| 70     | TS22          | Solicitar adición de correo alternativo               | Como desarrollador, quiero enviar una solicitud para agregar un correo electrónico secundario, para que el backend inicie el proceso de validación y verificación de dicha cuenta.                                | 5                        |
-| 71     | TS23          | Registrar nuevo usuario                               | Como desarrollador, quiero enviar los datos de registro (nombre, email, password, rol) a la API, para crear una nueva identidad en el sistema y permitir el acceso futuro.                                       | 5                        |
-| 72     | TS24          | Validar token de sesión                               | Como desarrollador, quiero que la API valide que el token enviado en los headers es legítimo y no ha expirado, para proteger las rutas privadas.                                                                   | 3                        |
 
+| #Orden | User Story ID | Titulo | Descripción | Story Points (1/2/3/5/8) |
+|--------|---------------|--------|-------------|--------------------------|
+| 1 | TS23 | Registrar nuevo usuario | Como desarrollador, quiero enviar los datos de registro (nombre, email, password, rol) a la API, para crear una nueva identidad en el sistema y permitir el acceso futuro [1]. | 5 |
+| 2 | TS24 | Validar token de sesión | Como desarrollador, quiero que la API valide que el token enviado en los headers es legítimo y no ha expirado, para proteger las rutas privadas [1]. | 3 |
+| 3 | US43 | Registrarse en la plataforma | Como Usuario, quiero crear una cuenta nueva proporcionando mis datos básicos y seleccionando mi rol, para poder acceder a las funcionalidades de la plataforma [8]. | 5 |
+| 4 | US44 | Iniciar Sesión (Login) | Como Usuario, quiero ingresar mis credenciales (correo y contraseña) para acceder a mi cuenta y utilizar las funciones protegidas [9]. | 3 |
+| 5 | US45 | Cerrar Sesión (Logout) | Como Usuario, quiero cerrar mi sesión actual para proteger mi cuenta, especialmente si estoy en un dispositivo compartido [9]. | 2 |
+| 6 | US05 | Registrarse en la aplicación | Como visitante del sitio, quiero registrarme en la aplicación, para tener acceso a las funcionalidades de la aplicación [10]. | 3 |
+| 7 | TS21 | Cambiar contraseña del usuario | Como desarrollador, quiero enviar la contraseña actual y la nueva contraseña del usuario a la API, para actualizar sus credenciales de acceso de forma segura [2]. | 5 |
+| 8 | US38 | Cambiar Contraseña de la Cuenta | Como Usuario, quiero poder cambiar mi contraseña periódicamente para mantener la seguridad de mi cuenta [11]. | 5 |
+| 9 | SP07 | Evaluar alternativas para la implementación de Autenticación de Dos Factores (2FA) | Como desarrollador backend, quiero definir la mejor estrategia y librería para añadir la capa extra de seguridad 2FA solicitada en las cuentas de usuario. | 3 |
+| 10 | US39 | Gestionar Autenticación de Dos Factores | Como Usuario, quiero activar o gestionar la Autenticación de Dos Factores (2FA) para añadir una capa extra de seguridad a mi cuenta [11]. | 3 |
+| 11 | TS22 | Solicitar adición de correo alternativo | Como desarrollador, quiero enviar una solicitud para agregar un correo electrónico secundario, para que el backend inicie el proceso de validación y verificación de dicha cuenta [1]. | 5 |
+| 12 | US41 | Añadir Correo Electrónico Alternativo | Como Usuario, quiero añadir una dirección de correo electrónico alternativa para recuperación de cuenta o notificaciones secundarias [8]. | 5 |
+| 13 | US40 | Gestionar Sesiones Activas | Como Usuario, quiero ver y gestionar mis sesiones activas para poder cerrar la sesión en dispositivos que ya no uso o que han sido comprometidos [11]. | 8 |
+| 14 | US16 | Acceder al perfil del usuario | Como usuario, quiero tener acceso a mi perfil, para ver datos como mi nombre, email, número de teléfono y mi dirección [17]. | 3 |
+| 15 | US17 | Editar la información del perfil | Como usuario, quiero poder editar alguna parte de mi información, como mi email, número de teléfono o dirección, para mantener mis datos actualizados [17]. | 3 |
+| 16 | SP08 | Explorar la integración del SDK de Cloudinary para optimización de imágenes | Como desarrollador frontend, quiero validar cómo integrar directamente el servicio de Cloudinary para cargar fotos optimizadas al vuelo, de manera eficiente en la plataforma. | 2 |
+| 17 | US18 | Ver Imagen que Representa al Usuario | Como usuario, quiero poder ver una imagen que me represente, para tener una experiencia más personalizada [17]. | 3 |
+| 18 | US19 | Ver el Rol de la Cuenta | Como usuario, quiero poder ver el rol de mi cuenta, para entender qué permisos tengo dentro de la aplicación [12]. | 5 |
+| 19 | US42 | Acceder a Ayuda y Soporte | Como Usuario, quiero acceder rápidamente a las secciones de Soporte para resolver mis dudas o contactar con el equipo de soporte [8]. | 8 |
+| 20 | TS02 | Crear un Proyecto | Como desarrollador, quiero añadir un nuevo proyecto a través de la API para poder implementar la funcionalidad de registro de nuevos desarrollos [3]. | 2 |
+| 21 | TS03 | Recuperar un Proyecto por ID | Como desarrollador, quiero solicitar un proyecto por su {id} para poder mostrar la vista de detalles del proyecto [3]. | 5 |
+| 22 | TS01 | Listar proyectos por Constructor | Como desarrollador, quiero solicitar a la API que liste todos los proyectos asociados a un constructor específico, para poder mostrar la vista principal de Proyectos [4]. | 5 |
+| 23 | TS12 | Actualizar información de un proyecto | Como desarrollador, quiero solicitar a la API que actualice la información de un proyecto (nombre, ubicación y descripción) para mantener los datos actualizados en la vista de gestión de proyectos [19]. | 8 |
+| 24 | US20 | Ver lista de proyectos | Como ingeniero, quiero ver una lista de todos mis proyectos para poder conocer el estado y detalles de cada uno [12]. | 5 |
+| 25 | US21 | Agregar un nuevo proyecto | Como arquitecto, quiero agregar un nuevo proyecto para poder registrar nuevos desarrollos inmobiliarios [12]. | 8 |
+| 26 | US22 | Ver detalles de un proyecto | Como arquitecto, quiero ver los detalles de un proyecto específico para poder revisar su información completa [12]. | 5 |
+| 27 | US14 | Ver el resumen del proyecto | Como ingeniero, quiero ver un resumen sobre cada proyecto, para saber si está activo, su ubicación y cuántos departamentos están ocupados [22]. | 5 |
+| 28 | US09 | Acceder a los proyectos activos | Como ingeniero, quiero tener acceso a los proyectos que se encuentran activos, para poder realizar un seguimiento de su progreso y gestionar los recursos necesarios [13]. | 5 |
+| 29 | US11 | Acceder a la capacidad de ocupación por proyecto | Como ingeniero, quiero tener acceso a la capacidad de ocupación de cada proyecto, para poder analizar el uso de los recursos y planificar de manera eficiente [16]. | 5 |
+| 30 | US13 | Visualizar el gráfico de registro de ocupación | Como ingeniero, quiero ver un gráfico sobre el registro de ocupación, para poder analizar la evolución de la ocupación a lo largo del tiempo [22]. | 5 |
+| 31 | US15 | Visualizar los dispositivos y su distribución por tipo | Como ingeniero, quiero ver cuáles son los dispositivos y cómo están distribuidos por tipo, para realizar un análisis más detallado de los recursos disponibles [22]. | 8 |
+| 32 | TS08 | Crear un cliente | Como desarrollador, quiero añadir un nuevo cliente a través de la API para poder implementar la funcionalidad de creación de clientes [5]. | 8 |
+| 33 | TS07 | Listar clientes | Como desarrollador, quiero solicitar a la API que liste los clientes, opcionalmente filtrados por estado o nombre, para poder mostrar la vista de la lista de clientes [6]. | 5 |
+| 34 | TS09 | Recuperar un cliente por id | Como desarrollador, quiero solicitar un recurso de cliente por su {id} para poder implementar la vista detallada del perfil [5]. | 5 |
+| 35 | TS04 | Actualizar la información de un cliente | Como desarrollador, quiero enviar a la API una solicitud para modificar los datos de un cliente existente, para poder implementar la edición de su perfil y la gestión de su estado de cuenta [3]. | 8 |
+| 36 | TS05 | Eliminar un cliente | Como desarrollador, quiero solicitar a la API la eliminación de un cliente por su {id}, para poder implementar la funcionalidad de dar de baja clientes que ya no se utilizarán [6]. | 5 |
+| 37 | TS06 | Soportar ordenación en la lista de clientes | Como desarrollador, quiero poder enviar parámetros de ordenación a la API (nombre de columna y dirección), para poder implementar las funcionalidades de Buscar/Ordenar Clientes [6]. | 8 |
+| 38 | US23 | Ver Lista de Clientes | Como Arquitecto, quiero ver una lista de todos los clientes para poder gestionar sus proyectos asociados y el estado de su cuenta [14]. | 5 |
+| 39 | US25 | Agregar un Nuevo Cliente | Como Arquitecto, quiero poder agregar un nuevo cliente para poder registrarlo en el sistema [14]. | 3 |
+| 40 | US24 | Buscar/Ordenar Clientes | Como Ingeniero, quiero poder ordenar la lista de clientes por columnas (Nombre Completo, Proyecto Asociado, Estado de Cuenta) para poder encontrar u organizar clientes rápidamente según criterios específicos [14]. | 5 |
+| 41 | US26 | Ver Perfil del Cliente | Como Ingeniero, quiero ver el perfil detallado de un cliente para poder acceder a toda su información y opciones de gestión [21]. | 8 |
+| 42 | US27 | Acceder a la Configuración del Cliente | Como Arquitecto, quiero acceder a la configuración específica de un cliente para poder realizar acciones de gestión como editar o gestionar el estado de su cuenta [21]. | 5 |
+| 43 | TS14 | Crear un nuevo dispositivo | Como desarrollador, quiero solicitar a la API que cree un nuevo dispositivo especificando su nombre, tipo y ubicación, para registrar nuevos equipos en el sistema [7]. | 8 |
+| 44 | TS10 | Listar dispositivos | Como desarrollador, quiero solicitar a la API que liste todos los dispositivos, filtrados por ubicación o estado, para poder mostrar la lista de Gestión de Dispositivos [5]. | 5 |
+| 45 | TS13 | Actualizar información de un dispositivo | Como desarrollador, quiero solicitar a la API que actualice la información de un dispositivo (nombre y ubicación) para reflejar los cambios en la gestión de dispositivos [19]. | 5 |
+| 46 | TS11 | Eliminar un dispositivo por id | Como desarrollador, quiero solicitar a la API que elimine un dispositivo por su {id} para poder retirar hardware que ya no se utiliza del sistema [19]. | 3 |
+| 47 | US33 | Ver Lista de Dispositivos | Como propietario, quiero ver una lista de todos los dispositivos registrados para poder monitorear su estado y ubicación [15]. | 5 |
+| 48 | US34 | Agregar un Nuevo Dispositivo | Como propietario, quiero agregar un nuevo dispositivo al sistema para expandir la cobertura de monitoreo y control [15]. | 8 |
+| 49 | US35 | Editar/Configurar Ajustes de Dispositivo | Como propietario, quiero acceder a la configuración específica de un dispositivo para modificar sus parámetros o revisar su información detallada [23]. | 5 |
+| 50 | US36 | Eliminar un Dispositivo | Como propietario, quiero poder eliminar un dispositivo que ya no está en uso o está defectuoso, para mantener la lista limpia y precisa [23]. | 8 |
+| 51 | US10 | Acceder a los dispositivos conectados | Como usuario, quiero tener acceso a los dispositivos conectados, para poder monitorear su estado y uso [16]. | 5 |
+| 52 | SP03 | Analizar librerías de OCR para el escaneo de dispositivos en Android | Como desarrollador móvil (Kotlin), quiero analizar librerías de reconocimiento óptico de caracteres (OCR) compatibles con Android, para asegurar que la funcionalidad de extraer parámetros del hardware mediante la cámara sea viable. | 3 |
+| 53 | US47 | Escanear Dispositivo con Cámara | Como usuario, quiero usar la cámara de mi dispositivo para escanear un dispositivo físico y que la IA extraiga automáticamente los parámetros necesarios [9]. | 8 |
+| 54 | SP06 | Investigar la implementación de Firebase Cloud Messaging (FCM) para notificaciones | Como desarrollador móvil, quiero entender cómo integrar FCM nativamente en la aplicación de Kotlin para garantizar la recepción de alertas críticas operativas incluso con la app en segundo plano. | 3 |
+| 55 | US37 | Gestionar Notificaciones | Como Usuario, quiero poder activar o desactivar varios tipos de notificaciones para controlar qué alertas recibo del sistema [23]. | 5 |
+| 56 | TS17 | Listar catálogo de planes | Como desarrollador, quiero solicitar la lista de todos los planes de suscripción disponibles en el sistema, para mostrarlos como alternativas en la interfaz de comparación [20]. | 3 |
+| 57 | TS16 | Obtener suscripción actual | Como desarrollador, quiero solicitar la información de la suscripción activa del usuario actual, para mostrar el plan, costo y beneficios en la vista principal de suscripciones [7]. | 3 |
+| 58 | US28 | Ver Plan de Suscripción Actual | Como ingeniero, quiero ver mi plan de suscripción actual y su estado para confirmar los beneficios que tengo y el costo mensual [21]. | 8 |
+| 59 | US29 | Ver Planes de Suscripción Alternativos | Como ingeniero, quiero ver planes de suscripción alternativos (Professional y Starter) para poder comparar sus precios y beneficios con mi plan actual [24]. | 5 |
+| 60 | US30 | Iniciar Cambio de Plan | Como arquitecto, quiero iniciar el proceso de cambio de plan para poder seleccionar un nivel de servicio diferente que se ajuste mejor a mis necesidades [24]. | 2 |
+| 61 | SP04 | Explorar la integración de Webhooks de Stripe para la gestión de suscripciones | Como desarrollador backend, quiero explorar cómo Stripe maneja los eventos asíncronos mediante Webhooks, para garantizar que el sistema actualice automáticamente el estado de los planes cuando ocurran cobros exitosos o fallidos. | 3 |
+| 62 | TS18 | Cambiar plan de suscripción | Como desarrollador, quiero enviar una solicitud para actualizar el plan de suscripción del usuario, para hacer efectivo el cambio de nivel de servicio seleccionado en la interfaz [20]. | 5 |
+| 63 | TS19 | Renovar suscripción | Como desarrollador, quiero solicitar la renovación de la suscripción actual, para extender la vigencia del servicio cuando el usuario confirma la acción [20]. | 3 |
+| 64 | TS20 | Cancelar suscripción | Como desarrollador, quiero solicitar la cancelación de la suscripción activa, para detener la renovación automática y finalizar el servicio al terminar el ciclo [2]. | 3 |
+| 65 | US31 | Renovar Plan Activo | Como arquitecto, quiero renovar mi plan actual para asegurar la continuidad del servicio si estoy cerca de la fecha de expiración o si mi plan no está configurado para renovación automática [24]. | 5 |
+| 66 | US32 | Cancelar Plan Actual | Como ingeniero, quiero cancelar mi plan actual para finalizar mi suscripción al término del ciclo de facturación [15]. | 8 |
+| 67 | SP01 | Investigar el uso de MQTT vs WebSockets para la telemetría en tiempo real | Como arquitecto de software, quiero investigar y comparar protocolos de comunicación en tiempo real, para determinar cuál es el más eficiente y escalable para mostrar el consumo de energía en el Dashboard de los proyectos. | 3 |
+| 68 | SP05 | Analizar la viabilidad de RabbitMQ vs Apache Kafka para el manejo masivo de telemetría | Como arquitecto de software, quiero determinar qué message broker (RabbitMQ o Kafka) es más adecuado para procesar ráfagas de millones de lecturas de sensores por minuto de manera asíncrona, sin bloquear la operación de los dispositivos. | 5 |
+| 69 | TS15 | Crear ruta segura y mostrar datos específicos | Como desarrollador, quiero proteger el dashboard de fabricantes para que solo los fabricantes puedan visualizarlo [7]. | 8 |
+| 70 | US08 | Visualizar el dashboard personalizado | Como usuario, quiero tener un dashboard personalizado, para visualizar la información relevante de manera rápida y eficiente [13]. | 5 |
+| 71 | US12 | Visualizar el gráfico de consumo de energía por hora | Como ingeniero, quiero ver un gráfico sobre la energía que se consume por hora, para poder evaluar el rendimiento energético de los proyectos en tiempo real [16]. | 8 |
+| 72 | US48 | Optimizar automáticamente los dispositivos | Como usuario, quiero que el sistema optimice automáticamente los dispositivos conectados para mejorar su rendimiento y eficiencia energética [4]. | 8 |
+| 73 | SP02 | Evaluar proveedores de LLM para el Asistente Inteligente (Smart Assistant) | Como desarrollador backend, quiero evaluar la API de OpenAI y otros modelos externos (ExternalLLMAdapter), para definir qué proveedor ofrece la mejor relación costo/beneficio en la generación de planes de acción y recomendaciones de ahorro energético. | 5 |
+| 74 | US46 | Acceder al Chatbot de Asistencia | Como usuario, quiero acceder a un chatbot impulsado por IA para resolver dudas sobre la plataforma IoBuild de manera rápida y eficiente [9]. | 8 |
+| 75 | US01 | Conocer la sección "Sobre Nosotros" | Como visitante del sitio, quiero conocer la historia y valores de la aplicación, para tener mayor conexión y confianza con la empresa [18]. | 2 |
+| 76 | US02 | Consultar los testimonios de clientes | Como visitante del sitio, quiero consultar testimonios de otros clientes, para generar confianza en la propuesta de valor de la start up [18]. | 5 |
+| 77 | US03 | Acceder a la información de contacto | Como visitante del sitio, quiero acceder fácilmente a la información de contacto de IoBuild, para comunicarme en caso de dudas [10]. | 5 |
+| 78 | US04 | Visualizar los servicios principales | Como visitante del sitio, quiero conocer los servicios que ofrece IoBuild, para entender su propuesta de valor [10]. | 3 |
+| 79 | US06 | Consultar las preguntas frecuentes | Como visitante del sitio, quiero consultar una sección de preguntas frecuentes, para resolver dudas comunes sin necesidad de contactar a la start up [10]. | 5 |
+| 80 | US07 | Seleccionar el idioma de la landing page | Como visitante del sitio, quiero poder encontrar más de un idioma disponible, para poder elegir el idioma de mi preferencia [13]. | 3 |
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
