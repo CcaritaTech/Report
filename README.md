@@ -3736,11 +3736,138 @@ Finalmente, el sitio se enfoca en eliminar las últimas barreras para la compra.
 <br>
 
 #### 3.1.4. Mobile Applications UX/UI Design
+La sección de Diseño UX/UI de Aplicaciones Móviles se enfoca en la creación de interfaces intuitivas y la definición de experiencias de usuario optimizadas para dispositivos móviles dentro de las soluciones de IoBuild. Este proceso comprende desde la conceptualización de pantallas funcionales hasta el diseño de flujos de interacción adaptados al entorno móvil, considerando las necesidades específicas de nuestros dos segmentos clave: Arquitectos/Ingenieros y Propietarios.
+
+En esta etapa inicial, se desarrollaron mockups de alta fidelidad alineados con el sistema visual y la identidad de marca de IoBuild, asegurando una experiencia coherente y moderna en cada pantalla de la aplicación móvil. El diseño prioriza la simplicidad, la claridad visual y la facilidad de uso en contextos de movilidad.
+
+Los componentes de la interfaz fueron organizados cuidadosamente siguiendo patrones de navegación mobile-first y flujos de usuario previamente validados, tomando como referencia los Empathy Map definidos en fases anteriores. Esto permite que cada interacción sea rápida, intuitiva y orientada a cumplir tareas específicas de manera eficiente desde dispositivos móviles.
+
+La arquitectura de navegación fue diseñada para ofrecer una experiencia fluida e inclusiva, incorporando principios de accesibilidad (a11y) y soporte multilenguaje (i18n), garantizando así que la aplicación pueda ser utilizada por una amplia variedad de usuarios en distintos contextos y regiones.
+
+Asimismo, la aplicación móvil integrará servicios RESTful para la comunicación con el backend y contará con prototipos interactivos que permitirán validar las funcionalidades críticas y la experiencia de usuario en escenarios reales. De esta manera, IoBuild busca ofrecer una solución móvil que combine eficiencia, usabilidad y una experiencia moderna alineada con las expectativas de sus usuarios.
+
 ##### 3.1.4.1. Mobile Applications Wireframes
+
+#### Vista del segmento #1: Arquitectos e Ingenieros Civiles
+#### 1. Login
+-Esta interfaz muestra un formulario de acceso para la plataforma "IoBuild", subtitulado como "Builder Panel Access". Presenta un campo para el correo electrónico con un ejemplo predeterminado y un campo para la contraseña que incluye un icono de candado, la opción de visualizar el texto y un enlace para recuperar la cuenta titulado "Forgot Password?". En la parte inferior, destaca un botón negro sólido con el texto "Sign In" para iniciar sesión. 
+
+![Segmento #1 Wireframe Login](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Login_Wireframe.jpeg)
+<br>
+
+#### 2. Dashboard
+- La pantalla muestra el "Builder Dashboard" para el monitoreo de instalaciones. Incluye cuatro tarjetas con indicadores sobre proyectos activos, dispositivos, unidades ocupadas y eficiencia energética. También presenta un gráfico circular de "Device Distribution" por categorías y una tarjeta inferior del proyecto "Torres del Pacífico" que detalla alertas, personal y actualizaciones, junto con un botón para "View Project Details".
+
+![Segmento #1 Wireframe Dashboard](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Dashboard_Wireframe.jpeg)
+<br>
+
+#### 3. Profile
+- La pantalla muestra el perfil de "Juan Pérez", incluyendo su foto y correo electrónico, con un botón destacado para "Edit Profile". Debajo, se presenta un menú de opciones que incluye Account, Notifications, Privacy y Help & Support, seguido de un botón de "Logout". En la parte inferior, se visualiza la versión de la aplicación y una barra de navegación con accesos a Home, Stats, Profile y Settings.
+
+![Segmento #1 Wireframe Profile](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Profile_Wireframe.jpeg)
+<br>
+
+#### 4. Projects
+- La pantalla muestra los "Project Details" del edificio "Torres del Pacífico". En la parte superior se observa un resumen del estado de los dispositivos (Total, Online y Offline), seguido de una "Device List" que detalla el estado en tiempo real de sensores de temperatura, medidores de energía, bombas de agua y sistemas de seguridad. Además, incluye un botón de "Filter" para organizar la lista y un botón flotante con el símbolo "+" para agregar nuevos dispositivos.
+
+![Segmento #1 Wireframe Projects](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Projects_Wireframe.jpeg)
+<br>
+
 ##### 3.1.4.2. Mobile Applications Wireflow Diagrams
+#### Segmento Objetivo #1: Arquitectos e Ingenieros Civiles
+Los arquitectos e ingenieros civiles utilizan la plataforma IoBuild para gestionar sus proyectos residenciales, centralizar la información de clientes, monitorear dispositivos IoT implementados en los edificios y configurar opciones de administración de manera eficiente.
+
+**Login / Create Account**
+
+**1. Login:**
+- El usuario de la constructora introduce su correo corporativo y contraseña.
+-  Selecciona la opción “Login” para acceder a su cuenta empresarial.
+
+**Create Account:**
+- Si es un nuevo usuario, completa un formulario con datos de la empresa, representante y correo corporativo.
+- Selecciona “Create” para registrar la cuenta en el sistema.
+
+**Acción esperada:** Autenticarse exitosamente en la plataforma y acceder al Dashboard principal.<br><br>
+
+**2. Dashboard**
+-	Una vez autenticado, el usuario accede al panel principal, donde se visualiza un menú lateral con accesos a secciones clave:
+    - Home
+    - Profile
+    - Projects
+    - Client Management
+    - Configuration
+-	El Dashboard sirve como centro de navegación para todas las funciones de la plataforma.
+
+**Acción esperada:** Orientarse rápidamente en la aplicación y seleccionar la sección que desea administrar.<br><br>
+
+**3. Profile**
+-	Visualiza y edita información del usuario administrador como el nombre, logo, contacto, etc.
+-	Opciones para gestionar miembros del equipo y asignar roles.
+
+**Acción esperada:** Actualizar datos corporativos, ver plan y administrar accesos del equipo.<br><br>
+
+![Web Aplication Wireflow Guest](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Wireflow_Wireframe.jpeg)
+
 ##### 3.1.4.3. Mobile Applications Mock-ups
+
+#### Vista del segmento #1: Arquitectos e Ingenieros Civiles
+#### 1. Login
+- La pantalla presenta una interfaz de inicio de sesión minimalista. El diseño incluye dos campos de entrada de texto: uno para el correo electrónico (Email) y otro para la contraseña (Password). Debajo de estos campos, destaca un botón principal de color verde con el texto "Sign In" para acceder al sistema, seguido de una opción de registro en la parte inferior que dice "Don’t have an account? Register".
+
+![Segmento #1 Mock-up Login](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Login_Mock-Up.jpeg)
+<br>
+
+#### 2. Dashboard
+- El "Builder Dashboard" muestra métricas clave como proyectos activos, dispositivos conectados y ocupación. Incluye un gráfico circular de "Device Distribution" (temperatura, agua, energía y control de acceso), un gráfico de líneas sobre la tasa de ocupación mensual y una sección de "Project Overview" con detalles específicos del proyecto "Torres del Pacífico".
+
+![Segmento #1 Mock-up Dashboard](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Dashboard_Mock-Up.jpeg)
+<br>
+
+#### 3. Profile
+- La pantalla muestra el perfil de usuario de "Juan Pérez", identificado con el cargo de "Builder". Incluye una sección con datos personales como nombre completo, nombre de usuario, teléfono, dirección en San Isidro, Lima, y edad. En la parte inferior, destaca un botón verde con la opción "Edit Profile".
+
+![Segmento #1 Mock-up-1 Profile](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Profile-1_Mock-Up.jpeg)
+<br>
+
+- Esta interfaz corresponde a la edición del perfil de "Juan Pérez", bajo el rol de "Builder". Presenta cinco campos de texto editables con la información del usuario: nombre completo, nombre de usuario, teléfono, dirección y edad. En la parte inferior, se incluyen dos opciones principales: un botón verde para "Save Changes" (Guardar cambios) y un enlace de texto para "Cancel" (Cancelar).
+
+![Segmento #1 Mock-up-2 Profile](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Profile-2_Mock-Up.jpeg)
+<br>
+
+#### 4. Projects
+- La interfaz muestra una lista de proyectos de "IoBuild" organizados en tarjetas cuadrículas. Cada tarjeta presenta el nombre del edificio, como "Torres del Pacífico" o "Torre Ccarita", su ubicación o descripción breve, y una barra de progreso que indica el estado de las unidades ocupadas (por ejemplo, 68/80 o 90/90 unidades). Además, la pantalla incluye un botón flotante en la esquina inferior derecha con el símbolo "+" para añadir nuevos elementos.
+
+![Segmento #1 Mock-up Projects](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Projects_Mock-Up.jpeg)
+<br>
+
 ##### 3.1.4.4. Mobile Applications User Flow Diagrams
+#### Segmento Objetivo #1: Arquitectos e Ingenieros Civiles
+
+**1. Login**
+**User Goal:** Como ingeniero, poder ingresar a mi cuenta de IoBuild.
+![Segmento #1 User Flow #1](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Journey-Flow-2_Mock-Up.jpeg)
+
+**1. Profile**
+**User Goal:** Como ingeniero, quiero ver y editar mi infomación.
+![Segmento #1 User Flow #2](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Moviles/Cap%C3%ADtulo%203/Journey-Flow-1_Mock-Up.jpeg)
+
 ##### 3.1.4.5. Mobile Applications Prototyping
+En esta etapa se presentan los prototipos de la aplicación móvil IoBuild, diseñados para smartphones y tablets. El enfoque está en simular los flujos principales de cada segmento objetivo, garantizando una experiencia intuitiva, accesible y optimizada para pantallas táctiles y entornos de movilidad.
+
+**Segmento constructoras**
+<br>
+Los ingenieros utilizan la aplicación móvil para supervisar proyectos residenciales, acceder rápidamente a información de clientes, monitorear dispositivos IoT y gestionar configuraciones desde cualquier lugar y en tiempo real.
+
+- Desde la pantalla principal, pueden acceder al Dashboard móvil, donde se muestran indicadores clave de los proyectos, estados de dispositivos y notificaciones importantes en un formato adaptado a dispositivos móviles.
+
+- La navegación de la aplicación se organiza mediante una barra inferior y menús desplegables que incluyen las principales secciones: Home, Profile, Projects, Device Management y Configuration, permitiendo una interacción rápida y sencilla con una sola mano.
+
+- En la sección Device Management, los usuarios pueden visualizar la lista de clientes junto con información relevante como nombre, proyecto asociado, estado de cuenta y opciones de administración. El diseño prioriza tarjetas responsivas y elementos táctiles para facilitar la interacción.
+
+- Al seleccionar un cliente, la aplicación permite consultar el estado de los dispositivos IoT vinculados al proyecto, mostrando información en tiempo real y alertas visuales cuando existen restricciones, errores o problemas de conectividad. Esto facilita una supervisión eficiente y una rápida toma de decisiones desde cualquier ubicación.
+
+Con estos flujos, los prototipos evidencian cómo cada tipo de usuario interactúa con la aplicación, asegurando una navegación coherente y ajustada a sus necesidades.
+
 
 ## Capítulo IV: Product Implementation & Validation
 
