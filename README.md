@@ -5072,6 +5072,20 @@ El Sprint 2 se enfocó en completar las funcionalidades principales de la aplica
 | Sum of Story Points | 40 |
 
 ## 4.2.2.2. Sprint Backlog 2
+
+| Story ID | ID Task | Titulo | Descripción | Estimación (Horas) | Assigned To | Status |
+|----------|---------|--------|-------------|--------------------|-------------|--------|
+| US16 | TK11 | Acceder al perfil del usuario | Como usuario, quiero tener acceso a mi perfil, para ver datos como mi nombre, email, número de teléfono y mi dirección. | 5 | Brayan Roberto Ccarita Cruz | Done |
+| US17 | TK12 | Edición de Información del Perfil | Como usuario, quiero poder editar alguna parte de mi información, como mi email, número de teléfono o dirección, para mantener mis datos actualizados. | 6 | Axel Randall Ordoñez Ricaldi | Done |
+| US18 | TK13 | Ver Imagen que Representa al Usuario | Como usuario, quiero poder ver una imagen que me represente, para tener una experiencia más personalizada. | 4 | Fabrizio Martin Panta Castro | Done |
+| US19 | TK14 | Ver el Rol de la Cuenta | Como usuario, quiero poder ver el rol de mi cuenta, para entender qué permisos tengo dentro de la aplicación. | 4 | Mateo Italo Loechle Arias | Done |
+| US33 | TK15 | Ver Lista de Dispositivos | Como propietario, quiero ver una lista de todos los dispositivos registrados para poder monitorear su estado y ubicación. | 3 | Iker Gabriel Barturen Panez | Done |
+| US34 | TK16 | Agregar un Nuevo Dispositivo | Como propietario, quiero agregar un nuevo dispositivo al sistema para expandir la cobertura de monitoreo y control. | 3 | Brayan Roberto Ccarita Cruz | Done |
+| US35 | TK17 | Editar/Configurar Ajustes de Dispositivo | Como propietario, quiero acceder a la configuración específica de un dispositivo para modificar sus parámetros o revisar su información detallada. | 4 | Axel Randall Ordoñez Ricaldi | Done |
+| US36 | TK18 | Eliminar un Dispositivo | Como propietario, quiero poder eliminar un dispositivo que ya no está en uso o está defectuoso, para mantener la lista limpia y precisa. | 5 | Fabrizio Martin Panta Castro | Done |
+| US37 | TK19 | Gestionar Notificaciones | Como Usuario, quiero poder activar o desactivar varios tipos de notificaciones para controlar qué alertas recibo del sistema. | 3 | Mateo Italo Loechle Arias | Done |
+| US38 | TK20 | Cambiar Contraseña de la Cuenta | Como Usuario, quiero poder cambiar mi contraseña periódicamente para mantener la seguridad de mi cuenta. | 3 | Iker Gabriel Barturen Panez | Done |
+
 ## 4.2.2.3. Development Evidence for Sprint Review
 ## 4.2.2.4. Testing Suite Evidence for Sprint Review
 ## 4.2.2.5. Execution Evidence for Sprint Review
