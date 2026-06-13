@@ -5051,6 +5051,34 @@ Contribución Principal:
 
 ![Contribuidores Backend](https://i.ibb.co/1SPbRrD/contribuidoresbackend.png)
 
+
+# 4.2.2. Sprint 2
+
+El Sprint 2 se enfocó en completar las funcionalidades principales de la aplicación móvil IoBuild orientadas al Segmento Objetivo #2 (propietarios de apartamentos). Durante este sprint se desarrollaron nuevas pantallas, flujos de navegación y funcionalidades que permiten a los usuarios finales gestionar dispositivos inteligentes, visualizar información relevante de sus espacios y personalizar su experiencia dentro de la plataforma.
+
+## 4.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 02/06/2026 |
+| Time | 17:00 PM |
+| Location | Google Meet |
+| Prepared By | Iker Gabriel Barturen Panez |
+| Attendees | Fabrizio Martin Panta Castro, Iker Gabriel Barturen Panez, Axel Randall Ordonez Ricaldi, Brayan Roberto Ccarita Cruz, Mateo Italo Loechle Arias |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Our focus is on completing the mobile application experience for apartment owners by implementing device management, notifications, user profile management and smart home monitoring features. We believe this delivers immediate value to residents who need a centralized and intuitive platform to interact with their connected devices and apartment services. This will be confirmed when users can successfully access their dashboard, monitor devices, manage notifications and configure their personal preferences through the Flutter mobile application. |
+| Sprint 2 Velocity | 40 |
+| Sum of Story Points | 40 |
+
+## 4.2.2.2. Sprint Backlog 2
+## 4.2.2.3. Development Evidence for Sprint Review
+## 4.2.2.4. Testing Suite Evidence for Sprint Review
+## 4.2.2.5. Execution Evidence for Sprint Review
+## 4.2.2.6. Services Documentation Evidence for Sprint Review
+## 4.2.2.7. Software Deployment Evidence for Sprint Review
+## 4.2.2.8. Team Collaboration Insights during Sprint
+
 #### 4.3. Validation Interviews
 ##### 4.3.1. Diseño de Entrevistas
 ##### 4.3.2. Registro de Entrevistas
