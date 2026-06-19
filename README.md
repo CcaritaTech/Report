@@ -790,10 +790,12 @@ El Needfinding, como proceso de investigación, se enfocó en descubrir las nece
 En esta sección se elaboraron perfiles representativos, denominados "User Personas", que compilan los rasgos esenciales de los usuarios a partir del estudio cualitativo de entrevistas. Este recurso permite transformar los datos de los individuos en arquetipos comprensibles que guían la estrategia de diseño, facilitando decisiones clave sobre funcionalidades y experiencia de usuario. Se crearon dos perfiles principales para el proyecto: uno correspondiente a arquitectos e ingenieros civiles, y otro vinculado a los dueños de apartamentos.
 
 **Segmento 1: Arquitectos e Ingenieros Civiles**  
-![Imagen User Persona 1](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%202/UserPersona_Segmento1.png)
+<img src="https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%202/UserPersona_Segmento1.png" width="85%" alt="Imagen User Persona 1">
 
 **Segmento 2: Dueños de apartamentos**
-![Imagen User Persona 1](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%202/UserPersona_Segmento2.png)
+<img src="https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%202/UserPersona_Segmento2.png" width="85%" alt="Imagen User Persona 2">
+
+<div style="page-break-before: always;"></div>
 
 ### 2.3.2. User Task Matrix.
 
