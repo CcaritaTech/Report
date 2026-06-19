@@ -86,6 +86,7 @@ Enlace del repositorio: https://github.com/CcaritaTech/IoBuild-Backend
 
 <img src="https://i.ibb.co/b5wymjRv/Whats-App-Image-2026-05-13-at-3-54-28-PM-1.jpg" alt="Insights4" />
 
+<div style="page-break-before: always;"></div>
 
 El desarrollo del informe fue producto de un trabajo colaborativo planificado y dividido en etapas progresivas. Para esta entrega, el equipo organizó las responsabilidades por capítulos y componentes técnicos, manteniendo una participación equilibrada en la documentación, la landing page y el backend de la plataforma IoBuild.
 
@@ -431,6 +432,8 @@ La problemática puede resumirse en los siguientes puntos:
 
 En este contexto, IoBuild surge como respuesta a la necesidad de democratizar el acceso a los espacios inteligentes, ofreciendo una plataforma que facilita la integración tecnológica desde la etapa de construcción hasta la personalización por parte del usuario final.<br><br>
 
+<div style="page-break-before: always;"></div>
+
 **1. What (¿Qué?)**
 
 La mayoría de proyectos inmobiliarios no incorporan de manera integral soluciones inteligentes desde su diseño, lo que provoca que los espacios continúen siendo rígidos y poco adaptables a las necesidades de los usuarios. Las opciones que existen en el mercado suelen estar enfocadas en segmentos de alto costo, como consecuencia, los usuarios finales terminan recurriendo a dispositivos aislados, como focos inteligentes o asistentes de voz, que no siempre son compatibles entre sí.
@@ -462,11 +465,11 @@ El costo de implementar tecnologías inteligentes en espacios inmobiliarios trad
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
 
-Nuestra propuesta, IoBuild, es una plataforma web y móvil diseñada para centralizar la gestión y el control de dispositivos IoT tanto en las áreas comunes de los condominios como en el interior de los apartamentos privados. A través de este ecosistema unificado, las empresas constructoras pueden implementar y configurar infraestructuras domóticas desde la fase de desarrollo, entregando a administradores y propietarios una herramienta accesible para automatizar y personalizar su experiencia de habitabilidad, sin requerir conocimientos técnicos avanzados.
+Actualmente, el uso de tecnologías inteligentes en viviendas y edificios residenciales ha ido aumentando debido al interés de las personas por mejorar la comodidad, la seguridad y la eficiencia energética de los espacios que habitan. Cada vez es más común encontrar dispositivos como cámaras inteligentes, sistemas de iluminación automatizada, sensores de acceso y asistentes de voz. Sin embargo, la implementación de estas tecnologías aún presenta desafíos relacionados con la compatibilidad entre dispositivos, la facilidad de uso y la gestión centralizada de los distintos servicios disponibles.
 
-Hemos observado que un factor crítico que frena la estandarización de los edificios inteligentes es la alta fragmentación tecnológica y la fricción operativa. En la actualidad, las constructoras enfrentan barreras de integración para ofrecer proyectos cohesionados, mientras que los usuarios finales heredan sistemas complejos y desconectados. Al carecer de una única aplicación para controlar de forma fluida tanto el acceso al edificio como el clima de su propia sala, los residentes experimentan frustración y abandonan el uso de la tecnología, lo que reduce drásticamente el valor agregado y la modernidad percibida de la vivienda.
+El punto crítico identificado es la falta de integración entre las distintas tecnologías utilizadas en los edificios inteligentes. Las constructoras suelen enfrentar dificultades al implementar soluciones de diferentes proveedores, mientras que los propietarios deben adaptarse al uso de múltiples aplicaciones para gestionar funciones como iluminación, seguridad o climatización. Esta fragmentación genera una experiencia poco práctica para los usuarios, dificulta la adopción de la tecnología y reduce los beneficios que podrían obtenerse mediante una gestión centralizada y eficiente de los dispositivos inteligentes.
 
-¿Cómo podríamos simplificar el despliegue y la operación diaria de dispositivos IoT en proyectos residenciales, logrando que tanto constructoras como residentes adopten una única solución web y móvil que incremente el control, la eficiencia y la satisfacción en todos los espacios habitados?
+¿Cómo podríamos simplificar el despliegue y la operación diaria de dispositivos IoT en proyectos residenciales, logrando que tanto constructoras como residentes adopten una única solución que incremente el control, la eficiencia y la satisfacción en todos los espacios habitados?
 
 #### 1.2.2.2. Lean UX Assumptions.
 
