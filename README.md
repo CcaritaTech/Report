@@ -66,6 +66,8 @@ Enlace del repositorio: https://github.com/CcaritaTech/Report
 
 <img src="https://i.ibb.co/zWw7fCz8/N3.png" alt="Insights3" />
 
+<div style="page-break-before: always;"></div>
+
 # Project Landing Page Collaboration Insights
 
 Enlace del repositorio: https://github.com/CcaritaTech/IoBuild-LandingPage
@@ -73,6 +75,8 @@ Enlace del repositorio: https://github.com/CcaritaTech/IoBuild-LandingPage
 <img src="https://i.ibb.co/v642Grkr/Whats-App-Image-2026-05-13-at-3-51-54-PM.jpg" alt="Insights1" />
 
 <img src="https://i.ibb.co/Fkhy9fGP/Whats-App-Image-2026-05-13-at-3-52-05-PM.jpg" alt="Insights2" />
+
+<div style="page-break-before: always;"></div>
 
 # Project Backend Collaboration Insights
 
@@ -82,6 +86,7 @@ Enlace del repositorio: https://github.com/CcaritaTech/IoBuild-Backend
 
 <img src="https://i.ibb.co/b5wymjRv/Whats-App-Image-2026-05-13-at-3-54-28-PM-1.jpg" alt="Insights4" />
 
+<div style="page-break-before: always;"></div>
 
 El desarrollo del informe fue producto de un trabajo colaborativo planificado y dividido en etapas progresivas. Para esta entrega, el equipo organizó las responsabilidades por capítulos y componentes técnicos, manteniendo una participación equilibrada en la documentación, la landing page y el backend de la plataforma IoBuild.
 
@@ -98,29 +103,190 @@ Panta Castro, Fabrizio Martin trabajó junto con Axel Ordoñez en el desarrollo 
 <div style="page-break-before: always;"></div>
 
 # Contenido
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Student Outcome](#student-outcome)
-- [Objetivos SMART](#objetivos-smart)
-- [Capítulo I: Presentación](#capítulo-i-presentación)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
-- [Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+[Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+
+[Project Report Collaboration Insights](#project-report-collaboration-insights)
+
+[Student Outcome](#student-outcome)
+
+[Objetivos SMART](#objetivos-smart)
+
+[Capítulo I: Presentación](#capítulo-i-presentación)
+
+[1.1 Startup Profile](#11-startup-profile)  
+[1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
+[1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
+
+[1.2. Solution Profile](#12-solution-profile)
+[1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)  
+[1.2.2 Lean UX Process.](#122-lean-ux-process)  
+[1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)  
+[1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)
+[1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)  
+[1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)  
+
+[1.3. Segmentos objetivo.](#13-segmentos-objetivo)  
+
+[Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)  
+
+[2.1. Competidores](#21-competidores)  
+[2.1.1. Análisis competitivo](#211-análisis-competitivo)  
+[2.1.2. Estrategias y tácticas frente a competidores](#211-análisis-competitivo)  
+
+[2.2. Entrevistas](#22-entrevistas)  
+[2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)  
+[2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)  
+[2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)  
+
+[2.3. Needfinding](#23-needfinding)  
+[2.3.1. User Personas](#231-user-personas)  
+[2.3.2. User Task Matrix](#232-user-task-matrix)  
+[2.3.3. User Journey Mapping](#233-user-journey-mapping)  
+[2.3.4. Empathy Mapping](#234-empathy-mapping)  
+[2.3.5. Big Picture Event Storming](#235-big-picture-event-storming)  
+[2.3.6. Ubiquitous Language](#236-ubiquitous-language)
+
+[2.4. Requirements Specification](#24-requirements-specification)  
+[2.4.1. User Stories](#241-user-stories)  
+[2.4.1.1. Epics](#2411-epics)  
+[2.4.1.2. User Stories](#2412-user-stories)  
+[2.4.1.3. Technical Stories](#2413-technical-stories)  
+[2.4.1.4. Spike Stories](#2414-spike-stories)  
+[2.4.2. Impact Mapping](#242-impact-mapping)  
+[2.4.3. Product Backlog](#243-product-backlog)  
+
+[2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)  
+[2.5.1. EventStorming](#251-eventstorming)  
+[2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)  
+[2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)  
+[2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)  
+[2.5.2. Context Mapping](#252-context-mapping)  
+[2.5.3. Software Architecture](#253-software-architecture)  
+[2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)  
+[2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)  
+[2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)  
+
+[2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)  
+[2.6.1. Bounded Context: <Bounded Context Name>](#261-bounded-context-smart-project-setup)  
+[2.6.1.1. Domain Layer](#2611-domain-layer)  
+[2.6.1.2. Interface Layer](#2612-interface-layer)  
+[2.6.1.3. Application Layer](#2613-application-layer)  
+[2.6.1.4 Infrastructure Layer](#2614-infrastructure-layer)  
+[2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)  
+[2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)  
+[2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)  
+[2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)  
+
+[2.6.2. Bounded Context: <Bounded Context Name>](#262-bounded-context-service-execution-and-monitoring)  
+[2.6.2.1. Domain Layer](#2621-domain-layer)  
+[2.6.2.2. Interface Layer](#2622-interface-layer)  
+[2.6.2.3. Application Layer](#2623-application-layer)  
+[2.6.2.4 Infrastructure Layer](#2624-infrastructure-layer)  
+[2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)  
+[2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)  
+[2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)  
+[2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)  
+
+[2.6.3. Bounded Context: <Bounded Context Name>](#263-bounded-context-smart-assistant)  
+[2.6.3.1. Domain Layer](#2631-domain-layer)  
+[2.6.3.2. Interface Layer](#2632-interface-layer)  
+[2.6.3.3. Application Layer](#2633-application-layer)  
+[2.6.3.4 Infrastructure Layer](#2634-infrastructure-layer)  
+[2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)  
+[2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)  
+[2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)  
+[2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)  
+
+[2.6.4. Bounded Context: <Bounded Context Name>](#264-bounded-context-energy-management)  
+[2.6.4.1. Domain Layer](#2641-domain-layer)  
+[2.6.4.2. Interface Layer](#2642-interface-layer)  
+[2.6.4.3. Application Layer](#2643-application-layer)  
+[2.6.4.4 Infrastructure Layer](#2644-infrastructure-layer)  
+[2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)  
+[2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)  
+[2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)  
+[2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)  
+
+[Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)  
+
+[3.1. Product design](#31-product-design)  
+[3.1.1. Style Guidelines](#311-style-guidelines)  
+[3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)  
+[3.1.2. Information Architecture](#312-information-architecture)  
+[3.1.2.1. Organization Systems](#3121-organization-systems)  
+[3.1.2.2. Labelling Systems](#3122-labelling-systems)  
+[3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)  
+[3.1.2.4. Searching Systems](#3124-searching-systems)  
+[3.1.2.5. Navigation Systems](#3125-navigation-systems)  
+[3.1.3. Landing Page UI Design](#313-landing-page-ui-design)  
+[3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)  
+[3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)  
+[3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)  
+[3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)  
+[3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)  
+[3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)  
+[3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)  
+[3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)  
+
+[Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)  
+
+[4.1. Software Configuration Management](#41-software-configuration-management)  
+[4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)  
+[4.1.2. Source Code Management](#412-source-code-management)  
+[4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)  
+[4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)  
+
+[4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)  
+[4.2.1. Sprint 1](#421-sprint-1)  
+[4.2.1.1. Sprint Planning 1](#4211-Sprint-planning-1)  
+[4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)  
+[4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)  
+[4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)  
+[4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)  
+[4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)  
+[4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)  
+[4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)  
+
+[4.2.2. Sprint 2](#422-sprint-2)  
+[4.2.2.1. Sprint Planning 2](#4221-Sprint-planning-2)  
+[4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)  
+[4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)  
+[4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)  
+[4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)  
+[4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)  
+[4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)  
+[4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)  
+
+[4.2.3. Sprint 3](#423-sprint-3)  
+[4.2.3.1. Sprint Planning 3](#4231-Sprint-planning-3)  
+[4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)  
+[4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)  
+[4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)  
+[4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)  
+[4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)  
+[4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)  
+[4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)  
+
+[4.3. Validation Interviews](#43-validation-interviews)  
+[4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)  
+[4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)  
+[4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)  
+
+[Conclusiones](#conclusiones)  
+[Video App Validation](#video-app-validation)  
+[Video About the product](#video-about-the-product)  
+[Video About the team](#video-about-the-team)  
+
+[Bibliografía](#bibliografía)  
+[Anexos](#anexos)  
 
 <div style="page-break-before: always;"></div>
 
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-|Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software.|Axel Randall Ordoñez Ricaldi:<br>*AV1:* Colaboré con Fabrizio en EventStorming (Candidate Context Discovery, Domain Message Flows Modeling y Bounded Context Canvases), elaboré Context Mapping y Software Architecture Deployment Diagrams; este trabajo me permitió profundizar en DDD estratégico aplicado al proyecto.<br><br>Ccarita Cruz, Brayan Roberto:<br>*AV1:* Colaboré con Mateo e Iker en Domain, Interface, Application e Infrastructure Layer, y elaboré los Bounded Context Software Architecture Code Level Diagrams; esto me permitió fortalecer el diseño táctico y su trazabilidad con el código.<br><br>Panta Castro, Fabrizio Martin:<br>*AV1:* Colaboré con Axel en EventStorming (Candidate Context Discovery, Domain Message Flows Modeling y Bounded Context Canvases), elaboré Context Mapping y Software Architecture Deployment Diagrams; ello me permitió consolidar conocimientos de modelado de dominio estratégico.<br><br>Barturen Panez, Iker Gabriel:<br>*AV1:* Colaboré con Mateo en el Tactical-Level DDD del Bounded Context (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer); este desarrollo me permitió profundizar en arquitectura por capas y responsabilidades del dominio.<br><br>Loechle Arias, Mateo Italo:<br>*AV1:* Colaboré con Iker en el Tactical-Level DDD del Bounded Context (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer); este trabajo me permitió reforzar la definición de capas y reglas de negocio del contexto.<br>|En AV1, el equipo evidenció actualización de conocimientos al aplicar DDD estratégico y táctico, integrando modelado de dominio y arquitectura de software en entregables concretos del proyecto.|
-|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.|Axel Randall Ordoñez Ricaldi:<br>*AV1:* Investigué y apliqué nuevas técnicas de EventStorming, Context Mapping y Deployment Diagrams junto a Fabrizio, incorporando buenas prácticas de DDD para fortalecer la arquitectura del proyecto.<br><br>Ccarita Cruz, Brayan Roberto:<br>*AV1:* Aprendí y apliqué criterios de arquitectura a nivel código mientras colaboraba con Mateo e Iker en las capas tácticas del Bounded Context, reforzando mi aprendizaje continuo.<br><br>Panta Castro, Fabrizio Martin:<br>*AV1:* Investigué y apliqué nuevas técnicas de EventStorming, Context Mapping y Deployment Diagrams junto a Axel, validando decisiones de diseño con enfoque de mejora continua.<br><br>Barturen Panez, Iker Gabriel:<br>*AV1:* Profundicé junto a Mateo en DDD táctico (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer), incorporando nuevos criterios técnicos para mejorar de forma continua el diseño del Bounded Context.<br><br>Loechle Arias, Mateo Italo:<br>*AV1:* Profundicé junto a Iker en DDD táctico (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer), fortaleciendo mis competencias en separación de responsabilidades y evolución del diseño del dominio.<br>|En AV1, el grupo demostró aprendizaje permanente al investigar y adoptar nuevas técnicas de DDD y arquitectura, transfiriendo conocimiento entre integrantes y elevando la calidad técnica del trabajo colaborativo.|
+|Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software.|Axel Randall Ordoñez Ricaldi:<br>*AV1:* Colaboré con Fabrizio en EventStorming (Candidate Context Discovery, Domain Message Flows Modeling y Bounded Context Canvases), elaboré Context Mapping y Software Architecture Deployment Diagrams; este trabajo me permitió profundizar en DDD estratégico aplicado al proyecto.<br><br>*TB1:* Colaboré con Fabrizio en el desarrollo del Capítulo III, elaborando lineamientos visuales, arquitectura de información, wireframes, wireflows, mock-ups, user flows y prototipos de la aplicación móvil; este trabajo me permitió fortalecer mis conocimientos en diseño UX/UI y en la estructuración de experiencias digitales orientadas a usuarios.<br><br>Ccarita Cruz, Brayan Roberto:<br>*AV1:* Colaboré con Mateo e Iker en Domain, Interface, Application e Infrastructure Layer, y elaboré los Bounded Context Software Architecture Code Level Diagrams; esto me permitió fortalecer el diseño táctico y su trazabilidad con el código.<br><br>*TB1:* Desarrollé la aplicación móvil en Kotlin, implementando la estructura inicial del proyecto, pantallas, navegación y funcionalidades principales de IoBuild, además de participar en el backend y en los despliegues de la landing page y los servicios; esto me permitió reforzar mis competencias en desarrollo móvil, integración de sistemas y despliegue de aplicaciones.<br><br>Panta Castro, Fabrizio Martin:<br>*AV1:* Colaboré con Axel en EventStorming (Candidate Context Discovery, Domain Message Flows Modeling y Bounded Context Canvases), elaboré Context Mapping y Software Architecture Deployment Diagrams; ello me permitió consolidar conocimientos de modelado de dominio estratégico.<br><br>*TB1:* Trabajé junto con Axel en el desarrollo completo del Capítulo III, enfocándome en la experiencia de usuario, la documentación de la landing page, la consistencia visual de los mock-ups y los flujos de interacción de la aplicación móvil; este trabajo me permitió consolidar mis conocimientos en diseño UX/UI y prototipado de soluciones digitales.<br><br>Barturen Panez, Iker Gabriel:<br>*AV1:* Colaboré con Mateo en el Tactical-Level DDD del Bounded Context (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer); este desarrollo me permitió profundizar en arquitectura por capas y responsabilidades del dominio.<br><br>*TB1:* Colaboré con Mateo en el desarrollo del Capítulo IV, documentando la implementación y validación del producto, incluyendo configuración del entorno, gestión del código, evidencias del Sprint 1 y documentación de servicios; este trabajo me permitió profundizar en la organización técnica de proyectos y en procesos de implementación de software.<br><br>Loechle Arias, Mateo Italo:<br>*AV1:* Colaboré con Iker en el Tactical-Level DDD del Bounded Context (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer); este trabajo me permitió reforzar la definición de capas y reglas de negocio del contexto.<br><br>*TB1:* Trabajé junto con Iker en el Capítulo IV, organizando la documentación de implementación, validación y pruebas del sprint, además de estructurar la información relacionada con repositorios, ramas, ejecución de funcionalidades y servicios; este trabajo me permitió fortalecer mis competencias en gestión técnica, pruebas y documentación de proyectos de software.<br>|En AV1, el equipo evidenció actualización de conocimientos al aplicar DDD estratégico y táctico, integrando modelado de dominio y arquitectura de software en entregables concretos del proyecto.<br><br><br>En TB1, el equipo evidenció la actualización de conocimientos mediante la aplicación de metodologías de diseño UX/UI, desarrollo de aplicaciones móviles, implementación de servicios backend y procesos de validación y despliegue, materializando estos aprendizajes en entregables concretos del proyecto IoBuild.|
+|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.|Axel Randall Ordoñez Ricaldi:<br>*AV1:* Investigué y apliqué nuevas técnicas de EventStorming, Context Mapping y Deployment Diagrams junto a Fabrizio, incorporando buenas prácticas de DDD para fortalecer la arquitectura del proyecto.<br><br>*TB1:* Investigué y apliqué principios de diseño UX/UI junto con Fabrizio, profundizando en arquitectura de información, prototipado y diseño de experiencias de usuario para aplicaciones móviles. Esto me permitió ampliar mis conocimientos en herramientas y metodologías centradas en el usuario.<br><br>Ccarita Cruz, Brayan Roberto:<br>*AV1:* Aprendí y apliqué criterios de arquitectura a nivel código mientras colaboraba con Mateo e Iker en las capas tácticas del Bounded Context, reforzando mi aprendizaje continuo.<br><br>*TB1:* Aprendí y apliqué nuevas prácticas de desarrollo móvil con Kotlin, integración de servicios backend y procesos de despliegue, fortaleciendo mis competencias técnicas y mi capacidad para implementar soluciones completas en entornos reales.<br><br>Panta Castro, Fabrizio Martin:<br>*AV1:* Investigué y apliqué nuevas técnicas de EventStorming, Context Mapping y Deployment Diagrams junto a Axel, validando decisiones de diseño con enfoque de mejora continua.<br><br>*TB1:* Profundicé junto con Axel en técnicas de diseño UX/UI, creación de wireframes, mock-ups y flujos de interacción, incorporando buenas prácticas de diseño centrado en el usuario que fortalecieron mi aprendizaje continuo en el desarrollo de productos digitales.<br><br>Barturen Panez, Iker Gabriel:<br>*AV1:* Profundicé junto a Mateo en DDD táctico (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer), incorporando nuevos criterios técnicos para mejorar de forma continua el diseño del Bounded Context.<br><br>*TB1:* Profundicé junto con Mateo en la documentación de implementación, validación y configuración de proyectos de software, incorporando nuevas prácticas relacionadas con gestión de repositorios, pruebas y organización técnica de entregables.<br><br>Loechle Arias, Mateo Italo:<br>*AV1:* Profundicé junto a Iker en DDD táctico (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer), fortaleciendo mis competencias en separación de responsabilidades y evolución del diseño del dominio.<br><br>*TB1:* Aprendí y apliqué nuevas técnicas de documentación técnica, validación de funcionalidades y gestión de configuración de software junto con Iker, fortaleciendo mis conocimientos sobre procesos de implementación y aseguramiento de calidad en proyectos de desarrollo.<br>|En AV1, el grupo demostró aprendizaje permanente al investigar y adoptar nuevas técnicas de DDD y arquitectura, transfiriendo conocimiento entre integrantes y elevando la calidad técnica del trabajo colaborativo.<br><br><br>En TB1, el equipo demostró aprendizaje permanente al adquirir y aplicar nuevos conocimientos en diseño UX/UI, desarrollo móvil, despliegue de aplicaciones, documentación técnica y validación de software, fortaleciendo sus competencias profesionales mediante el trabajo colaborativo y la implementación práctica de la solución IoBuild.|
 
 <div style="page-break-before: always;"></div>
 
@@ -266,6 +432,8 @@ La problemática puede resumirse en los siguientes puntos:
 
 En este contexto, IoBuild surge como respuesta a la necesidad de democratizar el acceso a los espacios inteligentes, ofreciendo una plataforma que facilita la integración tecnológica desde la etapa de construcción hasta la personalización por parte del usuario final.<br><br>
 
+<div style="page-break-before: always;"></div>
+
 **1. What (¿Qué?)**
 
 La mayoría de proyectos inmobiliarios no incorporan de manera integral soluciones inteligentes desde su diseño, lo que provoca que los espacios continúen siendo rígidos y poco adaptables a las necesidades de los usuarios. Las opciones que existen en el mercado suelen estar enfocadas en segmentos de alto costo, como consecuencia, los usuarios finales terminan recurriendo a dispositivos aislados, como focos inteligentes o asistentes de voz, que no siempre son compatibles entre sí.
@@ -297,11 +465,11 @@ El costo de implementar tecnologías inteligentes en espacios inmobiliarios trad
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
 
-Nuestra propuesta, IoBuild, es una plataforma web y móvil diseñada para centralizar la gestión y el control de dispositivos IoT tanto en las áreas comunes de los condominios como en el interior de los apartamentos privados. A través de este ecosistema unificado, las empresas constructoras pueden implementar y configurar infraestructuras domóticas desde la fase de desarrollo, entregando a administradores y propietarios una herramienta accesible para automatizar y personalizar su experiencia de habitabilidad, sin requerir conocimientos técnicos avanzados.
+Actualmente, el uso de tecnologías inteligentes en viviendas y edificios residenciales ha ido aumentando debido al interés de las personas por mejorar la comodidad, la seguridad y la eficiencia energética de los espacios que habitan. Cada vez es más común encontrar dispositivos como cámaras inteligentes, sistemas de iluminación automatizada, sensores de acceso y asistentes de voz. Sin embargo, la implementación de estas tecnologías aún presenta desafíos relacionados con la compatibilidad entre dispositivos, la facilidad de uso y la gestión centralizada de los distintos servicios disponibles.
 
-Hemos observado que un factor crítico que frena la estandarización de los edificios inteligentes es la alta fragmentación tecnológica y la fricción operativa. En la actualidad, las constructoras enfrentan barreras de integración para ofrecer proyectos cohesionados, mientras que los usuarios finales heredan sistemas complejos y desconectados. Al carecer de una única aplicación para controlar de forma fluida tanto el acceso al edificio como el clima de su propia sala, los residentes experimentan frustración y abandonan el uso de la tecnología, lo que reduce drásticamente el valor agregado y la modernidad percibida de la vivienda.
+El punto crítico identificado es la falta de integración entre las distintas tecnologías utilizadas en los edificios inteligentes. Las constructoras suelen enfrentar dificultades al implementar soluciones de diferentes proveedores, mientras que los propietarios deben adaptarse al uso de múltiples aplicaciones para gestionar funciones como iluminación, seguridad o climatización. Esta fragmentación genera una experiencia poco práctica para los usuarios, dificulta la adopción de la tecnología y reduce los beneficios que podrían obtenerse mediante una gestión centralizada y eficiente de los dispositivos inteligentes.
 
-¿Cómo podríamos simplificar el despliegue y la operación diaria de dispositivos IoT en proyectos residenciales, logrando que tanto constructoras como residentes adopten una única solución web y móvil que incremente el control, la eficiencia y la satisfacción en todos los espacios habitados?
+¿Cómo podríamos simplificar el despliegue y la operación diaria de dispositivos IoT en proyectos residenciales, logrando que tanto constructoras como residentes adopten una única solución que incremente el control, la eficiencia y la satisfacción en todos los espacios habitados?
 
 #### 1.2.2.2. Lean UX Assumptions.
 
@@ -612,6 +780,7 @@ URL de las entrevistas:
 |Segmento #1: Ingenieros/Arquitectos|**Sexo:** Masculino<br>**Edad:** 29-59 años<br>**Dispositivos:** Laptop/PC con software especializado<br>**Programas:** Revit, AutoCAD, software de diseño arquitectónico, coordinación de planos eléctricos<br>**Canales de información:** Actualización constante en tendencias tecnológicas, uso de correo de forma empresarial<br>**Canales de trabajo:** Colaboración con equipos multidisciplinarios, comunicación y liderazgo|Garantizar eficiencia y calidad en el diseño y ejecución de proyectos residenciales<br><br>Incorporar tecnologías inteligentes y sostenibles en sus proyectos<br><br> Adaptarse a las tendencias del mercado y necesidades del usuario final<br><br>Mejorar procesos constructivos mediante software especializado<br><br>Escalar profesionalmente y/o fundar su propia empresa<br><br> Superar retos técnicos y de coordinación entre especialidades|**Motivación:** Usar tecnología para optimizar proyectos, mostrarlos a más público, personalizar funciones y recibir retroalimentación.<br>**Frustración:** Falta de plataformas flexibles, baja exposición de diseños y trabas técnicas que dificultan la integración tecnológica.|
 |Segmento #2: Propietarios de apartamentos|**Sexo:** Mixto <br>**Edad:** 24-63 años <br>**Dispositivos:** Laptop, smartphone, televisores, computadoras<br>**Programas:** Apps de noticias, organización y movilidad , no uso de software profesional<br>**Canales de información:** Redes sociales, aplicaciones móviles, medios digitales<br>**Marcas preferidas:** Samsung, HP, Lenovo, Android, Apple|Priorizar comodidad y seguridad en el hogar<br><br>Optimizar el uso de tecnología para facilitar la vida diaria<br><br>Garantizar privacidad y control de datos personales<br><br>Disposición a pagar por suscripción si aporta valor <br><br>Mejorar la eficiencia y el control de dispositivos en el hogar|**Motivación:** Mejorar la experiencia en el hogar con tecnología interactiva, gestionar dispositivos de forma personalizada, optimizar comodidad y seguridad, y recibir retroalimentación por el uso eficiente.<br>**Frustración:** Carencia de plataformas atractivas y flexibles, limitaciones en dispositivos inteligentes, dificultad de adaptación a cada hogar y barreras técnicas que complican su integración.|
 
+<div style="page-break-before: always;"></div>
 
 ## 2.3. Needfinding.
 
@@ -622,10 +791,12 @@ El Needfinding, como proceso de investigación, se enfocó en descubrir las nece
 En esta sección se elaboraron perfiles representativos, denominados "User Personas", que compilan los rasgos esenciales de los usuarios a partir del estudio cualitativo de entrevistas. Este recurso permite transformar los datos de los individuos en arquetipos comprensibles que guían la estrategia de diseño, facilitando decisiones clave sobre funcionalidades y experiencia de usuario. Se crearon dos perfiles principales para el proyecto: uno correspondiente a arquitectos e ingenieros civiles, y otro vinculado a los dueños de apartamentos.
 
 **Segmento 1: Arquitectos e Ingenieros Civiles**  
-![Imagen User Persona 1](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%202/UserPersona_Segmento1.png)
+<img src="https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%202/UserPersona_Segmento1.png" width="85%" alt="Imagen User Persona 1">
 
 **Segmento 2: Dueños de apartamentos**
-![Imagen User Persona 1](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%202/UserPersona_Segmento2.png)
+<img src="https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%202/UserPersona_Segmento2.png" width="85%" alt="Imagen User Persona 2">
+
+<div style="page-break-before: always;"></div>
 
 ### 2.3.2. User Task Matrix.
 
@@ -675,9 +846,14 @@ Como parte del enfoque de diseño centrado en el usuario, se desarrollaron mapas
 Objetivo del Empathy Mapping
 El mapa de empatía tiene como finalidad ampliar la visión sobre el usuario más allá de sus conductas observables, explorando sus motivaciones, temores, frustraciones y aspiraciones implícitas. Se trata de una herramienta clave para identificar oportunidades de mejora desde un enfoque cualitativo, complementando los hallazgos obtenidos a través de entrevistas, observaciones y análisis de comportamientos.
 
+<div style="page-break-before: always;"></div>
+
 **Segmento 1:**
-![Empathy Map Segmento1](assets/Empathy map1.png)
+
+<img src="assets/EmpathyMap_Segmento1.png" width="75%" alt="Imagen Empathy Map Segmento 1">
+
 Desglose del Empathy Map 1
+
 Piensa: “Quiero que mis proyectos sean innovadores, pero muchas tecnologías son demasiado costosas.”
 
 Siente: “Me frustra que las regulaciones retrasen la implementación de soluciones sostenibles.”
@@ -685,8 +861,12 @@ Siente: “Me frustra que las regulaciones retrasen la implementación de soluci
 Dice: “Quiero ofrecer espacios innovadores, sostenibles y seguros.”
 
 Hace: Investiga constantemente nuevas tecnologías y tendencias del mercado.
+
+<div style="page-break-before: always;"></div>
+
 **Segmento 2:**
-![Empathy Map Segmento2](assets/Empathy map2.png)
+
+<img src="assets/EmpathyMap_Segmento2.png" width="75%" alt="Imagen Empathy Map Segmento 2">
 
 Desglose del Empathy Map 2
 
@@ -697,6 +877,8 @@ Siente: “Me frustra cuando una aplicación promete mucho y no cumple con lo qu
 Dice: “Necesito algo fácil de usar, que no me complique más de lo que ya estoy.”
 
 Hace: Prueba aplicaciones o servicios digitales para evaluar su utilidad.
+
+<div style="page-break-before: always;"></div>
 
 ### 2.3.5. Big Picture Event Storming.
 
@@ -1656,56 +1838,7 @@ Para el desarrollo del quinto EventStorming se identifican los domain events de 
 
 ---
 
-
-
-### 2.4.2. Impact Mapping.
-
-El Impact Mapping es una metodología visual que permite alinear los objetivos estratégicos de un negocio con las acciones concretas de los usuarios y las funcionalidades de un producto digital. A través de una estructura jerárquica en forma de árbol, esta técnica evidencia cómo las metas empresariales se traducen en cambios de comportamiento esperados en los actores clave, así como en los entregables que hacen posible dichos cambios.
-
-En el desarrollo de este proyecto, esta herramienta se empleó para organizar de manera clara la relación entre las metas SMART del modelo digital, los User Personas previamente definidos y las funcionalidades necesarias para alcanzar los objetivos. El trabajo consideró los siguientes elementos:
-
-* Business Goals SMART: metas específicas, medibles y con plazos definidos, orientadas tanto a la adquisición de usuarios como a su retención a largo plazo.
-
-* Actores principales: representados por Miguel Veramendi y Carla Flores, definidos a partir de sus motivaciones y del rol que desempeñan en el uso de la solución.
-
-* Impactos esperados: formulados como comportamientos observables que cada actor debe adoptar para contribuir al logro de los objetivos (por ejemplo, integrar la solución en propuestas de diseño o personalizar espacios del hogar).
-
-* Deliverables funcionales: características o componentes del producto diseñados para generar dichos impactos, como plantillas de propuestas, paneles de métricas o notificaciones guiadas.
-
-El mapa se elaboró bajo un enfoque de diseño centrado en el usuario, apoyado en dinámicas visuales colaborativas que facilitan la alineación entre los objetivos de negocio y el desarrollo técnico de la solución.
-
-"Anexo: Impact Mapping"
-
-https://drive.google.com/drive/folders/1EJW8bNS65Z4DgjwuNBIIRwbDrMOgehws?usp=sharing
-
-**Business Goal 1: Alcanzar 600 suscripciones activas al plan inicial en un periodo de 8 meses.**
-
-Este objetivo constituye el primer hito estratégico para consolidar el modelo de negocio digital. Su enfoque principal está en la captación de usuarios iniciales que permitan validar la propuesta de valor y establecer un flujo de ingresos sostenible durante la fase temprana del proyecto. La meta de alcanzar 600 suscripciones en 8 meses no solo es concreta y medible, sino también viable según el análisis de mercado, y responde a la necesidad de lograr un punto de equilibrio en el corto plazo, asegurando una rápida tracción de la solución.
-
-Además, este objetivo se encuentra alineado con el rol de los actores clave identificados, Miguel Veramendi y Carla Flores, quienes, mediante comportamientos estratégicos como integrar la solución en sus proyectos, utilizarla de manera constante y recomendarla activamente, impulsan el crecimiento de la base de usuarios. En este sentido, se busca evidenciar que el producto aporta valor desde sus primeras etapas, incentivando tanto a profesionales como a usuarios finales a convertirse en promotores orgánicos de la plataforma.
-
-![Impact-Mapping-1](/Assets/Impact-Mapping-1.png)
-
-**Business Goal 2: Automatizar el 70 % de los procesos de personalización en un periodo de 6 meses y aumentar la retención de clientes recurrentes en un 25 % en 9 meses**
-
-Este objetivo está orientado a fortalecer la eficiencia operativa y la sostenibilidad del negocio en el mediano plazo. Tras consolidar una base inicial de usuarios, el siguiente paso consiste en reducir la fricción en la interacción con la solución mediante la implementación de automatizaciones que hagan la experiencia más ágil, intuitiva y atractiva. Alcanzar un 70 % de automatización en los procesos de personalización en un periodo de 6 meses permitirá a los usuarios percibir mayor comodidad y ahorro de tiempo, incrementando así su satisfacción y confianza en la plataforma.
-
-De forma complementaria, se plantea aumentar la retención de clientes recurrentes en un 25 % en 9 meses, con el objetivo de consolidar relaciones a largo plazo y disminuir la tasa de abandono. Este crecimiento en la retención se sustenta en la mejora continua de la experiencia del usuario, el acompañamiento constante y la entrega de valor tangible a lo largo del tiempo.
-
-En conjunto, este objetivo no solo impulsa la optimización de los procesos internos, sino que también refuerza la viabilidad del modelo de negocio a largo plazo, promoviendo la fidelización de los clientes y su evolución hacia usuarios recurrentes.
-
-![Impact-Mapping-2](/Assets/Impact-Mapping-2.png)
-
-
-
-
-### 2.4.3. Product Backlog.
-A continuación, se presenta el Product Backlog, el cual reúne las historias de usuario y las tareas técnicas priorizadas para el desarrollo del proyecto. Cada elemento incluye su identificador, título, descripción y la estimación correspondiente en puntos de historia.
-
-Para la gestión y organización del backlog se utilizó la herramienta Trello, la cual permitió estructurar y visualizar las tareas de forma clara, dinámica y colaborativa. Este backlog se organizó en columnas que representan las distintas etapas del proceso de desarrollo, lo que facilita el seguimiento del avance, la identificación de bloqueos y la adecuada priorización de actividades.
-
-
-**Spikes Stories:**
+#### 2.4.1.4. Spike Stories
 
 <table>
     <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
@@ -1957,6 +2090,53 @@ Para la gestión y organización del backlog se utilizó la herramienta Trello, 
     <tr><th colspan="4">Resultado (al cerrar)</th></tr>
     <tr><td colspan="4"><strong>Hallazgos:</strong><br><strong>Decisión:</strong><br><strong>Próximas US impactadas:</strong> US18 (Ver Imagen que Representa al Usuario), US21 (Agregar un nuevo proyecto).</td></tr>
 </table>
+
+
+### 2.4.2. Impact Mapping.
+
+El Impact Mapping es una metodología visual que permite alinear los objetivos estratégicos de un negocio con las acciones concretas de los usuarios y las funcionalidades de un producto digital. A través de una estructura jerárquica en forma de árbol, esta técnica evidencia cómo las metas empresariales se traducen en cambios de comportamiento esperados en los actores clave, así como en los entregables que hacen posible dichos cambios.
+
+En el desarrollo de este proyecto, esta herramienta se empleó para organizar de manera clara la relación entre las metas SMART del modelo digital, los User Personas previamente definidos y las funcionalidades necesarias para alcanzar los objetivos. El trabajo consideró los siguientes elementos:
+
+* Business Goals SMART: metas específicas, medibles y con plazos definidos, orientadas tanto a la adquisición de usuarios como a su retención a largo plazo.
+
+* Actores principales: representados por Miguel Veramendi y Carla Flores, definidos a partir de sus motivaciones y del rol que desempeñan en el uso de la solución.
+
+* Impactos esperados: formulados como comportamientos observables que cada actor debe adoptar para contribuir al logro de los objetivos (por ejemplo, integrar la solución en propuestas de diseño o personalizar espacios del hogar).
+
+* Deliverables funcionales: características o componentes del producto diseñados para generar dichos impactos, como plantillas de propuestas, paneles de métricas o notificaciones guiadas.
+
+El mapa se elaboró bajo un enfoque de diseño centrado en el usuario, apoyado en dinámicas visuales colaborativas que facilitan la alineación entre los objetivos de negocio y el desarrollo técnico de la solución.
+
+"Anexo: Impact Mapping"
+
+https://drive.google.com/drive/folders/1EJW8bNS65Z4DgjwuNBIIRwbDrMOgehws?usp=sharing
+
+**Business Goal 1: Alcanzar 600 suscripciones activas al plan inicial en un periodo de 8 meses.**
+
+Este objetivo constituye el primer hito estratégico para consolidar el modelo de negocio digital. Su enfoque principal está en la captación de usuarios iniciales que permitan validar la propuesta de valor y establecer un flujo de ingresos sostenible durante la fase temprana del proyecto. La meta de alcanzar 600 suscripciones en 8 meses no solo es concreta y medible, sino también viable según el análisis de mercado, y responde a la necesidad de lograr un punto de equilibrio en el corto plazo, asegurando una rápida tracción de la solución.
+
+Además, este objetivo se encuentra alineado con el rol de los actores clave identificados, Miguel Veramendi y Carla Flores, quienes, mediante comportamientos estratégicos como integrar la solución en sus proyectos, utilizarla de manera constante y recomendarla activamente, impulsan el crecimiento de la base de usuarios. En este sentido, se busca evidenciar que el producto aporta valor desde sus primeras etapas, incentivando tanto a profesionales como a usuarios finales a convertirse en promotores orgánicos de la plataforma.
+
+![Impact-Mapping-1](/Assets/Impact-Mapping-1.png)
+
+**Business Goal 2: Automatizar el 70 % de los procesos de personalización en un periodo de 6 meses y aumentar la retención de clientes recurrentes en un 25 % en 9 meses**
+
+Este objetivo está orientado a fortalecer la eficiencia operativa y la sostenibilidad del negocio en el mediano plazo. Tras consolidar una base inicial de usuarios, el siguiente paso consiste en reducir la fricción en la interacción con la solución mediante la implementación de automatizaciones que hagan la experiencia más ágil, intuitiva y atractiva. Alcanzar un 70 % de automatización en los procesos de personalización en un periodo de 6 meses permitirá a los usuarios percibir mayor comodidad y ahorro de tiempo, incrementando así su satisfacción y confianza en la plataforma.
+
+De forma complementaria, se plantea aumentar la retención de clientes recurrentes en un 25 % en 9 meses, con el objetivo de consolidar relaciones a largo plazo y disminuir la tasa de abandono. Este crecimiento en la retención se sustenta en la mejora continua de la experiencia del usuario, el acompañamiento constante y la entrega de valor tangible a lo largo del tiempo.
+
+En conjunto, este objetivo no solo impulsa la optimización de los procesos internos, sino que también refuerza la viabilidad del modelo de negocio a largo plazo, promoviendo la fidelización de los clientes y su evolución hacia usuarios recurrentes.
+
+![Impact-Mapping-2](/Assets/Impact-Mapping-2.png)
+
+
+
+
+### 2.4.3. Product Backlog.
+A continuación, se presenta el Product Backlog, el cual reúne las historias de usuario y las tareas técnicas priorizadas para el desarrollo del proyecto. Cada elemento incluye su identificador, título, descripción y la estimación correspondiente en puntos de historia.
+
+Para la gestión y organización del backlog se utilizó la herramienta Trello, la cual permitió estructurar y visualizar las tareas de forma clara, dinámica y colaborativa. Este backlog se organizó en columnas que representan las distintas etapas del proceso de desarrollo, lo que facilita el seguimiento del avance, la identificación de bloqueos y la adecuada priorización de actividades.
 
 Link de colaboración en trello: https://shorturl.at/FrDjk
 
@@ -3958,7 +4138,7 @@ Finalmente, el sitio se enfoca en eliminar las últimas barreras para la compra.
 #### 1. Home
 - La interfaz sigue una estructura en Z con un header fijo con logo y menú principal, un hero section con título, subtítulo y un llamado a la acción destacado (“Empezar ahora”). En las secciones intermedias se presentan los beneficios en formato de tarjetas, seguidos de testimonios y planes de precios. El footer reúne enlaces organizados por categorías, accesos a redes sociales y aviso de copyright. El diseño es claro, escaneable y enfocado en la conversión, guiando al usuario de manera natural desde el primer contacto hasta la acción final.<br>
 
-![Landing page Home Wireframe](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%204/Landingpage_Home_Wireframe.png)
+<img src="https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%204/Landingpage_Home_Wireframe.png" style="page-break-inside: auto; break-inside: auto; display: block;">
 <br>
 
 #### 1. About Us
