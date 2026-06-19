@@ -780,6 +780,7 @@ URL de las entrevistas:
 |Segmento #1: Ingenieros/Arquitectos|**Sexo:** Masculino<br>**Edad:** 29-59 años<br>**Dispositivos:** Laptop/PC con software especializado<br>**Programas:** Revit, AutoCAD, software de diseño arquitectónico, coordinación de planos eléctricos<br>**Canales de información:** Actualización constante en tendencias tecnológicas, uso de correo de forma empresarial<br>**Canales de trabajo:** Colaboración con equipos multidisciplinarios, comunicación y liderazgo|Garantizar eficiencia y calidad en el diseño y ejecución de proyectos residenciales<br><br>Incorporar tecnologías inteligentes y sostenibles en sus proyectos<br><br> Adaptarse a las tendencias del mercado y necesidades del usuario final<br><br>Mejorar procesos constructivos mediante software especializado<br><br>Escalar profesionalmente y/o fundar su propia empresa<br><br> Superar retos técnicos y de coordinación entre especialidades|**Motivación:** Usar tecnología para optimizar proyectos, mostrarlos a más público, personalizar funciones y recibir retroalimentación.<br>**Frustración:** Falta de plataformas flexibles, baja exposición de diseños y trabas técnicas que dificultan la integración tecnológica.|
 |Segmento #2: Propietarios de apartamentos|**Sexo:** Mixto <br>**Edad:** 24-63 años <br>**Dispositivos:** Laptop, smartphone, televisores, computadoras<br>**Programas:** Apps de noticias, organización y movilidad , no uso de software profesional<br>**Canales de información:** Redes sociales, aplicaciones móviles, medios digitales<br>**Marcas preferidas:** Samsung, HP, Lenovo, Android, Apple|Priorizar comodidad y seguridad en el hogar<br><br>Optimizar el uso de tecnología para facilitar la vida diaria<br><br>Garantizar privacidad y control de datos personales<br><br>Disposición a pagar por suscripción si aporta valor <br><br>Mejorar la eficiencia y el control de dispositivos en el hogar|**Motivación:** Mejorar la experiencia en el hogar con tecnología interactiva, gestionar dispositivos de forma personalizada, optimizar comodidad y seguridad, y recibir retroalimentación por el uso eficiente.<br>**Frustración:** Carencia de plataformas atractivas y flexibles, limitaciones en dispositivos inteligentes, dificultad de adaptación a cada hogar y barreras técnicas que complican su integración.|
 
+<div style="page-break-before: always;"></div>
 
 ## 2.3. Needfinding.
 
@@ -845,9 +846,14 @@ Como parte del enfoque de diseño centrado en el usuario, se desarrollaron mapas
 Objetivo del Empathy Mapping
 El mapa de empatía tiene como finalidad ampliar la visión sobre el usuario más allá de sus conductas observables, explorando sus motivaciones, temores, frustraciones y aspiraciones implícitas. Se trata de una herramienta clave para identificar oportunidades de mejora desde un enfoque cualitativo, complementando los hallazgos obtenidos a través de entrevistas, observaciones y análisis de comportamientos.
 
+<div style="page-break-before: always;"></div>
+
 **Segmento 1:**
-![Empathy Map Segmento1](assets/Empathy map1.png)
+
+<img src="assets/EmpathyMap_Segmento1.png" width="75%" alt="Imagen Empathy Map Segmento 1">
+
 Desglose del Empathy Map 1
+
 Piensa: “Quiero que mis proyectos sean innovadores, pero muchas tecnologías son demasiado costosas.”
 
 Siente: “Me frustra que las regulaciones retrasen la implementación de soluciones sostenibles.”
@@ -855,8 +861,12 @@ Siente: “Me frustra que las regulaciones retrasen la implementación de soluci
 Dice: “Quiero ofrecer espacios innovadores, sostenibles y seguros.”
 
 Hace: Investiga constantemente nuevas tecnologías y tendencias del mercado.
+
+<div style="page-break-before: always;"></div>
+
 **Segmento 2:**
-![Empathy Map Segmento2](assets/Empathy map2.png)
+
+<img src="assets/EmpathyMap_Segmento2.png" width="75%" alt="Imagen Empathy Map Segmento 2">
 
 Desglose del Empathy Map 2
 
@@ -867,6 +877,8 @@ Siente: “Me frustra cuando una aplicación promete mucho y no cumple con lo qu
 Dice: “Necesito algo fácil de usar, que no me complique más de lo que ya estoy.”
 
 Hace: Prueba aplicaciones o servicios digitales para evaluar su utilidad.
+
+<div style="page-break-before: always;"></div>
 
 ### 2.3.5. Big Picture Event Storming.
 
