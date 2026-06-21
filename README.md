@@ -5767,6 +5767,7 @@ La **aplicación móvil** (`ioBuild-kotlin`) se encuentra en fase de desarrollo 
 Evidencia del despliegue:
 
 - **Landing Page:** Sitio publicado y accesible públicamente con las secciones Hero, Benefits, Features, Testimonials, Plans, About Us, FAQ y Footer completamente funcionales, con selector de idioma EN/ES operativo.
+
 - **Web Services:** API REST activa con URL pública, documentación Swagger/OpenAPI accesible, 32 endpoints de los 11 bounded contexts respondiendo correctamente con los códigos HTTP esperados (201, 200, 204, 404).
 
 *Nota. Elaboración propia.*
@@ -5840,13 +5841,358 @@ Contribución Principal:
 
 ![Contribuidores Backend](https://i.ibb.co/1SPbRrD/contribuidoresbackend.png)
 
+
+# 4.2.2. Sprint 2
+
+El Sprint 2 se enfoco en la aplicacion Flutter de IoBuild, orientada al Segmento Objetivo #2: propietarios de departamentos. Mientras la aplicacion en Kotlin esta pensada para arquitectos e ingenieros, este sprint priorizo la experiencia del usuario final que administra su espacio, revisa sus dispositivos inteligentes y personaliza su cuenta desde un entorno movil sencillo e intuitivo.
+
+Durante este sprint se consolidaron las funcionalidades mas importantes del segundo segmento objetivo, poniendo primero las user stories de mayor valor para el usuario: ver la lista de dispositivos, agregar nuevos dispositivos, configurar su informacion, gestionar notificaciones y administrar la cuenta. Con esto se busca asegurar que el producto avance desde las tareas mas criticas hacia las complementarias, tal como recomendo el profesor.
+
+## 4.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 02/06/2026 |
+| Time | 17:00 PM |
+| Location | Google Meet |
+| Prepared By | Iker Gabriel Barturen Panez |
+| Attendees | Fabrizio Martin Panta Castro, Iker Gabriel Barturen Panez, Axel Randall Ordonez Ricaldi, Brayan Roberto Ccarita Cruz, Mateo Italo Loechle Arias |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Our focus is on completing the mobile application experience for apartment owners by implementing device management, notifications, user profile management and smart home monitoring features. We believe this delivers immediate value to residents who need a centralized and intuitive platform to interact with their connected devices and apartment services. This will be confirmed when users can successfully access their dashboard, monitor devices, manage notifications and configure their personal preferences through the Flutter mobile application. |
+| Sprint 2 Velocity | 40 |
+| Sum of Story Points | 40 |
+
+## 4.2.2.2. Sprint Backlog 2
+
+| Story ID | ID Task | Titulo | Descripcion | Estimacion (Horas) | Assigned To | Status |
+|----------|---------|--------|-------------|--------------------|-------------|--------|
+| US33 | TK15 | Ver Lista de Dispositivos | Como propietario, quiero ver una lista de todos los dispositivos registrados para poder monitorear su estado y ubicacion. | 3 | Iker Gabriel Barturen Panez | Done |
+| US34 | TK16 | Agregar un Nuevo Dispositivo | Como propietario, quiero agregar un nuevo dispositivo al sistema para expandir la cobertura de monitoreo y control. | 3 | Brayan Roberto Ccarita Cruz | Done |
+| US35 | TK17 | Editar/Configurar Ajustes de Dispositivo | Como propietario, quiero acceder a la configuracion especifica de un dispositivo para modificar sus parametros o revisar su informacion detallada. | 4 | Axel Randall Ordonez Ricaldi | Done |
+| US37 | TK19 | Gestionar Notificaciones | Como usuario, quiero poder activar o desactivar varios tipos de notificaciones para controlar que alertas recibo del sistema. | 3 | Mateo Italo Loechle Arias | Done |
+| US38 | TK20 | Cambiar Contrasena de la Cuenta | Como usuario, quiero poder cambiar mi contrasena periodicamente para mantener la seguridad de mi cuenta. | 3 | Iker Gabriel Barturen Panez | Done |
+| US16 | TK11 | Acceder al perfil del usuario | Como usuario, quiero tener acceso a mi perfil, para ver datos como mi nombre, email, numero de telefono y mi direccion. | 5 | Brayan Roberto Ccarita Cruz | Done |
+| US17 | TK12 | Edicion de Informacion del Perfil | Como usuario, quiero poder editar alguna parte de mi informacion, como mi email, numero de telefono o direccion, para mantener mis datos actualizados. | 6 | Axel Randall Ordonez Ricaldi | Done |
+| US18 | TK13 | Ver Imagen que Representa al Usuario | Como usuario, quiero poder ver una imagen que me represente, para tener una experiencia mas personalizada. | 4 | Fabrizio Martin Panta Castro | Done |
+| US19 | TK14 | Ver el Rol de la Cuenta | Como usuario, quiero poder ver el rol de mi cuenta, para entender que permisos tengo dentro de la aplicacion. | 4 | Mateo Italo Loechle Arias | Done |
+| US36 | TK18 | Eliminar un Dispositivo | Como propietario, quiero poder eliminar un dispositivo que ya no esta en uso o esta defectuoso, para mantener la lista limpia y precisa. | 5 | Fabrizio Martin Panta Castro | Done |
+
+## 4.2.2.3. Development Evidence for Sprint Review
+
+Durante el Sprint 2 se implementaron las pantallas principales de la aplicacion Flutter para el segundo segmento objetivo. La funcionalidad desarrollada se centro en la gestion de dispositivos inteligentes, el acceso al perfil del usuario, la edicion de datos personales, la administracion de notificaciones y el cambio de contrasena.
+
+Las evidencias siguientes muestran las pantallas desarrolladas y los flujos mas importantes de la aplicacion Flutter. Se organizaron por recorrido de uso para que la lectura del sprint sea mas clara y para no separar capturas que pertenecen al mismo modulo.
+
+| Evidencia | Descripcion |
+|---|---|
+| ![Login](https://i.ibb.co/JFszLjzL/Whats-App-Image-2026-06-20-at-2-24-00-PM.jpg) | Pantalla de inicio de sesion. Se coloca primero porque representa el punto de entrada a la experiencia de la aplicacion y el acceso inicial del usuario propietario. |
+| ![Inicio - resumen general](https://i.ibb.co/twcdMmjv/Whats-App-Image-2026-06-20-at-2-11-38-PM.jpg) | Pantalla de inicio o panel del propietario. Muestra el resumen general de la cuenta, las unidades asociadas, los dispositivos en linea, el consumo energetico, la temperatura promedio y el numero de alertas. |
+| ![Menu lateral](https://i.ibb.co/Z1dXTWVV/Whats-App-Image-2026-06-20-at-2-11-53-PM.jpg) | Menu lateral de navegacion. Esta vista resume las secciones principales de la app Flutter y permite moverse entre inicio, dispositivos, configuracion, perfil e idioma. |
+| ![Inicio - analiticas](https://i.ibb.co/0yVzzdRr/Whats-App-Image-2026-06-20-at-2-15-22-PM.jpg) | Continuacion de la pantalla de inicio, con los paneles de consumo energetico diario, temperatura de 7 dias y consumo de agua semanal. |
+| ![Inicio - estado de dispositivos](https://i.ibb.co/FkC4GqVD/Whats-App-Image-2026-06-20-at-2-15-22-PM-1.jpg) | Seccion de estado de dispositivos dentro del inicio, donde se visualiza el monitoreo de sensores y equipos registrados en distintas areas del proyecto. |
+| ![Inicio - mis unidades](https://i.ibb.co/9m30ryWb/Whats-App-Image-2026-06-20-at-2-15-22-PM-2.jpg) | Seccion de unidades del propietario dentro del panel principal, donde se listan las unidades asociadas y la cantidad de dispositivos disponibles en cada una. |
+| ![Dispositivos - gestion y registro](https://i.ibb.co/Kxwn4ZPb/Whats-App-Image-2026-06-20-at-1-38-33-PM.jpg) | Pantalla de gestion de dispositivos. Incluye el formulario para agregar un nuevo dispositivo y parte del listado general de equipos registrados. |
+| ![Perfil del usuario](https://i.ibb.co/S492Jf07/Whats-App-Image-2026-06-20-at-1-38-33-PM-1.jpg) | Vista principal la opción agregar dispositivo, con informacion requisitos como el nombre, tipo, etc, para poder registrar nuevos dispositivos. |
+| ![Configuracion](https://i.ibb.co/pvXKVHJG/Whats-App-Image-2026-06-20-at-2-14-19-PM.jpg) | Pantalla de configuracion, donde el usuario puede administrar notificaciones, seguridad y privacidad, correo alternativo y otros ajustes asociados a su cuenta. |
+| ![Edicion de perfil](https://i.ibb.co/GfGzBHny/Whats-App-Image-2026-06-20-at-1-38-33-PM-2.jpg) | Flujo de edicion del perfil, donde el usuario puede modificar sus datos personales y guardar los cambios realizados. |
+| ![Cambio de contrasena](https://i.ibb.co/kgWxqSH4/Whats-App-Image-2026-06-20-at-1-38-33-PM-4.jpg) | Modal de cambio de contrasena, utilizado para reforzar la seguridad de la cuenta del propietario. |
+
+## 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+En esta iteracion del Sprint 2, la validacion se realizo a nivel funcional sobre la aplicacion Flutter, comprobando que los flujos principales del segundo segmento objetivo respondan correctamente dentro de la interfaz. Debido a que en esta fase no se ejecutaron pruebas automatizadas formales con `flutter test`, la evidencia presentada corresponde a pruebas manuales de uso sobre los modulos implementados.
+
+| Evidencia | Descripcion |
+|---|---|
+| ![Eliminacion de dispositivo](https://i.ibb.co/qLD1Qzdg/Whats-App-Image-2026-06-20-at-5-00-39-PM.jpg) | Validacion funcional de eliminacion de dispositivo. La captura muestra el mensaje de confirmacion `Dispositivo eliminado correctamente`, evidenciando que la accion se ejecuto con exito en la interfaz. |
+| ![Agregar dispositivo](https://i.ibb.co/0RpsMGTT/Whats-App-Image-2026-06-20-at-5-00-39-PM-1.jpg) | Flujo de registro de un nuevo dispositivo. En esta prueba se verifico el llenado del formulario con nombre, tipo, ubicacion y direccion MAC antes de guardar la informacion. |
+| ![Dispositivo guardado en la lista](https://i.ibb.co/Hfpphytm/Whats-App-Image-2026-06-20-at-5-00-39-PM-2.jpg) | Resultado del registro del nuevo dispositivo. Se observa que `Ventilador` ya aparece en la lista, confirmando que el alta se reflejo correctamente en la interfaz de gestion. |
+| ![Perfil antes de editar](https://i.ibb.co/235r1CmH/Whats-App-Image-2026-06-20-at-5-00-39-PM-3.jpg) | Estado inicial del perfil antes de la modificacion. Esta captura sirve como referencia de los datos originales del usuario antes de ejecutar la prueba de edicion. |
+| ![Edicion del perfil](https://i.ibb.co/DgMN5L87/Whats-App-Image-2026-06-20-at-5-00-39-PM-4.jpg) | Flujo de edicion del perfil. Durante esta validacion se modificaron el numero telefonico y la direccion del propietario para comprobar que los campos acepten y procesen nuevos valores. |
+| ![Perfil actualizado](https://i.ibb.co/848jtZyp/Whats-App-Image-2026-06-20-at-5-00-39-PM-5.jpg) | Resultado final de la prueba de perfil. La vista confirma que los nuevos datos fueron guardados y mostrados correctamente en la cuenta del usuario. |
+| ![Cambio de configuracion](https://i.ibb.co/cKFXwCCP/Whats-App-Image-2026-06-20-at-5-06-26-PM.jpg) | Validacion funcional del modulo de configuracion. La captura evidencia que el usuario puede activar y desactivar opciones de notificaciones dentro de la interfaz de configuracion de la aplicacion. |
+
+Estas validaciones permitieron comprobar que los modulos principales implementados en Flutter responden de forma coherente dentro del flujo de uso esperado para propietarios de departamentos. En consecuencia, la evidencia del Sprint 2 se presenta como validacion funcional manual de las historias asociadas a dispositivos, perfil y configuracion.
+
+## 4.2.2.5. Execution Evidence for Sprint Review
+
+La ejecucion del Sprint 2 se valido con una secuencia de capturas que muestra primero la preparacion del entorno con `flutter pub get`, luego la ejecucion de la aplicacion y finalmente la pantalla que se obtiene al abrir el enlace generado por Flutter DevTools. Esto permite evidenciar tanto la instalacion de dependencias como la puesta en marcha de la app Flutter.
+
+| Evidencia | Descripcion |
+|---|---|
+| ![Flutter pub get](https://i.ibb.co/tMvjdTT9/Whats-App-Image-2026-06-20-at-2-09-01-PM.jpg) | Evidencia de la instalacion y resolucion de dependencias del proyecto mediante `flutter pub get`, paso necesario antes de ejecutar la aplicacion. |
+| ![Ejecucion Flutter](https://i.ibb.co/sdkymj02/Whats-App-Image-2026-06-20-at-2-09-05-PM.jpg) | Inicio de la ejecucion de la aplicacion con `flutter run`, donde se observa la compilacion del proyecto y las advertencias tecnicas del entorno. |
+| ![Ejecucion en progreso](https://i.ibb.co/mC2sgw3F/Whats-App-Image-2026-06-20-at-2-09-15-PM.jpg) | Ejecucion en curso de la app en dispositivo/emulador, mostrando el log de Flutter y la verificacion de que el proyecto se levanto correctamente. |
+| ![Flutter DevTools](https://i.ibb.co/NdzvPtzX/Whats-App-Image-2026-06-20-at-2-03-56-PM.jpg) | Vista que aparece al abrir el enlace generado por la ejecucion, correspondiente a Flutter DevTools conectado a la app en tiempo real. |
+
+## 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+La aplicacion Flutter del Sprint 2 consume un conjunto especifico de servicios REST del backend `IoBuild-Back`, todos expuestos bajo la base `https://io-build-back.arroz.dev/api/v1/`. A diferencia del Sprint 1, en esta seccion se documentan unicamente los endpoints realmente utilizados por la aplicacion movil orientada al segundo segmento objetivo: propietarios de departamentos.
+
+Despues del inicio de sesion, la app guarda el token JWT y lo envia en las demas peticiones mediante el encabezado `Authorization: Bearer <token>`. Sobre esta base, el Sprint 2 consume servicios de autenticacion, dashboard, perfiles, usuarios y dispositivos.
+
+| Modulo | Metodo | Endpoint | Uso dentro de la app Flutter |
+|---|---|---|---|
+| Authentication | `POST` | `/authentication/sign-in` | Permite el inicio de sesion del propietario y devuelve el token junto con los datos basicos del usuario. |
+| Analytics | `GET` | `/analytics/metrics/{userId}?role=owner` | Alimenta el panel principal del propietario con metricas como unidades, dispositivos, alertas, energia, temperatura y consumo de agua. |
+| Profiles | `GET` | `/users/{userId}/profiles` | Recupera la informacion del perfil del usuario para mostrar nombre, telefono, direccion, foto y correo secundario. |
+| Profiles | `PUT` | `/profiles/{profileId}` | Permite actualizar la informacion editable del perfil desde la app Flutter. |
+| Profiles | `POST` | `/profiles/second-email?userId={userId}` | Registra o actualiza el correo alternativo del usuario. |
+| Users | `PUT` | `/users/{userId}/password` | Permite cambiar la contrasena desde la seccion de perfil y seguridad. |
+| Devices | `GET` | `/devices` | Recupera la lista de dispositivos mostrada en la vista de gestion de dispositivos. |
+| Devices | `GET` | `/devices/{deviceId}` | Permite consultar el detalle de un dispositivo especifico. |
+| Devices | `POST` | `/devices` | Registra un nuevo dispositivo desde el formulario de alta. |
+| Devices | `PUT` | `/devices/{deviceId}` | Actualiza la informacion de un dispositivo existente. |
+| Devices | `DELETE` | `/devices/{deviceId}` | Elimina dispositivos registrados que ya no deben permanecer en la cuenta. |
+
+Es importante precisar que, en esta version del Sprint 2, la pantalla de configuracion no consume un endpoint independiente de notificaciones. Las opciones visibles de notificaciones y soporte se presentan a nivel de interfaz, mientras que algunas acciones complementarias abren enlaces externos como FAQ y contacto. Por ello, no se incluyo una captura separada de un servicio de notificaciones en Swagger, ya que ese endpoint no forma parte del consumo real de la app Flutter en esta iteracion.
+
+Las siguientes capturas de Swagger muestran los grupos de endpoints efectivamente utilizados por la aplicacion Flutter:
+
+| Evidencia | Descripcion |
+|---|---|
+| ![Authentication endpoints](https://i.ibb.co/GvGwP6Jh/Whats-App-Image-2026-06-20-at-4-47-04-PM-2.jpg) | Endpoints del modulo `Authentication`, utilizados para el inicio de sesion de los propietarios mediante `POST /api/v1/authentication/sign-in`. |
+| ![Analytics endpoints](https://i.ibb.co/tNSHCbg/Whats-App-Image-2026-06-20-at-4-47-04-PM-3.jpg) | Endpoints del modulo `Analytics`, donde destaca `GET /api/v1/analytics/metrics/{userId}` para poblar el panel principal del propietario. |
+| ![Profiles endpoints](https://i.ibb.co/rL50qY6/Whats-App-Image-2026-06-20-at-4-47-04-PM-1.jpg) | Endpoints del modulo `Profiles`, utilizados para crear, consultar y actualizar la informacion del perfil, asi como registrar el correo secundario. |
+| ![Users endpoints](https://i.ibb.co/XfkXbMqj/Whats-App-Image-2026-06-20-at-4-47-04-PM.jpg) | Endpoints del modulo `Users`, donde se documentan los servicios relacionados con recuperacion de perfil por usuario y cambio de contrasena. |
+| ![Devices endpoints](https://i.ibb.co/WpGtg9BC/Whats-App-Image-2026-06-20-at-4-47-04-PM-4.jpg) | Endpoints del modulo `Devices`, utilizados para listar, registrar, consultar, actualizar y eliminar dispositivos desde la app Flutter. |
+
+## 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se mantuvo el mismo despliegue del **backend** (`IoBuild-Backend`) utilizado por el proyecto, ya que la aplicacion Flutter del segundo segmento objetivo consume los mismos web services publicados en la nube. El backend se encuentra desplegado en una plataforma cloud compatible con aplicaciones ASP.NET Core, con la configuracion necesaria para la cadena de conexion a base de datos, firma de tokens JWT y servicios de seguridad.
+
+URL de despliegue del backend: `https://io-build-back.arroz.dev/swagger/index.html`
+
+Evidencia del despliegue del backend:
+
+- **Web Services:** API REST activa con URL publica, documentacion Swagger/OpenAPI accesible y endpoints de los bounded contexts respondiendo correctamente con los codigos HTTP esperados (`201`, `200`, `204`, `404`), incluyendo los servicios consumidos por la aplicacion Flutter para autenticacion, dashboard, perfiles, usuarios y dispositivos.
+
+En cuanto a la **aplicacion movil Flutter** (`ioBuild-flutter`), durante este sprint se realizo un despliegue local de tipo `debug build` para Android. Como parte del proceso, primero se resolvieron las dependencias del proyecto con `flutter pub get`, luego se genero exitosamente un artefacto instalable mediante `flutter build apk --debug` y finalmente se verifico la existencia del archivo APK en la ruta de salida del proyecto.
+
+Comandos ejecutados durante el despliegue local:
+
+```powershell
+flutter pub get
+flutter build apk --debug
+Get-ChildItem .\build\app\outputs\flutter-apk\
+```
+
+Resultado del build:
+
+```text
+Built build\app\outputs\flutter-apk\app-debug.apk
+```
+
+Ruta del artefacto generado:
+
+```text
+build\app\outputs\flutter-apk\app-debug.apk
+```
+
+Nombre del artefacto:
+
+```text
+app-debug.apk
+```
+
+Tamano aproximado del APK:
+
+```text
+173,705,663 bytes
+```
+
+Entorno de despliegue:
+
+- Sistema operativo: Windows
+- Framework: Flutter
+- Plataforma objetivo: Android
+- Modo de compilacion: Debug
+- Artefacto generado: APK instalable
+
+Despues de generar el APK, este quedo disponible para instalacion en emulador Android o dispositivo fisico, permitiendo validar la ejecucion de la aplicacion y la navegacion principal del segundo segmento objetivo.
+
+| Evidencia | Descripcion |
+|---|---|
+| ![Flutter pub get para despliegue](https://i.ibb.co/FL06NyLs/Whats-App-Image-2026-06-20-at-5-30-02-PM.jpg) | Resolucion de dependencias del proyecto mediante `flutter pub get`, paso previo necesario para compilar correctamente la aplicacion Flutter. |
+| ![Build APK debug](https://i.ibb.co/8n2BWcLK/Whats-App-Image-2026-06-20-at-5-30-03-PM.jpg) | Ejecucion del comando `flutter build apk --debug`, evidenciando la compilacion local de la aplicacion para Android y la generacion del artefacto instalable. |
+| ![Listado del APK generado](https://i.ibb.co/s9MHgwnG/Whats-App-Image-2026-06-20-at-5-30-03-PM-1.jpg) | Verificacion del contenido de la carpeta `build\app\outputs\flutter-apk\`, donde se confirma la generacion del archivo APK correspondiente al build debug. |
+| ![Archivo APK generado](https://i.ibb.co/wFdbfG1S/Whats-App-Image-2026-06-20-at-5-30-03-PM-2.jpg) | Evidencia del archivo `app-debug.apk` dentro de la ruta de salida del proyecto, confirmando que la aplicacion fue empaquetada exitosamente como artefacto instalable. |
+| ![APK listo para compartir](https://i.ibb.co/CKNtSGSB/Whats-App-Image-2026-06-20-at-5-47-43-PM.jpg) | Evidencia adicional del archivo APK desde el explorador de archivos, mostrando que el artefacto generado se encuentra disponible y listo para ser compartido o enviado para su instalacion en otros dispositivos. |
+
+## 4.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo trabajo de forma coordinada para avanzar en la aplicacion Flutter orientada a propietarios de departamentos. La distribucion de tareas se organizo segun las user stories mas importantes, priorizando primero las funciones que aportan mayor valor al usuario final y luego las funcionalidades complementarias. Se mantuvo una comunicacion fluida a traves de reuniones diarias de seguimiento, donde se discutian los avances, bloqueos y ajustes necesarios para cumplir con los objetivos del sprint.
+
+**Evidencia visual de colaboracion**
+
+![Commits Sprint 2](https://i.ibb.co/Pzv4Fky4/Chat-GPT-Image-20-jun-2026-01-37-47-p-m.png)
+
+![Pull Requests Sprint 2](https://i.ibb.co/zWnXfwXR/Whats-App-Image-2026-06-20-at-1-44-51-PM.jpg)
+
+![Organizacion en Trello Sprint 2](https://i.ibb.co/sdnwRWwt/Whats-App-Image-2026-06-20-at-2-01-38-PM.jpg)
+
+*Colaboración en GitHub — IoBuild-Backend.*
+
+![Commits Backend](https://i.ibb.co/SD1psTZN/commitsbackend.png)
+
+![Contribuidores Backend](https://i.ibb.co/1SPbRrD/contribuidoresbackend.png)
+
 #### 4.3. Validation Interviews
+
 ##### 4.3.1. Diseño de Entrevistas
+
+Para validar la propuesta de IoBuild se realizó una entrevista semiestructurada a un usuario representativo del segundo segmento objetivo del proyecto. En el Sprint 2, el enfoque principal estuvo en los propietarios de departamentos, debido a que la aplicación Flutter está orientada a este grupo de usuarios.
+
+El objetivo de la entrevista fue identificar si las funcionalidades desarrolladas responden a necesidades reales, comprender la percepción del usuario sobre la gestión de dispositivos inteligentes y recoger observaciones sobre la facilidad de uso de la aplicación.
+
+La estructura de la entrevista fue sencilla:
+
+- Presentación breve del proyecto.
+- Preguntas de contexto sobre el usuario.
+- Preguntas sobre sus necesidades actuales.
+- Preguntas sobre la utilidad de IoBuild.
+- Cierre con sugerencias y comentarios.
+
+URL de la entrevista:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215004_upc_edu_pe/IQB0wUmgIUlAQ5Qhd0xoGsypAQ8-fdFbPCivjLECi-FCrho?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UJb35j
+
+Preguntas guía utilizadas:
+
+1. ¿Qué tipo de departamento o espacio administra actualmente y con qué frecuencia necesita supervisarlo?
+2. ¿Cómo controla actualmente los dispositivos o servicios de su espacio y qué dificultades encuentra en ese proceso?
+3. ¿Qué tan útil le parece contar con una aplicación móvil para visualizar el estado de sus dispositivos, consumo y alertas?
+4. ¿Qué tan clara le resulta la navegación de la aplicación entre inicio, dispositivos, configuración y perfil?
+5. ¿Qué tan sencillo le parece el proceso de agregar, visualizar o eliminar un dispositivo dentro de la aplicación?
+6. ¿Qué tan útil le parece poder editar su información personal, cambiar su contraseña y configurar notificaciones desde la app?
+7. ¿Considera que la información mostrada en el dashboard y en la lista de dispositivos es suficiente para tomar decisiones sobre su espacio? ¿Qué agregaría?
+8. ¿Qué problemas, confusiones o dificultades cree que podría tener al usar esta aplicación por primera vez?
+9. ¿Qué funcionalidad considera más valiosa dentro de la app y cuál mejoraría?
+10. ¿Usaría una aplicación como IoBuild en su vida diaria? ¿Por qué?
+
 ##### 4.3.2. Registro de Entrevistas
+
+La entrevista se registró en un formato simple para facilitar su posterior análisis. El registro incluye la fecha, el entrevistado, el segmento al que pertenece y los hallazgos principales.
+
+| ID | Fecha | Entrevistado | Segmento | Modalidad | Hallazgos principales | Observaciones |
+|------|------------|------------------|------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| E01 | 20/06/2026 | Julio Gómez | Propietario de departamento | Virtual | El entrevistado administra un departamento en alquiler con varios dispositivos IoT y actualmente debe supervisarlos con una frecuencia aproximada de un mes. Identificó como principal dificultad la falta de unificación entre dispositivos de distintas marcas, por lo que consideró muy valioso que IoBuild centralice en una sola aplicación el estado de los equipos, consumos, alertas y opciones de control. También indicó que la navegación le resultó clara, que los procesos de agregar, editar y eliminar dispositivos son sencillos y que la gestión de perfil, contraseña y notificaciones es útil para el uso cotidiano. | La funcionalidad que consideró más valiosa fue el sistema de alertas y monitoreo del estado de los dispositivos. Confirmó que utilizaría una aplicación como IoBuild en su vida diaria porque le permitiría ahorrar tiempo y gestionar mejor todos sus equipos desde un solo lugar. |
+
+El registro permitió identificar hallazgos clave relacionados con la necesidad de una interfaz clara, acceso rápido a las funciones principales y una navegación sencilla dentro de la aplicación. Asimismo, confirmó que la propuesta de centralizar el control de dispositivos en una sola plataforma genera valor real para el segundo segmento objetivo.
+
 ##### 4.3.3. Evaluaciones según heurísticas
 
+Esta sección contiene el proceso de evaluación de la sesión de validación basado en heurísticas, considerando principios de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para ello se utilizó como referencia el formato del Anexo E: Formato para Evaluación de User Experience según Heurísticas.
+
+**UX Heuristics & Principles Evaluation**
+**Usability - Inclusive Design - Information Architecture**
+
+| Campo            | Detalle                                         |
+| ---------------- | ----------------------------------------------- |
+| Carrera          | Ingeniería de Software                          |
+| Curso            | 1ACC0238 Aplicaciones para Dispositivos Móviles |
+| Sección          | 3687                                            |
+| Profesor         | David Gerardo Quevedo Velasco                   |
+| Auditor          | CcaritaTech                                     |
+| Cliente evaluado | Julio Gómez                                     |
+
+**Nota:** Los contenidos de esta evaluación corresponden a la aplicación Flutter de IoBuild validada durante el Sprint 2. Se utiliza el formato del Anexo E como referencia para documentar hallazgos de usabilidad, arquitectura de información e inclusive design.
+
+**Site o app a evaluar:** IoBuild Flutter - Segmento de propietarios de departamentos
+
+**Tareas a evaluar**
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+
+1. Inicio de sesión en la aplicación.
+2. Revisión del panel del propietario.
+3. Navegación entre inicio, dispositivos, configuración y perfil.
+4. Visualización de la lista de dispositivos registrados.
+5. Registro de un nuevo dispositivo.
+6. Eliminación de un dispositivo.
+7. Edición de información del perfil.
+8. Cambio de contraseña.
+9. Activación y desactivación de notificaciones.
+10. Revisión del estado de dispositivos, alertas y métricas de consumo.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro de nuevos usuarios.
+2. Autenticación de dos factores.
+3. Distribución externa del APK en tiendas o servicios públicos.
+4. Gestión de soporte o contacto más allá de enlaces externos.
+5. Integraciones avanzadas con dispositivos físicos reales en tiempo real.
+
+**Escala de severidad**
+
+Los errores fueron puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción                                                                                                                                                                                   |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.                   |
+| 2     | Problema menor: puede ocurrir con poca frecuencia o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo con facilidad. Es importante que sea corregido y se le debe asignar una prioridad alta.                     |
+| 4     | Problema crítico: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                                  |
+
+### Tabla resumen de evaluación
+
+| # | Problema                                                                                                                                                                                                    | Escala de severidad | Heurística o principio violado                         |
+| - | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------------------------------------------ |
+| 1 | El formulario para agregar dispositivo aparece sobre la misma pantalla de listado y puede generar distracción visual o confusión durante la tarea.                                                          | 2                   | Usability: Libertad y control del usuario              |
+| 2 | La lista de dispositivos muestra columnas o textos parcialmente recortados, lo que dificulta interpretar con claridad algunos datos del dispositivo.                                                        | 2                   | Usability: Consistencia y estándares                   |
+| 3 | Algunas opciones de configuración, como autenticación de dos factores o dispositivos conectados, aparecen disponibles visualmente aunque no forman parte de la validación funcional del sprint.             | 3                   | Information Architecture: Is it usable?                |
+| 4 | El cambio de notificaciones no muestra una confirmación explícita de guardado o persistencia, por lo que el usuario puede dudar si el cambio fue aplicado correctamente.                                    | 2                   | Usability: Visibilidad del estado del sistema          |
+| 5 | La información del perfil y de ciertas vistas extensas puede quedar muy densa para algunos usuarios, especialmente cuando se muestran direcciones largas o múltiples bloques de datos en una sola pantalla. | 1                   | Inclusive Design: Proporciona experiencias comparables |
+
+### Descripción de problemas
+
+**Problema #1: El formulario para agregar dispositivo aparece sobre la misma pantalla de listado y puede generar distracción visual o confusión durante la tarea.**
+**Severidad:** 2
+**Heurística violada:** Usability - Libertad y control del usuario
+**Problema:** Durante la validación se observó que el flujo de alta de dispositivos se presenta dentro de la misma vista de gestión, superpuesto al listado existente. Aunque el usuario entrevistado consideró que el proceso es sencillo, visualmente la pantalla mezcla el formulario con el contenido ya registrado, lo que puede dificultar la concentración o hacer menos evidente cómo cancelar la acción y volver al estado anterior.
+**Recomendación:** Separar el alta de dispositivos en un modal más delimitado o en una pantalla independiente, incorporando además controles de cierre más visibles y una jerarquía visual más clara entre "Agregar", "Guardar" y "Cancelar".
+
+**Problema #2: La lista de dispositivos muestra columnas o textos parcialmente recortados, lo que dificulta interpretar con claridad algunos datos del dispositivo.**
+**Severidad:** 2
+**Heurística violada:** Usability - Consistencia y estándares
+**Problema:** En la vista de gestión de dispositivos algunos encabezados o valores quedan truncados por el ancho disponible, lo cual afecta la lectura del tipo, la ubicación u otros atributos del equipo. Este detalle no bloquea la tarea, pero puede generar errores de interpretación cuando la lista crezca o cuando el usuario necesite revisar información rápidamente.
+**Recomendación:** Ajustar el diseño responsivo de la tabla o lista para priorizar campos clave, usar tarjetas por dispositivo, permitir scroll horizontal controlado o mostrar un detalle expandible cuando el contenido exceda el espacio disponible.
+
+**Problema #3: Algunas opciones de configuración aparecen disponibles visualmente aunque no forman parte del flujo funcional validado en esta versión.**
+**Severidad:** 3
+**Heurística violada:** Information Architecture - Is it usable?
+**Problema:** En la pantalla de configuración se muestran opciones como autenticación de dos factores o dispositivos conectados, pero no todas cuentan con una funcionalidad plenamente validada dentro del sprint. Esto puede generar expectativas incorrectas en el usuario, que percibe estas opciones como completamente operativas aunque aún formen parte de una evolución posterior.
+**Recomendación:** Ocultar temporalmente las opciones no implementadas, marcarlas como "Próximamente" o deshabilitarlas visualmente con una explicación breve que aclare su disponibilidad futura.
+
+**Problema #4: El cambio de notificaciones no muestra una confirmación explícita de guardado o persistencia.**
+**Severidad:** 2
+**Heurística violada:** Usability - Visibilidad del estado del sistema
+**Problema:** Durante la validación funcional se comprobó que es posible activar y desactivar interruptores de notificación. Sin embargo, la interfaz no muestra un mensaje claro que confirme si el cambio fue almacenado, si se mantiene al salir de la pantalla o si solo se trata de un cambio visual temporal.
+**Recomendación:** Agregar retroalimentación inmediata como un mensaje de confirmación, indicador de guardado automático o estado persistente visible para que el usuario tenga certeza de que la acción fue aplicada.
+
+**Problema #5: La información del perfil y de ciertas vistas extensas puede resultar visualmente densa para algunos usuarios.**
+**Severidad:** 1
+**Heurística violada:** Inclusive Design - Proporciona experiencias comparables
+**Problema:** Aunque la navegación fue valorada como intuitiva por el entrevistado, algunas pantallas concentran varios bloques de información, textos largos y controles en una sola vista. Esto puede afectar a usuarios con menor familiaridad digital o con dificultades de lectura rápida en dispositivos móviles.
+**Recomendación:** Incrementar el espaciado visual, resumir datos secundarios, usar mejor jerarquía tipográfica y considerar ayudas visuales adicionales para que el contenido sea más fácil de escanear en pantallas pequeñas.
+
+En conjunto, la evaluación heurística muestra que la aplicación ofrece una base sólida de navegación y utilidad para el segundo segmento objetivo, algo que además fue reforzado por la entrevista realizada. No obstante, también revela oportunidades claras de mejora en feedback visual, organización de opciones y claridad de algunas vistas antes de una versión más madura del producto.
+
 # Conclusiones
-[Completar]
+
+El desarrollo del Sprint 2 permitió consolidar la experiencia móvil de IoBuild para el segundo segmento objetivo: propietarios de departamentos. A diferencia del Sprint 1, enfocado en la aplicación Kotlin para arquitectos e ingenieros, este sprint se orientó a construir una solución en Flutter pensada para usuarios finales que necesitan supervisar sus espacios, revisar información relevante y gestionar dispositivos inteligentes desde una interfaz sencilla.
+
+La aplicación Flutter logró integrar funcionalidades centrales para el propietario, como el inicio de sesión, visualización del panel principal, gestión de dispositivos, edición de perfil, cambio de contraseña y configuración de notificaciones. Estas funcionalidades responden directamente a las necesidades identificadas durante la validación, especialmente la importancia de centralizar en una sola aplicación el monitoreo de equipos, alertas y datos del departamento.
+
+El Sprint 2 también permitió validar la conexión entre la aplicación móvil y el backend compartido del proyecto. La app Flutter consume servicios de autenticación, perfiles, usuarios, métricas y dispositivos, utilizando la API REST desplegada y documentada mediante Swagger/OpenAPI. Esto demuestra que la solución mantiene trazabilidad entre frontend móvil, servicios backend y evidencia técnica del funcionamiento de los endpoints utilizados.
+
+Como parte de la evidencia de ejecución y despliegue, se comprobó que el proyecto Flutter puede resolver dependencias, ejecutarse correctamente y generar un APK en modo debug para Android. La creación del archivo `app-debug.apk` confirma que la aplicación puede empaquetarse como artefacto instalable, lo cual representa un avance importante hacia la validación funcional en emuladores o dispositivos físicos.
+
+La entrevista de validación realizada reforzó la relevancia de la propuesta para propietarios de departamentos. El usuario entrevistado valoró especialmente la posibilidad de unificar la gestión de dispositivos de distintas marcas, revisar alertas y acceder a información del estado del espacio desde una sola plataforma. Además, indicó que la navegación de la aplicación resulta clara y que los flujos principales, como agregar dispositivos o editar el perfil, son fáciles de comprender.
+
+La evaluación heurística permitió identificar oportunidades de mejora antes de una versión más madura del producto. Aunque la aplicación presenta una base funcional sólida, se detectaron aspectos a optimizar en claridad visual, retroalimentación del sistema, organización de opciones y densidad de información en algunas pantallas. Estos hallazgos son útiles para priorizar ajustes de usabilidad en próximos releases.
+
+En conclusión, el Sprint 2 fortaleció la propuesta de IoBuild al demostrar que la plataforma puede atender a dos segmentos diferenciados mediante aplicaciones móviles específicas. La app Flutter aporta valor directo a propietarios de departamentos al ofrecer una experiencia práctica, centralizada y orientada al control de dispositivos inteligentes, mientras que el backend común asegura continuidad técnica, reutilización de servicios y coherencia dentro del ecosistema del proyecto.
 
 ## Bibliografía
 - CEELA. (2024). Perú – Proyecto CEELA – Eficiencia energética en edificios. Rescato de https://proyectoceela.com/
@@ -5905,4 +6251,5 @@ Este anexo incluye los artefactos visuales y la documentación del proceso de di
 
 **Impact Mapping**
 <https://tinyurl.com/ytzz3rdn>
+
 
