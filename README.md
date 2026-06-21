@@ -5228,6 +5228,7 @@ Despues de generar el APK, este quedo disponible para instalacion en emulador An
 | ![Build APK debug](https://i.ibb.co/8n2BWcLK/Whats-App-Image-2026-06-20-at-5-30-03-PM.jpg) | Ejecucion del comando `flutter build apk --debug`, evidenciando la compilacion local de la aplicacion para Android y la generacion del artefacto instalable. |
 | ![Listado del APK generado](https://i.ibb.co/s9MHgwnG/Whats-App-Image-2026-06-20-at-5-30-03-PM-1.jpg) | Verificacion del contenido de la carpeta `build\app\outputs\flutter-apk\`, donde se confirma la generacion del archivo APK correspondiente al build debug. |
 | ![Archivo APK generado](https://i.ibb.co/wFdbfG1S/Whats-App-Image-2026-06-20-at-5-30-03-PM-2.jpg) | Evidencia del archivo `app-debug.apk` dentro de la ruta de salida del proyecto, confirmando que la aplicacion fue empaquetada exitosamente como artefacto instalable. |
+| ![APK listo para compartir](https://i.ibb.co/CKNtSGSB/Whats-App-Image-2026-06-20-at-5-47-43-PM.jpg) | Evidencia adicional del archivo APK desde el explorador de archivos, mostrando que el artefacto generado se encuentra disponible y listo para ser compartido o enviado para su instalacion en otros dispositivos. |
 
 ## 4.2.2.8. Team Collaboration Insights during Sprint
 
@@ -5247,93 +5248,162 @@ Durante el Sprint 2, el equipo trabajo de forma coordinada para avanzar en la ap
 
 ![Contribuidores Backend](https://i.ibb.co/1SPbRrD/contribuidoresbackend.png)
 
-
 #### 4.3. Validation Interviews
+
 ##### 4.3.1. Diseño de Entrevistas
 
-Para validar la propuesta de IoBuild se realizaron entrevistas semiestructuradas a usuarios representativos de los segmentos objetivo del proyecto. En el Sprint 2, el enfoque principal estuvo en los propietarios de departamentos, debido a que la aplicacion Flutter esta orientada a este grupo de usuarios.
+Para validar la propuesta de IoBuild se realizó una entrevista semiestructurada a un usuario representativo del segundo segmento objetivo del proyecto. En el Sprint 2, el enfoque principal estuvo en los propietarios de departamentos, debido a que la aplicación Flutter está orientada a este grupo de usuarios.
 
-El objetivo de las entrevistas fue identificar si las funcionalidades desarrolladas responden a necesidades reales, comprender la percepcion de los usuarios sobre la gestion de dispositivos inteligentes y recoger observaciones sobre la facilidad de uso de la aplicacion.
+El objetivo de la entrevista fue identificar si las funcionalidades desarrolladas responden a necesidades reales, comprender la percepción del usuario sobre la gestión de dispositivos inteligentes y recoger observaciones sobre la facilidad de uso de la aplicación.
 
 La estructura de la entrevista fue sencilla:
-- Presentacion breve del proyecto.
+
+- Presentación breve del proyecto.
 - Preguntas de contexto sobre el usuario.
 - Preguntas sobre sus necesidades actuales.
 - Preguntas sobre la utilidad de IoBuild.
 - Cierre con sugerencias y comentarios.
 
-Preguntas guia utilizadas:
-1. ¿Que tipo de departamento o espacio administra actualmente?
-2. ¿Que necesidad tiene respecto al control o monitoreo de su espacio?
-3. ¿Que tan util le parece poder ver y gestionar dispositivos desde una app movil?
-4. ¿Que funciones considera mas importantes en una aplicacion como IoBuild?
-5. ¿Que problemas tendria al usar una app para administrar su espacio?
-6. ¿Que tan importante le parece poder editar su perfil, cambiar su contrasena y gestionar notificaciones?
-7. ¿Que mejoras le agregaria a la experiencia de uso?
+URL de la entrevista:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215004_upc_edu_pe/IQB0wUmgIUlAQ5Qhd0xoGsypAQ8-fdFbPCivjLECi-FCrho?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UJb35j
+
+Preguntas guía utilizadas:
+
+1. ¿Qué tipo de departamento o espacio administra actualmente y con qué frecuencia necesita supervisarlo?
+2. ¿Cómo controla actualmente los dispositivos o servicios de su espacio y qué dificultades encuentra en ese proceso?
+3. ¿Qué tan útil le parece contar con una aplicación móvil para visualizar el estado de sus dispositivos, consumo y alertas?
+4. ¿Qué tan clara le resulta la navegación de la aplicación entre inicio, dispositivos, configuración y perfil?
+5. ¿Qué tan sencillo le parece el proceso de agregar, visualizar o eliminar un dispositivo dentro de la aplicación?
+6. ¿Qué tan útil le parece poder editar su información personal, cambiar su contraseña y configurar notificaciones desde la app?
+7. ¿Considera que la información mostrada en el dashboard y en la lista de dispositivos es suficiente para tomar decisiones sobre su espacio? ¿Qué agregaría?
+8. ¿Qué problemas, confusiones o dificultades cree que podría tener al usar esta aplicación por primera vez?
+9. ¿Qué funcionalidad considera más valiosa dentro de la app y cuál mejoraría?
+10. ¿Usaría una aplicación como IoBuild en su vida diaria? ¿Por qué?
 
 ##### 4.3.2. Registro de Entrevistas
 
-Las entrevistas se registraron en un formato simple para facilitar su posterior analisis. Cada registro incluyo la fecha, el entrevistado, el segmento al que pertenece y los hallazgos principales.
+La entrevista se registró en un formato simple para facilitar su posterior análisis. El registro incluye la fecha, el entrevistado, el segmento al que pertenece y los hallazgos principales.
 
 | ID | Fecha | Entrevistado | Segmento | Modalidad | Hallazgos principales | Observaciones |
-|---|---|---|---|---|---|---|
-| E01 | [fecha] | [nombre] | Propietario de departamento | [virtual/presencial] | [resumen breve] | [comentario breve] |
-| E02 | [fecha] | [nombre] | Propietario de departamento | [virtual/presencial] | [resumen breve] | [comentario breve] |
-| E03 | [fecha] | [nombre] | Arquitecto o ingeniero | [virtual/presencial] | [resumen breve] | [comentario breve] |
+|------|------------|------------------|------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| E01 | 20/06/2026 | Julio Gómez | Propietario de departamento | Virtual | El entrevistado administra un departamento en alquiler con varios dispositivos IoT y actualmente debe supervisarlos con una frecuencia aproximada de un mes. Identificó como principal dificultad la falta de unificación entre dispositivos de distintas marcas, por lo que consideró muy valioso que IoBuild centralice en una sola aplicación el estado de los equipos, consumos, alertas y opciones de control. También indicó que la navegación le resultó clara, que los procesos de agregar, editar y eliminar dispositivos son sencillos y que la gestión de perfil, contraseña y notificaciones es útil para el uso cotidiano. | La funcionalidad que consideró más valiosa fue el sistema de alertas y monitoreo del estado de los dispositivos. Confirmó que utilizaría una aplicación como IoBuild en su vida diaria porque le permitiría ahorrar tiempo y gestionar mejor todos sus equipos desde un solo lugar. |
 
-Los registros permitieron identificar patrones comunes relacionados con la necesidad de una interfaz clara, acceso rapido a las funciones principales y una navegacion sencilla dentro de la aplicacion.
+El registro permitió identificar hallazgos clave relacionados con la necesidad de una interfaz clara, acceso rápido a las funciones principales y una navegación sencilla dentro de la aplicación. Asimismo, confirmó que la propuesta de centralizar el control de dispositivos en una sola plataforma genera valor real para el segundo segmento objetivo.
 
-##### 4.3.3. Evaluaciones segun heuristicas
+##### 4.3.3. Evaluaciones según heurísticas
 
-Esta seccion contiene el proceso de evaluacion de las sesiones de validacion basado en heuristicas, considerando principios de usabilidad, arquitectura de informacion e inclusive design de la experiencia propuesta. Para esto se utilizo el formato del Anexo E: Formato para Evaluacion de User Experience segun Heuristicas.
+Esta sección contiene el proceso de evaluación de la sesión de validación basado en heurísticas, considerando principios de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para ello se utilizó como referencia el formato del Anexo E: Formato para Evaluación de User Experience según Heurísticas.
 
-La evaluacion se aplico sobre la aplicacion Flutter de IoBuild, enfocada en propietarios de departamentos, revisando tareas clave como:
-- Acceso al perfil del usuario.
-- Edicion de informacion del perfil.
-- Visualizacion de la imagen del usuario.
-- Visualizacion del rol de la cuenta.
-- Lista de dispositivos registrados.
-- Registro de un nuevo dispositivo.
-- Configuracion de un dispositivo.
-- Eliminacion de un dispositivo.
-- Gestion de notificaciones.
-- Cambio de contrasena.
+**UX Heuristics & Principles Evaluation**
+**Usability - Inclusive Design - Information Architecture**
 
-La severidad de los problemas detectados se clasifico segun la escala indicada en el Anexo E:
-- 1: Problema superficial.
-- 2: Problema menor.
-- 3: Problema mayor.
-- 4: Problema critico.
+| Campo            | Detalle                                         |
+| ---------------- | ----------------------------------------------- |
+| Carrera          | Ingeniería de Software                          |
+| Curso            | 1ACC0238 Aplicaciones para Dispositivos Móviles |
+| Sección          | 3687                                            |
+| Profesor         | David Gerardo Quevedo Velasco                   |
+| Auditor          | CcaritaTech                                     |
+| Cliente evaluado | Julio Gómez                                     |
 
-### Tabla resumen de evaluacion
+**Nota:** Los contenidos de esta evaluación corresponden a la aplicación Flutter de IoBuild validada durante el Sprint 2. Se utiliza el formato del Anexo E como referencia para documentar hallazgos de usabilidad, arquitectura de información e inclusive design.
 
-| # | Problema | Severidad | Heuristica o principio violado |
-|---|---|---|---|
-| 1 | [describir problema] | [1-4] | Usability: Libertad y control del usuario |
-| 2 | [describir problema] | [1-4] | Usability: Consistencia y estandares |
-| 3 | [describir problema] | [1-4] | Inclusive Design: Proporciona experiencias comparables |
-| 4 | [describir problema] | [1-4] | Information Architecture: Is it usable? |
-| 5 | [describir problema] | [1-4] | Information Architecture: Is it findable? |
+**Site o app a evaluar:** IoBuild Flutter - Segmento de propietarios de departamentos
 
-### Descripcion de problemas
+**Tareas a evaluar**
 
-**Problema #1:** [descripcion corta del problema encontrado]  
-**Severidad:** [1-4]  
-**Heuristica violada:** [heuristica]  
-**Recomendacion:** [solucion propuesta]
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
 
-**Problema #2:** [descripcion corta del problema encontrado]  
-**Severidad:** [1-4]  
-**Heuristica violada:** [heuristica]  
-**Recomendacion:** [solucion propuesta]
+1. Inicio de sesión en la aplicación.
+2. Revisión del panel del propietario.
+3. Navegación entre inicio, dispositivos, configuración y perfil.
+4. Visualización de la lista de dispositivos registrados.
+5. Registro de un nuevo dispositivo.
+6. Eliminación de un dispositivo.
+7. Edición de información del perfil.
+8. Cambio de contraseña.
+9. Activación y desactivación de notificaciones.
+10. Revisión del estado de dispositivos, alertas y métricas de consumo.
 
-**Problema #3:** [descripcion corta del problema encontrado]  
-**Severidad:** [1-4]  
-**Heuristica violada:** [heuristica]  
-**Recomendacion:** [solucion propuesta]
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro de nuevos usuarios.
+2. Autenticación de dos factores.
+3. Distribución externa del APK en tiendas o servicios públicos.
+4. Gestión de soporte o contacto más allá de enlaces externos.
+5. Integraciones avanzadas con dispositivos físicos reales en tiempo real.
+
+**Escala de severidad**
+
+Los errores fueron puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción                                                                                                                                                                                   |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.                   |
+| 2     | Problema menor: puede ocurrir con poca frecuencia o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo con facilidad. Es importante que sea corregido y se le debe asignar una prioridad alta.                     |
+| 4     | Problema crítico: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                                  |
+
+### Tabla resumen de evaluación
+
+| # | Problema                                                                                                                                                                                                    | Escala de severidad | Heurística o principio violado                         |
+| - | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------------------------------------------ |
+| 1 | El formulario para agregar dispositivo aparece sobre la misma pantalla de listado y puede generar distracción visual o confusión durante la tarea.                                                          | 2                   | Usability: Libertad y control del usuario              |
+| 2 | La lista de dispositivos muestra columnas o textos parcialmente recortados, lo que dificulta interpretar con claridad algunos datos del dispositivo.                                                        | 2                   | Usability: Consistencia y estándares                   |
+| 3 | Algunas opciones de configuración, como autenticación de dos factores o dispositivos conectados, aparecen disponibles visualmente aunque no forman parte de la validación funcional del sprint.             | 3                   | Information Architecture: Is it usable?                |
+| 4 | El cambio de notificaciones no muestra una confirmación explícita de guardado o persistencia, por lo que el usuario puede dudar si el cambio fue aplicado correctamente.                                    | 2                   | Usability: Visibilidad del estado del sistema          |
+| 5 | La información del perfil y de ciertas vistas extensas puede quedar muy densa para algunos usuarios, especialmente cuando se muestran direcciones largas o múltiples bloques de datos en una sola pantalla. | 1                   | Inclusive Design: Proporciona experiencias comparables |
+
+### Descripción de problemas
+
+**Problema #1: El formulario para agregar dispositivo aparece sobre la misma pantalla de listado y puede generar distracción visual o confusión durante la tarea.**
+**Severidad:** 2
+**Heurística violada:** Usability - Libertad y control del usuario
+**Problema:** Durante la validación se observó que el flujo de alta de dispositivos se presenta dentro de la misma vista de gestión, superpuesto al listado existente. Aunque el usuario entrevistado consideró que el proceso es sencillo, visualmente la pantalla mezcla el formulario con el contenido ya registrado, lo que puede dificultar la concentración o hacer menos evidente cómo cancelar la acción y volver al estado anterior.
+**Recomendación:** Separar el alta de dispositivos en un modal más delimitado o en una pantalla independiente, incorporando además controles de cierre más visibles y una jerarquía visual más clara entre "Agregar", "Guardar" y "Cancelar".
+
+**Problema #2: La lista de dispositivos muestra columnas o textos parcialmente recortados, lo que dificulta interpretar con claridad algunos datos del dispositivo.**
+**Severidad:** 2
+**Heurística violada:** Usability - Consistencia y estándares
+**Problema:** En la vista de gestión de dispositivos algunos encabezados o valores quedan truncados por el ancho disponible, lo cual afecta la lectura del tipo, la ubicación u otros atributos del equipo. Este detalle no bloquea la tarea, pero puede generar errores de interpretación cuando la lista crezca o cuando el usuario necesite revisar información rápidamente.
+**Recomendación:** Ajustar el diseño responsivo de la tabla o lista para priorizar campos clave, usar tarjetas por dispositivo, permitir scroll horizontal controlado o mostrar un detalle expandible cuando el contenido exceda el espacio disponible.
+
+**Problema #3: Algunas opciones de configuración aparecen disponibles visualmente aunque no forman parte del flujo funcional validado en esta versión.**
+**Severidad:** 3
+**Heurística violada:** Information Architecture - Is it usable?
+**Problema:** En la pantalla de configuración se muestran opciones como autenticación de dos factores o dispositivos conectados, pero no todas cuentan con una funcionalidad plenamente validada dentro del sprint. Esto puede generar expectativas incorrectas en el usuario, que percibe estas opciones como completamente operativas aunque aún formen parte de una evolución posterior.
+**Recomendación:** Ocultar temporalmente las opciones no implementadas, marcarlas como "Próximamente" o deshabilitarlas visualmente con una explicación breve que aclare su disponibilidad futura.
+
+**Problema #4: El cambio de notificaciones no muestra una confirmación explícita de guardado o persistencia.**
+**Severidad:** 2
+**Heurística violada:** Usability - Visibilidad del estado del sistema
+**Problema:** Durante la validación funcional se comprobó que es posible activar y desactivar interruptores de notificación. Sin embargo, la interfaz no muestra un mensaje claro que confirme si el cambio fue almacenado, si se mantiene al salir de la pantalla o si solo se trata de un cambio visual temporal.
+**Recomendación:** Agregar retroalimentación inmediata como un mensaje de confirmación, indicador de guardado automático o estado persistente visible para que el usuario tenga certeza de que la acción fue aplicada.
+
+**Problema #5: La información del perfil y de ciertas vistas extensas puede resultar visualmente densa para algunos usuarios.**
+**Severidad:** 1
+**Heurística violada:** Inclusive Design - Proporciona experiencias comparables
+**Problema:** Aunque la navegación fue valorada como intuitiva por el entrevistado, algunas pantallas concentran varios bloques de información, textos largos y controles en una sola vista. Esto puede afectar a usuarios con menor familiaridad digital o con dificultades de lectura rápida en dispositivos móviles.
+**Recomendación:** Incrementar el espaciado visual, resumir datos secundarios, usar mejor jerarquía tipográfica y considerar ayudas visuales adicionales para que el contenido sea más fácil de escanear en pantallas pequeñas.
+
+En conjunto, la evaluación heurística muestra que la aplicación ofrece una base sólida de navegación y utilidad para el segundo segmento objetivo, algo que además fue reforzado por la entrevista realizada. No obstante, también revela oportunidades claras de mejora en feedback visual, organización de opciones y claridad de algunas vistas antes de una versión más madura del producto.
 
 # Conclusiones
-[Completar]
+
+El desarrollo del Sprint 2 permitió consolidar la experiencia móvil de IoBuild para el segundo segmento objetivo: propietarios de departamentos. A diferencia del Sprint 1, enfocado en la aplicación Kotlin para arquitectos e ingenieros, este sprint se orientó a construir una solución en Flutter pensada para usuarios finales que necesitan supervisar sus espacios, revisar información relevante y gestionar dispositivos inteligentes desde una interfaz sencilla.
+
+La aplicación Flutter logró integrar funcionalidades centrales para el propietario, como el inicio de sesión, visualización del panel principal, gestión de dispositivos, edición de perfil, cambio de contraseña y configuración de notificaciones. Estas funcionalidades responden directamente a las necesidades identificadas durante la validación, especialmente la importancia de centralizar en una sola aplicación el monitoreo de equipos, alertas y datos del departamento.
+
+El Sprint 2 también permitió validar la conexión entre la aplicación móvil y el backend compartido del proyecto. La app Flutter consume servicios de autenticación, perfiles, usuarios, métricas y dispositivos, utilizando la API REST desplegada y documentada mediante Swagger/OpenAPI. Esto demuestra que la solución mantiene trazabilidad entre frontend móvil, servicios backend y evidencia técnica del funcionamiento de los endpoints utilizados.
+
+Como parte de la evidencia de ejecución y despliegue, se comprobó que el proyecto Flutter puede resolver dependencias, ejecutarse correctamente y generar un APK en modo debug para Android. La creación del archivo `app-debug.apk` confirma que la aplicación puede empaquetarse como artefacto instalable, lo cual representa un avance importante hacia la validación funcional en emuladores o dispositivos físicos.
+
+La entrevista de validación realizada reforzó la relevancia de la propuesta para propietarios de departamentos. El usuario entrevistado valoró especialmente la posibilidad de unificar la gestión de dispositivos de distintas marcas, revisar alertas y acceder a información del estado del espacio desde una sola plataforma. Además, indicó que la navegación de la aplicación resulta clara y que los flujos principales, como agregar dispositivos o editar el perfil, son fáciles de comprender.
+
+La evaluación heurística permitió identificar oportunidades de mejora antes de una versión más madura del producto. Aunque la aplicación presenta una base funcional sólida, se detectaron aspectos a optimizar en claridad visual, retroalimentación del sistema, organización de opciones y densidad de información en algunas pantallas. Estos hallazgos son útiles para priorizar ajustes de usabilidad en próximos releases.
+
+En conclusión, el Sprint 2 fortaleció la propuesta de IoBuild al demostrar que la plataforma puede atender a dos segmentos diferenciados mediante aplicaciones móviles específicas. La app Flutter aporta valor directo a propietarios de departamentos al ofrecer una experiencia práctica, centralizada y orientada al control de dispositivos inteligentes, mientras que el backend común asegura continuidad técnica, reutilización de servicios y coherencia dentro del ecosistema del proyecto.
 
 ## Bibliografía
 - CEELA. (2024). Perú – Proyecto CEELA – Eficiencia energética en edificios. Rescato de https://proyectoceela.com/
