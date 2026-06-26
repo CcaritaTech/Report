@@ -2143,7 +2143,7 @@ Link de colaboración en trello: https://shorturl.at/FrDjk
 ![Product-Backlog](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%202/Product_Backlog.png)
 
 
-| #Orden | User Story ID | Titulo | Descripción | Story Points (1/2/3/5/8) |
+| #Orden | User Story ID | Titulo | Sprint | Story Points (1/2/3/5/8) |
 |--------|---------------|--------|-------------|--------------------------|
 | 1 | US12 | Visualizar el gráfico de consumo de energía por hora | 1 | 8 |
 | 2 | US15 | Visualizar los dispositivos y su distribución por tipo | 2 | 8 |
