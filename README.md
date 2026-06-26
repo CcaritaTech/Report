@@ -2145,86 +2145,86 @@ Link de colaboración en trello: https://shorturl.at/FrDjk
 
 | #Orden | User Story ID | Titulo | Descripción | Story Points (1/2/3/5/8) |
 |--------|---------------|--------|-------------|--------------------------|
-| 1 | TS23 | Registrar nuevo usuario | Como desarrollador, quiero enviar los datos de registro (nombre, email, password, rol) a la API, para crear una nueva identidad en el sistema y permitir el acceso futuro [1]. | 5 |
-| 2 | TS24 | Validar token de sesión | Como desarrollador, quiero que la API valide que el token enviado en los headers es legítimo y no ha expirado, para proteger las rutas privadas [1]. | 3 |
-| 3 | US43 | Registrarse en la plataforma | Como Usuario, quiero crear una cuenta nueva proporcionando mis datos básicos y seleccionando mi rol, para poder acceder a las funcionalidades de la plataforma [8]. | 5 |
-| 4 | US44 | Iniciar Sesión (Login) | Como Usuario, quiero ingresar mis credenciales (correo y contraseña) para acceder a mi cuenta y utilizar las funciones protegidas [9]. | 3 |
-| 5 | US45 | Cerrar Sesión (Logout) | Como Usuario, quiero cerrar mi sesión actual para proteger mi cuenta, especialmente si estoy en un dispositivo compartido [9]. | 2 |
-| 6 | US05 | Registrarse en la aplicación | Como visitante del sitio, quiero registrarme en la aplicación, para tener acceso a las funcionalidades de la aplicación [10]. | 3 |
-| 7 | TS21 | Cambiar contraseña del usuario | Como desarrollador, quiero enviar la contraseña actual y la nueva contraseña del usuario a la API, para actualizar sus credenciales de acceso de forma segura [2]. | 5 |
-| 8 | US38 | Cambiar Contraseña de la Cuenta | Como Usuario, quiero poder cambiar mi contraseña periódicamente para mantener la seguridad de mi cuenta [11]. | 5 |
-| 9 | SP07 | Evaluar alternativas para la implementación de Autenticación de Dos Factores (2FA) | Como desarrollador backend, quiero definir la mejor estrategia y librería para añadir la capa extra de seguridad 2FA solicitada en las cuentas de usuario. | 3 |
-| 10 | US39 | Gestionar Autenticación de Dos Factores | Como Usuario, quiero activar o gestionar la Autenticación de Dos Factores (2FA) para añadir una capa extra de seguridad a mi cuenta [11]. | 3 |
-| 11 | TS22 | Solicitar adición de correo alternativo | Como desarrollador, quiero enviar una solicitud para agregar un correo electrónico secundario, para que el backend inicie el proceso de validación y verificación de dicha cuenta [1]. | 5 |
-| 12 | US41 | Añadir Correo Electrónico Alternativo | Como Usuario, quiero añadir una dirección de correo electrónico alternativa para recuperación de cuenta o notificaciones secundarias [8]. | 5 |
-| 13 | US40 | Gestionar Sesiones Activas | Como Usuario, quiero ver y gestionar mis sesiones activas para poder cerrar la sesión en dispositivos que ya no uso o que han sido comprometidos [11]. | 8 |
-| 14 | US16 | Acceder al perfil del usuario | Como usuario, quiero tener acceso a mi perfil, para ver datos como mi nombre, email, número de teléfono y mi dirección [17]. | 3 |
-| 15 | US17 | Editar la información del perfil | Como usuario, quiero poder editar alguna parte de mi información, como mi email, número de teléfono o dirección, para mantener mis datos actualizados [17]. | 3 |
-| 16 | SP08 | Explorar la integración del SDK de Cloudinary para optimización de imágenes | Como desarrollador frontend, quiero validar cómo integrar directamente el servicio de Cloudinary para cargar fotos optimizadas al vuelo, de manera eficiente en la plataforma. | 2 |
-| 17 | US18 | Ver Imagen que Representa al Usuario | Como usuario, quiero poder ver una imagen que me represente, para tener una experiencia más personalizada [17]. | 3 |
-| 18 | US19 | Ver el Rol de la Cuenta | Como usuario, quiero poder ver el rol de mi cuenta, para entender qué permisos tengo dentro de la aplicación [12]. | 5 |
-| 19 | US42 | Acceder a Ayuda y Soporte | Como Usuario, quiero acceder rápidamente a las secciones de Soporte para resolver mis dudas o contactar con el equipo de soporte [8]. | 8 |
-| 20 | TS02 | Crear un Proyecto | Como desarrollador, quiero añadir un nuevo proyecto a través de la API para poder implementar la funcionalidad de registro de nuevos desarrollos [3]. | 2 |
-| 21 | TS03 | Recuperar un Proyecto por ID | Como desarrollador, quiero solicitar un proyecto por su {id} para poder mostrar la vista de detalles del proyecto [3]. | 5 |
-| 22 | TS01 | Listar proyectos por Constructor | Como desarrollador, quiero solicitar a la API que liste todos los proyectos asociados a un constructor específico, para poder mostrar la vista principal de Proyectos [4]. | 5 |
-| 23 | TS12 | Actualizar información de un proyecto | Como desarrollador, quiero solicitar a la API que actualice la información de un proyecto (nombre, ubicación y descripción) para mantener los datos actualizados en la vista de gestión de proyectos [19]. | 8 |
-| 24 | US20 | Ver lista de proyectos | Como ingeniero, quiero ver una lista de todos mis proyectos para poder conocer el estado y detalles de cada uno [12]. | 5 |
-| 25 | US21 | Agregar un nuevo proyecto | Como arquitecto, quiero agregar un nuevo proyecto para poder registrar nuevos desarrollos inmobiliarios [12]. | 8 |
-| 26 | US22 | Ver detalles de un proyecto | Como arquitecto, quiero ver los detalles de un proyecto específico para poder revisar su información completa [12]. | 5 |
-| 27 | US14 | Ver el resumen del proyecto | Como ingeniero, quiero ver un resumen sobre cada proyecto, para saber si está activo, su ubicación y cuántos departamentos están ocupados [22]. | 5 |
-| 28 | US09 | Acceder a los proyectos activos | Como ingeniero, quiero tener acceso a los proyectos que se encuentran activos, para poder realizar un seguimiento de su progreso y gestionar los recursos necesarios [13]. | 5 |
-| 29 | US11 | Acceder a la capacidad de ocupación por proyecto | Como ingeniero, quiero tener acceso a la capacidad de ocupación de cada proyecto, para poder analizar el uso de los recursos y planificar de manera eficiente [16]. | 5 |
-| 30 | US13 | Visualizar el gráfico de registro de ocupación | Como ingeniero, quiero ver un gráfico sobre el registro de ocupación, para poder analizar la evolución de la ocupación a lo largo del tiempo [22]. | 5 |
-| 31 | US15 | Visualizar los dispositivos y su distribución por tipo | Como ingeniero, quiero ver cuáles son los dispositivos y cómo están distribuidos por tipo, para realizar un análisis más detallado de los recursos disponibles [22]. | 8 |
-| 32 | TS08 | Crear un cliente | Como desarrollador, quiero añadir un nuevo cliente a través de la API para poder implementar la funcionalidad de creación de clientes [5]. | 8 |
-| 33 | TS07 | Listar clientes | Como desarrollador, quiero solicitar a la API que liste los clientes, opcionalmente filtrados por estado o nombre, para poder mostrar la vista de la lista de clientes [6]. | 5 |
-| 34 | TS09 | Recuperar un cliente por id | Como desarrollador, quiero solicitar un recurso de cliente por su {id} para poder implementar la vista detallada del perfil [5]. | 5 |
-| 35 | TS04 | Actualizar la información de un cliente | Como desarrollador, quiero enviar a la API una solicitud para modificar los datos de un cliente existente, para poder implementar la edición de su perfil y la gestión de su estado de cuenta [3]. | 8 |
-| 36 | TS05 | Eliminar un cliente | Como desarrollador, quiero solicitar a la API la eliminación de un cliente por su {id}, para poder implementar la funcionalidad de dar de baja clientes que ya no se utilizarán [6]. | 5 |
-| 37 | TS06 | Soportar ordenación en la lista de clientes | Como desarrollador, quiero poder enviar parámetros de ordenación a la API (nombre de columna y dirección), para poder implementar las funcionalidades de Buscar/Ordenar Clientes [6]. | 8 |
-| 38 | US23 | Ver Lista de Clientes | Como Arquitecto, quiero ver una lista de todos los clientes para poder gestionar sus proyectos asociados y el estado de su cuenta [14]. | 5 |
-| 39 | US25 | Agregar un Nuevo Cliente | Como Arquitecto, quiero poder agregar un nuevo cliente para poder registrarlo en el sistema [14]. | 3 |
-| 40 | US24 | Buscar/Ordenar Clientes | Como Ingeniero, quiero poder ordenar la lista de clientes por columnas (Nombre Completo, Proyecto Asociado, Estado de Cuenta) para poder encontrar u organizar clientes rápidamente según criterios específicos [14]. | 5 |
-| 41 | US26 | Ver Perfil del Cliente | Como Ingeniero, quiero ver el perfil detallado de un cliente para poder acceder a toda su información y opciones de gestión [21]. | 8 |
-| 42 | US27 | Acceder a la Configuración del Cliente | Como Arquitecto, quiero acceder a la configuración específica de un cliente para poder realizar acciones de gestión como editar o gestionar el estado de su cuenta [21]. | 5 |
-| 43 | TS14 | Crear un nuevo dispositivo | Como desarrollador, quiero solicitar a la API que cree un nuevo dispositivo especificando su nombre, tipo y ubicación, para registrar nuevos equipos en el sistema [7]. | 8 |
-| 44 | TS10 | Listar dispositivos | Como desarrollador, quiero solicitar a la API que liste todos los dispositivos, filtrados por ubicación o estado, para poder mostrar la lista de Gestión de Dispositivos [5]. | 5 |
-| 45 | TS13 | Actualizar información de un dispositivo | Como desarrollador, quiero solicitar a la API que actualice la información de un dispositivo (nombre y ubicación) para reflejar los cambios en la gestión de dispositivos [19]. | 5 |
-| 46 | TS11 | Eliminar un dispositivo por id | Como desarrollador, quiero solicitar a la API que elimine un dispositivo por su {id} para poder retirar hardware que ya no se utiliza del sistema [19]. | 3 |
-| 47 | US33 | Ver Lista de Dispositivos | Como propietario, quiero ver una lista de todos los dispositivos registrados para poder monitorear su estado y ubicación [15]. | 5 |
-| 48 | US34 | Agregar un Nuevo Dispositivo | Como propietario, quiero agregar un nuevo dispositivo al sistema para expandir la cobertura de monitoreo y control [15]. | 8 |
-| 49 | US35 | Editar/Configurar Ajustes de Dispositivo | Como propietario, quiero acceder a la configuración específica de un dispositivo para modificar sus parámetros o revisar su información detallada [23]. | 5 |
-| 50 | US36 | Eliminar un Dispositivo | Como propietario, quiero poder eliminar un dispositivo que ya no está en uso o está defectuoso, para mantener la lista limpia y precisa [23]. | 8 |
-| 51 | US10 | Acceder a los dispositivos conectados | Como usuario, quiero tener acceso a los dispositivos conectados, para poder monitorear su estado y uso [16]. | 5 |
-| 52 | SP03 | Analizar librerías de OCR para el escaneo de dispositivos en Android | Como desarrollador móvil (Kotlin), quiero analizar librerías de reconocimiento óptico de caracteres (OCR) compatibles con Android, para asegurar que la funcionalidad de extraer parámetros del hardware mediante la cámara sea viable. | 3 |
-| 53 | US47 | Escanear Dispositivo con Cámara | Como usuario, quiero usar la cámara de mi dispositivo para escanear un dispositivo físico y que la IA extraiga automáticamente los parámetros necesarios [9]. | 8 |
-| 54 | SP06 | Investigar la implementación de Firebase Cloud Messaging (FCM) para notificaciones | Como desarrollador móvil, quiero entender cómo integrar FCM nativamente en la aplicación de Kotlin para garantizar la recepción de alertas críticas operativas incluso con la app en segundo plano. | 3 |
-| 55 | US37 | Gestionar Notificaciones | Como Usuario, quiero poder activar o desactivar varios tipos de notificaciones para controlar qué alertas recibo del sistema [23]. | 5 |
-| 56 | TS17 | Listar catálogo de planes | Como desarrollador, quiero solicitar la lista de todos los planes de suscripción disponibles en el sistema, para mostrarlos como alternativas en la interfaz de comparación [20]. | 3 |
-| 57 | TS16 | Obtener suscripción actual | Como desarrollador, quiero solicitar la información de la suscripción activa del usuario actual, para mostrar el plan, costo y beneficios en la vista principal de suscripciones [7]. | 3 |
-| 58 | US28 | Ver Plan de Suscripción Actual | Como ingeniero, quiero ver mi plan de suscripción actual y su estado para confirmar los beneficios que tengo y el costo mensual [21]. | 8 |
-| 59 | US29 | Ver Planes de Suscripción Alternativos | Como ingeniero, quiero ver planes de suscripción alternativos (Professional y Starter) para poder comparar sus precios y beneficios con mi plan actual [24]. | 5 |
-| 60 | US30 | Iniciar Cambio de Plan | Como arquitecto, quiero iniciar el proceso de cambio de plan para poder seleccionar un nivel de servicio diferente que se ajuste mejor a mis necesidades [24]. | 2 |
-| 61 | SP04 | Explorar la integración de Webhooks de Stripe para la gestión de suscripciones | Como desarrollador backend, quiero explorar cómo Stripe maneja los eventos asíncronos mediante Webhooks, para garantizar que el sistema actualice automáticamente el estado de los planes cuando ocurran cobros exitosos o fallidos. | 3 |
-| 62 | TS18 | Cambiar plan de suscripción | Como desarrollador, quiero enviar una solicitud para actualizar el plan de suscripción del usuario, para hacer efectivo el cambio de nivel de servicio seleccionado en la interfaz [20]. | 5 |
-| 63 | TS19 | Renovar suscripción | Como desarrollador, quiero solicitar la renovación de la suscripción actual, para extender la vigencia del servicio cuando el usuario confirma la acción [20]. | 3 |
-| 64 | TS20 | Cancelar suscripción | Como desarrollador, quiero solicitar la cancelación de la suscripción activa, para detener la renovación automática y finalizar el servicio al terminar el ciclo [2]. | 3 |
-| 65 | US31 | Renovar Plan Activo | Como arquitecto, quiero renovar mi plan actual para asegurar la continuidad del servicio si estoy cerca de la fecha de expiración o si mi plan no está configurado para renovación automática [24]. | 5 |
-| 66 | US32 | Cancelar Plan Actual | Como ingeniero, quiero cancelar mi plan actual para finalizar mi suscripción al término del ciclo de facturación [15]. | 8 |
-| 67 | SP01 | Investigar el uso de MQTT vs WebSockets para la telemetría en tiempo real | Como arquitecto de software, quiero investigar y comparar protocolos de comunicación en tiempo real, para determinar cuál es el más eficiente y escalable para mostrar el consumo de energía en el Dashboard de los proyectos. | 3 |
-| 68 | SP05 | Analizar la viabilidad de RabbitMQ vs Apache Kafka para el manejo masivo de telemetría | Como arquitecto de software, quiero determinar qué message broker (RabbitMQ o Kafka) es más adecuado para procesar ráfagas de millones de lecturas de sensores por minuto de manera asíncrona, sin bloquear la operación de los dispositivos. | 5 |
-| 69 | TS15 | Crear ruta segura y mostrar datos específicos | Como desarrollador, quiero proteger el dashboard de fabricantes para que solo los fabricantes puedan visualizarlo [7]. | 8 |
-| 70 | US08 | Visualizar el dashboard personalizado | Como usuario, quiero tener un dashboard personalizado, para visualizar la información relevante de manera rápida y eficiente [13]. | 5 |
-| 71 | US12 | Visualizar el gráfico de consumo de energía por hora | Como ingeniero, quiero ver un gráfico sobre la energía que se consume por hora, para poder evaluar el rendimiento energético de los proyectos en tiempo real [16]. | 8 |
-| 72 | US48 | Optimizar automáticamente los dispositivos | Como usuario, quiero que el sistema optimice automáticamente los dispositivos conectados para mejorar su rendimiento y eficiencia energética [4]. | 8 |
-| 73 | SP02 | Evaluar proveedores de LLM para el Asistente Inteligente (Smart Assistant) | Como desarrollador backend, quiero evaluar la API de OpenAI y otros modelos externos (ExternalLLMAdapter), para definir qué proveedor ofrece la mejor relación costo/beneficio en la generación de planes de acción y recomendaciones de ahorro energético. | 5 |
-| 74 | US46 | Acceder al Chatbot de Asistencia | Como usuario, quiero acceder a un chatbot impulsado por IA para resolver dudas sobre la plataforma IoBuild de manera rápida y eficiente [9]. | 8 |
-| 75 | US01 | Conocer la sección "Sobre Nosotros" | Como visitante del sitio, quiero conocer la historia y valores de la aplicación, para tener mayor conexión y confianza con la empresa [18]. | 2 |
-| 76 | US02 | Consultar los testimonios de clientes | Como visitante del sitio, quiero consultar testimonios de otros clientes, para generar confianza en la propuesta de valor de la start up [18]. | 5 |
-| 77 | US03 | Acceder a la información de contacto | Como visitante del sitio, quiero acceder fácilmente a la información de contacto de IoBuild, para comunicarme en caso de dudas [10]. | 5 |
-| 78 | US04 | Visualizar los servicios principales | Como visitante del sitio, quiero conocer los servicios que ofrece IoBuild, para entender su propuesta de valor [10]. | 3 |
-| 79 | US06 | Consultar las preguntas frecuentes | Como visitante del sitio, quiero consultar una sección de preguntas frecuentes, para resolver dudas comunes sin necesidad de contactar a la start up [10]. | 5 |
-| 80 | US07 | Seleccionar el idioma de la landing page | Como visitante del sitio, quiero poder encontrar más de un idioma disponible, para poder elegir el idioma de mi preferencia [13]. | 3 |
+| 1 | US12 | Visualizar el gráfico de consumo de energía por hora | 1 | 8 |
+| 2 | US15 | Visualizar los dispositivos y su distribución por tipo | 2 | 8 |
+| 3 | US21 | Agregar un nuevo proyecto | 1 | 8 |
+| 4 | US26 | Ver Perfil del Cliente | 1 | 8 |
+| 5 | US28 | Ver Plan de Suscripción Actual | 1 | 8 |
+| 6 | US32 | Cancelar Plan Actual | 1 | 8 |
+| 7 | US34 | Agregar un Nuevo Dispositivo | 2 | 8 |
+| 8 | US36 | Eliminar un Dispositivo | 2 | 8 |
+| 9 | US40 | Gestionar Sesiones Activas | 3 | 8 |
+| 10 | US42 | Acceder a Ayuda y Soporte | 3 | 8 |
+| 11 | US46 | Acceder al Chatbot de Asistencia | 3 | 8 |
+| 12 | US47 | Escanear Dispositivo con Cámara | 3 | 8 |
+| 13 | US48 | Optimizar automáticamente los dispositivos | 3 | 8 |
+| 14 | TS04 | Actualizar la información de un cliente | 1 | 8 |
+| 15 | TS06 | Soportar ordenación en la lista de clientes | 1 | 8 |
+| 16 | TS08 | Crear un cliente | 1 | 8 |
+| 17 | TS12 | Actualizar información de un proyecto | 2 | 8 |
+| 18 | TS14 | Crear un nuevo dispositivo | 2 | 8 |
+| 19 | TS15 | Crear ruta segura y mostrar datos específicos | 2 | 8 |
+| 20 | US02 | Consultar los testimonios de clientes | 1 | 5 |
+| 21 | US03 | Acceder a la información de contacto | 1 | 5 |
+| 22 | US06 | Consultar las preguntas frecuentes | 1 | 5 |
+| 23 | US08 | Visualizar el dashboard personalizado | 1 | 5 |
+| 24 | US09 | Acceder a los proyectos activos | 1 | 5 |
+| 25 | US10 | Acceder a los dispositivos conectados | 1 | 5 |
+| 26 | US11 | Acceder a la capacidad de ocupación por proyecto | 1 | 5 |
+| 27 | US13 | Visualizar el gráfico de registro de ocupación | 1 | 5 |
+| 28 | US14 | Ver el resumen del proyecto | 1 | 5 |
+| 29 | US19 | Ver el Rol de la Cuenta | 2 | 5 |
+| 30 | US20 | Ver lista de proyectos | 1 | 5 |
+| 31 | US22 | Ver detalles de un proyecto | 1 | 5 |
+| 32 | US23 | Ver Lista de Clientes | 1 | 5 |
+| 33 | US24 | Buscar/Ordenar Clientes | 1 | 5 |
+| 34 | US27 | Acceder a la Configuración del Cliente | 2 | 5 |
+| 35 | US29 | Ver Planes de Suscripción Alternativos | 1 | 5 |
+| 36 | US31 | Renovar Plan Activo | 1 | 5 |
+| 37 | US33 | Ver Lista de Dispositivos | 2 | 5 |
+| 38 | US35 | Editar/Configurar Ajustes de Dispositivo | 2 | 5 |
+| 39 | US37 | Gestionar Notificaciones | 2 | 5 |
+| 40 | US38 | Cambiar Contraseña de la Cuenta | 2 | 5 |
+| 41 | US41 | Añadir Correo Electrónico Alternativo | 3 | 5 |
+| 42 | US43 | Registrarse en la plataforma | 2 | 5 |
+| 43 | TS01 | Listar proyectos por Constructor | 1 | 5 |
+| 44 | TS03 | Recuperar un Proyecto por ID | 1 | 5 |
+| 45 | TS05 | Eliminar un cliente | 1 | 5 |
+| 46 | TS07 | Listar clientes | 1 | 5 |
+| 47 | TS09 | Recuperar un cliente por id | 1 | 5 |
+| 48 | TS10 | Listar dispositivos | 2 | 5 |
+| 49 | TS13 | Actualizar información de un dispositivo | 2 | 5 |
+| 50 | TS18 | Cambiar plan de suscripción | 1 | 5 |
+| 51 | TS21 | Cambiar contraseña del usuario | 1 | 5 |
+| 52 | TS22 | Solicitar adición de correo alternativo | 1 | 5 |
+| 53 | TS23 | Registrar nuevo usuario | 1 | 5 |
+| 54 | SP02 | Evaluar proveedores de LLM para el Asistente Inteligente (Smart Assistant) | 3 | 5 |
+| 55 | SP05 | Analizar la viabilidad de RabbitMQ vs Apache Kafka para el manejo masivo de telemetría | 3 | 5 |
+| 56 | US04 | Visualizar los servicios principales | 1 | 3 |
+| 57 | US05 | Registrarse en la aplicación | 1 | 3 |
+| 58 | US07 | Seleccionar el idioma de la landing page | 1 | 3 |
+| 59 | US16 | Acceder al perfil del usuario | 2 | 3 |
+| 60 | US17 | Editar la información del perfil | 2 | 3 |
+| 61 | US18 | Ver Imagen que Representa al Usuario | 2 | 3 |
+| 62 | US25 | Agregar un Nuevo Cliente | 3 | 3 |
+| 63 | US39 | Gestionar Autenticación de Dos Factores | 3 | 3 |
+| 64 | US44 | Iniciar Sesión (Login) | 3 | 3 |
+| 65 | TS11 | Eliminar un dispositivo por id | 2 | 3 |
+| 66 | TS16 | Obtener suscripción actual | 1 | 3 |
+| 67 | TS17 | Listar catálogo de planes | 1 | 3 |
+| 68 | TS19 | Renovar suscripción | 1 | 3 |
+| 69 | TS20 | Cancelar suscripción | 1 | 3 |
+| 70 | TS24 | Validar token de sesión | 1 | 3 |
+| 71 | SP01 | Investigar el uso de MQTT vs WebSockets para la telemetría en tiempo real | 3 | 3 |
+| 72 | SP03 | Analizar librerías de OCR para el escaneo de dispositivos en Android | 3 | 3 |
+| 73 | SP04 | Explorar la integración de Webhooks de Stripe para la gestión de suscripciones | 3 | 3 |
+| 74 | SP06 | Investigar la implementación de Firebase Cloud Messaging (FCM) para notificaciones | 3 | 3 |
+| 75 | SP07 | Evaluar alternativas para la implementación de Autenticación de Dos Factores (2FA) | 3 | 3 |
+| 76 | US01 | Conocer la sección "Sobre Nosotros" | 1 | 2 |
+| 77 | US30 | Iniciar Cambio de Plan | 1 | 2 |
+| 78 | TS02 | Crear un Proyecto | 1 | 2 |
+| 79 | SP08 | Explorar la integración del SDK de Cloudinary para optimización de imágenes | 3 | 2 |
+| 80 | US45 | Cerrar Sesión (Logout) | 3 | 2 |
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
