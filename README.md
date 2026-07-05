@@ -6091,6 +6091,68 @@ Durante el Sprint 2, el equipo trabajo de forma coordinada para avanzar en la ap
 
 ![Contribuidores Backend](https://i.ibb.co/1SPbRrD/contribuidoresbackend.png)
 
+
+## 4.2.3. Sprint 3
+
+El Sprint 3 se enfocó en las correcciones finales del informe y de la aplicación móvil en Flutter de IoBuild. A diferencia del Sprint 2, que estuvo orientado principalmente al desarrollo de funcionalidades para el Segmento Objetivo #2, esta iteración priorizó la revisión, mejora y consolidación de los entregables ya implementados, asegurando que tanto la documentación como la aplicación mantuvieran coherencia con las observaciones realizadas por el profesor.
+
+Durante este sprint se corrigieron detalles de redacción, organización y consistencia del informe, además de realizar ajustes finales en la aplicación Flutter para mejorar su presentación, navegación y funcionamiento general. Con ello, se buscó cerrar el desarrollo del producto de manera más ordenada, validando que las evidencias, capturas, funcionalidades y secciones del informe estén alineadas con el avance real del proyecto y cumplan con los criterios solicitados para la entrega final.
+
+## 4.2.3.1. Sprint Planning 3
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 09/06/2026 |
+| Time | 17:00 PM |
+| Location | Google Meet |
+| Prepared By | Axel Randall Ordonez Ricaldi |
+| Attendees | Fabrizio Martin Panta Castro, Iker Gabriel Barturen Panez, Axel Randall Ordonez Ricaldi, Brayan Roberto Ccarita Cruz, Mateo Italo Loechle Arias |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | Our focus is on completing the final corrections of the IoBuild report and the Flutter mobile application. We believe this sprint improves the quality of the final delivery by applying the teacher’s feedback, organizing the documentation, fixing inconsistencies and refining the application’s interface and functionality. This will be confirmed when the report sections are coherent, the evidence matches the implemented product, and the Flutter application works correctly with the final adjustments completed. |
+| Sprint 3 Velocity | 20 |
+| Sum of Story Points | 20 |
+
+## 4.2.3.2. Sprint Backlog 3
+
+| Story ID | ID Task | Titulo | Descripcion | Estimacion (Horas) | Assigned To | Status |
+|----------|---------|--------|-------------|--------------------|-------------|--------|
+| US40 | TK01 | Gestionar Sesiones Activas | Como usuario, quiero poder revisar y gestionar mis sesiones activas, para cerrar accesos que ya no utilizo y mantener segura mi cuenta. | 6 | Fabrizio Martin Panta Castro | Done |
+| US42 | TK02 | Acceder a Ayuda y Soporte | Como usuario, quiero acceder a una sección de ayuda y soporte, para resolver dudas o problemas relacionados con el uso de la aplicación. | 5 | Iker Gabriel Barturen Panez | Done |
+| US46 | TK03 | Acceder al Chatbot de Asistencia | Como usuario, quiero acceder a un chatbot de asistencia, para recibir orientación rápida sobre el uso de la aplicación y sus funcionalidades. | 6 | Brayan Roberto Ccarita Cruz | Done |
+| US47 | TK04 | Escanear Dispositivo con Cámara | Como propietario, quiero escanear un dispositivo utilizando la cámara del celular, para registrarlo o identificarlo de manera más rápida dentro de la aplicación. | 6 | Axel Randall Ordonez Ricaldi | Done |
+| US48 | TK05 | Optimizar automáticamente los dispositivos | Como propietario, quiero optimizar automáticamente mis dispositivos inteligentes, para mejorar su funcionamiento y reducir el consumo energético. | 6 | Mateo Italo Loechle Arias | Done |
+| US41 | TK06 | Añadir Correo Electrónico Alternativo | Como usuario, quiero añadir un correo electrónico alternativo, para contar con otro medio de recuperación y comunicación dentro de la plataforma. | 4 | Fabrizio Martin Panta Castro | Done |
+| US25 | TK07 | Agregar un Nuevo Cliente | Como arquitecto o ingeniero, quiero agregar un nuevo cliente, para registrar su información y asociarlo a los proyectos correspondientes. | 4 | Iker Gabriel Barturen Panez | Done |
+| US39 | TK08 | Gestionar Autenticación de Dos Factores | Como usuario, quiero gestionar la autenticación de dos factores, para aumentar la seguridad de acceso a mi cuenta. | 5 | Brayan Roberto Ccarita Cruz | Done |
+| US44 | TK09 | Iniciar Sesión (Login) | Como usuario, quiero iniciar sesión con mis credenciales, para acceder de forma segura a las funcionalidades de la plataforma. | 4 | Axel Randall Ordonez Ricaldi | Done |
+| US45 | TK10 | Cerrar Sesión (Logout) | Como usuario, quiero cerrar sesión en la aplicación, para proteger mi cuenta cuando termine de utilizar la plataforma. | 3 | Mateo Italo Loechle Arias | Done |
+
+## 4.2.3.3. Development Evidence for Sprint Review
+
+
+
+## 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+
+
+## 4.2.3.5. Execution Evidence for Sprint Review
+
+
+
+## 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+
+## 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+
+## 4.2.3.8. Team Collaboration Insights during Sprint
+
+
+
+
 #### 4.3. Validation Interviews
 
 ##### 4.3.1. Diseño de Entrevistas
