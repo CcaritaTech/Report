@@ -6117,16 +6117,14 @@ Durante este sprint se corrigieron detalles de redacción, organización y consi
 
 | Story ID | ID Task | Titulo | Descripcion | Estimacion (Horas) | Assigned To | Status |
 |----------|---------|--------|-------------|--------------------|-------------|--------|
-| US40 | TK01 | Gestionar Sesiones Activas | Como usuario, quiero poder revisar y gestionar mis sesiones activas, para cerrar accesos que ya no utilizo y mantener segura mi cuenta. | 6 | Fabrizio Martin Panta Castro | Done |
-| US42 | TK02 | Acceder a Ayuda y Soporte | Como usuario, quiero acceder a una sección de ayuda y soporte, para resolver dudas o problemas relacionados con el uso de la aplicación. | 5 | Iker Gabriel Barturen Panez | Done |
-| US46 | TK03 | Acceder al Chatbot de Asistencia | Como usuario, quiero acceder a un chatbot de asistencia, para recibir orientación rápida sobre el uso de la aplicación y sus funcionalidades. | 6 | Brayan Roberto Ccarita Cruz | Done |
-| US47 | TK04 | Escanear Dispositivo con Cámara | Como propietario, quiero escanear un dispositivo utilizando la cámara del celular, para registrarlo o identificarlo de manera más rápida dentro de la aplicación. | 6 | Axel Randall Ordonez Ricaldi | Done |
-| US48 | TK05 | Optimizar automáticamente los dispositivos | Como propietario, quiero optimizar automáticamente mis dispositivos inteligentes, para mejorar su funcionamiento y reducir el consumo energético. | 6 | Mateo Italo Loechle Arias | Done |
-| US41 | TK06 | Añadir Correo Electrónico Alternativo | Como usuario, quiero añadir un correo electrónico alternativo, para contar con otro medio de recuperación y comunicación dentro de la plataforma. | 4 | Fabrizio Martin Panta Castro | Done |
-| US25 | TK07 | Agregar un Nuevo Cliente | Como arquitecto o ingeniero, quiero agregar un nuevo cliente, para registrar su información y asociarlo a los proyectos correspondientes. | 4 | Iker Gabriel Barturen Panez | Done |
-| US39 | TK08 | Gestionar Autenticación de Dos Factores | Como usuario, quiero gestionar la autenticación de dos factores, para aumentar la seguridad de acceso a mi cuenta. | 5 | Brayan Roberto Ccarita Cruz | Done |
-| US44 | TK09 | Iniciar Sesión (Login) | Como usuario, quiero iniciar sesión con mis credenciales, para acceder de forma segura a las funcionalidades de la plataforma. | 4 | Axel Randall Ordonez Ricaldi | Done |
-| US45 | TK10 | Cerrar Sesión (Logout) | Como usuario, quiero cerrar sesión en la aplicación, para proteger mi cuenta cuando termine de utilizar la plataforma. | 3 | Mateo Italo Loechle Arias | Done |
+| US42 | TK01 | Acceder a Ayuda y Soporte | Como usuario, quiero acceder a una sección de ayuda y soporte, para resolver dudas o problemas relacionados con el uso de la aplicación. | 5 | Iker Gabriel Barturen Panez | Done |
+| US46 | TK02 | Acceder al Chatbot de Asistencia | Como usuario, quiero acceder a un chatbot de asistencia, para recibir orientación rápida sobre el uso de la aplicación y sus funcionalidades. | 6 | Brayan Roberto Ccarita Cruz | Done |
+| US47 | TK03 | Escanear Dispositivo con Cámara | Como propietario, quiero escanear un dispositivo utilizando la cámara del celular, para registrarlo o identificarlo de manera más rápida dentro de la aplicación. | 6 | Axel Randall Ordonez Ricaldi | Done |
+| US48 | TK04 | Optimizar automáticamente los dispositivos | Como propietario, quiero optimizar automáticamente mis dispositivos inteligentes, para mejorar su funcionamiento y reducir el consumo energético. | 6 | Mateo Italo Loechle Arias | Done |
+| US41 | TK05 | Añadir Correo Electrónico Alternativo | Como usuario, quiero añadir un correo electrónico alternativo, para contar con otro medio de recuperación y comunicación dentro de la plataforma. | 4 | Fabrizio Martin Panta Castro | Done |
+| US25 | TK06 | Agregar un Nuevo Cliente | Como arquitecto o ingeniero, quiero agregar un nuevo cliente, para registrar su información y asociarlo a los proyectos correspondientes. | 4 | Iker Gabriel Barturen Panez | Done |
+| US44 | TK07 | Iniciar Sesión (Login) | Como usuario, quiero iniciar sesión con mis credenciales, para acceder de forma segura a las funcionalidades de la plataforma. | 4 | Axel Randall Ordonez Ricaldi | Done |
+| US45 | TK08 | Cerrar Sesión (Logout) | Como usuario, quiero cerrar sesión en la aplicación, para proteger mi cuenta cuando termine de utilizar la plataforma. | 3 | Mateo Italo Loechle Arias | Done |
 
 ## 4.2.3.3. Development Evidence for Sprint Review
 
