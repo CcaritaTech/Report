@@ -6136,27 +6136,144 @@ Durante este sprint se corrigieron detalles de redacción, organización y consi
 | US44 | TK07 | Iniciar Sesión (Login) | Como usuario, quiero iniciar sesión con mis credenciales, para acceder de forma segura a las funcionalidades de la plataforma. | 4 | Axel Randall Ordonez Ricaldi | Done |
 | US45 | TK08 | Cerrar Sesión (Logout) | Como usuario, quiero cerrar sesión en la aplicación, para proteger mi cuenta cuando termine de utilizar la plataforma. | 3 | Mateo Italo Loechle Arias | Done |
 
-## 4.2.3.3. Development Evidence for Sprint Review
-
-
-
 ## 4.2.3.4. Testing Suite Evidence for Sprint Review
 
+En esta iteracion del Sprint 2, la validacion se realizo a nivel funcional sobre la aplicacion Flutter, comprobando que los flujos principales del segundo segmento objetivo respondan correctamente dentro de la interfaz. Debido a que en esta fase no se ejecutaron pruebas automatizadas formales con `flutter test`, la evidencia presentada corresponde a pruebas manuales de uso sobre los modulos implementados.
 
+| Evidencia | Descripcion |
+|---|---|
+| ![Eliminacion de dispositivo](https://i.ibb.co/qLD1Qzdg/Whats-App-Image-2026-06-20-at-5-00-39-PM.jpg) | Validacion funcional de eliminacion de dispositivo. La captura muestra el mensaje de confirmacion `Dispositivo eliminado correctamente`, evidenciando que la accion se ejecuto con exito en la interfaz. |
+| ![Agregar dispositivo](https://i.ibb.co/0RpsMGTT/Whats-App-Image-2026-06-20-at-5-00-39-PM-1.jpg) | Flujo de registro de un nuevo dispositivo. En esta prueba se verifico el llenado del formulario con nombre, tipo, ubicacion y direccion MAC antes de guardar la informacion. |
+| ![Dispositivo guardado en la lista](https://i.ibb.co/Hfpphytm/Whats-App-Image-2026-06-20-at-5-00-39-PM-2.jpg) | Resultado del registro del nuevo dispositivo. Se observa que `Ventilador` ya aparece en la lista, confirmando que el alta se reflejo correctamente en la interfaz de gestion. |
+| ![Perfil antes de editar](https://i.ibb.co/235r1CmH/Whats-App-Image-2026-06-20-at-5-00-39-PM-3.jpg) | Estado inicial del perfil antes de la modificacion. Esta captura sirve como referencia de los datos originales del usuario antes de ejecutar la prueba de edicion. |
+| ![Edicion del perfil](https://i.ibb.co/DgMN5L87/Whats-App-Image-2026-06-20-at-5-00-39-PM-4.jpg) | Flujo de edicion del perfil. Durante esta validacion se modificaron el numero telefonico y la direccion del propietario para comprobar que los campos acepten y procesen nuevos valores. |
+| ![Perfil actualizado](https://i.ibb.co/848jtZyp/Whats-App-Image-2026-06-20-at-5-00-39-PM-5.jpg) | Resultado final de la prueba de perfil. La vista confirma que los nuevos datos fueron guardados y mostrados correctamente en la cuenta del usuario. |
+| ![Cambio de configuracion](https://i.ibb.co/cKFXwCCP/Whats-App-Image-2026-06-20-at-5-06-26-PM.jpg) | Validacion funcional del modulo de configuracion. La captura evidencia que el usuario puede activar y desactivar opciones de notificaciones dentro de la interfaz de configuracion de la aplicacion. |
+
+Estas validaciones permitieron comprobar que los modulos principales implementados en Flutter responden de forma coherente dentro del flujo de uso esperado para propietarios de departamentos. En consecuencia, la evidencia del Sprint 2 se presenta como validacion funcional manual de las historias asociadas a dispositivos, perfil y configuracion.
 
 ## 4.2.3.5. Execution Evidence for Sprint Review
 
+La ejecucion del Sprint 2 se valido con una secuencia de capturas que muestra primero la preparacion del entorno con `flutter pub get`, luego la ejecucion de la aplicacion y finalmente la pantalla que se obtiene al abrir el enlace generado por Flutter DevTools. Esto permite evidenciar tanto la instalacion de dependencias como la puesta en marcha de la app Flutter.
 
+| Evidencia | Descripcion |
+|---|---|
+| ![Flutter pub get](https://i.ibb.co/tMvjdTT9/Whats-App-Image-2026-06-20-at-2-09-01-PM.jpg) | Evidencia de la instalacion y resolucion de dependencias del proyecto mediante `flutter pub get`, paso necesario antes de ejecutar la aplicacion. |
+| ![Ejecucion Flutter](https://i.ibb.co/sdkymj02/Whats-App-Image-2026-06-20-at-2-09-05-PM.jpg) | Inicio de la ejecucion de la aplicacion con `flutter run`, donde se observa la compilacion del proyecto y las advertencias tecnicas del entorno. |
+| ![Ejecucion en progreso](https://i.ibb.co/mC2sgw3F/Whats-App-Image-2026-06-20-at-2-09-15-PM.jpg) | Ejecucion en curso de la app en dispositivo/emulador, mostrando el log de Flutter y la verificacion de que el proyecto se levanto correctamente. |
+| ![Flutter DevTools](https://i.ibb.co/NdzvPtzX/Whats-App-Image-2026-06-20-at-2-03-56-PM.jpg) | Vista que aparece al abrir el enlace generado por la ejecucion, correspondiente a Flutter DevTools conectado a la app en tiempo real. |
 
 ## 4.2.3.6. Services Documentation Evidence for Sprint Review
 
+La aplicacion Flutter del Sprint 2 consume un conjunto especifico de servicios REST del backend `IoBuild-Back`, todos expuestos bajo la base `https://io-build-back.arroz.dev/api/v1/`. A diferencia del Sprint 1, en esta seccion se documentan unicamente los endpoints realmente utilizados por la aplicacion movil orientada al segundo segmento objetivo: propietarios de departamentos.
 
+Despues del inicio de sesion, la app guarda el token JWT y lo envia en las demas peticiones mediante el encabezado `Authorization: Bearer <token>`. Sobre esta base, el Sprint 2 consume servicios de autenticacion, dashboard, perfiles, usuarios y dispositivos.
+
+| Modulo | Metodo | Endpoint | Uso dentro de la app Flutter |
+|---|---|---|---|
+| Authentication | `POST` | `/authentication/sign-in` | Permite el inicio de sesion del propietario y devuelve el token junto con los datos basicos del usuario. |
+| Analytics | `GET` | `/analytics/metrics/{userId}?role=owner` | Alimenta el panel principal del propietario con metricas como unidades, dispositivos, alertas, energia, temperatura y consumo de agua. |
+| Profiles | `GET` | `/users/{userId}/profiles` | Recupera la informacion del perfil del usuario para mostrar nombre, telefono, direccion, foto y correo secundario. |
+| Profiles | `PUT` | `/profiles/{profileId}` | Permite actualizar la informacion editable del perfil desde la app Flutter. |
+| Profiles | `POST` | `/profiles/second-email?userId={userId}` | Registra o actualiza el correo alternativo del usuario. |
+| Users | `PUT` | `/users/{userId}/password` | Permite cambiar la contrasena desde la seccion de perfil y seguridad. |
+| Devices | `GET` | `/devices` | Recupera la lista de dispositivos mostrada en la vista de gestion de dispositivos. |
+| Devices | `GET` | `/devices/{deviceId}` | Permite consultar el detalle de un dispositivo especifico. |
+| Devices | `POST` | `/devices` | Registra un nuevo dispositivo desde el formulario de alta. |
+| Devices | `PUT` | `/devices/{deviceId}` | Actualiza la informacion de un dispositivo existente. |
+| Devices | `DELETE` | `/devices/{deviceId}` | Elimina dispositivos registrados que ya no deben permanecer en la cuenta. |
+
+Es importante precisar que, en esta version del Sprint 2, la pantalla de configuracion no consume un endpoint independiente de notificaciones. Las opciones visibles de notificaciones y soporte se presentan a nivel de interfaz, mientras que algunas acciones complementarias abren enlaces externos como FAQ y contacto. Por ello, no se incluyo una captura separada de un servicio de notificaciones en Swagger, ya que ese endpoint no forma parte del consumo real de la app Flutter en esta iteracion.
+
+Las siguientes capturas de Swagger muestran los grupos de endpoints efectivamente utilizados por la aplicacion Flutter:
+
+| Evidencia | Descripcion |
+|---|---|
+| ![Authentication endpoints](https://i.ibb.co/GvGwP6Jh/Whats-App-Image-2026-06-20-at-4-47-04-PM-2.jpg) | Endpoints del modulo `Authentication`, utilizados para el inicio de sesion de los propietarios mediante `POST /api/v1/authentication/sign-in`. |
+| ![Analytics endpoints](https://i.ibb.co/tNSHCbg/Whats-App-Image-2026-06-20-at-4-47-04-PM-3.jpg) | Endpoints del modulo `Analytics`, donde destaca `GET /api/v1/analytics/metrics/{userId}` para poblar el panel principal del propietario. |
+| ![Profiles endpoints](https://i.ibb.co/rL50qY6/Whats-App-Image-2026-06-20-at-4-47-04-PM-1.jpg) | Endpoints del modulo `Profiles`, utilizados para crear, consultar y actualizar la informacion del perfil, asi como registrar el correo secundario. |
+| ![Users endpoints](https://i.ibb.co/XfkXbMqj/Whats-App-Image-2026-06-20-at-4-47-04-PM.jpg) | Endpoints del modulo `Users`, donde se documentan los servicios relacionados con recuperacion de perfil por usuario y cambio de contrasena. |
+| ![Devices endpoints](https://i.ibb.co/WpGtg9BC/Whats-App-Image-2026-06-20-at-4-47-04-PM-4.jpg) | Endpoints del modulo `Devices`, utilizados para listar, registrar, consultar, actualizar y eliminar dispositivos desde la app Flutter. |
 
 ## 4.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 2 se mantuvo el mismo despliegue del **backend** (`IoBuild-Backend`) utilizado por el proyecto, ya que la aplicacion Flutter del segundo segmento objetivo consume los mismos web services publicados en la nube. El backend se encuentra desplegado en una plataforma cloud compatible con aplicaciones ASP.NET Core, con la configuracion necesaria para la cadena de conexion a base de datos, firma de tokens JWT y servicios de seguridad.
 
+URL de despliegue del backend: `https://io-build-back.arroz.dev/swagger/index.html`
+
+Evidencia del despliegue del backend:
+
+- **Web Services:** API REST activa con URL publica, documentacion Swagger/OpenAPI accesible y endpoints de los bounded contexts respondiendo correctamente con los codigos HTTP esperados (`201`, `200`, `204`, `404`), incluyendo los servicios consumidos por la aplicacion Flutter para autenticacion, dashboard, perfiles, usuarios y dispositivos.
+
+En cuanto a la **aplicacion movil Flutter** (`ioBuild-flutter`), durante este sprint se realizo un despliegue local de tipo `debug build` para Android. Como parte del proceso, primero se resolvieron las dependencias del proyecto con `flutter pub get`, luego se genero exitosamente un artefacto instalable mediante `flutter build apk --debug` y finalmente se verifico la existencia del archivo APK en la ruta de salida del proyecto.
+
+Comandos ejecutados durante el despliegue local:
+
+```powershell
+flutter pub get
+flutter build apk --debug
+Get-ChildItem .\build\app\outputs\flutter-apk\
+```
+
+Resultado del build:
+
+```text
+Built build\app\outputs\flutter-apk\app-debug.apk
+```
+
+Ruta del artefacto generado:
+
+```text
+build\app\outputs\flutter-apk\app-debug.apk
+```
+
+Nombre del artefacto:
+
+```text
+app-debug.apk
+```
+
+Tamano aproximado del APK:
+
+```text
+173,705,663 bytes
+```
+
+Entorno de despliegue:
+
+- Sistema operativo: Windows
+- Framework: Flutter
+- Plataforma objetivo: Android
+- Modo de compilacion: Debug
+- Artefacto generado: APK instalable
+
+Despues de generar el APK, este quedo disponible para instalacion en emulador Android o dispositivo fisico, permitiendo validar la ejecucion de la aplicacion y la navegacion principal del segundo segmento objetivo.
+
+| Evidencia | Descripcion |
+|---|---|
+| ![Flutter pub get para despliegue](https://i.ibb.co/FL06NyLs/Whats-App-Image-2026-06-20-at-5-30-02-PM.jpg) | Resolucion de dependencias del proyecto mediante `flutter pub get`, paso previo necesario para compilar correctamente la aplicacion Flutter. |
+| ![Build APK debug](https://i.ibb.co/8n2BWcLK/Whats-App-Image-2026-06-20-at-5-30-03-PM.jpg) | Ejecucion del comando `flutter build apk --debug`, evidenciando la compilacion local de la aplicacion para Android y la generacion del artefacto instalable. |
+| ![Listado del APK generado](https://i.ibb.co/s9MHgwnG/Whats-App-Image-2026-06-20-at-5-30-03-PM-1.jpg) | Verificacion del contenido de la carpeta `build\app\outputs\flutter-apk\`, donde se confirma la generacion del archivo APK correspondiente al build debug. |
+| ![Archivo APK generado](https://i.ibb.co/wFdbfG1S/Whats-App-Image-2026-06-20-at-5-30-03-PM-2.jpg) | Evidencia del archivo `app-debug.apk` dentro de la ruta de salida del proyecto, confirmando que la aplicacion fue empaquetada exitosamente como artefacto instalable. |
+| ![APK listo para compartir](https://i.ibb.co/CKNtSGSB/Whats-App-Image-2026-06-20-at-5-47-43-PM.jpg) | Evidencia adicional del archivo APK desde el explorador de archivos, mostrando que el artefacto generado se encuentra disponible y listo para ser compartido o enviado para su instalacion en otros dispositivos. |
 
 ## 4.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo trabajo de forma coordinada para avanzar en la aplicacion Flutter orientada a propietarios de departamentos. La distribucion de tareas se organizo segun las user stories mas importantes, priorizando primero las funciones que aportan mayor valor al usuario final y luego las funcionalidades complementarias. Se mantuvo una comunicacion fluida a traves de reuniones diarias de seguimiento, donde se discutian los avances, bloqueos y ajustes necesarios para cumplir con los objetivos del sprint.
+
+**Evidencia visual de colaboracion**
+
+![Commits Sprint 2](https://i.ibb.co/Pzv4Fky4/Chat-GPT-Image-20-jun-2026-01-37-47-p-m.png)
+
+![Pull Requests Sprint 2](https://i.ibb.co/zWnXfwXR/Whats-App-Image-2026-06-20-at-1-44-51-PM.jpg)
+
+![Organizacion en Trello Sprint 2](https://i.ibb.co/sdnwRWwt/Whats-App-Image-2026-06-20-at-2-01-38-PM.jpg)
+
+*Colaboración en GitHub — IoBuild-Backend.*
+
+![Commits Backend](https://i.ibb.co/SD1psTZN/commitsbackend.png)
+
+![Contribuidores Backend](https://i.ibb.co/1SPbRrD/contribuidoresbackend.png)
 
 
 
