@@ -6138,7 +6138,14 @@ Durante este sprint se corrigieron detalles de redacción, organización y consi
 
 ## 4.2.3.3. Development Evidence for Sprint Review
 
+Durante el Sprint 3 se implementaron las pantallas principales de la aplicacion Flutter para el segundo segmento objetivo. La funcionalidad desarrollada se centro en la gestion de dispositivos inteligentes, el acceso al perfil del usuario, la edicion de datos personales, la administracion de notificaciones y el cambio de contrasena.
 
+Las evidencias siguientes muestran las pantallas desarrolladas y los flujos mas importantes de la aplicacion Flutter. Se organizaron por recorrido de uso para que la lectura del sprint sea mas clara y para no separar capturas que pertenecen al mismo modulo.
+
+| Evidencia | Descripcion |
+|---|---|
+| ![Gestión de Dispositivos](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%205/GEstion_dispositivos_2.jpeg) | Pantalla de Gestión de Dispositivos. Se coloca primero porque muestra la lista de todos los dispositivos que tienes agregados en tu aplicación. |
+| ![Agregar Dispositivo](https://raw.githubusercontent.com/F4brizio24/Imagenes-Proyecto/refs/heads/main/Web%20App/Cap%C3%ADtulo%205/GEstion_dispositivos.jpeg) | Pantalla de agregar dispositivo. Muestra el formulario que debes llenar para poder agregar un nuevo dispositivo a tu hogar. |
 
 ## 4.2.3.4. Testing Suite Evidence for Sprint Review
 
